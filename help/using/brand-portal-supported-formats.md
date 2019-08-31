@@ -9,12 +9,12 @@ products: SG_ PERIENCENCENAGER/Brand_ Portal
 topic-tags: 簡介
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd6f1f589
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# 支援的檔案格式{#supported-file-formats}
+# 支援的檔案格式 {#supported-file-formats}
 
 每個AEM Assets Brand Portal都支援特定檔案格式，如矩陣中所示。
 
@@ -82,7 +82,7 @@ source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
 
 | 符號符號 | 意謂意義 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | 此檔案格式支援此功能 |
-| ✕ | 此檔案格式不支援此功能 |
-| 不適用 | 此功能不適用於此檔案格式 |
-| * | 此功能需要AEM作者實例上的此檔案格式附加支援，而在資產發佈至品牌入口網站後，不在品牌入口網站上 |
+| ✓ | 此檔案格式支援此功能。 |
+| ✕ | 此檔案格式不支援此功能。 |
+| 不適用 | 此功能不適用於此檔案格式。 |
+| * | 此功能需要AEM作者實例上的附加支援此檔案格式，而在資產發佈至品牌入口網站後，則不在品牌入口網站上。 |
