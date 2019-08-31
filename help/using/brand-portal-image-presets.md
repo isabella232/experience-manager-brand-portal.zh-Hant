@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_ PERIENCENCENAGER/Brand_ Portal
 discoiquuid: a512dfa0-fef3-4c3 f-a389-a0 a3 a7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 必須在AEM(作者)上啓用動態媒體混合模式，才能建立資產的金字塔(ptf)。當該資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
 
 1. 從上方的AEM工具列，按一下Adobe標誌以存取管理工具。
-
-   ![](assets/AEMlogo.png)
 
 2. 在管理工具面板中，按一下 **[!UICONTROL 「影像預設集]**」。
 
