@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 下載安裝
 discoiquuid: e18d992a-a3 b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -109,13 +109,10 @@ Egries IP如下：
 
 1. 從品牌入口網站上方的工具列中，選取AEM logo以便存取管理工具。
 
-2. 從管理工具面板，選取 **[!UICONTROL 「視訊]** 」圖標。
-
-![品牌入口網站上的動態媒體混合設定](assets/DMHybrid-Video.png)
-
-**[!UICONTROL 「編輯動態媒體設定]** 」頁面隨即開啓。
-
-![品牌入口網站上的動態媒體混合設定](assets/edit-dynamic-media-config.png)
+2. 從管理工具面板，選取 **[!UICONTROL 「視訊]** 」圖標。<br />
+   ![品牌入口網站上的動態媒體混合設定](assets/DMHybrid-Video.png)
+   **[!UICONTROL 「編輯動態媒體設定]** 」頁面隨即開啓。<br />
+   ![品牌入口網站上的動態媒體混合設定](assets/edit-dynamic-media-config.png)
 
 3. 指定 **[!UICONTROL 註冊ID]** 和 **[!UICONTROL 視訊服務URL]** (DM-閘道URL)。請確定這些詳細資料與 **[!UICONTROL 「工具&gt;雲端服務]** 」中的「AEM作者」例項相同。
 
@@ -129,12 +126,10 @@ Egries IP如下：
 
 1. 從品牌入口網站上方的工具列中，選取AEM logo以便存取管理工具。
 
-2. 從管理工具面板，選取 **[!UICONTROL 「動態媒體設定]** 」圖標。
+2. 從管理工具面板，選取 **[!UICONTROL 「動態媒體設定]** 」圖標。<br />
    ![品牌入口網站上的DM [!UICONTROL Scene] 設定](assets/DMS7-Tile.png)
-
-[!UICONTROL 「編輯動態媒體設定] 」頁面隨即開啓。
-
-![品牌入口網站上的Scene設定](assets/S7Config.png)
+   [!UICONTROL 「編輯動態媒體設定] 」頁面隨即開啓。<br />
+   ![品牌入口網站上的Scene設定](assets/S7Config.png)
 
 3. 提供：
    * [!UICONTROL 標題]
