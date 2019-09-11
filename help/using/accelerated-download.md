@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_ PERIENCENCENAGER/Brand_ Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bc145 zed0 c0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
