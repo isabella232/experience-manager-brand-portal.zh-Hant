@@ -1,14 +1,14 @@
 ---
 title: 共用系列
 seo-title: 共用系列
-description: AEM Assets Brand Portal管理員可以共用和取消共用系列或與授權使用者共用的智慧型集合。編輯人員只能檢視並共用他們建立的系列、與他們共用的系列以及公開系列。
-seo-description: AEM Assets Brand Portal管理員可以共用和取消共用系列或與授權使用者共用的智慧型集合。編輯人員只能檢視並共用他們建立的系列、與他們共用的系列以及公開系列。
-uuid: 965f39cd-1378-42c1-a58 a-1e1 f825 aa3
-contentOwner: bdhar
+description: AEM Assets品牌入口網站管理員可以與授權使用者共用或取消共用系列或智慧型系列。 編輯人員只能檢視和共用由他們建立、與他們共用的系列，以及公開的系列。
+seo-description: AEM Assets品牌入口網站管理員可以與授權使用者共用或取消共用系列或智慧型系列。 編輯人員只能檢視和共用由他們建立、與他們共用的系列，以及公開的系列。
+uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+contentOwner: 布達爾
 content-type: 引用
 topic-tags: 共用
-products: SG_ PERIENCENCENAGER/Brand_ Portal
-discoiquuid: f053013e-5981-419f-927e-b5 bb1 d47 ee2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -17,68 +17,68 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # 在品牌入口網站上共用系列 {#share-collections-bp}
 
-AEM Assets Brand Portal管理員可以共用和取消共用系列或與授權使用者共用的智慧型集合。編輯人員只能檢視並共用他們建立的系列、與他們共用的系列以及公開系列。不過，編輯者無法將公用系列變更為非公開系列。
+AEM Assets品牌入口網站管理員可以與授權使用者共用或取消共用系列或智慧型系列。 編輯人員只能檢視和共用由他們建立、與他們共用的系列，以及公開的系列。 不過，編輯者無法將公開系列變更為非公開系列。
 
 >[!NOTE]
 >
->編輯人員無法將公用系列變更為非公開系列，因此無法在 [!UICONTROL 「系列設定] 」對話框中提供「公用系列」核取方塊。
+>編輯者無法將公開系列變更為非公開的系列，因此，「系列設定」對話方塊中沒有「公 [!UICONTROL 開系列] 」核取 [!UICONTROL 方塊可用] 。
 
 ## 共用系列 {#share-collection}
 
-若要共用系列，請遵循下列步驟：
+若要共用系列，請依照下列步驟進行：
 
-1. 按一下左側的覆蓋圖示，然後選擇 **[!UICONTROL 「導覽]**」。
+1. 按一下左側的覆蓋圖示，然後選擇「導 **[!UICONTROL 覽」]**。
 
    ![](assets/contenttree-1.png)
 
-2. 從左側的側邊圖中，按一下 **[!UICONTROL 「系列]**」。
+2. 從左側的脫軌中，按一下「系 **[!UICONTROL 列」]**。
 
    ![](assets/access_collections.png)
 
-3. 從 **[!UICONTROL 系列]** 主控台執行下列其中一項作業：
+3. 從「系 **[!UICONTROL 列]** 」主控台，執行下列其中一項作業：
 
-   * 將指標暫留在您要共用的系列上。從系列可用的快速動作縮圖中，按一下 **[!UICONTROL 「設定]** 」圖示。
+   * 將指標暫留在您要共用的系列上。 從系列的快速動作縮圖中，按一下「設 **[!UICONTROL 定]** 」圖示。
    ![](assets/settings_thumbnail.png)
 
-   * 選取您要共用的系列。從上方的工具列，按一下 **[!UICONTROL 「設定]**」。
+   * 選取您要共用的系列。 在頂端的工具列中，按一下「設 **[!UICONTROL 定」]**。
    ![](assets/collection-sharing.png)
 
-4. 在 [!UICONTROL 「系列設定」] 對話方塊中，選取您要與其共用系列的使用者或群組，並選取使用者或群組的角色以符合其全球角色。例如，將Editor角色指派給全域編輯器(檢視器角色為全域檢視器)。
+4. 在「系 [!UICONTROL 列設定] 」對話方塊中，選取您要與其共用系列的使用者或群組，並選取使用者或群組的角色，以符合其全域角色。 例如，將編輯器角色指派給全域編輯器，將檢視器角色指派給全域檢視器。
 
-   或者，若要將系列提供給所有使用者，而不考慮其群組成員資格和角色，請選取 **[!UICONTROL 公用Collection]** 核取方塊以公開。
+   或者，若要讓系列可供所有使用者使用，而不論其群組成員資格和角色為何，請選取「公用系列」核取方塊 **[!UICONTROL ，將其公開]** 。
 
    >[!NOTE]
    >
-   >但是，非管理員使用者可能無法建立公用系列，以避免有許多公用系列，因此可以儲存系統空間。組織可以停用「 ****[!UICONTROL 一般] 設定」中可用的公用系列建立設定(位於管理工具面板中)。
+   >However, non-admin users can be restricted from creating public collections, to avoid having numerous public collections so that system space can be saved. Organizations can disable the Allow public collections creation configuration from General settings available in admin tools panel.****
 
    ![](assets/collection_sharingadduser.png)
 
-   編輯人員無法將公用系列變更為非公開系列，因此無法在 [!UICONTROL 「系列設定] 」對話框中使用「Public Collection」(公開系列)核取方塊。
+   Editors cannot change a public collection to a non-public collection and, therefore, do not have Public Collection check-box available in Collection Settings dialog.
 
    ![](assets/collection-setting-editor.png)
 
-5. 選取 **[!UICONTROL 「新增]**」，然後 **[!UICONTROL 選擇「儲存]**」。系列會與選擇的使用者共用。
+5. Select Add, and then Save. ******** The collection is shared with the chosen users.
 
    >[!NOTE]
    >
-   >使用者角色管理員存取系列內的資產和資料夾。如果使用者沒有資產的存取權，則會與使用者共用空白系列。此外，使用者的角色管理系列可用的動作。
+   >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## 取消共用系列 {#unshare-a-collection}
+## Unshare a collection {#unshare-a-collection}
 
-若要取消共用先前共用的系列，請執行下列動作：
+To unshare a previously shared collection, do the following:
 
-1. 從 [!UICONTROL 系列] 主控台，選取您要取消共用的系列。
+1. From the Collections console, select the collection you want to unshare.
 
-   在工具列中，按一下 **[!UICONTROL 「設定]**」。
+   In the toolbar, click Settings.****
 
    ![](assets/collection_settings.png)
 
-2. 在 [!UICONTROL 「系列設定] 」對話框中，按一下 [!UICONTROL 「成員]」下方 **[!UICONTROL 的x]** 符號，按一下使用者或群組旁的x符號，將其從您共用的使用者清單中移除。
+2. On the Collection Settings dialog box, under Members, click the x symbol next to users or groups to remove them from the list of users you shared the collection with.****
 
    ![](assets/unshare_collection.png)
 
-3. 在警告訊息方塊中，按一下 **[!UICONTROL 確認]** 確認取消共用。
+3. In the warning message box, click Confirm to confirm unshare.****
 
    Click **[!UICONTROL Save]**.
 
-4. 使用您從共用清單中移除的使用者認證登入品牌入口網站。系列會從 **[!UICONTROL 系列]** 控制台中移除。
+4. Log in to Brand Portal with the credentials of the user you removed from the shared list. 系列會從「系列」控制 **[!UICONTROL 台移除]** 。
