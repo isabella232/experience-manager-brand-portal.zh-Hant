@@ -1,14 +1,14 @@
 ---
 title: 將資產共用為連結
 seo-title: 將資產共用為連結
-description: AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(包括合作夥伴和廠商)共用多個資產的連結。編輯人員只能檢視和共用與他們共用的資產。
-seo-description: AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(包括合作夥伴和廠商)共用多個資產的連結。編輯人員只能檢視和共用與他們共用的資產。
-uuid: 8889ac24-c56 d-4a47-b792-80c34 ffb5 c3 f
-contentOwner: bdhar
+description: AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
+seo-description: AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
+uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+contentOwner: 布達爾
 content-type: 引用
 topic-tags: 共用
-products: SG_ PERIENCENCENAGER/Brand_ Portal
-discoiquuid: f3573319-3c58-47ba-90db-62b003d8b9aa
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -17,103 +17,103 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # 將資產共用為連結 {#share-assets-as-a-link}
 
-AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(包括合作夥伴和廠商)共用多個資產的連結。編輯人員只能檢視和共用與他們共用的資產。
+AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
 
-透過連結共用資產是方便外部廠商使用的便利方式，因為接收者不需要登入品牌入口網站來存取資產。
+透過連結分享資產是讓外部人士也能使用的便利方式，因為接收者不需要登入品牌入口網站即可存取資產。
 
-連結共用存取權僅限於編輯器和管理員。如需詳細資訊，請參閱 [管理使用者、群組和使用者角色](../using/brand-portal-adding-users.md#manage-user-roles)。
+連結共用存取權限僅限編輯和管理員使用。 如需詳細資訊，請 [參閱管理使用者、群組和使用者角色](../using/brand-portal-adding-users.md#manage-user-roles)。
 
 >[!NOTE]
 >
->品牌入口網站上允許使用最多5GB的郵遞區號共用功能。
+>品牌入口網站上的連結共用功能允許下載高達5GB的郵遞區號。
 
 若要將資產共用為連結，請遵循下列步驟：
 
-1. 按一下左側的覆蓋圖示，然後選擇 **[!UICONTROL 「導覽]**」。
+1. 按一下左側的覆蓋圖示，然後選擇「導 **[!UICONTROL 覽」]**。
 
    ![](assets/siderail.png)
 
-2. 從左側的側邊圖，按一下 **[!UICONTROL 「檔案]** 」以共用資料夾或影像。若要共用系列，請按一下 **[!UICONTROL 系列]**。
+2. 從左側的脫軌處，按一下「檔 **[!UICONTROL 案]** 」以共用資料夾或影像。 若要共用系列，請按一下「 **[!UICONTROL 系列]**」。
 
    ![](assets/navigationrail.png)
 
-3. 選取您要共用為連結的資料夾或系列。
+3. 選取您要共用為連結的檔案夾或系列。
 
    ![](assets/asset-link-share.png)
 
-4. 從上方的工具列，按一下 **[!UICONTROL 「共用連結]** 」圖示。
+4. 在頂端的工具列中，按一下「共 **[!UICONTROL 用連結]** 」圖示。
 
-   **[!UICONTROL 「連結共用」]** 對話方塊隨即出現。
+   出現 **[!UICONTROL 「Link Sharing]** （連結共用）」對話框。
 
    ![](assets/link-sharing.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL 「共用連結]** 」欄位會顯示自動建立的資產連結。此連結的預設過期時間為天。您可以複製連結並與使用者分開共用，或從 **[!UICONTROL 「連結分享」]** 對話方塊共用該連結。
+   >「共 **[!UICONTROL 用連結]** 」欄位會顯示自動建立的資產連結。 此連結的預設過期時間為7天。 您可以複製連結，並與使用者分開分享，或從「連結共用」對話 **[!UICONTROL 方塊分享]** 。
 
-5. 在電子郵件地址方塊中，輸入您要與其共用連結的使用者的電子郵件ID。您可以將連結與多個使用者共用。
+5. 在電子郵件地址方塊中，輸入您要與其共用連結之使用者的電子郵件ID。 您可以與多位使用者共用連結。
 
-   如果使用者是貴組織的成員，請從出現在下拉式清單中的建議中選擇其電子郵件ID。如果使用者是外部使用者，請輸入完整的電子郵件ID，然後按 **[!UICONTROL Enter]**；電子郵件ID會新增至使用者清單。
+   如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 如果使用者是外部使用者，請輸入完整的電子郵件ID，然後按 **[!UICONTROL Enter]**;電子郵件ID會新增至使用者清單。
 
    ![](assets/link-sharing-text.png)
 
-6. 在 **[!UICONTROL 「主旨]** 」方塊中，輸入您要共用之資產的主旨。
-7. 在 **[!UICONTROL 「訊息]** 」方塊中，視需要輸入訊息。
-8. 在 **[!UICONTROL 「過期」]** 欄位中，使用日期選擇器指定連結的到期日和時間。根據預設，過期日期會設為您共用連結當日的天。
+6. 在「主 **[!UICONTROL 旨]** 」方塊中，輸入您要共用之資產的主旨。
+7. 在「消 **[!UICONTROL 息]** 」框中，根據需要鍵入消息。
+8. 在「過 **[!UICONTROL 期]** 」欄位中，使用日期選擇器指定連結的到期日期和時間。 依預設，到期日會從您共用連結的日期開始設為7天。
 
-   透過連結共用的資產會在跨越 **[!UICONTROL 「過期」]** 欄位中指定的日期和時間後過期。如需根據品牌入口網站中的使用者角色而過期之資產的行為與權限活動變更的相關資訊，請參閱 [管理資產數位權利](../using/manage-digital-rights-of-assets.md#asset-expiration)。
+   透過連結共用的資產會在超過「到期日」欄位中指定的日期和時間後 **[!UICONTROL 到期]** 。 如需有關過期資產行為以及根據使用者角色在品牌入口網站中所允許活動變更的詳細資訊，請參 [閱管理資產的數位權限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
 
-9. Click **[!UICONTROL Share]**. 會將訊息確認為與使用者共用連結。使用者會收到包含連結的電子郵件。
+9. Click **[!UICONTROL Share]**. 訊息會確認連結已與使用者共用。 使用者會收到包含連結的電子郵件。
 
    ![](assets/link-sharing-email.png)
 
    >[!NOTE]
    >
-   >管理員可以自訂電子郵件訊息，其中包括自訂標誌、說明和頁尾，並加上 [品牌](../using/brand-portal-branding.md) 功能。
+   >管理員可自訂電子郵件訊息，包括使用品牌功能自訂標誌、說明 [和頁尾](../using/brand-portal-branding.md) 。
 
 ## 從共用連結下載資產 {#download-assets-from-shared-links}
 
-按一下電子郵件中的連結，即可檢視共用資產。「AEM連結共用」頁面隨即開啓。
+按一下電子郵件中的連結，以檢視共用資產。 「AEM連結共用」頁面隨即開啟。
 
 若要下載共用資產：
 
-1. 按一下資產，然後按一下 **[!UICONTROL 工具列中的「下載]** 」圖示。
+1. 按一下資產，然後按一下工 **[!UICONTROL 具列中]** 的「下載」圖示。
 
    ![](assets/assets-shared-link.png)
 
    >[!NOTE]
    >
-   >目前，您只能針對特定資產產生預覽和縮圖，視檔案格式而定。如需支援檔案格式的詳細資訊，請參閱 [「預覽和縮圖支援資產格式](#preview-thumbnail-support)」。
+   >目前，您只能針對特定資產產生預覽和縮圖，視檔案格式而定。 如需支援檔案格式的詳細資訊，請參 [閱資產格式的預覽和縮圖支援](#preview-thumbnail-support)。
 
    >[!NOTE]
    >
-   >如果您下載的資產也包含授權資產，則會重新導向 **[!UICONTROL 至「版權管理]** 」頁面。在本頁中，選取授權資產，按一下 **[!UICONTROL 「同意」]**，然後按一下 **[!UICONTROL 「下載]**」。如果您選擇不同意，則只會下載未授權的資產。\
-   >受授權保護的資產具有 [附加](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 的授權合約，可透過設定資產 [的中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 來完成 [!DNL AEM Assets]。
+   >如果您下載的資產也包含授權資產，則會將您重新導向至「版權 **[!UICONTROL 管理]** 」頁面。 在本頁中，選取授權資產，按一下「 **[!UICONTROL 同意]**」，然後按一下「 **[!UICONTROL 下載」]**。 如果您選擇不同意，則只會下載未授權的資產。\
+   >受授權保護的資產 [附加了授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，這是透過在中設定資產的中繼資 [料屬性來完成](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)[!DNL AEM Assets]。
 
    ![](assets/licensed-asset-download.png)
 
-   [!UICONTROL 「下載」] 對話方塊隨即出現。
+   出現 [!UICONTROL 「下載] 」對話框。
    ![](assets/download-linkshare.png)
 
-   * 若要加快共用為連結的資產檔案下載，請選取 **[!UICONTROL 「啓用下載加速]** 選項」並 [遵循精靈](../using/accelerated-download.md#download-workflow-using-file-accelerator)。若要進一步瞭解品牌入口網站上的資產下載，請 [參閱指南以加速從品牌入口網站下載](../using/accelerated-download.md)。
-[！UICONTRL
-2. 若要下載資產的轉譯以及共用連結的資產，請選取 **[!UICONTROL 「轉譯」]** 選項。當您這麼做時 **，會顯示「排除系統轉譯」** 選項，預設會選取此選項。如此可防止下載立即可用的轉譯以及已核准資產或其自訂轉譯。
+   * 若要加速下載共用為連結的資產檔案，請選取「啟用下載 **[!UICONTROL 加速]** 」選項， [然後遵循精靈](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 若要進一步瞭解品牌入口網站上資產的快速下載，請參 [閱指南以加速從品牌入口網站的下載](../using/accelerated-download.md)。
+[!UICONCONTROL
+2. 若要從共用連結下載資產的轉譯，以及資產的轉譯，請選取「轉 **[!UICONTROL 譯」選項]** 。 當您這麼做時，會出 **現「排除系統轉譯」** (Exclude System Renditions)選項，此選項預設為選取。 這可防止下載現成可用的轉譯，以及已核准的資產或其自訂轉譯。
 
-   不過，若要允許自動產生的轉譯連同自訂轉譯一起下載，請取消選取 **[!UICONTROL 「排除系統轉譯]** 」選項。
+   不過，若要允許自動產生的轉譯與自訂轉譯一起下載，請取消選取「排 **[!UICONTROL 除系統轉譯」選項]** 。
 
    >[!NOTE]
    >
-   >如果共用資產的使用者未獲得管理員 [授權存取原始轉譯](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)，則不會使用共用連結下載原始轉譯。
+   >如果將資產共用為連結的使用者未獲管理員授權存取原始轉譯，則不會 [使用共用連結來下載原始轉譯](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)。
 
    ![](assets/download-linkshare-autoren.png)
 
-3. 點選/按一下 **[!UICONTROL 「下載]**」。資產(若選取的話)會下載為ZIP檔案至您的本機資料夾。不過，如果下載單一資產而不使用任何轉譯，則不會建立郵遞區號，因此可確保快速下載。
+3. 點選／按一下「 **[!UICONTROL 下載]**」。 資產（若已選取，則轉譯）會下載為ZIP檔案至您的本機資料夾。 不過，如果下載單一資產而未包含任何轉譯，則不會建立任何zip檔案，因此可確保快速下載。
 
 >[!NOTE]
 >
->品牌入口網站限制下載大小大於GB的檔案大小。
+>品牌入口網站限制每個檔案大小下載超過5 GB的資產。
 
-## 預覽和縮圖支援資產格式 {#preview-thumbnail-support}
+## 資產格式的預覽和縮圖支援 {#preview-thumbnail-support}
 
 下列矩陣列出品牌入口網站支援縮圖和預覽的資產格式：
 
@@ -127,7 +127,7 @@ AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(�
 | PNM* | 不適用 | 不適用 |
 | PGM* | 不適用 | 不適用 |
 | PBM* | 不適用 | 不適用 |
-| PM* | 不適用 | 不適用 |
+| PPM* | 不適用 | 不適用 |
 | PSD | ✓ | ✕ |
 | EPS | 不適用 | ✕ |
 | DNG | ✓ | ✕ |
@@ -137,7 +137,7 @@ AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(�
 | AI | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
-| OT* | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
 | PDF | ✓ | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
@@ -176,34 +176,34 @@ AEM Assets Brand Portal管理員可以與授權內部使用者和外部實體(�
 | TAR | 不適用 | ✕ |
 | ZIP | ✓ | ✕ |
 
-下列圖例說明矩陣中使用的符號：
+下圖說明矩陣中使用的符號：
 
-| 符號符號 | 意謂意義 |
+| 符號 | 意義 |
 |---|---|
 | ✓ | 此檔案格式支援此功能 |
 | ✕ | 此檔案格式不支援此功能 |
 | 不適用 | 此功能不適用於此檔案格式 |
-| * | 此功能需要AEM作者實例上的此檔案格式附加支援，而在資產發佈至品牌入口網站後，不在品牌入口網站上 |
+| * | 這項功能需要AEM作者例項上此檔案格式的附加支援，但是在資產發佈至品牌入口網站後，不需要在品牌入口網站上支援 |
 
 ## 取消共用共用為連結的資產 {#unshare-assets-shared-as-a-link}
 
-若要將先前共用資產取消共用為連結，請執行下列動作：
+若要取消共用先前共用的資產做為連結，請執行下列動作：
 
-1. 若要檢視您共用的資產作為連結，請按一下左側的覆蓋圖示，然後選擇 **[!UICONTROL 「導覽」]**。
+1. 若要檢視您共用為連結的資產，請按一下左側的覆蓋圖示，然後選擇「導 **[!UICONTROL 覽」]**。
 
    ![](assets/siderail.png)
 
-2. 從側邊圖中，按一下 **[!UICONTROL 共用連結]**。
+2. 在脫軌中，按一下「共 **[!UICONTROL 用連結」]**。
 
    ![](assets/navigationrail.png)
 
-3. 檢閱您從顯示的清單中共用的連結。
-4. 若要取消共用清單中的連結，請選取該連結並按一下連結項目旁的bin圖示，或上方工具列上的 **[!UICONTROL 「取消共用]** 」圖示。
+3. 檢視您從顯示的清單中共用的連結。
+4. 若要從清單中取消共用連結，請選取連結，然後按一下連結項目旁的bin圖示，或上方工具列中的 **[!UICONTROL Unshare]** 圖示。
 
    ![](assets/unshare-links.jpg)
 
    >[!NOTE]
    >
-   >共用連結的顯示為使用者專屬。此功能不會顯示所有用戶的所有使用者共用的連結。
+   >共用連結的顯示是使用者專屬的。 此功能不會顯示租用戶所有使用者共用的所有連結。
 
-5. 在警告訊息方塊中，按一下 **[!UICONTROL 「繼續」]** 確認取消共用。連結的項目會從共用連結清單中移除。
+5. 在警告訊息方塊中，按一下「 **[!UICONTROL 繼續]** 」以確認取消共用。 連結的項目會從共用連結清單中移除。
