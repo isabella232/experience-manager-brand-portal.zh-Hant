@@ -4,10 +4,10 @@ seo-title: 疑難排解並行發佈至品牌入口網站的問題
 description: 疑難排解並行發佈。
 seo-description: 疑難排解並行發佈。
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
-products: SG_ PERIENCENCENAGER/Brand_ Portal
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
 topic-tags: 品牌入口網站
-discoiquuid: a4801024-b509-4c51-afd8-e337417 e658 b
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -16,39 +16,39 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # 疑難排解並行發佈至品牌入口網站的問題 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-品牌入口網站支援與AEM Assets整合，讓AEM Assets作者實例能夠順暢吸收(或發佈)核准的品牌資產。[整合後](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)，AEM Author會使用複製代理程式，將選取的資產複製到品牌入口網站使用者的品牌入口網站雲端服務。多個複製代理程式都使用AEM6.2SP1-CFP5]、AEM CFP6.3.0.2和Onwards來允許高速並行發佈。
+品牌入口網站支援與AEM Assets整合，讓核准的品牌資產順暢地從AEM Assets作者例項擷取（或發佈）。 整合 [後](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html),AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，供Brand Portal使用者核准使用。 使用多個複製代理程式：AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2和更新版本，以允許高速並行發佈。
 
 >[!NOTE]
 >
->Adobe建議升級至AEM6.4.1.0，以確保AEM Assets品牌入口網站已成功整合AEM Assets。AEM6.4的限制在設定與品牌入口網站和複製的整合失敗時發生錯誤。
+>Adobe建議升級至AEM 6.4.1.0，以確保AEM Assets品牌入口網站已成功與AEM Assets整合。 AEM 6.4的限制會在設定與品牌入口網站的整合時顯示錯誤，而複製會失敗。
 
-在 [!UICONTROL /etc/cloudservice]下為品牌入口網站設定雲端服務時，所有必要的使用者和Token都會自動產生並儲存在儲存庫中。雲端服務設定建立時，也會建立複製和複製代理程式所需的服務使用者，以複製內容。這會建立四個復本代理程式。因此，當您從AEM發佈許多資產至品牌入口網站時，這些資產會透過Roop Robin佇列在這些複製代理程式之間，併發布給這些資產。
+在設定品牌入口網站的雲端服務 [!UICONTROL /etc/cloudservice下]，系統會自動產生所有必要的使用者和Token並儲存在儲存庫中。 建立雲服務配置，並建立複製和複製代理複製內容所需的服務用戶。 這將建立四個複製代理。 因此，當您從AEM發佈許多資產至品牌入口網站時，這些資產會排入佇列，並透過「輪流作業」在這些複製代理之間分發。
 
-不過，由於大型投影片工作、增加AEM作者執行個體的網路和 [!UICONTROL 磁碟I/O，] 或AEM作者實例的效能變慢，因此發佈作業偶爾會失敗。因此，建議在開始發佈之前測試與複製代理程式的連線。
+不過，發佈可能會因為大型sling工作、AEM Author執行個體的Network and [!UICONTROL Disk I/O] （網路和磁碟I/O）增加或AEM Author執行個體的效能降低而間歇性失敗。 因此，建議在開始發佈之前測試與複製代理的連接。
 
 ![](assets/test-connection.png)
 
-## 第一次發佈失敗時發生故障排除：驗證您的發佈組態 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 疑難排解首次發佈失敗：驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-驗證您的發佈組態：
+若要驗證您的發佈設定：
 
-1. 檢查錯誤記錄檔
-2. 檢查複製代理是否建立
+1. 檢查錯誤日誌
+2. 檢查是否建立了複製代理
 3. 測試連線
 
-**建立雲端服務時記錄尾記錄**
+**建立雲端服務時的尾隨記錄檔**
 
-檢查尾記錄檔。檢查是否建立了複製代理程式。如果複製代理程式建立失敗，請在雲端服務中進行小幅變更以編輯雲端服務。驗證並再次檢查是否建立了複製代理程式。否則，請重新編輯服務。
+檢查尾部記錄。 檢查是否建立了複製代理。 如果複製代理建立失敗，請通過對雲服務進行小幅更改來編輯雲服務。 Validate and check again whether the replication agent is created or not. 否則，請重新編輯服務。
 
-如果重復編輯該雲端服務未正確設定，請報告日照護票證。
+If on repeatedly editing the cloud service it is not configured properly, report a daycare ticket.
 
-**測試與複製代理程式的連線**
+**Test connection with replication agents**
 
-檢視記錄(如果出現在複製記錄中)：
+View log, if errors are found in replication log:
 
-1. 聯絡Adobe支援。
+1. Contact Adobe Support.
 
-2. 重新嘗試 [清除](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 並重新建立發佈設定。
+2. Retry clean-up and create publish configuration again.[](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)
 
 <!--
 Comment Type: remark
@@ -58,29 +58,28 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### 清除現有品牌入口網站發佈設定 {#clean-up-existing-config}
+### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
 
-在發佈無法運作的大部分時間，其原因可能是要發佈的使用者(例如： [!UICONTROL mac-&lt; tenand&gt;-replication])沒有最新的私密金鑰，因此發佈失敗，因此會發生「401未授權」錯誤，而複製代理記錄檔中沒有其他錯誤。您可能想要避免疑難排解並建立新設定。若要讓新設定正常運作，請從AEM作者設定清除下列項目：
+Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: mac-&lt;tenantid&gt;-replication) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, clean up the following from AEM author setup:
 
-1. 前往 [!UICONTROL localhost：4502/crx/de] (假設您正在localhost上 [!UICONTROL 執行作者實例：4502])：\
-   i. 刪除/etc/replication/agents.author/mp_replication*\
-   ii.刪除/etc/cloudservices/mediaportal/&lt; config_ name&gt;
+1. go to localhost:4502/crx/de (considering you are running author instance on localhost:4502):\
+   i. delete /etc/replication/agents.author/mp_replication*\
+   ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. 前往 [!UICONTROL localhost：4502/usermin]：\
-   i搜尋使用者[！UICOHTROL mac-&lt; tenand&gt;-replication
-ii刪除此使用者
+2. go to localhost:4502/useradmin:\
+   我搜索用戶[!UICONTROL mac-&lt;tenantid&gt;-replicationii刪除此用戶
 
-現在系統全部清理完畢。現在您可以嘗試建立新的雲端服務組態，而且仍會使用現有的JWT應用程式 [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)。您無需建立新的應用程式，而只需要從新建立的雲端設定更新公開金鑰。
+現在系統都清理乾淨了。 現在，您可以嘗試建立新的cloudservice組態，並仍然使用https://legacy-oauth.cloud.adobe.io/中現有的JWT應用 [程式](https://legacy-oauth.cloud.adobe.io/)。 您不需要建立新的應用程式，只需從新建立的雲端組態更新公開金鑰。
 
-## Developer Connection JWT應用程式租用戶可見度問題 {#developer-connection-jwt-application-tenant-visibility-issue}
+## 開發人員連線JWT應用程式租用戶可見度問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果在 [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)上，則列出目前使用者擁有系統管理員的所有組織(租用戶)。如果您在此處找不到組織名稱，或者您無法在此處建立必要的租用戶，請檢查是否有足夠的權限(系統管理員)可執行此動作。
+如果位 [於https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)，則會列出目前使用者持有系統管理員的所有組織（租戶）。 如果您在這裡找不到組織名稱，或者您無法在這裡為必要的租用戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限。
 
-此使用者介面上有一個已知的問題，這個使用者介面只會顯示前10個應用程式。當您建立應用程式時，請留在該頁面並將URL書簽化。您不需要前往應用程式的清單頁面，並尋找您建立的應用程式。您可以直接點擊此書簽化URL，並視需要更新/刪除應用程式。
+此使用者介面有一個已知問題：任何租用戶只能看到前10個應用程式。 當您建立應用程式時，請停留在該頁面上並為URL建立書籤。 您不需要前往應用程式的清單頁面，並尋找您建立的應用程式。 您可以直接點按此書籤化URL，並視需要更新／刪除應用程式。
 
-JWT應用程式可能無法正確列出。因此，建議您在建立JWT應用程式時記下/建立URL。
+JWT應用程式可能未正確列出。 因此，建議在建立JWT應用程式時記下URL/為其添加書籤。
 
-## 執行設定停止運作 {#running-configuration-stops-working}
+## 運行配置停止工作 {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -107,8 +106,8 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果複製代理程式(這是發佈至品牌入口網站)停止處理發佈工作，請檢查複製記錄檔。AEM自動重新嘗試內建，因此如果特定資產發佈失敗，則會自動重試。如果發生網路錯誤等間歇性問題，在重新嘗試期間可能會成功。
+如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
 
-如果持續發佈失敗和佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** 並嘗試解決所報告的錯誤。
+如果連續發佈失敗且佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** ，並嘗試解決所報告的錯誤。
 
-根據錯誤，建議您記錄支援票證，讓品牌入口網站工程團隊可協助您解決問題。
+根據錯誤，建議您記錄支援票證，以便品牌入口網站工程團隊協助您解決問題。
