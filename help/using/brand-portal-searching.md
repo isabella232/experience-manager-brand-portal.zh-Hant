@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -40,6 +40,8 @@ source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
    ![](assets/assets-search-result.png)
 
    *使用Omnisearch進行資產搜尋*
+
+若要瞭解使用智慧型標籤資產的搜尋行為，請參閱了 [解搜尋結果和行為](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
 
 ## 在「濾鏡」面板中使用Facet進行搜尋 {#search-using-facets-in-filters-panel}
 
