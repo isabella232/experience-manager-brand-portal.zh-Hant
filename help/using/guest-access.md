@@ -1,5 +1,5 @@
 ---
-title: 品牌入口網站的訪客存取
+title: Guest Access to Brand Portal
 seo-title: 品牌入口網站的訪客存取
 description: 允許來賓訪問，並節省大量無需驗證的用戶上線的工作。
 seo-description: 允許來賓訪問，並節省大量無需驗證的用戶上線的工作。
@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -48,9 +48,9 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Guest使用者與品牌入口網站的互動 {#guest-user-interaction-with-brand-portal}
 
-### 訪客UI導覽
+### Guest UI Navigation
 
-在以來賓身分進入品牌入口網站時，使用者可以看到所有公 [開共用的資產和資料夾](../using/brand-portal-sharing-folders.md#sharefolders) ，或只與來賓使用者共用。 此檢視是僅限內容的檢視，會在卡片、清單或欄版面中顯示資產。
+On entering the Brand Portal as the guest, users can see all the assets and folders shared publicly or with guest users exclusively. [](../using/brand-portal-sharing-folders.md#sharefolders)This view is the content only view, which displays assets in either of the card, list, or column layouts.
 
 ![](assets/disabled-folder-hierarchy1.png)
 
@@ -83,7 +83,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 **[!UICONTROL 左側導覽]** (Navigation)選項可讓使用者從檔案導覽至系列，然後在來賓工作階段中返回，讓使用者瀏覽檔案或系列中的資產。
 
