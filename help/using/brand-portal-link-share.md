@@ -10,7 +10,7 @@ topic-tags: 共用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -51,39 +51,39 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
    >
    >「共 **[!UICONTROL 用連結]** 」欄位會顯示自動建立的資產連結。 此連結的預設過期時間為7天。 您可以複製連結，並與使用者分開分享，或從「連結共用」對話 **[!UICONTROL 方塊分享]** 。
 
-5. 在電子郵件地址方塊中，輸入您要與其共用連結之使用者的電子郵件ID。 您可以與多位使用者共用連結。
+5. 在電子郵件地址方塊中，輸入您要與其共用連結之使用者的電子郵件ID。 You can share the link with multiple users.
 
-   如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 如果使用者是外部使用者，請輸入完整的電子郵件ID，然後按 **[!UICONTROL Enter]**;電子郵件ID會新增至使用者清單。
+   如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 If the user is external, type the complete email ID and press **[!UICONTROL Enter]**; the email ID is added to the list of users.
 
    ![](assets/link-sharing-text.png)
 
-6. 在「主 **[!UICONTROL 旨]** 」方塊中，輸入您要共用之資產的主旨。
-7. 在「消 **[!UICONTROL 息]** 」框中，根據需要鍵入消息。
-8. 在「過 **[!UICONTROL 期]** 」欄位中，使用日期選擇器指定連結的到期日期和時間。 依預設，到期日會從您共用連結的日期開始設為7天。
+6. In the Subject box, type a subject for the asset you want to share.****
+7. In the Message box, type a message if necessary.****
+8. In the Expiration field, use the date picker to specify an expiration date and time for the link. **** By default, the expiry date is set to 7 days from the date on which you share the link.
 
-   透過連結共用的資產會在超過「到期日」欄位中指定的日期和時間後 **[!UICONTROL 到期]** 。 如需有關過期資產行為以及根據使用者角色在品牌入口網站中所允許活動變更的詳細資訊，請參 [閱管理資產的數位權限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
+   The assets shared through the link expire after crossing the date and time specified in the Expiration field. **** For information about the behavior of expired assets and changes in the permissible activities based on user roles in Brand Portal, see Manage digital rights of assets.[](../using/manage-digital-rights-of-assets.md#asset-expiration)
 
-9. Click **[!UICONTROL Share]**. 訊息會確認連結已與使用者共用。 使用者會收到包含連結的電子郵件。
+9. Click **[!UICONTROL Share]**. 訊息會確認連結已與使用者共用。 Users receive an email containing the link.
 
    ![](assets/link-sharing-email.png)
 
    >[!NOTE]
    >
-   >管理員可自訂電子郵件訊息，包括使用品牌功能自訂標誌、說明 [和頁尾](../using/brand-portal-branding.md) 。
+   >Administrators can customize the email messaging, which includes customizing logo, description, and footer with Branding feature.[](../using/brand-portal-branding.md)
 
-## 從共用連結下載資產 {#download-assets-from-shared-links}
+## Download assets from shared links {#download-assets-from-shared-links}
 
-按一下電子郵件中的連結，以檢視共用資產。 「AEM連結共用」頁面隨即開啟。
+Click the link in the email, to view the shared asset. The AEM Link Share page opens.
 
 若要下載共用資產：
 
-1. 按一下資產，然後按一下工 **[!UICONTROL 具列中]** 的「下載」圖示。
+1. Click the assets and then click Download icon from the toolbar.****
 
    ![](assets/assets-shared-link.png)
 
    >[!NOTE]
    >
-   >目前，您只能針對特定資產產生預覽和縮圖，視檔案格式而定。 如需支援檔案格式的詳細資訊，請參 [閱資產格式的預覽和縮圖支援](#preview-thumbnail-support)。
+   >Currently, you can generate a preview and thumbnail only for certain assets, depending on the file format. 如需支援檔案格式的詳細資訊，請參 [閱資產格式的預覽和縮圖支援](#preview-thumbnail-support)。
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 
    ![](assets/licensed-asset-download.png)
 
-   出現 [!UICONTROL 「下載] 」對話框。
+   出現 [!UICONTROL 「下載] 」對話框。<br />
    ![](assets/download-linkshare.png)
 
    * 若要加速下載共用為連結的資產檔案，請選取「啟用下載 **[!UICONTROL 加速]** 」選項， [然後遵循精靈](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 若要進一步瞭解品牌入口網站上資產的快速下載，請參 [閱指南以加速從品牌入口網站的下載](../using/accelerated-download.md)。
@@ -206,4 +206,4 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
    >
    >共用連結的顯示是使用者專屬的。 此功能不會顯示租用戶所有使用者共用的所有連結。
 
-5. 在警告訊息方塊中，按一下「 **[!UICONTROL 繼續]** 」以確認取消共用。 連結的項目會從共用連結清單中移除。
+5. In the warning message box, click Continue to confirm unshare. **** The entry for the link is removed from the list of shared links.
