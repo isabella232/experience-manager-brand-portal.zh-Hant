@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 簡介
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -59,7 +59,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 >
 >在選擇「部 **分搜索** 」(Partial Search **)複選框時，** 預設情況下會選擇「忽略大小寫」(Ignore Case)。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3版的變更 {#what-changed-in}
 
@@ -84,7 +84,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 在特定資料夾階層或路徑中搜尋
 
@@ -104,7 +104,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### 動態媒體視訊轉譯支援
 
@@ -125,7 +125,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 排程發佈至品牌入口網站
 
@@ -136,7 +136,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL中的可設定租用戶別名
 
@@ -149,7 +149,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 **使用案例**「組織」可自訂入口網站URL，而不是固定Adobe提供的URL，以符合其品牌需求。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 下載體驗增強功能
 
@@ -190,7 +190,7 @@ AEM Brand入口網站可讓訪客存取入口網站。 來賓用戶不需要憑�
 
 ### 存取原始轉譯
 
-管理員可限制使用者存取原始影像檔(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/x-photoshop、.psd、image/vnd.adobe.photoshop)，並提供低解析度的存取權限轉譯，這些轉譯會從品牌入口網站或共用連結下載。 此存取權可在使用者群組層級從管理工具面板的使用者角色頁面的群組標籤加以控制。
+管理員可限制使用者存取原始影像檔(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/x-photoshop、.psd、image/vnd.adobe.photoshop)，並提供低解析度的存取權限轉譯，這些轉譯會從品牌入口網站或共用連結下載。 此存取權可在使用者群組層級從「管理工具」面板的「使用者角色」頁面的「群組」標籤加以控制。
 
 ![](assets/access-original-rend-1.png)
 
