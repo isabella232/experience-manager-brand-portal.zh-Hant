@@ -1,5 +1,5 @@
 ---
-title: 在品牌入口網站上瀏覽資產
+title: 瀏覽品牌入口網站上的資產
 seo-title: 瀏覽品牌入口網站上的資產
 description: 使用品牌入口網站上的不同檢視選項和UI元素，瀏覽資產、遍歷資產階層並搜尋資產。
 seo-description: 使用品牌入口網站上的不同檢視選項和UI元素，瀏覽資產、遍歷資產階層並搜尋資產。
@@ -9,12 +9,12 @@ content-type: 引用
 topic-tags: 簡介
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# 在品牌入口網站上瀏覽資產 {#browsing-assets-on-brand-portal}
+# 瀏覽品牌入口網站上的資產 {#browsing-assets-on-brand-portal}
 
 AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您瀏覽各種資源、遍歷資產階層，以及在使用不同檢視選項時搜尋資產。
 
@@ -24,7 +24,7 @@ AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 品牌入口網站左上角的邊欄選擇器會下拉式清單，以顯示導覽至資產階層、簡化搜尋並顯示資源的選項。
 
