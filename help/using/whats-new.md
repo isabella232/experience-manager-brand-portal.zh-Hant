@@ -1,8 +1,8 @@
 ---
 title: AEM Assets品牌入口網站的新增功能
 seo-title: AEM Assets品牌入口網站的新增功能
-description: 檢視6.4.4的新功能和增強功能。
-seo-description: 檢視6.4.4的新功能和增強功能。
+description: 檢視6.4.5的新功能和增強功能。
+seo-description: 檢視6.4.5的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: 布達爾
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 簡介
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,9 +19,53 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
 
-## 6.4.4版的變更 {#what-is-changing-in}
+## 6.4.5版的變更 {#what-changed-in-645}
 
-品牌入口網站6.4.4版著重於文字搜尋和主要客戶要求的增強功能。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+Brand Portal 6.4.5是功能發行版本，主要針對提供協作平台給有效的Brand Portal使用者（外部代理商／團隊），以便在Brand Portal中上傳資產並發佈至AEM Assets，而不需存取AEM製作環境。 此功能在品牌入口網 **站中稱為「資產來源補充**」。 此功能提供雙向機制，讓您向全球分發的其他品牌入口網站使用者貢獻資產並分享資產，進而改善客戶體驗。
+
+### 品牌入口網站中的資產採購 {#asset-sourcing-in-bp}
+
+「資產來源補充」功能可讓AEM管理員建立新資料夾，其他屬性名為-**Asset Contribution**。 所建立的新資料夾稱為 *資產貢獻* (Asset Contribution)，亦即貢獻 *資料夾* 。 在AEM中建立貢獻檔案夾時，會觸發內部工作流程，進一步在貢獻檔案夾下建立兩個子檔案夾，即-NEW和SHARED。
+
+AEM管理員會上傳貢獻檔案夾的簡介、上傳 **SHARED** 檔案夾中的基準資產以供參考、指派作用中的品牌入口網站使用者存取貢獻檔案夾，以及將貢獻檔案夾發佈至品牌入口網站，以定義需求。 發佈貢獻資料夾後，可存取貢獻資料夾的品牌入口網站使用者可以登入其品牌入口網站例項，並開始在 **NEW** 檔案夾下上傳內容／資產（檔案或檔案夾）。 上傳所有內容後，品牌入口網站使用者會手動將貢獻資料夾發佈至AEM。 匯入並反映AEM Assets中已發佈的內容／資產可能需要幾分鐘的時間。
+
+現有功能仍維持不變，品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+>[!NOTE]
+>
+>品牌入口網站使用者只能將內容／資產上傳 **至** NEW檔案夾。
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is 10 GB.****
+
+
+
+![](assets/asset-sourcing.png)
+
+### Upload assets in Brand Portal {#upload-assets-in-bp}
+
+The active Brand Portal users receive pulse and email notification whenever a contribution folder is shared with them. They can download the brief document attached to the contribution folder and download the baseline content/assets from the SHARED folder to understand the requirement.****
+
+The Brand Portal users having permission to access the contribution folder can upload assets only to the NEW folder. **** However, they can upload multiple assets or folders containing multiple assets.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the NEW folder, Brand Portal user manually publishes the contribution folder to AEM. **** It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## What changed in 6.4.4 {#what-changed-in-644}
+
+Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest Brand Portal Release Notes.[](brand-portal-release-notes.md)
 
 ### 搜尋增強功能 {#search-enhancements}
 
@@ -59,7 +103,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 >
 >在選擇「部 **分搜索** 」(Partial Search **)複選框時，** 預設情況下會選擇「忽略大小寫」(Ignore Case)。
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3版的變更 {#what-changed-in}
 
@@ -80,39 +124,40 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 共用資料夾被組織在虛擬資料夾中的各個目錄內。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
 
-請注意，虛擬資料夾的預設縮略圖是第一個共用資料夾的縮略圖。
+Note that the default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
-### 在特定資料夾階層或路徑中搜尋
+### Search in specific folder hierarchy or path
 
-**Path Browser** predicate is enduced in Search Form to allow search of assets in a specific directory. 路徑瀏覽器的搜索謂語的預設搜索路徑是 */content/dam/mac/&lt;tenant-id&gt;/*，可通過編輯預設搜索表單來配置。
+**Path Browser predicate is introduced in Search Form to allow searching of assets in a specific directory.** The default search path of search predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.**
 
-* 管理員使用者可使用路徑瀏覽器導覽至品牌入口網站上的任何資料夾目錄。
-* 非管理員使用者可使用路徑瀏覽器，僅瀏覽至與他們共用的資料夾（並返回上層資料夾）。
-例如， */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* 是與非管理員使用者共用。 使用者可使用路徑瀏覽器在folderC內搜尋資產。 此用戶還可以導航到folderB和folderA（因為它們是與用戶共用的folderC的祖先）。
+* Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
+* Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
+For example, /content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC is shared with a non-admin user. ** The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
 ![](assets/edit-search-form.png)
 
-**使用案例**
+**The use case**
 
-您現在可以限制在已瀏覽的特定資料夾內搜尋資產，而不是從根資料夾開始。
+You can now restrict asset search within a specific folder you have browsed to, instead of beginning at the root folder.
 
 請注意，在這些資料夾下搜尋只會傳回已與使用者共用的資產的結果。
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### 動態媒體視訊轉譯支援
+### Dynamic Media video renditions support
 
-AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和下載原始的視訊檔案外，還可以預覽和下載動態媒體轉譯。
+Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and download the dynamic media renditions, in addition to the original video files.
 
-若要允許在特定租用戶帳戶上預覽和下載動態媒體轉譯，管理員需要在「管理工具」面板的 **Video設定中，指定** Dynamic Media Configuration **** (視訊服務URL(DM-Gateway URL)和註冊ID，以擷取動態視訊)。
+To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify Dynamic Media Configuration (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in Video configuration from admin tools panel.********
 
-**使用案例** Dynamic media影片可在下列位置預覽：
+**The use case
+Dynamic Media videos can be previewed on:**
 
 * 資產詳細資訊頁面
 * 資產的卡片檢視
@@ -125,7 +170,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 排程發佈至品牌入口網站
 
@@ -136,7 +181,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL中的可設定租用戶別名
 
@@ -149,7 +194,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 **使用案例**「組織」可自訂入口網站URL，而不是固定Adobe提供的URL，以符合其品牌需求。
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 下載體驗增強功能
 
@@ -170,7 +215,7 @@ AEM Brand入口網站可讓訪客存取入口網站。 來賓用戶不需要憑�
 
 在組織中，允許多個併發來賓會話，此會話限制為每個組織的用戶配額總數的10%。
 
-來賓會話保持活動狀態2小時。 因此，燈箱的狀態也會保留到工作階段開始時間兩小時後。 兩小時後，來賓會話必須重新啟動，因此燈箱狀態將丟失。
+A guest session remains active for two hours. Therefore, the state of the lightbox is also preserved until two hours from the session start time. After two hours, the guest session has to restart, so the lightbox state is lost.
 
 ### 加速下載
 
@@ -489,7 +534,7 @@ Brand Portal 6.3.1推出額外的中繼資料，與AEM Assets 6.3相當。您可
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus。 我是否會失去對已建立的任何現有資產、功能或設定的存取權？**
+**客戶。 我是否會失去對已建立的任何現有資產、功能或設定的存取權？**
 阿**斯。** 您現有的所有功能和組態都保持不變。 您的使用者不受影響，而您的內容將保持不變。
 
 **客戶。 我何時要改用新版的Brand Portal?**
