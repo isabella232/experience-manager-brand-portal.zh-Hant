@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 簡介
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
 
 ---
 
@@ -28,16 +28,16 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 品牌入口網站支援下列使用者角色：
 
-* 來賓用戶
+* Guest user
 * 檢視者
 * 編輯者
 * 管理員
 
 下表列出了這些角色中的用戶可以執行的任務：
 
-|  | **瀏覽** | **搜尋** | **下載** | **Share folders** | **Share a collection** | **將資產共用為連結** | **存取管理工具** |
+|  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用系列** | **將資產共用為連結** | **存取管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **來賓用戶** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Guest user** | ✓* | ✓* | ✓* | x | x | x | x |
 | **檢視者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **編輯者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理員** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -48,35 +48,35 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 任何未經驗證而對品牌入口網站上資產有限存取的使用者皆為訪客使用者。 來賓會話允許用戶訪問公共資料夾和集合。 身為來賓用戶，您可以瀏覽資產詳細資訊，並擁有公共資料夾和系列成員的完整資產視圖。 您可以搜尋、下載公共資產並新增至 [!UICONTROL Lightbox] 集合。
 
-不過，來賓作業會限制您建立系列和已儲存的搜尋，並進一步共用。 來賓作業中的使用者無法存取資料夾和系列設定，也無法將資產共用為連結。 以下是來賓用戶可以執行的任務清單：
+However, guest session restricts you from creating collections and saved searches, and share them further. Users in a guest session cannot access folder and collections settings, and cannot share assets as link. 以下是來賓用戶可以執行的任務清單：
 
-[瀏覽及存取公共資產](browse-assets-brand-portal.md)
+[Browse and access public assets](browse-assets-brand-portal.md)
 
-[搜尋公共資產](brand-portal-searching.md)
+[Search public assets](brand-portal-searching.md)
 
-[下載公用資產](brand-portal-download-users.md)
+[Download public assets](brand-portal-download-users.md)
 
-[將資產添加到[!UICONCONTROL燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 檢視者 {#viewer}
 
-品牌入口網站中的標準使用者通常是具有檢視器角色的使用者。 具有此角色的使用者可以存取允許的資料夾、系列和資產。 使用者也可以瀏覽、預覽、下載和匯出資產（原始或特定轉譯）、設定帳戶設定，以及搜尋資產。 以下是檢視器可執行的工作清單：
+A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[瀏覽資產](browse-assets-brand-portal.md)
+[Browse assets](browse-assets-brand-portal.md)
 
-[搜尋資產](brand-portal-searching.md)
+[Search for assets](brand-portal-searching.md)
 
-[下載資產](brand-portal-download-users.md)
+[Download assets](brand-portal-download-users.md)
 
 ### 編輯者 {#editor}
 
-具有編輯器角色的使用者可以執行檢視器可以執行的所有工作。 此外，編輯器還可以查看管理員共用的檔案和資料夾。 具有編輯器角色的使用者也可以與其他人共用內容（檔案、檔案夾、系列）。
+A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. 具有編輯器角色的使用者也可以與其他人共用內容（檔案、檔案夾、系列）。
 
 除了檢視器可執行的工作外，編輯器還可執行下列其他工作：
 
 [共用資料夾](brand-portal-sharing-folders.md)
 
-[共用系列](brand-portal-share-collection.md)
+[Share a collection](brand-portal-share-collection.md)
 
 [將資產共用為連結](brand-portal-link-share.md)
 
@@ -102,9 +102,9 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 [設定與品牌入口網站的AEM資產整合](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[將資料夾發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[將系列發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
 
@@ -125,27 +125,27 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 若要申請存取權，請執行下列動作：
 
-1. 從「品牌入口網站」登入頁面，選取「 **[!UICONTROL 按一下此處]** 」與「需 **[!UICONTROL 要存取？」]**. 但是，要進入來賓會話，請選擇 **[!UICONTROL Click here]** (按一下這裡 **[!UICONTROL )與]** Guest Access?（來賓訪問）。
+1. From the Brand Portal login page, select Click here corresponding to Need Access?********. However, to enter the guest session, select the Click here corresponding to Guest Access?.********
 
-   ![品牌入口網站登入畫面](assets/bp-login-requestaccess.png)
+   ![Brand Portal login screen](assets/bp-login-requestaccess.png)
 
-   「請 [!UICONTROL 求存取] 」頁面隨即開啟。
+   The Request Access page opens.
 
-2. 若要要求存取組織的品牌入口網站，您必須擁有有效的 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
+2. To request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
 
-   在「請 [!UICONTROL 求存取] 」頁面中，使用您的ID（藍本1）登入或建立 [!UICONTROL Adobe ID] （藍本2）:
-   ![[!UICONTROL 請求存取]](assets/bplogin_request_access_2.png)
+   In the Request Access page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
+   ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
-   **方案1**
-   1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID][!UICONTROL 或]Federated ID **[!UICONTROL ，請按一]**下登入Chropt。
-「登 [!UICONTROL 入] 」頁面隨即開啟。
-   2. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
-   ![Adobe登入](assets/bplogin_request_access_3.png)
+   **Scenario 1**
+   1. If you have an Adobe ID, Enterprise ID, or Federated ID, click Sign In.
+**** The Sign in page opens.
+   2. Provide your Adobe ID credentials and click Sign in.****<br />
+   ![Adobe sign in](assets/bplogin_request_access_3.png)
 
-   您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。
-   **方案2**
-   1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]** )。
-「登 [!UICONTROL 入] 」頁面隨即開啟。
+   You are redirected to the Request Access page.
+   **Scenario 2**
+   1. If you do not have an Adobe ID, to create one, click Get an Adobe ID from the Request Access page.
+****The Sign in page opens.
    2. Click **[!UICONTROL Get an Adobe ID]**.
 「注 [!UICONTROL 冊] 」頁面隨即開啟。
    3. 輸入您的名字和姓氏、電子郵件ID和密碼。
@@ -169,6 +169,19 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 ![](assets/bplogin_request_access_8.png)
 
 您會被重新導向 [至Adobe [!UICONTROL管理控制台]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] ，建立使用者並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 如需有關在 [!UICONTROL Admin Console中新增使用者的詳細資訊]，請參閱 [](brand-portal-adding-users.md#add-a-user) 新增使用者（請依照新增使用者的程式中的步驟4-7）。
+
+## 品牌入口網站語言 {#brand-portal-language}
+
+您可以從「Adobe [!UICONTROL Experience Cloud設定」變更品牌入口]網站語言。
+
+![存取要求的通知](assets/BPLang.png)
+
+要更改語言，請執行以下操作：
+
+1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」&gt;「編輯配置檔案」。
+   ![編輯設定檔](assets/EditBPProfile.png)
+
+2. 在「 [!UICONTROL Experience cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
 
 ## 品牌入口網站維護通知 {#brand-portal-maintenance-notification}
 
