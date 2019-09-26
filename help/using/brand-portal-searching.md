@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 「篩選」面板中的搜尋Facet可為您的搜尋體驗增加精細度，並讓搜尋功能更有效率。 搜尋刻面使用多個維度（謂語），可讓您執行複雜的搜尋。 您可以輕鬆深入瞭解所需的詳細程度，以便進行更專注的搜尋。
 
-例如，如果您要尋找影像，可以選擇要點陣圖還是向量影像。 您可以在「檔案類型」搜尋Facet中指定影像的MIME類型，進一步縮小搜尋範圍。 同樣地，在搜尋檔案時，您可以指定格式，例如PDF或MS Word格式。
+例如，如果您要尋找影像，可以選擇要點陣圖還是向量影像。 您可以在「檔案類型」搜尋Facet中指定影像的MIME類型，進一步縮小搜尋範圍。 同樣地，在搜尋檔案時，您可以指定格式，例如PDF或MS Word格式。<br />
 
 ![品牌入口網站中的「篩](assets/file-type-search.png "選器」面板品牌入口網站中的「篩選器」面板")
 
