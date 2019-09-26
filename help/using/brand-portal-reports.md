@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 從管理工具面板，點選／按一下「 **[!UICONTROL 建立／管理報表]** 」以開啟**資產報表**頁面。
+2. 從管理工具面板，點選／按一下「 **[!UICONTROL 建立／管理報表]** 」以開 **[!UICONTROL 啟「資產報表]** 」頁面。
 
    ![](assets/asset-reports.png)
 
