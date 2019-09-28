@@ -1,26 +1,26 @@
 ---
-title: Guest Access to Brand Portal
-seo-title: 品牌入口網站的訪客存取
+title: 品牌入口網站的訪客存取
+seo-title: Guest Access to Brand Portal
 description: 允許來賓訪問，並節省大量無需驗證的用戶上線的工作。
-seo-description: 允許來賓訪問，並節省大量無需驗證的用戶上線的工作。
+seo-description: Allow guest access and save the effort to onboard numerous users who do not need to be authenticated.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: mgulati
-topic-tags: 簡介
+topic-tags: introduction
 content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# 品牌入口網站的訪客存取 {#guest-access-to-brand-portal}
+# Guest Access to Brand Portal {#guest-access-to-brand-portal}
 
-AEM Brand入口網站可讓訪客存取入口網站。 訪客使用者不需要憑證即可進入入口網站，並可存取入口網站的公用資產（和系列）。 來賓作業中的使用者可將資產新增至燈箱（私用系列）並下載資產，直到作業持續為止，除非來賓使用者選擇 [[!UICONCONTROL結束作業]](#exit-guest-session)。
+AEM Brand portal allows guest access to the portal. A guest user doesn't need credentials to enter the portal and has access to the public assets (and collections) of the portal. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [!UICONTROL End Session].[](#exit-guest-session)
 
 訪客存取功能可讓組織 [快速地與目標對象共用已核准的資產](../using/brand-portal-sharing-folders.md#how-to-share-folders) ，而不需將其上線。 Brand Portal 6.4.2版之後，已配備為多個並行來賓用戶提供服務，這是每個組織的用戶配額總量的10%。 允許訪客存取可節省管理和載入大量需要在品牌入口網站上使用有限功能的使用者的時間。\
-組織可以使用管理工具面板中「存取」設定的「允許來賓存取 **[!UICONTROL 」選項，啟用（或停用）組織的品牌入口網站帳戶]****** 上的來賓存取。
+Organizations can enable (or disable) guest access on Brand Portal account of the organization using Allow Guest Access option from Access settings in the administrative tools panel.********
 
 <!--
 Comment Type: annotation
@@ -31,9 +31,9 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enable-guest-access.png)
 
-## 開始來賓會話 {#begin-guest-session}
+## Begin guest session {#begin-guest-session}
 
-若要匿名輸入品牌入口網站，請選取 **[!UICONTROL 按一下此處]** ，以 **[!UICONTROL 取得訪客存取？]** 在品牌入口網站歡迎畫面上。 使用者不需要尋找存取權，並等待管理員驗證他們，以授與使用品牌入口網站的存取權。
+To enter Brand Portal anonymously, select Click here corresponding to Guest Access?******** 在品牌入口網站歡迎畫面上。 使用者不需要尋找存取權，並等待管理員驗證他們，以授與使用品牌入口網站的存取權。
 
 ![](assets/bp-login-screen.png)
 
@@ -48,21 +48,21 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Guest使用者與品牌入口網站的互動 {#guest-user-interaction-with-brand-portal}
 
-### Guest UI Navigation
+### 訪客UI導覽
 
-On entering the Brand Portal as the guest, users can see all the assets and folders shared publicly or with guest users exclusively. [](../using/brand-portal-sharing-folders.md#sharefolders)This view is the content only view, which displays assets in either of the card, list, or column layouts.
+在以來賓身分進入品牌入口網站時，使用者可以看到所有公 [開共用的資產和資料夾](../using/brand-portal-sharing-folders.md#sharefolders) ，或只與來賓使用者共用。 此檢視是僅限內容的檢視，會在卡片、清單或欄版面中顯示資產。
 
 ![](assets/disabled-folder-hierarchy1.png)
 
 但是，如果管理員已啟用「啟用資料夾層次結構」配置，來賓用戶在登錄到Brand Portal時會看到資料夾樹（從根資料夾開始）和在各自父資料夾內排列的共用資料夾 [](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) 。
 
-這些父資料夾是虛擬資料夾，不能對其執行任何操作。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
+這些父資料夾是虛擬資料夾，不能對其執行任何操作。 You can recognize these virtual folders with a lock icon.
 
-與共用資料夾不同，暫留或在「卡片檢視」中選取動作 [!UICONTROL 工作時]，不會顯示任何動作工作。 [!UICONTROL 在「列視圖] 」和「清單視圖」中選擇虛擬資料夾時， [!UICONTROL 將顯示「概述] 」 [!UICONTROL 按鈕]。
+No action tasks are visible on hovering or selecting them in Card View, unlike the shared folders. [!UICONTROL Overview button is shown on selecting a virtual folder in Column View and List View.]
 
 >[!NOTE]
 >
->請注意，虛擬資料夾的預設縮略圖是第一個共用資料夾的縮略圖。
+>Note that the default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
@@ -78,7 +78,6 @@ On entering the Brand Portal as the guest, users can see all the assets and fold
 
 * 在頂端的工具列中，選取資產／資料夾時。
 * 在下拉式清單中，選取「軌道選擇器」。
-
 在選取資 [!UICONTROL 產] /資料夾時選取「概述」選項時，使用者可以看到資產建立的標題、路徑和時間。 但是，在資產詳細資料頁面上，選取「 [!UICONTROL 概述] 」選項可讓使用者查看資產的中繼資料。
 
 ![](assets/overview-option-1.png)
@@ -87,7 +86,7 @@ On entering the Brand Portal as the guest, users can see all the assets and fold
 
 **[!UICONTROL 左側導覽]** (Navigation)選項可讓使用者從檔案導覽至系列，然後在來賓工作階段中返回，讓使用者瀏覽檔案或系列中的資產。
 
-**[!UICONTROL Filter]** 選項允許來賓用戶使用管理員設定的搜索謂語來過濾資產檔案和資料夾。
+**[!UICONTROL Filter option allows guest users to filter asset files and folders using search predicates set by the administrator.]**
 
 ### 來賓用戶功能
 
@@ -99,17 +98,17 @@ On entering the Brand Portal as the guest, users can see all the assets and fold
 * 瀏覽成員、詳細資料頁，並擁有所有公共資料夾和集合成員的完整資產視圖。
 * 搜尋公共資料夾和系列中的資產。
 * 將資產新增至燈箱集合。 系列的這些變更會在工作階段期間持續存在。
-* 直接下載資產或透過燈箱收集下載資產。
+* download assets directly or through lightbox collection.
 
-來賓用戶不能：
+Guest users cannot:
 
 * 建立系列和儲存的搜尋，或進一步共用。
-* 存取資料夾和系列設定。
-* 將資產共用為連結。
+* access folder and collections settings.
+* share assets as links.
 
 ### 在來賓作業階段中下載資產
 
-來賓使用者可直接在品牌入口網站上公開或獨家下載與來賓使用者共用的資產。 來賓使用者也可以將資產新增至 [!UICONTROL Lightbox] （公開系列），並在工作階段過期前下載 [!UICONTROL Lightbox] 系列。
+Guest users can directly download assets shared publically or exclusively with guest users on Brand Portal. 來賓使用者也可以將資產新增至 [!UICONTROL Lightbox] （公開系列），並在工作階段過期前下載 [!UICONTROL Lightbox] 系列。
 
 若要下載資產和系列，請使用下列網址的下載圖示：
 
