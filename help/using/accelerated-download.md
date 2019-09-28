@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -45,7 +45,7 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 | 不適用或1 | downloads-na1.brand-portal.adobe.com |
 | 北美VA5 | downloads-na2.brand-portal.adobe.com |
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
-| 亞太SIN2 | downloads-apac1.brand-portal.adobe.com |
+| APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
 ## 使用檔案加速器的下載效能範例 {#expected-download-performance-using-file-accelerator}
 
@@ -69,7 +69,7 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 若要更快速地從品牌入口網站下載資產：
 
 1. 使用支援的瀏覽器登入品牌入口網站。
-2. 瀏覽並選取要下載的所需資產檔案、檔案夾或系列。 點選／按一下下載選項。
+1. 瀏覽並選取要下載的所需資產檔案、檔案夾或系列。 點選／按一下下載選項。
 下載對話方塊隨即出現， [並選取「啟用下載加速] 」選項。
    ![](assets/download-assetsbp.png)
 
@@ -79,25 +79,25 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 
    ![](assets/fast-download-emailchk.png)
 
-3. 點選／按一下「 **[!UICONTROL 下載]** 」選項。
+1. 點選／按一下「 **[!UICONTROL 下載]** 」選項。
 若要加速品牌入口網站租用戶帳戶的下載體驗，您必須在系統上安裝Aspera connect用戶端應用程式。
 
-4. **下載Aspera Connect Client**&#x200B;如果系統未安裝Aspera connect客戶端，或現有安裝的Aspera connect客戶端已過期，則瀏覽器頁面上會顯示提示，您可從此處選擇 **[!UICONTROL Download Latest Version來下載系統特定的Aspera connect客戶端]**。
+1. **下載Aspera Connect Client**&#x200B;如果系統未安裝Aspera connect客戶端，或現有安裝的Aspera connect客戶端已過期，則瀏覽器頁面上會顯示提示，您可從此處選擇 **[!UICONTROL Download Latest Version來下載系統特定的Aspera connect客戶端]**。
 
    ![](assets/aspera-not-launched.png)
 
    若要從https://downloads.asperasoft.com/connect2/下載最新版Aspera Connect [，請選取「](https://downloads.asperasoft.com/connect2/)Download Now **[!UICONTROL (立即下載]** )」並依照指示進行。
 
-5. **安裝Aspera Connect Client**&#x200B;若要安裝IBM Aspera connect用戶端設定，請從IBM Aspera connect用戶端應用程式的。msi檔案執行設定，然後依照安裝精靈的指示進行。
+1. **安裝Aspera Connect Client**&#x200B;若要安裝IBM Aspera connect用戶端設定，請從IBM Aspera connect用戶端應用程式的。msi檔案執行設定，然後依照安裝精靈的指示進行。
 
-6. 成功安裝客戶端後，請重新整理瀏覽器頁面並再次啟動下載步驟，或選擇「在資產下載 **[!UICONTROL 中重新啟]** 動 **** 」對話框（步驟#2）。
+1. 成功安裝客戶端後，請重新整理瀏覽器頁面並再次啟動下載步驟，或選擇「在資產下載 **[!UICONTROL 中重新啟]** 動 **** 」對話框（步驟#2）。
 首次使用Aspera connect時，瀏覽器會提示使用 **[!UICONTROL IBM Aspera connect開啟連結]**。 若要在未來略過此對話方塊，請啟 **[!UICONTROL 用「記住我對FASP連結的選擇」]**。
 
    >[!NOTE]
    >
    >這則訊息在不同的瀏覽器上不同。
 
-7. 對話框確認是否繼續傳輸。 選擇 **[!UICONTROL 允許]** ，開始。
+1. 對話框確認是否繼續傳輸。 選擇 **[!UICONTROL 允許]** ，開始。
 要在將來跳過此對話框，請啟 **[!UICONTROL 用「使用我的選項來連接此主機」]**。
 下載開始。 對話方塊顯示下載進度。 使用對話方塊 **[!UICONTROL 暫停]**、繼 **[!UICONTROL 續]**&#x200B;或 **[!UICONTROL 取消]** 下載。
 Aspera connect應用程式提供系統上的「活動視窗」，讓使用者可檢視和管理所有傳輸作業。 如需詳細資訊，請參 [閱Aspera Connect用戶端檔案](https://downloads.asperasoft.com/en/documentation/8)。
@@ -119,9 +119,9 @@ Microsoft edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 若要在Microsoft edge上使用加速下載功能，請從受信任的網站清單中移除品牌入口網站。
 
 1. 開啟「Control Panel（控制面板）」(按 **[!UICONTROL Window鍵+ X]**，然後選 **[!UICONTROL 取「Control Panel(控制面板]**)」)。
-2. 前往「網 **[!UICONTROL 路與網際網路&gt;網際網路選項」]**。 按一下「安 **[!UICONTROL 全性]** 」標籤。
-3. 按一下「受 **[!UICONTROL 信任的網站]**」區域，然後按 **[!UICONTROL 一下「網站]**」。
-4. 從清單中移除品牌入口網站。
+1. 前往「網 **[!UICONTROL 路與網際網路&gt;網際網路選項」]**。 按一下「安 **[!UICONTROL 全性]** 」標籤。
+1. 按一下「受 **[!UICONTROL 信任的網站]**」區域，然後按 **[!UICONTROL 一下「網站]**」。
+1. 從清單中移除品牌入口網站。
 
 ## Aspera connect用戶端偏好設定 {#aspera-connect-client-preferences}
 
@@ -133,7 +133,7 @@ Microsoft edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
 ![](assets/aspera-preferences.png)
 
-此外，Aspera connect用戶端也可標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
+此外，Aspera connect用戶端也可以標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -145,11 +145,11 @@ Microsoft edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
    如果埠不正常，請聯繫您的網路團隊，並確保Ports 33001（包括TCP和UDP）未在防火牆中被阻止。
 
-2. 如果埠正常，則使用https://www.speedtest.net/測量可用頻寬，檢查網路是否不 [慢](https://www.speedtest.net/)。
+1. 如果埠正常，則使用https://www.speedtest.net/測量可用頻寬，檢查網路是否不 [慢](https://www.speedtest.net/)。
 
    如果頻寬為幾(1-10 Mbps)或Kbps，則使用Aspera偏好設定並嘗試限制等於可用頻寬的頻寬。
 
-3. 若要確認從Aspera示範伺服器下載是否正常運作，請使用https://demo.asperasoft.com/aspera/user [](https://demo.asperasoft.com/aspera/user)。\
+1. 若要確認從Aspera示範伺服器下載是否正常運作，請使用https://demo.asperasoft.com/aspera/user [](https://demo.asperasoft.com/aspera/user)。\
    (登入： asperweb，密碼： 德摩斯佩拉
 
-4. 如果上述疑難排解步驟無法運作，請取消選取「啟用下載加速」選項，然後使用一般下載。
+1. 如果上述疑難排解步驟無法運作，請取消選取「啟用下載加速」選項，然後使用一般下載。
