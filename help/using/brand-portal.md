@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 簡介
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,9 +31,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 * 來賓用戶
 * 檢視者
 * 編輯者
-* 管理員
-
-下表列出了這些角色中的用戶可以執行的任務：
+* 管理員下表列出了這些角色中的用戶可以執行的任務：
 
 |  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用系列** | **將資產共用為連結** | **存取管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -131,7 +129,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    「請 [!UICONTROL 求存取] 」頁面隨即開啟。
 
-2. 若要要求存取組織的品牌入口網站，您必須擁有有效的 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
+1. 若要要求存取組織的品牌入口網站，您必須擁有有效的 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
 
    在「請 [!UICONTROL 求存取] 」頁面中，使用您的ID（藍本1）登入或建立 [!UICONTROL Adobe ID] （藍本2）:<br />
    ![[!UICONTROL 請求存取]](assets/bplogin_request_access_2.png)
@@ -139,22 +137,22 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    **方案1**
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID][!UICONTROL 或]Federated ID **[!UICONTROL ，請按一]**下登入Chropt。
 「登 [!UICONTROL 入] 」頁面隨即開啟。
-   2. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
+   1. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
    ![Adobe登入](assets/bplogin_request_access_3.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。<br />
    **方案2**
    1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]** )。
 「登 [!UICONTROL 入] 」頁面隨即開啟。
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 「注 [!UICONTROL 冊] 」頁面隨即開啟。
-   3. 輸入您的名字和姓氏、電子郵件ID和密碼。
-   4. 選擇 **[!UICONTROL 註冊]**。<br />
+   1. 輸入您的名字和姓氏、電子郵件ID和密碼。
+   1. 選擇 **[!UICONTROL 註冊]**。<br />
    ![](assets/bplogin_request_access_5.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。
 
-3. 下一頁會顯示您的姓名和電子郵件ID，以要求存取權。 保留管理員的注釋，然後按一下「提 **[!UICONTROL 交」]**。<br />
+1. 下一頁會顯示您的姓名和電子郵件ID，以要求存取權。 保留管理員的注釋，然後按一下「提 **[!UICONTROL 交」]**。<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -180,7 +178,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」&gt;「編輯配置檔案」。<br />
    ![編輯設定檔](assets/EditBPProfile.png)
 
-2. 在「 [!UICONTROL Experience cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
+1. 在「 [!UICONTROL Experience cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
 
 ## 品牌入口網站維護通知 {#brand-portal-maintenance-notification}
 
