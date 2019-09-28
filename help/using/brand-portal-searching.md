@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/selectorrail.png)
 
-2. 從左側 **[!UICONTROL 的「篩選]** 」面板中，選取適當的選項以套用相關的篩選。
+1. 從左側 **[!UICONTROL 的「篩選]** 」面板中，選取適當的選項以套用相關的篩選。
 例如，請使用下列標準篩選：
 
    * **[!UICONTROL 路徑瀏覽器]** ，以搜尋特定目錄中的資產。 路徑瀏覽器的謂語預設搜尋路徑為 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**，可透過編輯預設搜尋表單來設定。
@@ -103,7 +103,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    具有搜尋結果計數的資產搜尋結果
 
-3. 您可以輕鬆從搜尋結果導覽至項目，並使用瀏覽器中的上一頁按鈕返回相同的搜尋結果，而不需重新執行搜尋查詢。
+1. 您可以輕鬆從搜尋結果導覽至項目，並使用瀏覽器中的上一頁按鈕返回相同的搜尋結果，而不需重新執行搜尋查詢。
 
 ## 將搜尋儲存為智慧型系列 {#save-your-searches-as-smart-collection}
 
@@ -121,10 +121,10 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/save_smartcollectionui.png)
 
-2. 若要以不同名稱儲存智慧型系列，並選取或清除「公用」核取方塊 **[!UICONTROL ，請按一]** 下「編輯智慧型系列」 ****。
+1. 若要以不同名稱儲存智慧型系列，並選取或清除「公用」核取方塊 **[!UICONTROL ，請按一]** 下「編輯智慧型系列」 ****。
 
    ![](assets/edit_smartcollection.png)
 
-3. 在「編 **[!UICONTROL 輯智慧型系列]** 」對話框中，選擇「另 **[!UICONTROL 存新檔」]** ，然後輸入智慧型系列的名稱。 Click **[!UICONTROL Save]**.
+1. 在「編 **[!UICONTROL 輯智慧型系列]** 」對話框中，選擇「另 **[!UICONTROL 存新檔」]** ，然後輸入智慧型系列的名稱。 Click **[!UICONTROL Save]**.
 
    ![](assets/saveas_smartsearch.png)
