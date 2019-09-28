@@ -1,8 +1,8 @@
 ---
-title: 管理品牌入口網站上的使用者存取權
+title: Administer user access on Brand Portal
 seo-title: 管理品牌入口網站上的使用者存取權
-description: 在品牌入口網站上設定來賓存取權和新使用者存取權。
-seo-description: 在品牌入口網站上設定來賓存取權和新使用者存取權。
+description: Configure guest access and new users access on brand portal.
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: 管理
@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ AEM Assets Brand Portal 6.4.2版之後版本可授權管理員設定來賓存取
 若要允許Brand Portal上的訪客存取，以便使用者不需登入即可存取公用資產，管理員必須：
 
 1. 從頂端的工具列選取AEM標誌以存取管理工具。
-2. 從管理工具面板中，選擇「存 **[!UICONTROL 取]** 」以開 **[!UICONTROL 啟「存取設定」頁面]** 。
-3. 啟用「允 **[!UICONTROL 許來賓訪問]** 」配置。
-4. **[!UICONTROL 保存]** 更改。
-5. 註銷，使更改生效。
+1. 從管理工具面板中，選擇「存 **[!UICONTROL 取]** 」以開 **[!UICONTROL 啟「存取設定」頁面]** 。
+1. 啟用「允 **[!UICONTROL 許來賓訪問]** 」配置。
+1. **[!UICONTROL 保存]** 更改。
+1. 註銷，使更改生效。
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ AEM Assets Brand Portal 6.4.2版之後版本可授權管理員設定來賓存取
 若要允許組織使用者請求品牌入口網站的存取權，管理員必須：
 
 1. 從頂端的工具列選取AEM標誌以存取管理工具。
-2. 從管理工具面板中，選擇「存 **[!UICONTROL 取]** 」以開 **[!UICONTROL 啟「存取設定」頁面]** 。
-3. 啟用「 **[!UICONTROL 允許使用者要求存取權]** 」設定。
-4. **[!UICONTROL 保存]** 更改。
-5. 註銷，使更改生效。
+1. 從管理工具面板中，選擇「存 **[!UICONTROL 取]** 」以開 **[!UICONTROL 啟「存取設定」頁面]** 。
+1. 啟用「 **[!UICONTROL 允許使用者要求存取權]** 」設定。
+1. **[!UICONTROL 保存]** 更改。
+1. 註銷，使更改生效。
