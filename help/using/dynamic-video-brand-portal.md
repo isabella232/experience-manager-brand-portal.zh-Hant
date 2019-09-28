@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 下載——安裝
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -39,11 +39,11 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 >
 >與在 [!UICONTROL Scene7Connect執行模式上執行的AEM Author整合的品牌入口網站租戶不支援動態視訊] 。
 
-## 動態視訊如何播放？ {#how-are-dynamic-videos-played}
+## How are dynamic videos played? {#how-are-dynamic-videos-played}
 
 ![從雲端擷取視訊編碼](assets/VideoEncodes.png)
 
-如果在品牌入口網站上設定了動態媒體設定([Hybrid](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) 或 [[!DNL Scene 7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings) )，則會從伺服器擷取動態轉譯 [!DNL Scene 7] 。 因此，視訊編碼是預覽和播放時不會延遲和品質失真。
+If Dynamic Media configurations (Hybrid or [!DNL Scene 7] configurations) are set up on Brand Portal, the dynamic renditions are fetched from  server. [](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings)[](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)[!DNL Scene 7]因此，視訊編碼是預覽和播放時不會延遲和品質失真。
 
 由於視訊編碼不會儲存在品牌入口網站存放庫中，而且會從伺服器擷取，請確 [!DNL Scene 7] 定AEM作者實例和品牌入口網站上的動態媒體設定是相同的。
 
@@ -57,8 +57,8 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 * **在DM(Dynamic Media)模式上啟動AEM Author**（與其整合品牌入口網站）例項(在 [Dynamic Media Hybrid模式或](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media [!DNL Scene 7]模式上啟動AEM Author) [](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
 * **在AEM Author上設定Dynamic Media cloud服務** Based the Dynamic Media Mode AEM Author is running on, set of [Dynamic Media cloud services](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) or [[!DNL Scene 7] cloud services on AEM Author from](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) Tools **** |雲 **端服務** |動 **態媒體**。
-* **在品牌入口網站上設定動態媒體**&#x200B;根據AEM Author上的Dynamic Media cloud設定，從品牌入口網站管理工具設定 [Dynamic Media設定或](#configure-dm-hybrid-settings) [!DNL Scene 7]設定 [](#configure-dm-scene7-settings) 。
-如果您使用 [Dynamic Media Hybrid和Dynamic Media](#separate-tenants) Scene7模式，請確定個別的Brand Portal租戶會用於AEM Author執行個體 。
+* **Configure Dynamic Media on Brand Portal
+Based on the Dynamic Media cloud configurations on AEM Author, configure Dynamic Media settings or [!DNL Scene 7] settings  from Brand Portal administrative tools.**[](#configure-dm-hybrid-settings)[](#configure-dm-scene7-settings)如果您使用 [Dynamic Media Hybrid和Dynamic Media](#separate-tenants) Scene7模式，請確定個別的Brand Portal租戶會用於AEM Author執行個體 。
 * **使用視訊編碼發佈檔案夾**&#x200B;套用 [至品牌入口網站套](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 用視訊編碼，並將包含AEM Author例項之多媒體資產的檔案夾發佈至品牌入口網站。
 * **安全預覽的SPS中的白名單**[!DNL Scene 7][如果使用Dynamic Media-](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) （公司可安全預覽），建議公司使用SPS Publishing Flash Administrator(Spscene Flash Publishing System Administrator)，為各自的SPS地區建立公開出口IP [!DNL Scene 7][](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) 。
 出口IP如下：
@@ -77,7 +77,7 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 ### 動態媒體混合與動態媒體場景7模式的分隔租戶 {#separate-tenants}
 
-如果您同時使用Dynamic Media和 [!DNL Scene 7] Dynamic Media Hybrid功能，建議您針對使用Dynamic Media Hybrid和Dynamic Media模式設定的AEM Author例項，使用不同的品牌入口 [!DNL Scene 7] 網站。
+如果您同時使用Dynamic Media和 [!DNL Scene 7] Dynamic Media Hybrid功能，建議您針對使用Dynamic Media Hybrid和Dynamic Media模式設定的AEM Author例項，使用不同的品牌入口 [!DNL Scene 7] 網站。<br />
 
 ![作者與BP一對一映射](assets/BPDynamicMedia.png)
 
