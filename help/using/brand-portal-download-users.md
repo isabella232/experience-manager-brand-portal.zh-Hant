@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 下載——安裝
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/restrictaccess-note.png)
 
-2. 若要下載資產的轉譯，除了資產，請選取「轉 **[!UICONTROL 譯」]**。 不過，若要允許自動產生的轉譯與自訂轉譯一起下載，請取消選取「排除自動產生的轉譯 ****」（預設為選取）。
+1. 若要下載資產的轉譯，除了資產，請選取「轉 **[!UICONTROL 譯」]**。 不過，若要允許自動產生的轉譯與自訂轉譯一起下載，請取消選取「排除自動產生的轉譯 ****」（預設為選取）。
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -81,7 +81,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >管理員可使用品牌功能自訂電子郵件訊息，即標誌、說明 [和頁尾](../using/brand-portal-branding.md) 。
 
-3. 按一 **[!UICONTROL 下下載]**。
+1. 按一 **[!UICONTROL 下下載]**。
 
    資產（若已選取，則轉譯）會下載為ZIP檔案至您的本機資料夾。 不過，如果下載單一資產而未包含任何轉譯，則不會建立任何zip檔案，因此可確保快速下載。
 
