@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: 品牌入口網站
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,22 +33,22 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要驗證您的發佈設定：
 
 1. 檢查錯誤日誌
-2. 檢查是否建立了複製代理
-3. 測試連線
+1. 檢查是否建立了複製代理
+1. 測試連線
 
 **建立雲端服務時的尾隨記錄檔**
 
-檢查尾部記錄。 檢查是否建立了複製代理。 如果複製代理建立失敗，請通過對雲服務進行小幅更改來編輯雲服務。 Validate and check again whether the replication agent is created or not. 否則，請重新編輯服務。
+檢查尾部記錄。 檢查是否建立了複製代理。 如果複製代理建立失敗，請通過對雲服務進行小幅更改來編輯雲服務。 驗證並再次檢查是否建立了複製代理。 否則，請重新編輯服務。
 
-If on repeatedly editing the cloud service it is not configured properly, report a daycare ticket.
+如果重複編輯雲端服務時未正確設定，請報告日托服務票證。
 
 **Test connection with replication agents**
 
-View log, if errors are found in replication log:
+查看日誌，如果在複製日誌中發現錯誤：
 
-1. Contact Adobe Support.
+1. 聯絡Adobe支援。
 
-2. Retry clean-up and create publish configuration again.[](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)
+1. 請重 [試清除](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) ，並重新建立發佈設定。
 
 <!--
 Comment Type: remark
@@ -58,15 +58,15 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Clean-up existing Brand Portal publish configurations {#clean-up-existing-config}
+### 清除現有品牌入口網站發佈設定 {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: mac-&lt;tenantid&gt;-replication) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. You might want to avoid troubleshooting and create a new configuration instead. For the new configuration to work properly, clean up the following from AEM author setup:
+發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如： [!UICONTROL mac-&lt;tenantid&gt;]-replication)沒有最新的私鑰，因此發佈失敗，出現「401 unauthorized」錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
 
-1. go to localhost:4502/crx/de (considering you are running author instance on localhost:4502):\
-   i. delete /etc/replication/agents.author/mp_replication*\
-   ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
+1. 前往 [!UICONTROL localhost:4502/crx/de] (考慮到您正在localhost:4502上執行 [!UICONTROL author instance]):\
+   i.刪除/etc/replication/agents.author/mp_replication*\
+   ii. 刪除/etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. go to localhost:4502/useradmin:\
+1. 前往 [!UICONTROL localhost:4502/useradmin]:\
    我搜索用戶[!UICONTROL mac-&lt;tenantid&gt;-replicationii刪除此用戶
 
 現在系統都清理乾淨了。 現在，您可以嘗試建立新的cloudservice組態，並仍然使用https://legacy-oauth.cloud.adobe.io/中現有的JWT應用 [程式](https://legacy-oauth.cloud.adobe.io/)。 您不需要建立新的應用程式，只需從新建立的雲端組態更新公開金鑰。
@@ -106,8 +106,8 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
+如果複製代理（剛發佈到品牌門戶）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
 
-如果連續發佈失敗且佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** ，並嘗試解決所報告的錯誤。
+If there are continuous publish failures and queue is blocked, then you should check **[!UICONTROL test connection]** and try to solve the errors that are being reported.
 
 根據錯誤，建議您記錄支援票證，以便品牌入口網站工程團隊協助您解決問題。
