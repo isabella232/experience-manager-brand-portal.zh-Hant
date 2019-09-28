@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 下載——安裝
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,17 +26,17 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/link_sharing_assetselection.png)
 
-2. 在頂端的工具列中，按一下「新增至系列」圖示。
+1. 在頂端的工具列中，按一下「新增至系列」圖示。
 
    ![](assets/add_to_collection.png)
 
-3. 在「新 **[!UICONTROL 增至系列]** 」頁面上，預 [!UICONTROL 設會選取「燈箱] 」系列。
+1. 在「新 **[!UICONTROL 增至系列]** 」頁面上，預 [!UICONTROL 設會選取「燈箱] 」系列。
 
    Click **[!UICONTROL Add]**. 選取的資產會新增至燈 [!UICONTROL 箱中]。
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. 若要檢閱新增至 [!UICONTROL Lightbox的資產]，請按一下左側導軌上的「 **[!UICONTROL Collections]** 」（系列），然後按一下 **[!UICONTROL Lightbox]** 系列。
+1. 若要檢閱新增至 [!UICONTROL Lightbox的資產]，請按一下左側導軌上的「 **[!UICONTROL Collections]** 」（系列），然後按一下 **[!UICONTROL Lightbox]** 系列。
 
    ![](assets/collections_lightbox.png)
 
@@ -50,10 +50,10 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/collections_lightbox-1.png)
 
-2. 選擇要從系列中移除的檔案夾，然後按一下頂 **[!UICONTROL 端工具]** 列中的「移除」。
+1. 選擇要從系列中移除的檔案夾，然後按一下頂 **[!UICONTROL 端工具]** 列中的「移除」。
 
    ![](assets/collections_lightboxdelete.png)
 
-3. 在警告訊息方塊中，按一下「 **[!UICONTROL 移除]** 」以確認移除。
+1. 在警告訊息方塊中，按一下「 **[!UICONTROL 移除]** 」以確認移除。
 
 資料夾會從 [!UICONTROL Lightbox集合中刪除] 。
