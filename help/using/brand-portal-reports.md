@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下「 **[!UICONTROL 建立／管理報表]** 」以開 **[!UICONTROL 啟「資產報表]** 」頁面。
+1. 在管理工具面板中，按一下「 **[!UICONTROL 建立／管理報表]** 」以開 **[!UICONTROL 啟「資產報表]** 」頁面。
 
    ![](assets/access-asset-reports.png)
 
-3. 從「資 **[!UICONTROL 產報表]** 」頁面存取「使用狀況」報表和其他產生的報表。
+1. 從「資 **[!UICONTROL 產報表]** 」頁面存取「使用狀況」報表和其他產生的報表。
 
    >[!NOTE]
    >
@@ -95,16 +95,16 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/aemlogo.png)
 
-2. 從管理工具面板，點選／按一下「 **[!UICONTROL 建立／管理報表]** 」以開 **[!UICONTROL 啟「資產報表]** 」頁面。
+1. 從管理工具面板，點選／按一下「 **[!UICONTROL 建立／管理報表]** 」以開 **[!UICONTROL 啟「資產報表]** 」頁面。
 
    ![](assets/asset-reports.png)
 
-3. 在「資產報表」頁面中，點選／按一下「 **[!UICONTROL 建立]**」。
-4. 從「建 **[!UICONTROL 立報表]** 」頁面，選取要建立的報表，然後點選／按「下 **[!UICONTROL 一步」]**。
+1. 在「資產報表」頁面中，點選／按一下「 **[!UICONTROL 建立]**」。
+1. 從「建 **[!UICONTROL 立報表]** 」頁面，選取要建立的報表，然後點選／按「下 **[!UICONTROL 一步」]**。
 
    ![](assets/crete-report.png)
 
-5. 設定報表詳細資訊。 指定「下載」、「到期」和「發佈」報表的標題、說明、資料夾結構(其中報表需要執行並產生統 [!UICONTROL 計資料]) [!UICONTROL 和日期]範圍  。
+1. 設定報表詳細資訊。 指定「下載」、「到期」和「發佈」報表的標題、說明、資料夾結構(其中報表需要執行並產生統 [!UICONTROL 計資料]) [!UICONTROL 和日期]範圍  。
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    >
    >報表產生時，報表標題中的特殊字元#和%會以連字型大小(-)取代。
 
-6. 點選／按一 **[!UICONTROL 下「下一步]**」，以設定「下載」、「過期」和「發佈」報表的欄。
-7. 根據需要選擇或取消選擇相應的複選框。 例如，若要在「下載」報表中檢視使用者（下載資產）的名 [!UICONTROL 稱] ，請選取「 **[!UICONTROL 下載者」]**。 下圖說明在「下載」報表中選取預設欄。
+1. 點選／按一 **[!UICONTROL 下「下一步]**」，以設定「下載」、「過期」和「發佈」報表的欄。
+1. 根據需要選擇或取消選擇相應的複選框。 例如，若要在「下載」報表中檢視使用者（下載資產）的名 [!UICONTROL 稱] ，請選取「 **[!UICONTROL 下載者」]**。 下圖說明在「下載」報表中選取預設欄。
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    若要新增自訂欄至「下載」、「發佈」或「有效期」報表，請依照下列步驟執行：
 
    1. 若要顯示自訂欄，請點選／按一 **[!UICONTROL 下自訂欄]**[!UICONTROL 內的新增]。
-   2. 在「欄名」欄位中指 **[!UICONTROL 定欄名]** 。
-   3. 使用屬性選擇器，選擇列需要映射到的屬性。
+   1. 在「欄名」欄位中指 **[!UICONTROL 定欄名]** 。
+   1. 使用屬性選擇器，選擇列需要映射到的屬性。
 
       ![](assets/property-picker.png)
 或者，在屬性路徑欄位中鍵入路徑。
@@ -136,7 +136,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
       若要新增更多自訂欄，請點選／按 **一下** 「新增」，然後重複步驟2和3。
 
-8. 點選／按一下「 **[!UICONTROL 建立]**」。 訊息會通知報表產生已開始。
+1. 點選／按一下「 **[!UICONTROL 建立]**」。 訊息會通知報表產生已開始。
 
 ## 下載報告 {#download-reports}
 
