@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要將影像預設集發佈至品牌入口網站：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，點選／按一下「工具」圖示並導覽至「 **[!UICONTROL Assets]** &gt; **[!UICONTROL 影像預設集」]**。
-2. 從影像預設集清單中選取影像預設集或多個影像預設集，然後按一下／點選「發 **[!UICONTROL 布至品牌入口網站」]**。
+1. 從影像預設集清單中選取影像預設集或多個影像預設集，然後按一下／點選「發 **[!UICONTROL 布至品牌入口網站」]**。
 
 ![](assets/publishpreset.png)
 
@@ -45,7 +45,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要從品牌入口網站取消發佈影像預設集：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「 **[!UICONTROL Tools]** 」（工具）圖示並導覽至「 **[!UICONTROL Assets &gt; Image Presets]**」。
-2. 選取影像預設集，然後從 **[!UICONTROL 頂端的可用選項中選取]** 「從品牌入口網站移除」。
+1. 選取影像預設集，然後從 **[!UICONTROL 頂端的可用選項中選取]** 「從品牌入口網站移除」。
 
 ## 發佈中繼資料結構至品牌入口網站 {#publish-metadata-schema-to-brand-portal}
 
@@ -53,7 +53,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-如果使用者已編輯AEM Author例項上的預設架構，並願意使用與品牌入口網站上的預設架構相同的架構，他們只需將中繼資料架構表單發佈至品牌入口網站。 在這種情況下，品牌入口網站的預設架構會由從AEM Author例項發佈的預設架構過度使用。
+如果使用者已編輯AEM Author例項上的預設架構，並願意使用與品牌入口網站上的預設架構相同的架構，他們只需將中繼資料架構表單發佈至品牌入口網站。 In such a scenario, the default schema at Brand Portal is over-ridden by the default schemas published from AEM Author instance.
 
 如果使用者已在AEM Author例項上建立自訂結構描述，他們可以將自訂結構描述發佈至品牌入口網站，而不需在此重新建立相同的自訂結構描述。 然後，使用者可將此自訂結構套用至品牌入口網站中的任何資料夾／系列。
 
@@ -70,7 +70,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要從AEM Author例項發佈中繼資料結構，請至品牌入口網站：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt; **[!UICONTROL 中繼資料結構]**」。
-2. 選取中繼資料結構，然後從 **[!UICONTROL 上方的可用選項中選取「發佈至品牌入口網站]** 」。
+1. 選取中繼資料結構，然後從 **[!UICONTROL 上方的可用選項中選取「發佈至品牌入口網站]** 」。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要從品牌入口網站取消發佈中繼資料結構：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt; **[!UICONTROL 中繼資料結構]**」。
-2. 選取中繼資料結構，然後從 **[!UICONTROL 頂端的可用選項中]** ，選取「從品牌入口網站移除」。
+1. 選取中繼資料結構，然後從 **[!UICONTROL 頂端的可用選項中]** ，選取「從品牌入口網站移除」。
 
 ## 將搜尋Facet發佈至品牌入口網站 {#publish-search-facets-to-brand-portal}
 
@@ -97,7 +97,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要將編輯過的搜尋Facet從AEM Author例項發佈至品牌入口網站：
 
 1. 點選／按一下AEM標誌，然後前往「工具 **[!UICONTROL &gt;一般]** &gt;搜 **[!UICONTROL 尋表格]******」。
-2. 選取編輯過的搜尋表單，然後選取「 **[!UICONTROL 發佈至品牌入口網站」]**。
+1. 選取編輯過的搜尋表單，然後選取「 **[!UICONTROL 發佈至品牌入口網站」]**。
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 若要從品牌入口網站取消發佈搜尋表單：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「一般&gt;搜 **[!UICONTROL 尋表格]**」。
-2. 選取搜尋表單，然後從上 **[!UICONTROL 方可用的選項中選取]** 「從品牌入口網站移除」。
+1. 選取搜尋表單，然後從上 **[!UICONTROL 方可用的選項中選取]** 「從品牌入口網站移除」。
 
 >[!NOTE]
 >
@@ -116,6 +116,6 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 1. 很少有搜尋謂語不適用於品牌入口網站的搜尋篩選器。 當這些搜尋謂語在從AEM Author例項發佈至品牌入口網站的搜尋表單中時，會將其篩選掉。 因此，在品牌入口網站的發佈表單中，使用者可看到的謂詞數目較少。 請參 [閱適用於品牌入口網站篩選器的搜尋謂語](../using/brand-portal-search-facets.md#list-of-search-predicates)。
 
-2. 對於 [!UICONTROL Options Predicate]，如果使用者在AEM Author例項中使用任何自訂路徑來讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，使用者可以在「 **[!UICONTROL Add Options]** Predicate」（在選項謂詞中新增選項）中選取「Manual ******** 」（手動）選項，以在Brand Portal中手動新增這些選項。
+1. 對於 [!UICONTROL Options Predicate]，如果使用者在AEM Author例項中使用任何自訂路徑來讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，使用者可以在「 **[!UICONTROL Add Options]** Predicate」（在選項謂詞中新增選項）中選取「Manual ******** 」（手動）選項，以在Brand Portal中手動新增這些選項。
 
 ![](assets/options-predicate-manual.png)
