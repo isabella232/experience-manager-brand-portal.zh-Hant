@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 管理
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
+1. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
 
    ![](assets/navigation-panel.png)
 
-3. 在「中繼資 **[!UICONTROL 料結構表單]** 」頁面上，按一 **[!UICONTROL 下建立]**。
+1. 在「中繼資 **[!UICONTROL 料結構表單]** 」頁面上，按一 **[!UICONTROL 下建立]**。
 
    ![](assets/create-metadata-schema-form.png)
 
-4. 在「創 **[!UICONTROL 建架構表單]** 」對話框中，指定架構表單的標題，然後按一下「創 **[!UICONTROL 建]** 」以完成表單建立過程。
+1. 在「創 **[!UICONTROL 建架構表單]** 」對話框中，指定架構表單的標題，然後按一下「創 **[!UICONTROL 建]** 」以完成表單建立過程。
 
    ![](assets/create-schema-form.png)
 
@@ -44,7 +44,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 您可以編輯新增或現有的中繼資料結構表單。 中繼資料結構表單包含衍生自其父項的內容，包括標籤和標籤內的表單項目。 您可以將這些表單項目映射或設定至中繼資料節點內的欄位。
 
-您可以將新標籤或表單項目新增至中繼資料結構表單。 衍生標籤和表單項（來自父項）處於鎖定狀態。 您無法在子級更改它們。
+您可以將新標籤或表單項目新增至中繼資料結構表單。 衍生的標籤和表單項（來自父項）處於鎖定狀態。 您無法在子級更改它們。
 
 要編輯元資料結構表單，請執行以下操作：
 
@@ -52,8 +52,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
-3. 從「元數 **[!UICONTROL 據結構表單]** 」頁中，選擇一個結構表單以編輯其屬性，例如 **[!UICONTROL 集合]**。
+1. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
+1. 從「元數 **[!UICONTROL 據結構表單]** 」頁中，選擇一個結構表單以編輯其屬性，例如 **[!UICONTROL 集合]**。
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,15 +61,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >未編輯的範本會在其前顯示鎖定符號。 如果自定義任何模板，則模板前的「鎖定」符號將消失。
 
-4. 在頂端的工具列中，按一下「編 **[!UICONTROL 輯」]**。
+1. 在頂端的工具列中，按一下「編 **[!UICONTROL 輯」]**。
 
    「中 **[!UICONTROL 繼資料結構編輯器]** 」頁面隨即開啟，左側的「基本 **[!UICONTROL 」索引標籤隨即開啟，右側的「]** 建立表單 **** 」索引標籤隨即開啟。
 
-5. 在「元數 **[!UICONTROL 據結構編輯器]** 」頁中，通過從「構建表單」頁籤的元件類型清單中拖動一個或多個元件到「基本」頁籤，自定義資產的「屬 ************ 性」頁。
+1. 在「元數 **[!UICONTROL 據結構編輯器]** 」頁中，通過從「構建表單」頁籤的元件類型清單中拖動一個或多個元件到「基本」頁籤，自定義資產的「屬 ************ 性」頁。
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. 要配置元件，請選擇該元件並在「設定」頁籤中修改 **[!UICONTROL 其屬]** 性。
+1. 要配置元件，請選擇該元件並在「設定」頁籤中修改 **[!UICONTROL 其屬]** 性。
 
 ### 「生成表單」頁籤中的元件 {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
+1. 在管理工具面板中，按一下中繼資 **[!UICONTROL 料結構]**。
 
-3. 從「中 **[!UICONTROL 繼資料結構表單]** 」頁面中，選取您要套用至資產（例如服裝）的結構 [!UICONTROL 結構表單]。
+1. 從「中 **[!UICONTROL 繼資料結構表單]** 」頁面中，選取您要套用至資產（例如服裝）的結構 [!UICONTROL 結構表單]。
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. 在頂端的工具列中，按一 **[!UICONTROL 下套用至資料夾]**。
+1. 在頂端的工具列中，按一 **[!UICONTROL 下套用至資料夾]**。
 
-5. 從「選 **[!UICONTROL 取檔案夾]** 」頁面，導覽至您要套用Clothing **[!UICONTROL 中繼資料結構的資料夾，例如]** Gloves ****。
+1. 從「選 **[!UICONTROL 取檔案夾]** 」頁面，導覽至您要套用Clothing **[!UICONTROL 中繼資料結構的資料夾，例如]** Gloves ****。
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. 按一下 **[!UICONTROL 應用]** ，將元資料架構表單應用到資料夾。
+1. 按一下 **[!UICONTROL 應用]** ，將元資料架構表單應用到資料夾。
 
    Clothing **** metadata結構表單中可用的中繼資料會套用至 **[!UICONTROL Gloves]** 檔案夾，並在檔案夾的「 **[!UICONTROL Properties]** 」（屬性）頁面中顯示。
 
