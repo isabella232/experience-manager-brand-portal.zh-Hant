@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下「搜 **[!UICONTROL 尋表格」]**。
+1. 在管理工具面板中，按一下「搜 **[!UICONTROL 尋表格」]**。
 
    ![](assets/navigation-panel-1.png)
 
-3. 在「搜尋 **[!UICONTROL 表單」頁]** ，選取「資 **[!UICONTROL 產管理搜尋邊欄」]**。
+1. 在「搜尋 **[!UICONTROL 表單」頁]** ，選取「資 **[!UICONTROL 產管理搜尋邊欄」]**。
 
    ![](assets/search-forms-page.png)
 
-4. 在出現在頂端的工具列上，按一下「 **[!UICONTROL 編輯]** 」以開啟編輯搜尋表單。
+1. 在出現在頂端的工具列上，按一下「 **[!UICONTROL 編輯]** 」以開啟編輯搜尋表單。
 
    ![](assets/edit-search-form-1.png)
 
-5. 在「編 [!UICONTROL 輯搜索表單] 」頁中，將謂詞從「選擇謂詞  」頁籤拖到主窗格。 例如，拖曳 **[!UICONTROL Property Predicate]**。
+1. 在「編 [!UICONTROL 輯搜索表單] 」頁中，將謂詞從「選擇謂詞  」頁籤拖到主窗格。 例如，拖曳 **[!UICONTROL Property Predicate]**。
 
    「屬 **[!UICONTROL 性]** 」欄位會出現在主窗格中，右側的「設定 **** 」標籤會顯示屬性謂語。
 
@@ -56,7 +56,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >「設定」標籤中的標 **[!UICONTROL 題標籤]** ，可識別您選取的謂詞類型。
 
-6. 在「設 **[!UICONTROL 定]** 」標籤中，輸入屬性謂語的標籤、預留位置文字和說明。
+1. 在「設 **[!UICONTROL 定]** 」標籤中，輸入屬性謂語的標籤、預留位置文字和說明。
 
    * 如果 ****&#x200B;您想要允許根據指定的屬性值對資產進行部分片語搜尋（和萬用字元搜尋），請選取「部分搜尋」。 預設情況下，謂詞支援全文搜索。
    * 如果 ****&#x200B;您希望根據屬性值進行資產搜尋時不區分大小寫，請選取「忽略大小寫」。 依預設，搜尋篩選器中的屬性值會區分大小寫。
@@ -64,16 +64,16 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >在選擇「部 **[!UICONTROL 分搜索]** 」(Partial Search [!UICONTROL )複選框時，] 預設情況下會選擇「忽略大小寫」(Ignore Case)。
 
-7. 在「屬 [!UICONTROL 性名稱] 」欄位中，開啟屬性選擇器並選擇執行搜索的屬性。 或者，輸入屬性的名稱。 例如，輸入 [!UICONTROL `  jcr :content/metadata/dc:title`] 或 [!UICONTROL `./jcr:content/metadata/dc:title`]。
+1. 在「屬 [!UICONTROL 性名稱] 」欄位中，開啟屬性選擇器並選擇執行搜索的屬性。 或者，輸入屬性的名稱。 例如，輸入 [!UICONTROL `  jcr :content/metadata/dc:title`] 或 [!UICONTROL `./jcr:content/metadata/dc:title`]。
 
    ![](assets/title-prop.png)
 
-8. 按一 **[!UICONTROL 下「完成]** 」以儲存設定。
-9. 在「資 [!UICONTROL 產] 」使用者介面中，按一下覆蓋圖示，然後選擇「篩選」以導覽至「篩選 **[!UICONTROL 器]****** 」面板。 The **[!UICONTROL Property]** predicate is added to the panel.
+1. 按一 **[!UICONTROL 下「完成]** 」以儲存設定。
+1. 在「資 [!UICONTROL 產] 」使用者介面中，按一下覆蓋圖示，然後選擇「篩選」以導覽至「篩選 **[!UICONTROL 器]****** 」面板。 The **[!UICONTROL Property]** predicate is added to the panel.
 
    ![](assets/property-filter-panel.png)
 
-10. 在「屬性」文字方塊中輸入要搜尋的資產 **[!UICONTROL 標題]** 。 例如，「Adobe」。 當您執行搜尋時，標題符合「Adobe」的資產會顯示在搜尋結果中。
+1. 在「屬性」文字方塊中輸入要搜尋的資產 **[!UICONTROL 標題]** 。 例如，「Adobe」。 當您執行搜尋時，標題符合「Adobe」的資產會顯示在搜尋結果中。
 
 ## 搜索謂語清單 {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，按一下「搜 **[!UICONTROL 尋表格」]**。
+1. 在管理工具面板中，按一下「搜 **[!UICONTROL 尋表格」]**。
 
    ![](assets/navigation-panel-2.png)
 
-3. 在「搜尋 **[!UICONTROL 表單」頁]** ，選取「資 **[!UICONTROL 產管理搜尋邊欄」]**。
+1. 在「搜尋 **[!UICONTROL 表單」頁]** ，選取「資 **[!UICONTROL 產管理搜尋邊欄」]**。
 
    ![](assets/search-forms-page.png)
 
-4. 在出現在頂端的工具列上，按一下「 **[!UICONTROL 編輯]** 」以開啟編輯搜尋表單。
+1. 在出現在頂端的工具列上，按一下「 **[!UICONTROL 編輯]** 」以開啟編輯搜尋表單。
 
    ![](assets/edit-search-form-2.png)
 
-5. 在「編 [!UICONTROL 輯搜索表單] 」頁的主窗格中，選擇要刪除的謂詞。 例如，選擇 **[!UICONTROL Property Predicate]**。
+1. 在「編 [!UICONTROL 輯搜索表單] 」頁的主窗格中，選擇要刪除的謂詞。 例如，選擇 **[!UICONTROL Property Predicate]**。
 
    右側 **[!UICONTROL 的「設定]** 」標籤會顯示屬性謂詞欄位。
 
-6. 若要刪除屬性謂語，請按一下bin圖示。 在「刪 **[!UICONTROL 除欄位]** 」對話方塊中，按一 **[!UICONTROL 下「刪除]** 」以確認刪除動作。
+1. 若要刪除屬性謂語，請按一下bin圖示。 在「刪 **[!UICONTROL 除欄位]** 」對話方塊中，按一 **[!UICONTROL 下「刪除]** 」以確認刪除動作。
 
    The **[!UICONTROL Property Predicate]** field is removed from the main pane, and the **[!UICONTROL Settings]** tab bempty.
 
    ![](assets/search-form-delete-predicate.png)
 
-7. 要保存更改，請按一下工 **[!UICONTROL 具欄]** 中的「完成」。
-8. 在「資 **[!UICONTROL 產]** 」使用者介面中，按一下覆蓋圖示，然後選擇「篩選」以導覽至「篩選 **[!UICONTROL 器]****** 」面板。 The **[!UICONTROL Property]** predicate is removed from the panel.
+1. 要保存更改，請按一下工 **[!UICONTROL 具欄]** 中的「完成」。
+1. 在「資 **[!UICONTROL 產]** 」使用者介面中，按一下覆蓋圖示，然後選擇「篩選」以導覽至「篩選 **[!UICONTROL 器]****** 」面板。 The **[!UICONTROL Property]** predicate is removed from the panel.
 
    ![](assets/property-predicate-removed.png)
