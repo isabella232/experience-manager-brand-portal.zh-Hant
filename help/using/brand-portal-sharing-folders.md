@@ -9,7 +9,7 @@ topic-tags: 共用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -46,24 +46,24 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 >
 >AEM 6.3.2.1以 [!UICONTROL 後版本提供啟用「公用檔案夾發佈] 」的選項。
 
-## 存取共用資料夾 {#access-to-shared-folders}
+## Access to shared folders {#access-to-shared-folders}
 
-以下矩陣討論不同使用者角色的共用／取消共用資產的存取權限與權限：
+The following matrix discusses the access rights and rights to share/ unshare assets for various user roles:
 
-|  | 存取從AEM Assets發佈至品牌入口網站的所有資料夾 | 存取共用資料夾 | 共用／取消共用資料夾權限 |
+|  | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders | Share/unshare folder rights |
 |---------------|-----------|-----------|------------|
-| 管理員 | 是 | 是 | 是 |
-| 編輯者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 是的，僅適用於與他們或他們所屬的組共用的資料夾 |
-| 檢視者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 否 |
-| 訪客使用者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 否 |
+| Administrator | 是 | 是 | 是 |
+| 編輯者 | 否* | Yes, only if shared with them or with the group to which they belong | Yes, only for the folders shared with them or with the group to which they belong |
+| 檢視者 | 否* | Yes, only if shared with them or with the group to which they belong | 否 |
+| 訪客使用者 | 否* | Yes, only if shared with them or with the group to which they belong | 否 |
 
-**依預設，在設定品牌入口網站與AEM作者複製時，會停用「公用資料夾發佈」選項。 如果啟用此選項，則所有使用者（非管理員使用者）都預設可存取發佈至品牌入口網站的資料夾。*
+**By default, the Public Folder Publish option is disabled while configuring replication of Brand Portal with AEM Author.如果啟用此選項，則所有使用者（非管理員使用者）都預設可存取發佈至品牌入口網站的資料夾。*
 
-### 非管理員使用者存取共用資料夾 {#non-admin-user-access-to-shared-folders}
+### Non-admin user access to shared folders {#non-admin-user-access-to-shared-folders}
 
-非管理員使用者只能存取品牌入口網站上與他們共用的資料夾。 不過，這些檔案夾登入時在入口網站上的顯示方式，會視「啟用檔案夾階層」 [!UICONTROL 組態設定而定] 。
+Non-admin users can access only the folders shared with them on Brand Portal. 不過，這些檔案夾登入時在入口網站上的顯示方式，會視「啟用檔案夾階層」 [!UICONTROL 組態設定而定] 。
 
-**如果配置已禁用**
+**If the configuration is disabled**
 
 非管理員使用者登入品牌入口網站時，會在登陸頁面上看到與他們共用的所有資料夾。
 
@@ -91,15 +91,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/selectorrail.png)
 
-2. 從左側的脫軌中，選擇「文 **[!UICONTROL 件」]**。
+1. 從左側的脫軌中，選擇「文 **[!UICONTROL 件」]**。
 
    ![](assets/access_files.png)
 
-3. 從品牌入口網站介面中，選取您要共用的資料夾。
+1. 從品牌入口網站介面中，選取您要共用的資料夾。
 
    ![](assets/share-folders.png)
 
-4. 從頂部的工具欄中，選擇「共 **[!UICONTROL 享」]**。
+1. 從頂部的工具欄中，選擇「共 **[!UICONTROL 享」]**。
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/folder_properties.png)
 
-5. 在「 [!UICONTROL Folder Properties] 」（資料夾屬性）控制台中 [!UICONTROL ，如果不希望向用戶顯示預設名稱，請在「] Folder Title」（資料夾標題）欄位中指定資料夾標題。
-6. 從「添 [!UICONTROL 加用戶] 」清單中，選擇要與其共用資料夾的用戶或組，然後按一下「添 **[!UICONTROL 加」]**。
+1. 在「 [!UICONTROL Folder Properties] 」（資料夾屬性）控制台中 [!UICONTROL ，如果不希望向用戶顯示預設名稱，請在「] Folder Title」（資料夾標題）欄位中指定資料夾標題。
+1. 從「添 [!UICONTROL 加用戶] 」清單中，選擇要與其共用資料夾的用戶或組，然後按一下「添 **[!UICONTROL 加」]**。
 要僅與來賓用戶（而不與其他用戶）共用資料夾，請從「成員」下拉 **[!UICONTROL 式清單中選擇]** 「匿名 [!UICONTROL 用戶] 」。
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >要使資料夾對所有用戶都可用，而不考慮其組成員資格和角色，請通過選中「公用資料夾」( **[!UICONTROL Public Folder]** )複選框將其公開。
 
-7. 如有必要，請按一 **[!UICONTROL 下「變更縮圖]** 」以修改資料夾的縮圖影像。
-8. Click **[!UICONTROL Save]**.
-9. 若要存取共用資料夾，請使用您共用資料夾之使用者的認證登入品牌入口網站。 查看介面中的共用資料夾。
+1. 如有必要，請按一 **[!UICONTROL 下「變更縮圖]** 」以修改資料夾的縮圖影像。
+1. Click **[!UICONTROL Save]**.
+1. 若要存取共用資料夾，請使用您共用資料夾之使用者的認證登入品牌入口網站。 查看介面中的共用資料夾。
 
 ## 取消共用資料夾 {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/share-folders-1.png)
 
-2. 在頂端的工具列中，按一下「共 **[!UICONTROL 用」]**。
-3. 在「文 [!UICONTROL 件夾屬性] 」控制台的「成員」( [!UICONTROL Members])下，按一下用戶旁邊的 **** x符號，將它們從與共用資料夾的用戶清單中刪除。
+1. 在頂端的工具列中，按一下「共 **[!UICONTROL 用」]**。
+1. 在「文 [!UICONTROL 件夾屬性] 」控制台的「成員」( [!UICONTROL Members])下，按一下用戶旁邊的 **** x符號，將它們從與共用資料夾的用戶清單中刪除。
 
    ![](assets/folder_propertiesunshare.png)
 
-4. 在警告訊息方塊中，按一下「 **[!UICONTROL 確認]** 」以確認取消共用。
-Click **[!UICONTROL Save]**.
+1. In the warning message box, click Confirm to confirm unshare.
+**** Click **[!UICONTROL Save]**.
 
-5. 使用您從共用清單中移除的使用者認證登入品牌入口網站。 該資料夾不再適用於使用者的品牌入口網站介面。
+1. 使用您從共用清單中移除的使用者認證登入品牌入口網站。 The folder is no longer available in the Brand Portal interface for the user.
