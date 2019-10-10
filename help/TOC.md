@@ -5,7 +5,7 @@ sub-product: 體驗經理品牌入口網站
 audience: 最終用戶
 user-guide-title: AEM 品牌入口網站
 translation-type: tm+mt
-source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
+source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
 
 ---
 
@@ -28,6 +28,22 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [疑難排解並行發佈至品牌入口網站的問題](using/troubleshoot-parallel-publishing.md)
    + [發佈標籤至品牌入口網站](using/brand-portal-publish-tags.md)
    + [將預設集、結構和刻面發佈至品牌入口網站](using/publish-schema-search-facets-presets.md)
++ 品牌入口網站中的資產採購 {#asset-sourcing-in-brand-portal}
+   + [綜覽](using/brand-portal-asset-sourcing.md)
+   + 在AEM中設定資產來源補充 {#configure-asset-sourcing-in-aem}
+      + [啟用資產來源補充](using/brand-portal-enable-asset-sourcing.md)
+      + [上傳品牌入口網站使用者清單](using/brand-portal-upload-user-list.md)
+   + 在AEM Assets中設定貢獻檔案夾 {#configure-contribution-folder}
+      + [綜覽](using/brand-portal-contribution-folder.md)
+      + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
+      + [設定貢獻資料夾屬性](using/brand-portal-configure-contribution-folder-properties.md)
+      + [上傳基準資產](using/brand-portal-upload-baseline-assets.md)
+      + [將貢獻資料夾發佈至品牌入口網站](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + 在品牌入口網站中使用資產來源補充 {#using-asset-sourcing}
+      + [綜覽](using/brand-portal-overiew-using-asset-sourcing.md)
+      + [下載資產需求](using/brand-portal-download-asset-requirements.md)
+      + [上傳資產至貢獻資料夾](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
    + [共用系列](using/brand-portal-share-collection.md)
    + [共用資料夾](using/brand-portal-sharing-folders.md)
