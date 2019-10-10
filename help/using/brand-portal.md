@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 簡介
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 但是，開發解決方案以支援與延伸內部團隊、合作夥伴和經銷商有效且安全地分享經核准的品牌標誌、准則、宣傳資產或產品像片，是一項挑戰。
 
-**Adobe Experience Manager(AEM)Assets Brand Portal** ，可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。
+**Adobe Experience Manager(AEM)Assets Brand Portal** ，著重說明行銷人員需要透過提供資產分發和資產貢獻功能，與全球分散的Brand Portal使用者有效地協作。
+
+資產分發可讓您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產分發給外部人士和內部商業使用者。 但是，資產貢獻可讓品牌入口網站使用者將資產上傳至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 貢獻功能稱為品牌入口 **網站中的「資產採購」**。 此外，它可改善資產分發的整體品牌入口網站體驗，並從品牌入口網站使用者（外部機構／團隊）獲得貢獻，加速資產上市時間，並降低不合規和未授權存取的風險。
+請參閱「品 [牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)」。
 
 以瀏覽器為基礎的入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
 
@@ -54,7 +57,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 [下載公用資產](brand-portal-download-users.md)
 
-[將資產添加到[!UICONCONTROL燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
+[將資產新增至 [!UICONTROL 燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 檢視者 {#viewer}
 
@@ -165,7 +168,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 若要授與存取權，產品管理員必須按一下品牌入口網站通知區中的相關通知，然後按一下「授 **[!UICONTROL 與存取權]**」。
 或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console] ，並將使用者新增至相關的產品設定。
 
-您會被重新導向 [至Adobe [!UICONTROL管理控制台]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] ，建立使用者並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 如需有關在 [!UICONTROL Admin Console中新增使用者的詳細資訊]，請參閱 [](brand-portal-adding-users.md#add-a-user) 新增使用者（請依照新增使用者的程式中的步驟4-7）。
+您會被重新導向 [至Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] ，建立使用者並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 如需有關在 [!UICONTROL Admin Console中新增使用者的詳細資訊]，請參閱 [](brand-portal-adding-users.md#add-a-user) 新增使用者（請依照新增使用者的程式中的步驟4-7）。
 
 ## 品牌入口網站語言 {#brand-portal-language}
 
