@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -45,7 +45,7 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 | 不適用或1 | downloads-na1.brand-portal.adobe.com |
 | 北美VA5 | downloads-na2.brand-portal.adobe.com |
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
-| APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
+| 亞太SIN2 | downloads-apac1.brand-portal.adobe.com |
 
 ## 使用檔案加速器的下載效能範例 {#expected-download-performance-using-file-accelerator}
 
@@ -133,7 +133,7 @@ Microsoft edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
 ![](assets/aspera-preferences.png)
 
-此外，Aspera connect用戶端也可以標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
+此外，Aspera connect用戶端也可標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
 
 ![](assets/aspera-automaticallylaunch.png)
 
