@@ -1,6 +1,6 @@
 ---
-title: 自訂壁紙、頁首和電子郵件訊息
-seo-title: 自訂壁紙、頁首和電子郵件訊息
+title: 自訂壁紙、標題和電子郵件訊息
+seo-title: 自訂壁紙、標題和電子郵件訊息
 description: 品牌入口網站管理員可以對顯示給使用者的介面進行有限的自訂。 您可以為品牌入口網站登入頁面選擇特定的背景影像（壁紙）。 您也可以新增標題影像並自訂資產共用電子郵件，以符合客戶的品牌。
 seo-description: 品牌入口網站管理員可以對顯示給使用者的介面進行有限的自訂。 您可以為品牌入口網站登入頁面選擇特定的背景影像（壁紙）。 您也可以新增標題影像並自訂資產共用電子郵件，以符合客戶的品牌。
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
@@ -9,12 +9,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 管理
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 自訂壁紙、頁首和電子郵件訊息 {#customize-wallpaper-header-and-email-message}
+# 自訂壁紙、標題和電子郵件訊息 {#customize-wallpaper-header-and-email-message}
 
 品牌入口網站管理員可以對顯示給使用者的介面進行有限的自訂。 您可以為品牌入口網站登入頁面選擇特定的背景影像（壁紙）。 您也可以新增標題影像並自訂資產共用電子郵件，以符合客戶的品牌。
 
