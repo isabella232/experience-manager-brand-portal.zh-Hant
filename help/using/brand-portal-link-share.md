@@ -1,6 +1,6 @@
 ---
-title: 將資產共用為連結
-seo-title: 將資產共用為連結
+title: 以連結方式共用資產
+seo-title: 以連結方式共用資產
 description: AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
 seo-description: AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
@@ -10,12 +10,12 @@ topic-tags: 共用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 將資產共用為連結 {#share-assets-as-a-link}
+# 以連結方式共用資產 {#share-assets-as-a-link}
 
 AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
 
@@ -92,12 +92,13 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 
    ![](assets/licensed-asset-download.png)
 
-   出現 [!UICONTROL 「下載] 」對話框。<br />
+   出現 **[!UICONTROL 「下載]** 」對話框。
+
    ![](assets/download-linkshare.png)
 
    * 若要加速下載共用為連結的資產檔案，請選取「啟用下載 **[!UICONTROL 加速]** 」選項， [然後遵循精靈](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 若要進一步瞭解品牌入口網站上資產的快速下載，請參 [閱指南以加速從品牌入口網站的下載](../using/accelerated-download.md)。
-[!UICONCONTROL
-1. 若要從共用連結下載資產的轉譯，以及資產的轉譯，請選取「轉 **[!UICONTROL 譯」選項]** 。 當您這麼做時，會出 **現「排除系統轉譯」** (Exclude System Renditions)選項，此選項預設為選取。 這可防止下載現成可用的轉譯，以及已核准的資產或其自訂轉譯。
+
+1. 若要從共用連結下載資產的轉譯，以及資產的轉譯，請選取「轉 **[!UICONTROL 譯」選項]** 。 執行此操作時，會出 **[!UICONTROL 現「排除系統轉譯]** 」選項，預設情況下該選項處於選中狀態。 這可防止下載現成可用的轉譯，以及已核准的資產或其自訂轉譯。
 
    不過，若要允許自動產生的轉譯與自訂轉譯一起下載，請取消選取「排 **[!UICONTROL 除系統轉譯」選項]** 。
 
