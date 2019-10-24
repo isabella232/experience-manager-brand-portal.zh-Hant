@@ -1,6 +1,6 @@
 ---
-title: 將預設集、結構和刻面發佈至品牌入口網站
-seo-title: 將預設集、結構和刻面發佈至品牌入口網站
+title: 將預設集、結構和 Facet 發佈至 Brand Portal
+seo-title: 將預設集、結構和 Facet 發佈至 Brand Portal
 description: 瞭解如何將預設集、結構描述和刻面發佈至品牌入口網站。
 seo-description: 瞭解如何將預設集、結構描述和刻面發佈至品牌入口網站。
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
@@ -9,12 +9,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 將預設集、結構和刻面發佈至品牌入口網站 {#publish-presets-schema-and-facets-to-brand-portal}
+# 將預設集、結構和 Facet 發佈至 Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
 文章會將影像預設集、中繼資料結構描述和自訂搜尋刻面從AEM Author例項發佈至品牌入口網站。 發佈功能可讓組織重複使用在AEM Author例項中建立／修改的影像預設集、中繼資料結構，以及搜尋Facet，以減少重複的工作。
 
@@ -33,7 +33,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 若要將影像預設集發佈至品牌入口網站：
 
-1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，點選／按一下「工具」圖示並導覽至「 **[!UICONTROL Assets]** &gt; **[!UICONTROL 影像預設集」]**。
+1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，點選／按一下「工具」圖示並導覽至「 **[!UICONTROL 資產&gt;影像預設集」]**。
 1. 從影像預設集清單中選取影像預設集或多個影像預設集，然後按一下／點選「發 **[!UICONTROL 布至品牌入口網站」]**。
 
 ![](assets/publishpreset.png)
@@ -53,7 +53,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-如果使用者已編輯AEM Author例項上的預設架構，並願意使用與品牌入口網站上的預設架構相同的架構，他們只需將中繼資料架構表單發佈至品牌入口網站。 In such a scenario, the default schema at Brand Portal is over-ridden by the default schemas published from AEM Author instance.
+如果使用者已編輯AEM Author例項上的預設架構，並願意使用與品牌入口網站上的預設架構相同的架構，他們只需將中繼資料架構表單發佈至品牌入口網站。 在這種情況下，品牌入口網站的預設架構會由從AEM Author例項發佈的預設架構過度使用。
 
 如果使用者已在AEM Author例項上建立自訂結構描述，他們可以將自訂結構描述發佈至品牌入口網站，而不需在此重新建立相同的自訂結構描述。 然後，使用者可將此自訂結構套用至品牌入口網站中的任何資料夾／系列。
 
@@ -69,7 +69,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 若要從AEM Author例項發佈中繼資料結構，請至品牌入口網站：
 
-1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt; **[!UICONTROL 中繼資料結構]**」。
+1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt;中繼資 **[!UICONTROL 料結構」]**。
 1. 選取中繼資料結構，然後從 **[!UICONTROL 上方的可用選項中選取「發佈至品牌入口網站]** 」。
 
 >[!NOTE]
@@ -78,7 +78,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 若要從品牌入口網站取消發佈中繼資料結構：
 
-1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt; **[!UICONTROL 中繼資料結構]**」。
+1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產&gt;中繼資 **[!UICONTROL 料結構」]**。
 1. 選取中繼資料結構，然後從 **[!UICONTROL 頂端的可用選項中]** ，選取「從品牌入口網站移除」。
 
 ## 將搜尋Facet發佈至品牌入口網站 {#publish-search-facets-to-brand-portal}
@@ -96,7 +96,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 若要將編輯過的搜尋Facet從AEM Author例項發佈至品牌入口網站：
 
-1. 點選／按一下AEM標誌，然後前往「工具 **[!UICONTROL &gt;一般]** &gt;搜 **[!UICONTROL 尋表格]******」。
+1. 點選／按一下AEM標誌，然後前往「工具&gt;一 **[!UICONTROL 般&gt;搜尋表單」]**。
 1. 選取編輯過的搜尋表單，然後選取「 **[!UICONTROL 發佈至品牌入口網站」]**。
 
    >[!NOTE]
