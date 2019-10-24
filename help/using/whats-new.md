@@ -1,21 +1,21 @@
 ---
-title: AEM Assets品牌入口網站的新增功能
-seo-title: AEM Assets品牌入口網站的新增功能
+title: AEM Assets Brand Portal 的新功能
+seo-title: AEM Assets Brand Portal 的新功能
 description: 檢視6.4.5的新功能和增強功能。
 seo-description: 檢視6.4.5的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: 布達爾
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: 參考
 topic-tags: 簡介
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# AEM Assets品牌入口網站的新增功能 {#what-s-new-in-aem-assets-brand-portal}
+# AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
 
@@ -127,11 +127,11 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 ### 在特定資料夾階層或路徑中搜尋
 
-**Path Browser** predicate is enduced in Search Form to allow search of assets in a specific directory. 路徑瀏覽器的搜索謂語的預設搜索路徑是 */content/dam/mac/&lt;tenant-id&gt;/*，可通過編輯預設搜索表單來配置。
+**Path Browser** predicate is enduced in Search Form to allow search of assets in a specific directory. 路徑瀏覽器的搜索謂語的預設搜索路徑是 `/content/dam/mac/<tenant-id>/`，可通過編輯預設搜索表單來配置。
 
 * 管理員使用者可使用路徑瀏覽器導覽至品牌入口網站上的任何資料夾目錄。
 * 非管理員使用者可使用路徑瀏覽器，僅瀏覽至與他們共用的資料夾（並返回上層資料夾）。
-例如， */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* 是與非管理員使用者共用。 使用者可使用路徑瀏覽器在folderC內搜尋資產。 此用戶還可以導航到folderB和folderA（因為它們是與用戶共用的folderC的祖先）。
+例如，與 `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 非管理員使用者共用。 使用者可使用路徑瀏覽器在folderC內搜尋資產。 此用戶還可以導航到folderB和folderA（因為它們是與用戶共用的folderC的祖先）。
 
 ![](assets/edit-search-form.png)
 
@@ -381,9 +381,9 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 
 Brand Portal 6.3.2包含新增和增強功能，以滿足客戶的熱門要求和一般效能增強功能。
 
-### 要求存取品牌入口網站 {#request-access-to-brand-portal}
+### Request access to Brand Portal {#request-access-to-brand-portal}
 
-使用者現在可使用品牌入口網站登入畫面上的全新** **存取功能來要求存取品牌入口網站。
+使用者現在可使用品牌入口網站登入畫面 **上的新** 「需要存取」功能來要求存取品牌入口網站。
 
 ![](assets/bplogin_request_access.png)
 
