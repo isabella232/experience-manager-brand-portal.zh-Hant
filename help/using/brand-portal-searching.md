@@ -1,5 +1,5 @@
 ---
-title: 品牌入口網站上的搜尋資產
+title: 在 Brand Portal 上搜尋資產
 seo-title: AEM品牌入口網站上的資產搜尋和儲存的搜尋
 description: 品牌入口網站搜尋功能可讓您使用搜尋功能快速搜尋相關資產，而搜尋篩選器可協助您進一步縮小搜尋範圍。 將搜尋儲存為智慧型系列，以備日後使用。
 seo-description: 品牌入口網站搜尋功能可讓您使用搜尋功能快速搜尋相關資產，而搜尋篩選器可協助您進一步縮小搜尋範圍。 將搜尋儲存為智慧型系列，以備日後使用。
@@ -10,12 +10,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 品牌入口網站上的搜尋資產 {#search-assets-on-brand-portal}
+# 在 Brand Portal 上搜尋資產 {#search-assets-on-brand-portal}
 
 品牌入口網站搜尋功能可讓您使用搜尋功能快速搜尋相關資產，而分面搜尋則使用篩選器協助您進一步縮小搜尋範圍。 您也可以將搜尋儲存為智慧型系列，以供日後使用。
 
@@ -62,7 +62,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 1. 從左側 **[!UICONTROL 的「篩選]** 」面板中，選取適當的選項以套用相關的篩選。
 例如，請使用下列標準篩選：
 
-   * **[!UICONTROL 路徑瀏覽器]** ，以搜尋特定目錄中的資產。 路徑瀏覽器的謂語預設搜尋路徑為 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**，可透過編輯預設搜尋表單來設定。
+   * **[!UICONTROL 路徑瀏覽器]** ，以搜尋特定目錄中的資產。 路徑瀏覽器的謂詞的預設搜索路徑是 `/content/dam/mac/<tenant-id>/`，可通過編輯預設搜索表單來配置。
    >[!NOTE]
    >
    >對於非管理員用戶，「篩 [!UICONTROL 選器」面板中的「路徑瀏覽器] 」僅顯示與其共用的資料夾（及其原級資料夾）的內容結構。\
