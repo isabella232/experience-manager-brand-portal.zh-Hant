@@ -9,12 +9,12 @@ topic-tags: 品牌入口網站
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# 將新資產上傳至貢獻檔案夾 {#uplad-new-assets-to-contribution-folder}
+# 上傳資產至貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
 
 品牌入口網 [站使用者下載資產需求](brand-portal-download-asset-requirements.md) -貢獻資料夾附加的簡要檔案，並從 **SHARED** 資料夾下載基準資產，以瞭解貢獻的需要。
 然後，品牌入口網站使用者可以建立新的貢獻資產，並將它們上傳至貢 **獻資料夾的** 「新增」資料夾。
