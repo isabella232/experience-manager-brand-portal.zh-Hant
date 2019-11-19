@@ -1,38 +1,37 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: 體驗經理品牌入口網站
-audience: 最終用戶
-user-guide-title: AEM 品牌入口網站
+sub-product: experience manager brand portal
+audience: end-user
+user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
 
 # 目錄 {#using}
 
-+ [品牌入口網站使用指南](using/home.md)
++ [Brand Portal 使用手冊](using/home.md)
 + 簡介 {#introduction}
-   + [綜覽](using/brand-portal.md)
-   + [AEM Assets品牌入口網站的新增功能](using/whats-new.md)
+   + [概覽](using/brand-portal.md)
+   + [AEM Assets Brand Portal 的新功能](using/whats-new.md)
    + [發行說明](using/brand-portal-release-notes.md)
+   + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
-   + [品牌入口網站的訪客存取](using/guest-access.md)
+   + [Brand Portal 的訪客存取](using/guest-access.md)
    + [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
-   + [在品牌入口網站上瀏覽資產](using/browse-assets-brand-portal.md)
-+ 從AEM Assets發佈至品牌入口網站 {#publish}
+   + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
++ 從 AEM Assets 發佈至 Brand Portal {#publish}
    + [設定與品牌入口網站的AEM資產整合](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
    + [將系列發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
    + [將資料夾發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
-   + [疑難排解並行發佈至品牌入口網站的問題](using/troubleshoot-parallel-publishing.md)
-   + [發佈標籤至品牌入口網站](using/brand-portal-publish-tags.md)
-   + [將預設集、結構和刻面發佈至品牌入口網站](using/publish-schema-search-facets-presets.md)
+   + [疑難排解平行發佈至 Brand Portal 的問題](using/troubleshoot-parallel-publishing.md)
+   + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
+   + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + 品牌入口網站中的資產採購 {#asset-sourcing-in-brand-portal}
    + [綜覽](using/brand-portal-asset-sourcing.md)
-   + 在AEM中設定資產來源補充 {#configure-asset-sourcing-in-aem}
-      + [啟用資產來源補充](using/brand-portal-enable-asset-sourcing.md)
-      + [上傳品牌入口網站使用者清單](using/brand-portal-upload-user-list.md)
+   + [在AEM中設定資產來源補充](using/brand-portal-configure-asset-sourcing.md)
    + 在AEM Assets中設定貢獻檔案夾 {#configure-contribution-folder}
       + [綜覽](using/brand-portal-contribution-folder.md)
       + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
@@ -45,25 +44,25 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
       + [上傳資產至貢獻資料夾](using/brand-portal-upload-assets-to-contribution-folder.md)
       + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
-   + [共用系列](using/brand-portal-share-collection.md)
+   + [共用集合](using/brand-portal-share-collection.md)
    + [共用資料夾](using/brand-portal-sharing-folders.md)
-   + [將資產共用為連結](using/brand-portal-link-share.md)
-+ 使用搜尋功能 {#search-capabilities}
-   + [品牌入口網站上的搜尋資產](using/brand-portal-searching.md)
-   + [使用自訂搜尋Facet](using/brand-portal-search-facets.md)
+   + [以連結方式共用資產](using/brand-portal-link-share.md)
++ 使用搜尋功能{#search-capabilities}
+   + [在 Brand Portal 上搜尋資產](using/brand-portal-searching.md)
+   + [使用自訂搜尋 Facet](using/brand-portal-search-facets.md)
 + 使用下載功能 {#download}
    + [下載資產](using/brand-portal-download-users.md)
-   + [品牌入口網站上的動態視訊支援](using/dynamic-video-brand-portal.md)
+   + [Brand Portal 上的動態視訊支援](using/dynamic-video-brand-portal.md)
    + [管理燈箱集合](using/brand-portal-light-box.md)
-   + [管理資產的數位權利](using/manage-digital-rights-of-assets.md)
-   + [加速從品牌入口網站下載的指南](using/accelerated-download.md)
+   + [管理資產的數位版權](using/manage-digital-rights-of-assets.md)
+   + [從 Brand Portal 加速下載的指南](using/accelerated-download.md)
 + 使用管理工具 {#admin-tools}
-   + [管理品牌入口網站上的使用者存取權](using/access-configurations-brand-portal.md)
+   + [在 Brand Portal 上管理使用者存取](using/access-configurations-brand-portal.md)
    + [管理一般租用戶組態](using/brand-portal-general-configuration.md)
    + [首次登入體驗](using/brand-portal-onboarding.md)
    + [管理使用者、群組和使用者角色](using/brand-portal-adding-users.md)
-   + [自訂壁紙、頁首和電子郵件訊息](using/brand-portal-branding.md)
-   + [使用自訂搜尋Facet](using/brand-portal-search-facets.md)
+   + [自訂壁紙、標題和電子郵件訊息](using/brand-portal-branding.md)
+   + [使用自訂搜尋 Facet](using/brand-portal-search-facets.md)
    + [使用中繼資料結構表單](using/brand-portal-metadata-schemas.md)
    + [套用影像預設集或動態轉譯](using/brand-portal-image-presets.md)
    + [使用報表](using/brand-portal-reports.md)
