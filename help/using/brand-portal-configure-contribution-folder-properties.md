@@ -4,12 +4,12 @@ seo-title: 設定貢獻資料夾屬性
 description: '取得如何在AEM Assets中設定貢獻資料夾屬性的分析。 '
 seo-description: '取得如何在AEM Assets中設定貢獻資料夾屬性的分析。 '
 uuid: null
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
 AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 
 * **添加說明**:提供貢獻資料夾的高階說明。
-* **上傳簡介**: 上載包含資產相關資訊的資產需求文檔。
+* **上傳簡介**: 上傳包含資產相關資訊的資產需求檔案。
 * **新增參與者**:新增品牌入口網站使用者或群組，以授與他們對貢獻資料夾的存取權。
 
 資產需求是指管理員提供的詳細資訊，以協助參與者（品牌入口網站使用者）瞭解貢獻資料夾的需求和需求。 管理員上傳資產需求檔案，其中包含應新增至貢獻檔案夾的資產類型及資產相關資訊的簡介，例如用途、影像類型、最大大小等。
@@ -41,4 +41,4 @@ AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 
 >[!NOTE]
 >
->搜尋結果是以AEM Assets中設定的品牌入口網站使用者清單為基礎。 請確定您有更新的品牌入口網站使用者清單。 請參閱「上 [傳品牌入口網站使用者清單](brand-portal-upload-user-list.md)」。
+>搜尋結果是以AEM Assets中設定的品牌入口網站使用者清單為基礎。 請確定您有更新的品牌入口網站使用者清單。 請參閱「上 [傳品牌入口網站使用者清單](brand-portal-configure-asset-sourcing.md)」。
