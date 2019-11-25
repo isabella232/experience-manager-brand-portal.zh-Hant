@@ -7,9 +7,10 @@ uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
+version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
 
 ---
 
@@ -19,7 +20,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 
 * **添加說明**:提供貢獻資料夾的高階說明。
-* **上傳簡介**: 上傳包含資產相關資訊的資產需求檔案。
+* **上傳簡介**: 上載包含資產相關資訊的資產需求文檔。
 * **新增參與者**:新增品牌入口網站使用者或群組，以授與他們對貢獻資料夾的存取權。
 
 資產需求是指管理員提供的詳細資訊，以協助參與者（品牌入口網站使用者）瞭解貢獻資料夾的需求和需求。 管理員上傳資產需求檔案，其中包含應新增至貢獻檔案夾的資產類型及資產相關資訊的簡介，例如用途、影像類型、最大大小等。
