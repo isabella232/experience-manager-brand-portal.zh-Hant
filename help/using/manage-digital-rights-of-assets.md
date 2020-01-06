@@ -1,21 +1,21 @@
 ---
-title: 管理資產的數位權利
-seo-title: 管理資產的數位權利
+title: 管理資產的數位版權
+seo-title: 管理資產的數位版權
 description: 授權資產並設定資產和共用連結的到期日，可確保這些資產的使用受到控制，並保障其安全。
 seo-description: 授權資產並設定資產和共用連結的到期日，可確保這些資產的使用受到控制，並保障其安全。
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
-contentOwner: 布達爾
-topic-tags: 下載——安裝
+contentOwner: bdhar
+topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# 管理資產的數位權利 {#manage-digital-rights-of-assets}
+# 管理資產的數位版權 {#manage-digital-rights-of-assets}
 
 確保創意資產和品牌資料的安全分發和使用對於保護您的品牌至關重要。 您可將到期日（和時間）與已核准的資產從AEM發佈至品牌入口網站，或是授權這些資產以條件性使用，在組織內外強制執行此授權。 此外，品牌入口網站可讓您指定從品牌入口網站分享之資產連結的到期日。
 
@@ -29,7 +29,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 在品牌入口網站中，管理員可以檢視、下載過期資產並新增至系列。 但是，編輯人員和檢視器只能檢視過期的資產並新增至系列。
 
-管理員可以將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水共用。 如果您從包含已到期資產和非已到期資產的檔案夾中選取任何已到期資產，則「共 **[!UICONTROL 用連結]** 」動作將不可用。 但是，如果您選取的資料夾包含過期和未過期的資產，則「共用」和「共 [!UICONTROL 用]**[!UICONTROL 連結]** 」動作可用。
+管理員可以將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水共用。 如果您從包含已到期資產和非已到期資產的檔案夾中選取任何已到期資產，則「共 **[!UICONTROL 用連結]**」動作將不可用。 但是，如果您選取的資料夾包含過期和未過期的資產，則「共用」和「共[!UICONTROL 用]**[!UICONTROL &#x200B;連結]** 」動作可用。
 
 >[!NOTE]
 >
@@ -40,8 +40,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 |  | **[!UICONTROL 連結共用]** | **[!UICONTROL 下載]** | **[!UICONTROL 屬性]** | **[!UICONTROL 新增至系列]** | **[!UICONTROL 刪除]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL 管理員]** | 無法使用 | 可用 | 可用 | 可用 | 可用 |
-| **[!UICONTROL 編輯器]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
-| **[!UICONTROL 檢視器]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
+| **[!UICONTROL 編輯者]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
+| **[!UICONTROL 檢視者]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
 | **[!UICONTROL 來賓用戶]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
 
 >[!NOTE]
@@ -50,7 +50,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ### 資產的到期狀態 {#expiration-status-of-assets}
 
-您可以在資產的「卡片檢視」中檢視資產的 [!UICONTROL 到期狀態]。 卡片上的紅旗表示資產已過期。
+您可以在資產的「卡片檢視」中檢視資產的 **[!UICONTROL 到期狀態]**。 卡片上的紅旗表示資產已過期。
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ## 資產連結到期 {#asset-link-expiration}
 
-透過連結共用資產時，管理員和編輯人員可使用「連結共用」對話方塊中的「到期日」欄位，設 **[!UICONTROL 定到期日和]** 時間 **** 。 連結的預設有效期為分享連結當日起7天。
+透過連結共用資產時，管理員和編輯人員可使用「連結共用」對話方塊中的「到期日」欄位，設 **[!UICONTROL 定到期日和]**時間**** 。 連結的預設有效期為分享連結當日起7天。
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +74,11 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 受授權保護的資產 [會附加授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，這是透過在AEM Assets中設定資產的 [中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 來完成。
 
-如果您選擇下載受授權保護的資產，則會將您重新導向至「版權 [!UICONTROL 管理] 」頁面。
+如果您選擇下載受授權保護的資產，則會將您重新導向至「版權 **[!UICONTROL 管理]**」頁面。
 
 ![](assets/asset-copyright-mgmt.png)
 
-您必須在這裡選擇要下載的資產，並接受相關的授權合約。 如果您不接受授權合約，則不 [!UICONTROL 會啟用] 「下載」按鈕。
+您必須在這裡選擇要下載的資產，並接受相關的授權合約。 如果您不接受授權合約，則不 **[!UICONTROL 會啟用]**「下載」按鈕。
 
 ![](assets/licensed-asset-download-2.png)
 
