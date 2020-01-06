@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -54,8 +54,8 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 **客戶。 誰可以建立貢獻資料夾？**
 
-**Ans。** 任何AEM使用者都可以在AEM Assets中建立新資料夾，並指派屬性「資 **產貢獻」**。 新建立的資料夾稱為「貢獻 **資料夾** 」。
-然後，此資料夾會與作用中的品牌入口網站使用者共用，以取得貢獻。
+**Ans。** 任何擁有在AEM Assets中建立新檔案夾權限的AEM使用者，都可以建立「貢 **獻** 」檔案夾。 若要建立「貢 **獻** 」檔案夾 **，請建立「資產貢獻」類型的**新檔案夾。
+此資料夾會與作用中的品牌入口網站使用者共用，以取得貢獻。
 
 
 
@@ -63,6 +63,12 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 **Ans。** Contribution **(貢獻** )資料夾包含兩個子資料 **夾NEW** （新）和 **SHARED（共用）**。 一開始，NEW檔案夾是空白的，而SHARED檔案夾包含品牌入口網站使用者的參考內容（可重複使用的資產）。
 品牌入口網站使用者會存取 **Contribution** 檔案夾，並上傳 **NEW檔案夾中的** 內容。
+
+
+
+**客戶。  我可以修改現有貢獻資料夾的名稱嗎？**
+
+**Ans。** 否 ****，您無法修改現有貢獻資料 **夾的名稱** 。
 
 
 
@@ -102,7 +108,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 **客戶。 我可以在哪裡看到匯入和發佈工作的狀態？**
 
-**Ans。** 在AEM中，您可以在非同步工作頁面中看到匯 **入** 的狀態。 在品牌入口網站中，您可以在「工具&gt;資產貢獻」狀態中 **[!UICONTROL 看到發佈工作的狀態]**。
+**Ans。** 在AEM中，您可以在非同步工作頁面中看到匯 **入** 的狀態。 在品牌入口網站中，您可以在「工具>資產貢獻」狀態中 **[!UICONTROL 看到發佈工作的狀態]**。
 
 
 
