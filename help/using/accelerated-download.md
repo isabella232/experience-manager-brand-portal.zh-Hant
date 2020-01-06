@@ -5,12 +5,12 @@ description: 增強品牌入口網站和共用連結的下載效能。
 seo-description: 增強品牌入口網站和共用連結的下載效能。
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
-topic-tags: 下載——安裝
-content-type: 引用
+topic-tags: download-install
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -31,7 +31,7 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 
 若要更快速下載檔案，請確定下列事項：
 
-* **[!UICONTROL 從管理工具面板的「一般設定]** 」啟用「下載加速 [!UICONTROL 度] 」（預設為停用）。
+* **[!UICONTROL 從管理工具面板的「一般設定]**」啟用「下載加速[!UICONTROL 度]」（預設為停用）。
 * 埠33001（TCP和UDP）在防火牆上開啟。 如需先決條件的詳細資訊，請參 [閱Aspera Connect用戶端檔案](https://downloads.asperasoft.com/en/documentation/8)。
 * 使用管理員權限安裝Aspera Connect。
 * 如需Aspera傳輸用戶端的平台支援，請參 [閱Aspera connect平台支援表](https://www.asperasoft.com/company/support/transfer-clients/)。
@@ -51,7 +51,7 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 
 下表顯示使用Aspera connect檔案下載加速器的2 GB檔案下載效能：
 
-*觀&#x200B;*察到的結果會因網路頻寬、伺服器延遲和用戶端位置等因素而有所不同，因為Brand Portal伺服器位於俄勒岡（美國）。*
+*觀察到的結果會因網路頻寬、伺服器延遲和用戶端位置等因素而有所不同，因為Brand Portal伺服器位於俄勒岡（美國）。*
 
 | 用戶端位置 | 客戶端與伺服器之間的延遲（毫秒） | 使用Aspera Connect檔案傳輸加速器(MBps)加速 | 下載含Aspera檔案傳輸加速器的2 GB檔案所花的時間（秒） |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -79,28 +79,28 @@ Brand Portal與IBM Aspera connect整合，讓大型資產檔案的下載效能�
 
    ![](assets/fast-download-emailchk.png)
 
-1. 點選／按一下「 **[!UICONTROL 下載]** 」選項。
+1. 點選／按一下「 **[!UICONTROL 下載]**」選項。
 若要加速品牌入口網站租用戶帳戶的下載體驗，您必須在系統上安裝Aspera connect用戶端應用程式。
 
 1. **下載Aspera Connect Client**&#x200B;如果系統未安裝Aspera connect客戶端，或現有安裝的Aspera connect客戶端已過期，則瀏覽器頁面上會顯示提示，您可從此處選擇 **[!UICONTROL Download Latest Version來下載系統特定的Aspera connect客戶端]**。
 
    ![](assets/aspera-not-launched.png)
 
-   若要從https://downloads.asperasoft.com/connect2/下載最新版Aspera Connect [，請選取「](https://downloads.asperasoft.com/connect2/)Download Now **[!UICONTROL (立即下載]** )」並依照指示進行。
+   若要從https://downloads.asperasoft.com/connect2/下載最新版Aspera Connect [，請選取「](https://downloads.asperasoft.com/connect2/)Download Now **[!UICONTROL (立即下載]**)」並依照指示進行。
 
 1. **安裝Aspera Connect Client**&#x200B;若要安裝IBM Aspera connect用戶端設定，請從IBM Aspera connect用戶端應用程式的。msi檔案執行設定，然後依照安裝精靈的指示進行。
 
-1. 成功安裝客戶端後，請重新整理瀏覽器頁面並再次啟動下載步驟，或選擇「在資產下載 **[!UICONTROL 中重新啟]** 動 **** 」對話框（步驟#2）。
-首次使用Aspera connect時，瀏覽器會提示使用 **[!UICONTROL IBM Aspera connect開啟連結]**。 若要在未來略過此對話方塊，請啟 **[!UICONTROL 用「記住我對FASP連結的選擇」]**。
+1. 成功安裝客戶端後，請重新整理瀏覽器頁面並再次啟動下載步驟，或選擇「在資產下載 **[!UICONTROL 中重新啟]**動**** 」對話框（步驟#2）。
+首次使用Aspera connect時，瀏覽器會提示使用 **[!UICONTROL IBM Aspera connect開啟連結]**。 若要在未來略過此對話方塊，請啟**[!UICONTROL &#x200B;用「記住我對FASP連結的選擇」]**。
 
    >[!NOTE]
    >
    >這則訊息在不同的瀏覽器上不同。
 
-1. 對話框確認是否繼續傳輸。 選擇 **[!UICONTROL 允許]** ，開始。
-要在將來跳過此對話框，請啟 **[!UICONTROL 用「使用我的選項來連接此主機」]**。
-下載開始。 對話方塊顯示下載進度。 使用對話方塊 **[!UICONTROL 暫停]**、繼 **[!UICONTROL 續]**&#x200B;或 **[!UICONTROL 取消]** 下載。
-Aspera connect應用程式提供系統上的「活動視窗」，讓使用者可檢視和管理所有傳輸作業。 如需詳細資訊，請參 [閱Aspera Connect用戶端檔案](https://downloads.asperasoft.com/en/documentation/8)。
+1. 對話框確認是否繼續傳輸。 選擇 **[!UICONTROL 允許]**，開始。
+要在將來跳過此對話框，請啟**[!UICONTROL &#x200B;用「使用我的選項來連接此主機」]**。
+下載開始。 對話方塊顯示下載進度。 使用對話方塊 **[!UICONTROL 暫停]**、繼**[!UICONTROL &#x200B;續]**或 **[!UICONTROL 取消]**下載。
+Aspera connect應用程式提供系統上的「活動視窗」，讓使用者可檢視和管理所有傳輸作業。 如需詳細資訊，請參[閱Aspera Connect用戶端檔案](https://downloads.asperasoft.com/en/documentation/8)。
 
 ![](assets/aspera-activity-window.png)
 
@@ -108,7 +108,7 @@ Aspera connect應用程式提供系統上的「活動視窗」，讓使用者可
 
 >[!NOTE]
 >
->Aspera connect用戶端應用程式有已知的限制，如果在「偏好設定」的標籤「傳輸」下啟用「永遠詢問我要將下載的檔案儲存在何處 **[!UICONTROL 」，就不會出現選取下載位置的提示]**。 在開始下載之前，請在「將下載的檔案儲存至」文字方塊中 **[!UICONTROL 提供位置]**。
+>Aspera connect用戶端應用程式有已知的限制，如果在「偏好設定」的標籤「傳輸」下啟用「永遠詢問我要將下載的檔案儲存在何處 **[!UICONTROL 」，就不會出現選取下載位置的提示]**。 在開始下載之前，請在「將下載的檔案儲存至」文字方塊中**[!UICONTROL &#x200B;提供位置]**。
 
 ## 在Microsoft edge瀏覽器上使用檔案加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -118,9 +118,9 @@ Microsoft edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
 若要在Microsoft edge上使用加速下載功能，請從受信任的網站清單中移除品牌入口網站。
 
-1. 開啟「Control Panel（控制面板）」(按 **[!UICONTROL Window鍵+ X]**，然後選 **[!UICONTROL 取「Control Panel(控制面板]**)」)。
-1. 前往「網 **[!UICONTROL 路與網際網路&gt;網際網路選項」]**。 按一下「安 **[!UICONTROL 全性]** 」標籤。
-1. 按一下「受 **[!UICONTROL 信任的網站]**」區域，然後按 **[!UICONTROL 一下「網站]**」。
+1. 開啟「Control Panel（控制面板）」(按 **[!UICONTROL Window鍵+ X]**，然後選**[!UICONTROL &#x200B;取「Control Panel(控制面板]**)」)。
+1. 前往「網 **[!UICONTROL 路與網際網路>網際網路選項」]**。 按一下「安**[!UICONTROL &#x200B;全性]** 」標籤。
+1. 按一下「受 **[!UICONTROL 信任的網站]**」區域，然後按**[!UICONTROL &#x200B;一下「網站]**」。
 1. 從清單中移除品牌入口網站。
 
 ## Aspera connect用戶端偏好設定 {#aspera-connect-client-preferences}
