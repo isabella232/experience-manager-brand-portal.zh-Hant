@@ -4,12 +4,12 @@ seo-title: AEM Assets品牌入口網站概觀
 description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
 seo-description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: 簡介
+topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
 
@@ -34,9 +34,11 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 * 來賓用戶
 * 檢視者
 * 編輯者
-* 管理員下表列出了這些角色中的用戶可以執行的任務：
+* 管理員
 
-|  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用系列** | **將資產共用為連結** | **存取管理工具** |
+下表列出了這些角色中的用戶可以執行的任務：
+
+|  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用集合** | **以連結方式共用資產** | **存取管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **來賓用戶** | ✓* | ✓* | ✓* | x | x | x | x |
 | **檢視者** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -77,9 +79,9 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 [共用資料夾](brand-portal-sharing-folders.md)
 
-[共用系列](brand-portal-share-collection.md)
+[共用集合](brand-portal-share-collection.md)
 
-[將資產共用為連結](brand-portal-link-share.md)
+[以連結方式共用資產](brand-portal-link-share.md)
 
 ### 管理員 {#administrator}
 
@@ -91,7 +93,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 [自訂壁紙、頁首和電子郵件](brand-portal-branding.md)
 
-[使用自訂搜尋Facet](brand-portal-search-facets.md)
+[使用自訂搜尋 Facet](brand-portal-search-facets.md)
 
 [使用中繼資料結構表單](brand-portal-metadata-schemas.md)
 
@@ -110,7 +112,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 ## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
 
 品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有URL使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
-請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
+請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]**geomettrixinc.brand-portal.adobe.com**** 。
 
 不過，AEM Author例項只能以租 [用戶ID](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) URL設定，而不能以租用戶別名（替代）URL設定。
 
@@ -120,13 +122,13 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 >
 >要替換舊別名或刪除舊別名，必須執行相同的進程。
 
-## 要求存取品牌入口網站 {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 使用者可從登入畫面要求存取品牌入口網站。 這些請求會傳送至品牌入口網站管理員，這些管理員會透過Adobe [!UICONTROL Admin Console授與使用者存取權]。 在授予存取權後，使用者會收到通知電子郵件。
 
 若要申請存取權，請執行下列動作：
 
-1. 從「品牌入口網站」登入頁面，選取「 **[!UICONTROL 按一下此處]** 」與「需 **[!UICONTROL 要存取？」]**. 但是，要進入來賓會話，請選擇 **[!UICONTROL Click here]** (按一下這裡 **[!UICONTROL )與]** Guest Access?（來賓訪問）。
+1. 從「品牌入口網站」登入頁面，選取「 **[!UICONTROL 按一下此處]**」與「需**[!UICONTROL &#x200B;要存取？」]**. 但是，要進入來賓會話，請選擇 **[!UICONTROL Click here]**(按一下這裡**[!UICONTROL )與]**Guest Access?（來賓訪問）。
 
    ![品牌入口網站登入畫面](assets/bp-login-requestaccess.png)
 
@@ -139,16 +141,16 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
    **方案1**
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID][!UICONTROL 或]Federated ID **[!UICONTROL ，請按一]**下登入Chropt。
-「登 [!UICONTROL 入] 」頁面隨即開啟。
+「登[!UICONTROL 入]」頁面隨即開啟。
    1. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
    ![Adobe登入](assets/bplogin_request_access_3.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。<br />
    **方案2**
-   1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]** )。
-「登 [!UICONTROL 入] 」頁面隨即開啟。
+   1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]**)。
+「登[!UICONTROL 入]」頁面隨即開啟。
    1. Click **[!UICONTROL Get an Adobe ID]**.
-「注 [!UICONTROL 冊] 」頁面隨即開啟。
+「注[!UICONTROL 冊]」頁面隨即開啟。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
    1. 選擇 **[!UICONTROL 註冊]**。<br />
    ![](assets/bplogin_request_access_5.png)
@@ -166,7 +168,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
 若要授與存取權，產品管理員必須按一下品牌入口網站通知區中的相關通知，然後按一下「授 **[!UICONTROL 與存取權]**」。
-或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console] ，並將使用者新增至相關的產品設定。
+或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe[!UICONTROL Admin Console]，並將使用者新增至相關的產品設定。
 
 您會被重新導向 [至Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] ，建立使用者並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 如需有關在 [!UICONTROL Admin Console中新增使用者的詳細資訊]，請參閱 [](brand-portal-adding-users.md#add-a-user) 新增使用者（請依照新增使用者的程式中的步驟4-7）。
 
@@ -178,7 +180,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 要更改語言，請執行以下操作：
 
-1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」&gt;「編輯配置檔案」。<br />
+1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」>「編輯配置檔案」。<br />
    ![編輯設定檔](assets/EditBPProfile.png)
 
 1. 在「 [!UICONTROL Experience cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
@@ -197,7 +199,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 * [發行說明](brand-portal-release-notes.md)
 * [支援的檔案格式](brand-portal-supported-formats.md)
 
-## 相關資源 {#related-resources}
+## Related resources {#related-resources}
 
 * [Adobe客戶服務](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [AEM論壇](https://www.adobe.com/go/aod_forums_en)
