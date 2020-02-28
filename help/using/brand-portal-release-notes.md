@@ -1,49 +1,79 @@
 ---
 title: 發行說明
 seo-title: 發行說明
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.5版中的功能、增強功能、已修正的重大問題和已知問題。
-seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.5版中的增強功能、已修正的重大問題和已知問題。
+description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6版中的功能、增強功能、已修正的重大問題和已知問題。
+seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6版中的增強功能、已修正的重大問題和已知問題。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
 
 ---
 
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.5版本中的新功能、增強功能、已修正的重大問題和已知問題。
+深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6版本中的新功能、增強功能、已修正的重大問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets品牌入口網站 |
 |---|---|
-| 版本 | 6.4.5 |
-| 日期 | 2019年9月 |
+| 版本 | 6.4.6 |
+| 日期 | 2020年3月 |
 
-## 綜覽 {#overview}
+## 概覽 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 品牌入口網站可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 6.4.5的新增功能 {#what-s-new-in-645}
+## 6.4.6的新增功能 {#what-s-new-in-646}
 
-### 新功能 {#new-features-645}
+### 新功能 {#new-feature}
 
-品牌入口網站6.4.5是一項功能發行，主要提供品牌入口網站使用者（外部代理商／團隊）上傳內容至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 這項功能在品牌入口網站中稱為 **[Asset Sourcing](brand-portal-overiew-using-asset-sourcing.md)**，將透過為使用者提供雙向機制，讓他們能夠貢獻資產並與其他全球分散的品牌入口網站使用者共用資產，以改善客戶體驗。
+此版本包含下列新功能：
 
-**品牌入口網站中的資產採購**
+* 訪客登入品牌入口網站的驗證碼。
 
-「資產來源補充」可讓AEM使用者（管理員／非管理員使用者）建立新資料夾，並附加「資產貢獻 **** 」屬性，以確保建立的新資料夾可由品牌入口網站使用者提交資產。 這會自動觸發在新建立的「貢獻」檔案夾中建立另外兩個子檔案夾(稱為NEW和SHARED **** )的工作流程。
+### 增強功能 {#enhancements-646}
 
-然後，AEM使用者會將應新增至貢獻檔案夾的資產類型以及一組基準資產上傳至 **SHARED** 檔案夾，以確保BP使用者擁有所需的參考資訊，借此定義資產需求。 然後，管理員可以先授與作用中的品牌入口網站使用者對貢獻資料夾的存取權，再將新建立的 **貢獻資料夾發佈至品牌入口網站** 。
+此版本的品牌入口網站包含下列增強功能：
 
-當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。
+* AEM Assets現在已透過Adobe I/O設定品牌入口網站，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
 
-如需詳細資訊，請參 [閱品牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)。
+   >[!NOTE]
+   >
+   >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並移轉至Adobe I/O。
+
+<!--
+   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
+   -->
+
+### 已修正的重大問題 {#critical-issues-fixed}
+
+此版本包含下列重大問題的修正：
+
+* 中繼資料結構下拉式值無法在資產屬性中顯示。
+
+* 中繼資料子架構不會根據資產屬性中的mimetype來顯示標籤。
+
+* 取消發佈中繼資料結構會填入錯誤訊息，雖然結構已在後端移除。
+
+* 預覽影像不會針對已發佈的資產顯示。
+
+* 使用者無法發佈或取消發佈名稱中包含單一報價的資產。
+
+* 下載多個資產時不會顯示條款與條件。
+
+* 已解決次要安全性弱點。
+
+### 已知問題 {#known-issues}
+
+此發行包含下列已知問題：
+
+* 下載資產時，「排除系統轉譯」選項無法正常運作。
 
 ## 語言 {#languages}
 
