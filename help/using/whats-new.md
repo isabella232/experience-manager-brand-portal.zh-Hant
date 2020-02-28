@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新功能
 seo-title: AEM Assets Brand Portal 的新功能
-description: 檢視6.4.5的新功能和增強功能。
-seo-description: 檢視6.4.5的新功能和增強功能。
+description: 檢視6.4.6的新功能和增強功能。
+seo-description: 檢視6.4.6的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
+source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 ---
 
@@ -18,6 +18,42 @@ source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 # AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
+
+## 6.4.6版的變更 {#what-changed-in-646}
+
+品牌入口網站6.4.6是增強版，其中AEM Assets和品牌入口網站之間的授權管道已變更。 AEM Assets現在已透過Adobe I/O設定品牌入口網站，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
+
+之前，品牌入口網站是透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。
+
+<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+-->
+
+<!--
+  
+   | **AEM Version** |**New Integration** |**Upgrade Integration** |
+|---|---|---|
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+
+   -->
+
+Adobe I/O上具品牌入口網站的AEM Assets設定受支援：
+* AEM 6.5.4.0及更新版本
+* AEM 6.4.8.0和更新版本
+* AEM 6.3.3.8及以上版本
+
+
+>[!NOTE]
+>
+>自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並移轉至Adobe I/O。
+>
+>如果您不刪除或修改配置設定，現有配置將繼續運行。
+
+請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+請參閱 [品牌入口網站常見問答](brand-portal-faqs.md)。
 
 ## 6.4.5版的變更 {#what-changed-in-645}
 
@@ -34,10 +70,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
 
 此外，所有現有功能都保持不變。 品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。
-
-請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
-
-檢視品 [牌入口網站常見問答集](brand-portal-faqs.md)
 
 >[!NOTE]
 >
@@ -76,8 +108,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 您現在可以在篩選窗格中，只指定搜尋過的片語的一或兩個零件，以搜尋資產。
 
-**使用案例**
-當您不確定搜尋的片語中發生的字詞的確切組合時，部分片語搜尋會很有幫助。
+**使用案例**「部分片語搜尋」在您不確定搜尋片語中出現的字片語合是否準確時很有用。
 
 例如，如果您在Brand Portal中的搜尋表單使用Property Predicate對資產標題進行部分搜尋，則指定詞語 **camp** 會傳回所有資產，其標題片語中包含字元camp。
 
@@ -173,7 +204,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 ### 排程發佈至品牌入口網站
 
-資產（和檔案夾）可排程從 [AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 「作者」例項發佈至品牌入口網站的工作流程，以供日後的日期、時間使用。
+資產（和檔案夾）可排程從 [AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 「作者」例項發佈至品牌入口網站的工作流程，以供日後的日期和時間使用。
 
 同樣地，發佈的資產也可以在稍後（時間）從入口網站移除，方法是排程「從品牌入口網站取消發佈」工作流程。
 
@@ -344,7 +375,7 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 * 直接下載單一大型檔案，而不需建立zip檔案，因此可提高速度和總處理能力。
 * 連結共用功能的Zip下載限制已從1GB增加到5GB。
 
-* 使用者現在可以選擇只下載自訂和原稿 檔案，並防止立即轉譯，同時從品牌入口網站或透過共用連結功能下載資產。
+* 使用者現在可以選擇只下載自訂和原始檔案，並防止立即轉譯，同時從品牌入口網站或透過共用連結功能下載資產。
 
 ![](assets/excludeautorendition.png)
 
@@ -358,13 +389,11 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 
 ### 增強的報告功能
 
-**引進的連結共用報表**
-已推出新報告，以提供共用連結的相關資訊。 「連結共用」報表會列出在指定時間範圍內與組織內部和外部使用者共用之資產的所有URL。 此外，它還會通知連結的共用時間、共用者及過期時間。
+**引入連結共用報**&#x200B;表已引入新報表，以提供共用連結的相關資訊。 「連結共用」報表會列出在指定時間範圍內與組織內部和外部使用者共用之資產的所有URL。 此外，它還會通知連結的共用時間、共用者及過期時間。
 
 ![](assets/navigatereport.png)
 
-**已修改進入點以存取「使用狀況」報表**
-使用狀況報表現在與其他報表整合，現在可從「資產報表」主控台檢視。 若要進入「資產報表」主控台，請導覽至「 **從管理工具面板建立／管理報表** 」。
+**已修改進入點以存取「使用狀況」報表**「使用狀況」報表現在已與其他報表整合，現在可從「資產報表」主控台檢視。 若要進入「資產報表」主控台，請導覽至「 **從管理工具面板建立／管理報表** 」。
 
 ![](assets/accessassetreport.png)
 
@@ -493,7 +522,7 @@ Brand Portal 6.3.1包含全新和增強的功能，以便將Brand Portal與AEM�
 
 瀏覽、搜尋和下載功能的增強功能可大幅改善品牌入口網站的效能。
 
-### 資產的全新數位版權管理 {#new-digital-rights-management-for-assets}
+### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
 管理員可先設定資產的到期日和時間，再加以共用。 資產過期後，檢視者和編輯可看到它，但無法下載。 當資產過期時，管理員會收到通知。
 
