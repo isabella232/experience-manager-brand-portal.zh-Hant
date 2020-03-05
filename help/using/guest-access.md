@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 8554b9768040b59d2b1a03a3703b2d7235e63bcb
 
 ---
 
@@ -33,14 +33,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 開始來賓會話 {#begin-guest-session}
 
-若要匿名輸入品牌入口網站，請選取 **[!UICONTROL 按一下此處]**，以**[!UICONTROL &#x200B;取得訪客存取？]** 在品牌入口網站歡迎畫面上。 使用者不需要尋找存取權，並等待管理員驗證他們，以授與使用品牌入口網站的存取權。
+若要匿名輸入品牌入口網站，請選取 **[!UICONTROL 按一下此處]** ，以 **[!UICONTROL 取得訪客存取？]** 在品牌入口網站歡迎畫面上。 輸入catcha安全性檢查，以授與使用品牌入口網站的存取權。
 
 ![](assets/bp-login-screen.png)
 
 ## 來賓會話持續時間 {#guest-session-duration}
 
-來賓用戶會話保持活動狀態2小時。 這表示燈箱的狀態會保留到 **[!UICONTROL Lightbox]**1小時後開始，而在2小時後，目前的來賓作業會重新啟動，因此燈箱狀態會遺失。\
-例如，訪客使用者於15時登入品牌入口網站，並將資產新增至Lightbox，於16時50分下載。 如果使用者未在17:00之前下載 **[!UICONTROL Lightbox]**集合（或其資產）,**[!UICONTROL  Lightbox]** 將會變成空白，因為使用者必須在1小時結束時（即1700小時）重新啟動工作階段。
+來賓用戶會話保持活動狀態2小時。 這表示燈箱的狀態會保留到 **[!UICONTROL Lightbox]** 1小時後開始，而在2小時後，目前的來賓作業會重新啟動，因此燈箱狀態會遺失。\
+例如，訪客使用者於15時登入品牌入口網站，並將資產新增至Lightbox，於16時50分下載。 如果使用者未在17:00之前下載 **[!UICONTROL Lightbox]** 集合（或其資產）, **[!UICONTROL Lightbox]** 將會變成空白，因為使用者必須在1小時結束時（即1700小時）重新啟動工作階段。
 
 ## 允許併發來賓會話 {#concurrent-guest-sessions-allowed}
 
@@ -58,7 +58,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 這些父資料夾是虛擬資料夾，不能對其執行任何操作。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
 
-與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 工作時]**，不會顯示任何動作工作。**[!UICONTROL &#x200B;在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]**」**[!UICONTROL &#x200B;按鈕]**。
+與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 任務時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
 
 >[!NOTE]
 >
@@ -66,27 +66,27 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL 「檢視設定]**」選項可讓訪客使用者調整「卡片檢視」中的卡片大小，**[!UICONTROL &#x200B;或欄位可顯示]** 在「清單檢視」中 ****。
+**[!UICONTROL 「檢視設定]** 」選項可讓訪客使用者調整「卡片檢視」中的卡片大小， **[!UICONTROL 或欄位可顯示]** 在「清單檢視」中 ****。
 
 ![](assets/nav-guest-user.png)
 
-「內 **[!UICONTROL 容」樹狀結構]**，可讓您在資產階層中移動。
+「內 **[!UICONTROL 容」樹狀結構]** ，可讓您在資產階層中移動。
 
 ![](assets/guest-login-ui.png)
 
-品牌入口網站 **[!UICONTROL 提供]**「概述」選項給來賓用戶，**[!UICONTROL &#x200B;以檢視所選資產]** /資料夾的資產屬性。 「概 **[!UICONTROL 述]**」選項可見：
+品牌入口網站 **[!UICONTROL 提供]** 「概述」選項給來賓用戶， **[!UICONTROL 以檢視所選資產]** /資料夾的資產屬性。 「概 **[!UICONTROL 述]** 」選項可見：
 
 * 在頂端的工具列中，選取資產／資料夾時。
 * 在下拉式清單中，選取「軌道選擇器」。
-在選取資 **[!UICONTROL 產]**/資料夾時選取「概述」選項時，使用者可以看到資產建立的標題、路徑和時間。 但是，在資產詳細資料頁面上，選取「**[!UICONTROL &#x200B;概述]** 」選項可讓使用者查看資產的中繼資料。
+在選取資 **[!UICONTROL 產]** /資料夾時選取「概述」選項時，使用者可以看到資產建立的標題、路徑和時間。 但是，在資產詳細資料頁面上，選取「 **[!UICONTROL 概述]** 」選項可讓使用者查看資產的中繼資料。
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)<br />
 
-**[!UICONTROL 左側導覽]**(Navigation)選項可讓使用者從檔案導覽至系列，然後在來賓工作階段中返回，讓使用者瀏覽檔案或系列中的資產。
+**[!UICONTROL 左側導覽]** (Navigation)選項可讓使用者從檔案導覽至系列，然後在來賓工作階段中返回，讓使用者瀏覽檔案或系列中的資產。
 
-**[!UICONTROL Filter]**選項允許來賓用戶使用管理員設定的搜索謂語來過濾資產檔案和資料夾。
+**[!UICONTROL Filter]** 選項允許來賓用戶使用管理員設定的搜索謂語來過濾資產檔案和資料夾。
 
 ### 來賓用戶功能
 
@@ -108,7 +108,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ### 在來賓作業階段中下載資產
 
-來賓使用者可直接在品牌入口網站上公開或獨家下載與來賓使用者共用的資產。 來賓使用者也可以將資產新增至 **[!UICONTROL Lightbox]**（公開系列），並在工作階段過期前下載**[!UICONTROL  Lightbox]** 系列。
+來賓使用者可直接在品牌入口網站上公開或獨家下載與來賓使用者共用的資產。 來賓使用者也可以將資產新增至 **[!UICONTROL Lightbox]** （公開系列），並在工作階段過期前下載 **[!UICONTROL Lightbox]** 系列。
 
 若要下載資產和系列，請使用下列網址的下載圖示：
 
@@ -117,14 +117,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/download-on-guest.png)
 
-在「 **[!UICONTROL 下載]**」對話方[!UICONTROL 塊中選取「啟用下載加]速」，可[以增強下載效能](../using/accelerated-download.md)。
+在「 **[!UICONTROL 下載]** 」對話方 [!UICONTROL 塊中選取「啟用下載加] 速」，可 [以增強下載效能](../using/accelerated-download.md)。
 
 ## 退出來賓會話 {#exit-guest-session}
 
-要退出來賓會話，請使用 **[!UICONTROL 標題中可用選項的「結束會話]**」。 不過，如果訪客作業使用的瀏覽器標籤不作用中，則作業會在閒置兩小時後自動過期。
+要退出來賓會話，請使用 **[!UICONTROL 標題中可用選項的「結束會話]** 」。 不過，如果訪客作業使用的瀏覽器標籤不作用中，則作業會在閒置兩小時後自動過期。
 
 ![](assets/end-guest-session.png)
 
 ## 監控來賓用戶活動 {#monitoring-guest-user-activities}
 
-管理員可監控訪客使用者與品牌入口網站的互動。 在品牌入口網站中產生的報表可提供訪客使用者活動的關鍵見解。 例如，「 **[!UICONTROL 下載]**」報表可用來追蹤訪客使用者下載的資產計數。**[!UICONTROL 「使用者登入]** 」報表可通知訪客使用者上次登入入口網站的時間，以及指定期間內的登入頻率。
+管理員可監控訪客使用者與品牌入口網站的互動。 在品牌入口網站中產生的報表可提供訪客使用者活動的關鍵見解。 例如，「 **[!UICONTROL 下載]** 」報表可用來追蹤訪客使用者下載的資產計數。 **[!UICONTROL 「使用者登入]** 」報表可通知訪客使用者上次登入入口網站的時間，以及指定期間內的登入頻率。
