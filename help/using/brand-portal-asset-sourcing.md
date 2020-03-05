@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 此外，所有現有功能都保持不變。 品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 ## 必備條件 {#prerequisites}
 
 * AEM 6.5.0.2或更新版本。
-* 請確定您的AEM Assets實例已與品牌入口網站整合。 請參閱「 [設定AEM資產與品牌入口網站的整合」](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)。
+* 請確定您的AEM Assets例項已設定為品牌入口網站。 請參閱「 [設定AEM資產與品牌入口網站](../using/configure-aem-assets-with-brand-portal.md)」。
 
 ## 另請參閱 {#reference-articles}
 
