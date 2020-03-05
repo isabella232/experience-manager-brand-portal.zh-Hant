@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -23,23 +23,23 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
 + 從 AEM Assets 發佈至 Brand Portal {#publish}
-   + [設定與品牌入口網站的AEM資產整合](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [使用品牌入口網站設定AEM資產](using/configure-aem-assets-with-brand-portal.md)
    + [將系列發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
    + [將資料夾發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [疑難排解平行發佈至 Brand Portal 的問題](using/troubleshoot-parallel-publishing.md)
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + 品牌入口網站中的資產採購 {#asset-sourcing-in-brand-portal}
-   + [綜覽](using/brand-portal-asset-sourcing.md)
+   + [概覽](using/brand-portal-asset-sourcing.md)
    + [在AEM中設定資產來源補充](using/brand-portal-configure-asset-sourcing.md)
    + 在AEM Assets中設定貢獻檔案夾 {#configure-contribution-folder}
-      + [綜覽](using/brand-portal-contribution-folder.md)
+      + [概覽](using/brand-portal-contribution-folder.md)
       + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
       + [設定貢獻資料夾屬性](using/brand-portal-configure-contribution-folder-properties.md)
       + [上傳基準資產](using/brand-portal-upload-baseline-assets.md)
       + [將貢獻資料夾發佈至品牌入口網站](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + 在品牌入口網站中使用資產來源補充 {#using-asset-sourcing}
-      + [綜覽](using/brand-portal-overiew-using-asset-sourcing.md)
+      + [概覽](using/brand-portal-overiew-using-asset-sourcing.md)
       + [下載資產需求](using/brand-portal-download-asset-requirements.md)
       + [上傳資產至貢獻資料夾](using/brand-portal-upload-assets-to-contribution-folder.md)
       + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
