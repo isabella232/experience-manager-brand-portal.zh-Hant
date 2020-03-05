@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 此版本包含下列新功能：
 
-* 訪客登入品牌入口網站的驗證碼。
+* 訪客登入品牌入口網站的驗證碼。 如需詳細 [資訊，請參閱品牌入口網站](../using/guest-access.md) (Brand Portal)訪客存取。
 
 ### 增強功能 {#enhancements-646}
 
@@ -45,11 +45,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
    >[!NOTE]
    >
-   >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並移轉至Adobe I/O。
+   >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe I/O進行設定。
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+如需詳細資訊，請參 [閱「使用品牌入口網站設定AEM資產」](configure-aem-assets-with-brand-portal.md)
+
 
 ### 已修正的重大問題 {#critical-issues-fixed}
 
@@ -91,7 +91,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 認證平台 {#certified-platforms}
 
-要確定哪些平台已通過此版本的Brand Portal認證，請參閱「技術需求」的「受支援的瀏覽器製作使用者介面 **」一節中的「支援觸控最佳化UI** 」 **欄**[](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)。
+要確定哪些平台已通過此版本的Brand Portal認證，請參閱「技術需求」的「受支援的瀏覽器製作使用者介面 **」一節中的「** Support for Touch-optimized UI **」（針對觸控最佳化的UI支援）** 欄 [](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)。
 
 ## 連結 {#links}
 
