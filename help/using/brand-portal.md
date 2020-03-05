@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -26,6 +26,24 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 請參閱「品 [牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)」。
 
 以瀏覽器為基礎的入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
+
+## 使用品牌入口網站設定AEM資產 {#configure-brand-portal}
+
+Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
+
+>[!NOTE]
+>
+>AEM 6.3和更新版本支援透過Adobe I/O以品牌入口網站設定AEM資產。
+
+### 使用品牌入口網站設定AEM資產的必要條件 {#prerequisites}
+
+您需要下列項目才能設定具有品牌入口網站的AEM資產：
+
+* 具有最新Service Pack的AEM Assets作者執行個體。
+* 品牌入口網站租用戶URL。
+* 對品牌入口網站的IMS組織具有系統管理員權限的使用者。
+
+如需詳細資訊，請參 [閱「使用品牌部份設定AEM資產」](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## 品牌入口網站中的使用者角色 {#Personas}
 
@@ -103,7 +121,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 除了上述工作外，AEM Assets中的「作者」也可以執行下列工作：
 
-[設定與品牌入口網站的AEM資產整合](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[使用品牌入口網站設定AEM資產](../using/configure-aem-assets-with-brand-portal.md)
 
 [將資料夾發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -112,9 +130,9 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 ## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
 
 品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有URL使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
-請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]**geomettrixinc.brand-portal.adobe.com**** 。
+請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
 
-不過，AEM Author例項只能以租 [用戶ID](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) URL設定，而不能以租用戶別名（替代）URL設定。
+不過，AEM Author例項只能以租 [用戶ID](../using/configure-aem-assets-with-brand-portal.md) URL設定，而不能以租用戶別名（替代）URL設定。
 
 >[!NOTE]
 >
@@ -128,7 +146,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 若要申請存取權，請執行下列動作：
 
-1. 從「品牌入口網站」登入頁面，選取「 **[!UICONTROL 按一下此處]**」與「需**[!UICONTROL &#x200B;要存取？」]**. 但是，要進入來賓會話，請選擇 **[!UICONTROL Click here]**(按一下這裡**[!UICONTROL )與]**Guest Access?（來賓訪問）。
+1. 從「品牌入口網站」登入頁面，選取「 **[!UICONTROL 按一下此處]** 」與「需 **[!UICONTROL 要存取？」]**. 但是，要進入來賓會話，請選擇 **[!UICONTROL Click here]** (按一下這裡 **[!UICONTROL )與]** Guest Access?（來賓訪問）。
 
    ![品牌入口網站登入畫面](assets/bp-login-requestaccess.png)
 
@@ -141,16 +159,16 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
    **方案1**
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID][!UICONTROL 或]Federated ID **[!UICONTROL ，請按一]**下登入Chropt。
-「登[!UICONTROL 入]」頁面隨即開啟。
+「登 [!UICONTROL 入] 」頁面隨即開啟。
    1. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
    ![Adobe登入](assets/bplogin_request_access_3.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。<br />
    **方案2**
-   1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]**)。
-「登[!UICONTROL 入]」頁面隨即開啟。
+   1. 如果您沒有 [!UICONTROL Adobe ID]，請按一下「請求存取」頁面中的「取得Adobe ID **[!UICONTROL 」(取得Adobe ID]** )。
+「登 [!UICONTROL 入] 」頁面隨即開啟。
    1. Click **[!UICONTROL Get an Adobe ID]**.
-「注[!UICONTROL 冊]」頁面隨即開啟。
+「注 [!UICONTROL 冊] 」頁面隨即開啟。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
    1. 選擇 **[!UICONTROL 註冊]**。<br />
    ![](assets/bplogin_request_access_5.png)
@@ -168,7 +186,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
 若要授與存取權，產品管理員必須按一下品牌入口網站通知區中的相關通知，然後按一下「授 **[!UICONTROL 與存取權]**」。
-或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe[!UICONTROL Admin Console]，並將使用者新增至相關的產品設定。
+或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console] ，並將使用者新增至相關的產品設定。
 
 您會被重新導向 [至Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] ，建立使用者並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 如需有關在 [!UICONTROL Admin Console中新增使用者的詳細資訊]，請參閱 [](brand-portal-adding-users.md#add-a-user) 新增使用者（請依照新增使用者的程式中的步驟4-7）。
 
@@ -183,7 +201,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」>「編輯配置檔案」。<br />
    ![編輯設定檔](assets/EditBPProfile.png)
 
-1. 在「 [!UICONTROL Experience cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
+1. 在「 [!UICONTROL Experience Cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
 
 ## 品牌入口網站維護通知 {#brand-portal-maintenance-notification}
 
