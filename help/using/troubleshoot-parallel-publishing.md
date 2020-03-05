@@ -5,22 +5,22 @@ description: 疑難排解並行發佈。
 seo-description: 疑難排解並行發佈。
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # 疑難排解平行發佈至 Brand Portal 的問題 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-品牌入口網站支援與AEM Assets整合，讓核准的品牌資產順暢地從AEM Assets作者例項擷取（或發佈）。 整合 [後](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html),AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，供Brand Portal使用者核准使用。 使用多個複製代理程式：AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2和更新版本，以允許高速並行發佈。
+品牌入口網站已設定AEM Assets，讓核准的品牌資產順暢地從AEM Assets作者例項接收（或發佈）。 設 [定後](../using/configure-aem-assets-with-brand-portal.md),AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，以供Brand Portal使用者核准使用。 使用多個複製代理程式：AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2和更新版本，以允許高速並行發佈。
 
 >[!NOTE]
 >
->Adobe建議升級至AEM 6.4.1.0，以確保AEM Assets品牌入口網站已成功與AEM Assets整合。 AEM 6.4的限制會在設定與品牌入口網站的整合時顯示錯誤，而複製會失敗。
+>Adobe建議升級至AEM 6.4.1.0，以確保AEM Assets品牌入口網站已成功設定為AEM Assets。 AEM 6.4的限制會在使用品牌入口網站設定AEM資產時顯示錯誤，複製會失敗。
 
 在設定品牌入口網站的雲端服務 **[!UICONTROL /etc/cloudservice下]**，系統會自動產生所有必要的使用者和Token並儲存在儲存庫中。 建立雲服務配置，並建立複製和複製代理複製內容所需的服務用戶。 這將建立四個複製代理。 因此，當您從AEM發佈許多資產至品牌入口網站時，這些資產會排入佇列，並透過「輪流作業」在這些複製代理之間分發。
 
@@ -105,7 +105,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果複製代理（剛發佈到品牌門戶）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
+如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
 
 如果連續發佈失敗且佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** ，並嘗試解決所報告的錯誤。
 
