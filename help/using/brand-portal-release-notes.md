@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -48,6 +48,13 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
    >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe I/O進行設定。
 
 
+   >[!TIP]
+   >
+   >***僅限現有客戶***
+   >
+   >建議您繼續使用現有的舊版OAuth閘道設定。 萬一您遇到舊版OAuth閘道設定的問題，請刪除現有的設定，並透過Adobe I/O建立新的設定。
+
+
 如需詳細資訊，請參 [閱「使用品牌入口網站設定AEM資產」](configure-aem-assets-with-brand-portal.md)
 
 
@@ -72,6 +79,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 ### 已知問題 {#known-issues}
 
 此發行包含下列已知問題：
+
+* 品牌入口網站使用者無法在升級至Adobe I/O時，將貢獻資料夾資產發佈至AEM Assets。
 
 * 下載資產時，「排除系統轉譯」選項無法正常運作。
 
