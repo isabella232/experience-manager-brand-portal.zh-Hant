@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -23,10 +23,14 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 >之前，品牌入口網站是透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。
 >
 >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe I/O進行設定。
+
+
+>[!TIP]
 >
->如果您是舊版OAuth閘道上具備設定的現有品牌入口網站使用者，建議您刪除現有的設定並在Adobe I/O上建立新的設定。
+>***僅限現有客戶***
 >
->但是，如果不修改配置，現有配置將繼續工作。
+>建議您繼續使用現有的舊版OAuth閘道設定。 萬一您遇到舊版OAuth閘道設定的問題，請刪除現有的設定，並透過Adobe I/O建立新的設定。
+
 
 設定具有品牌入口網站的AEM資產的步驟依您的AEM版本而異，以及您是首次設定或升級現有的設定：
 
