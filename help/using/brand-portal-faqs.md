@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 品牌入口網站常見問答集主要針對使用者在使用最新AEM Assets Brand Portal 6.4.5版或更舊版本時可能遇到的查詢和問題。
 
 
+## 品牌入口網站6.4.6常見問答集 {#faqs-bp646}
+
+**客戶。 現有的舊式OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
+
+**Ans。** 舊版OAuth設定已過時。 您必須將AEM Assets作者例項升級至最新的Service Pack，並使用Adobe IO進行設定。 如需詳 [細資訊，請參閱「設定AEM資產與品牌入口網站](configure-aem-assets-with-brand-portal.md) 」。 不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+
+**客戶。 升級至Adobe I/O後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。我的作者實例位於AEM 6.5.4。可能的原因是什麼？**
+
+**Ans。** 是的，在使用Adobe I/O將貢獻資料夾的資產發佈至AEM 6.5.4的AEM Assets時，有已知問題。此問題將在下一個Service Pack AEM 6.5.5中修正。
+
+如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
+
+
+## 品牌入口網站6.4.5常見問答集 {#faqs-bp645}
 
 **客戶。 品牌入口網站6.4.5版的主要變更為何？**
 
@@ -100,7 +114,7 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 
 
-**客戶。 「資產貢獻」使用者下拉式清單中填入使用者清單的項目（品牌入口網站參與者）為何？**
+**客戶。 「資產貢獻」使用者下拉式清單中填入的使用者清單（品牌入口網站參與者）為何？**
 
 **Ans。** 下拉式清單中的使用者會從AEM中上傳的品牌入口網站使用者設定(.csv)檔案中填入。
 
