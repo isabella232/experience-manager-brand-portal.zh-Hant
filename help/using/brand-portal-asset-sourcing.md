@@ -18,14 +18,14 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
 
 # 資產來源補充概述 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing****** 允許AEM使用者（管理員／非管理員使用者）建立新資料夾，並附加「資產貢獻」屬性，以確保建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發在新建立的「貢獻」檔案夾中建立另外兩個子檔案夾( **SHARED** 和 **NEW**)的 **** 工作流程。 然後，AEM管理員會將應新增至貢獻檔案夾的資產類型以及一組基準資產上傳至 **SHARED** 檔案夾，以確保BP使用者擁有所需的參考資訊，借此定義需求。 然後，管理員可以先授與作用中的品牌入口網站使用者對貢獻資料夾的存取權，再將新建立的 **貢獻資料夾發佈至品牌入口網站** 。 當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
+**Asset Sourcing****** 允許AEM使用者（管理員／非管理員使用者）建立新資料夾，並附加「資產貢獻」屬性，以確保建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發在新建立的「貢獻」檔案夾中建立另外兩個子檔案夾( **SHARED** 和 **NEW**)的 **** 工作流程。 然後，AEM管理員會將應新增至貢獻檔案夾的資產類型以及一組基準資產的簡報上傳至 **SHARED** 檔案夾，以確保BP使用者擁有所需的參考資訊，以定義需求。 然後，管理員可以先授與作用中的品牌入口網站使用者對貢獻資料夾的存取權，再將新建立的 **貢獻資料夾發佈至品牌入口網站** 。 當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
 
 此外，所有現有功能都保持不變。 品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。
 
@@ -40,6 +40,18 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 >請連絡Adobe支援，將您的AEM實例升級至最新支援的AEM版本。
 
 ![品牌入口網站資產來源補充](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>如果您是AEM 6.5.4使用者，「資產來源補充」功能將繼續處理「舊版OAuth整合」。
+>
+>但是，在AEM 6.5.4升級至Adobe I/O時，Brand Portal使用者無法將貢獻資料夾資產發佈至AEM Assets。
+>
+>此問題將在下一個Service Pack AEM 6.5.5中修正。
+>
+>如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在您的作者實例上。
+
 
 ## 必備條件 {#prerequisites}
 
