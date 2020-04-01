@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
 
 ---
 
@@ -59,6 +59,12 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 | **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 聯絡支援 | 聯絡支援 |
+
+>[!NOTE]
+>
+>建議您將AEM例項更新為最新的Service Pack。
+
+
 
 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
 
@@ -406,7 +412,7 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 
 ![](assets/accessassetreport.png)
 
-**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地控制。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
+**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地掌控。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
 
 您可新增或移除預設欄，以自訂每個要建立的報表。 此外，自訂欄可新增至「下載」、「有效期」和「發佈」報表，以控制其詳細程度。
 
