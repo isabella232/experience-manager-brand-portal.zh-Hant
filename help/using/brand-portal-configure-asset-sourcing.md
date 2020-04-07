@@ -5,11 +5,12 @@ description: 深入瞭解在AEM Assets中設定資產來源補充功能。
 seo-description: 深入瞭解在AEM Assets中設定資產來源補充功能。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
