@@ -4,13 +4,13 @@ seo-title: AEM Assets Brand Portal 的新功能
 description: 檢視6.4.6的新功能和增強功能。
 seo-description: 檢視6.4.6的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
-contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 6.4.6版的變更 {#what-changed-in-646}
 
-品牌入口網站6.4.6是增強版，其中AEM Assets和品牌入口網站之間的授權管道已變更。 之前，品牌入口網站是透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe I/O設定品牌入口網站，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
+在Brand Portal 6.4.6中，AEM Assets和Brand Portal之間的授權管道已變更。 AEM Assets雲端服務、AEM Assets 6.3及更新版本現在支援品牌入口網站。 在AEM Assets 6.3和更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統UI中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe I/O設定品牌入口網站，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -55,6 +55,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 | **AEM版本** | **新設定** | **升級配置** |
 |---|---|---|
+| **AEM Assets 雲端服務** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -412,7 +413,7 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 
 ![](assets/accessassetreport.png)
 
-**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地掌控。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
+**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地控制。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
 
 您可新增或移除預設欄，以自訂每個要建立的報表。 此外，自訂欄可新增至「下載」、「有效期」和「發佈」報表，以控制其詳細程度。
 
