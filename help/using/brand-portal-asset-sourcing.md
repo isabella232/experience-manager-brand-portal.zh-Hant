@@ -5,11 +5,12 @@ description: 深入瞭解Adobe Experience Manager Assets品牌入口網站中發
 seo-description: 深入瞭解Adobe Experience Manager Assets品牌入口網站中發佈的資產來源補充功能。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 product: experience-manager
-sub-product: assets
+sub-product: 資產
 feature: brand-portal
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -18,14 +19,14 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
 # 資產來源補充概述 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing****** 允許AEM使用者（管理員／非管理員使用者）建立新資料夾，並附加「資產貢獻」屬性，以確保建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發在新建立的「貢獻」檔案夾中建立另外兩個子檔案夾( **SHARED** 和 **NEW**)的 **** 工作流程。 然後，AEM管理員會將應新增至貢獻檔案夾的資產類型以及一組基準資產的簡報上傳至 **SHARED** 檔案夾，以確保BP使用者擁有所需的參考資訊，以定義需求。 然後，管理員可以先授與作用中的品牌入口網站使用者對貢獻資料夾的存取權，再將新建立的 **貢獻資料夾發佈至品牌入口網站** 。 當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
+**Asset Sourcing****** 允許AEM使用者（管理員／非管理員使用者）建立新資料夾，並附加「資產貢獻」屬性，以確保建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發在新建立的「貢獻」檔案夾中建立另外兩個子檔案夾( **SHARED** 和 **NEW**)的 **** 工作流程。 然後，AEM管理員會將應新增至貢獻檔案夾的資產類型以及一組基準資產上傳至 **SHARED** 檔案夾，以確保BP使用者擁有所需的參考資訊，借此定義需求。 然後，管理員可以先授與作用中的品牌入口網站使用者對貢獻資料夾的存取權，再將新建立的 **貢獻資料夾發佈至品牌入口網站** 。 當使用者在「 **NEW** 」檔案夾中新增內容後，就可以將貢獻檔案夾發佈回AEM作者環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
 
 此外，所有現有功能都保持不變。 品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。
 
