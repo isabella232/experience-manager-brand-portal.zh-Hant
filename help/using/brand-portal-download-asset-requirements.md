@@ -4,12 +4,13 @@ seo-title: 下載資產需求
 description: 深入瞭解如何在品牌入口網站中下載資產需求和基準資產。
 seo-description: 深入瞭解如何在品牌入口網站中下載資產需求和基準資產。
 uuid: null
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -36,7 +37,7 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 1. 返回品牌入口網站儀表板。
 1. 按一下以開啟貢獻資料夾，您可在貢獻資料夾中看到兩個子&#x200B;**[!UICONTROL 資料夾]** - **[!UICONTROL SHARED]** 和NEW。 SHARED資料夾包含管理員共用的所有基準資產（參考內容）。
 1. 您可以下載 **[!UICONTROL SHARED]** 資料夾，其中包含本機電腦上的所有基準資產。
-或者，您可以開啟 **[!UICONTROL SHARED]** 檔案夾，然後按一下「下載 **」圖示**![](assets/download.png) 以下載個別檔案／檔案夾。
+或者，您可以開啟 **[!UICONTROL SHARED]** 檔案夾，然後按一下「下載 **」圖示**![](assets/download.png) 以下載個別的檔案／檔案夾。
    ![](assets/download-asset-requirement3.png)
 
 請詳閱簡介（資產需求檔案），並參考基準資產以瞭解資產需求。 現在，您可以建立新的貢獻資產，並將其上傳至貢獻資料夾。 請參閱， [上傳資產至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)。
