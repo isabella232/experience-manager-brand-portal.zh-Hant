@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 >[!NOTE]
 >
->AEM 6.3和更新版本支援透過Adobe I/O以品牌入口網站設定AEM資產。
+>AEM Assets雲端服務、AEM Assets 6.3及更新版本支援透過Adobe I/O以品牌入口網站設定AEM Assets。
 
 ### 使用品牌入口網站設定AEM資產的必要條件 {#prerequisites}
 
 您需要下列項目才能設定具有品牌入口網站的AEM資產：
 
-* 具有最新Service Pack的AEM Assets作者執行個體。
+* 啟動並執行AEM Assets例項。
 * 品牌入口網站租用戶URL。
 * 對品牌入口網站的IMS組織具有系統管理員權限的使用者。
 
@@ -219,5 +219,5 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 ## Related resources {#related-resources}
 
-* [Adobe客戶服務](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe客戶服務](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)
 * [AEM論壇](https://www.adobe.com/go/aod_forums_en)
