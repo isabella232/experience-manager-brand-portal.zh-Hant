@@ -4,12 +4,13 @@ seo-title: 上傳新資產至貢獻檔案夾
 description: 深入瞭解如何將新資產上傳至品牌入口網站的貢獻資料夾。
 seo-description: 深入瞭解如何將新資產上傳至品牌入口網站的貢獻資料夾。
 uuid: null
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -33,7 +34,7 @@ source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 1. 按一下以開啟貢獻資料夾，您可在貢獻資料夾中看到兩個子&#x200B;**[!UICONTROL 資料夾]** - **[!UICONTROL SHARED]** 和NEW。
 1. 按一 **[!UICONTROL 下「新]** 」檔案夾。
    ![](assets/upload-new-assets1.png)
-1. 按一 **[!UICONTROL 下「建立]** &gt;檔案」 ![](assets/upload.png) ，上傳包含多個資產的個別檔案或檔案夾(.zip)。
+1. 按一 **[!UICONTROL 下「建立]** >檔案」 ![](assets/upload.png) ，上傳包含多個資產的個別檔案或檔案夾(.zip)。
    ![](assets/upload-new-assets2.png)
 1. 在「新增」檔案夾中瀏覽及上傳新資產(檔案/ **[!UICONTROL 檔案夾]** )。
    ![](assets/upload-new-assets3.png)
