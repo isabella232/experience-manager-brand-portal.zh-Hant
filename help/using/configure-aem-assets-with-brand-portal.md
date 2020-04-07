@@ -5,20 +5,25 @@ description: 深入瞭解如何使用品牌入口網站設定AEM資產。
 seo-description: 深入瞭解如何使用品牌入口網站設定AEM資產。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: 75d69f85a4178b78eba15a13f865a602e73d3a88
 
 ---
 
 
 # 使用品牌入口網站設定AEM資產 {#configure-integration}
 
-Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。 此設定可讓品牌入口網站使用者使用資產發佈、資產分發和資產貢獻功能。
+Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。 AEM Assets雲端服務、AEM Assets 6.3及更新版本現在支援品牌入口網站。
+
+設定AEM Assets可以與品牌入口網站一起服務，讓您可以與品牌入口網站使用者一起發佈和分發資產。 但是，在AEM 6.3（及更新版本）上設定品牌入口網站可讓品牌入口網站使用者使用資產發佈、資產分發和資產貢獻功能。
 
 >[!NOTE]
+>
+>***針對AEM Assets 6.3和更新版本***
 >
 >之前，品牌入口網站是透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。
 >
@@ -36,6 +41,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 | **AEM版本** | **新設定** | **升級配置** |
 |---|---|---|
+| **AEM Assets 雲端服務** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
