@@ -4,12 +4,13 @@ seo-title: 在品牌入口網站中使用資產來源補充
 description: 深入瞭解如何使用「資產來源補充」功能、將資產上傳至貢獻檔案夾，以及在品牌入口網站中將貢獻檔案夾發佈至AEM資產。
 seo-description: 深入瞭解如何使用「資產來源補充」功能、將資產上傳至貢獻檔案夾，以及在品牌入口網站中將貢獻檔案夾發佈至AEM資產。
 uuid: null
-content-type: 引用
-topic-tags: 品牌入口網站
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
