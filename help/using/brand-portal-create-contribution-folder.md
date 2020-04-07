@@ -5,11 +5,12 @@ description: '深入瞭解如何在AEM Assets中建立貢獻資料夾。 '
 seo-description: 深入瞭解如何在AEM Assets中建立貢獻資料夾。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,12 +23,13 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者可以在AE
 **若要建立新貢獻資料夾：**
 1. 登入您的AEM作者例項預設URL:http:// localhost:4502/aem/start.html
 1. 導覽至「 **[!UICONTROL 資產>檔案]**」。它會列出AEM Assets存放庫中的所有現有檔案夾。
-1. Click **[!UICONTROL Create]**to create a new folder. 「建立資料夾」(Create Folder)彈出窗口開啟。
-1. 輸入資 **[!UICONTROL 料夾的]**標題**[!UICONTROL &#x200B;和名稱]** ，並勾選核取方塊「資產貢 **[!UICONTROL 獻」]**。
+1. Click **[!UICONTROL Create]** to create a new folder. 「建立資料夾」(Create Folder)彈出窗口開啟。
+1. 輸入資 **[!UICONTROL 料夾的]** 標題 **[!UICONTROL 和名稱]** ，並勾選核取方塊「資產貢 **[!UICONTROL 獻」]**。
 建議使用沒有空格的小字母來命名資料夾。
-1. 按一下&#x200B;**[!UICONTROL 「建立」]**。   ![](assets/create-contribution-folder.png)
+1. 按一下 **[!UICONTROL 建立]**。
+   ![](assets/create-contribution-folder.png)
 1. 您可以在AEM Assets儲存庫中看到新建立的貢獻資料夾。
-1. 按一下以開啟貢獻資料夾，您會看到兩個子資料夾-**[!UICONTROL SHARED]****[!UICONTROL &#x200B;和NEW]** -會自動在貢獻資料夾中建立。\
+1. 按一下以開啟貢獻資料夾，您會看到兩個子資料夾-**[!UICONTROL SHARED]****[!UICONTROL 和NEW]** -會自動在貢獻資料夾中建立。\
    ![](assets/contribution-folder.png)
 
 您現在可以設定「貢獻」檔案夾屬性。 請參閱「設 [定貢獻資料夾屬性](brand-portal-configure-contribution-folder-properties.md)」。
