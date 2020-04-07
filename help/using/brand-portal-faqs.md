@@ -5,11 +5,12 @@ description: 深入瞭解Adobe Experience Manager Assets品牌入口網站中的
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 **客戶。 升級至Adobe I/O後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。我的作者實例位於AEM 6.5.4。可能的原因是什麼？**
 
-**Ans。** 是的，在使用Adobe I/O將貢獻資料夾的資產發佈至AEM 6.5.4的AEM Assets時，有已知問題。此問題將在下一個Service Pack AEM 6.5.5中修正。
+**Ans。** 是的，在使用Adobe I/O將貢獻資料夾的資產發佈至AEM 6.5.4的AEM Assets時，有已知問題。此問題將在下一個Service Pack中修正。
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
