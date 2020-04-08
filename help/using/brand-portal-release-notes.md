@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 * 訪客登入品牌入口網站的驗證碼。 如需詳細 [資訊，請參閱品牌入口網站](../using/guest-access.md) (Brand Portal)訪客存取。
 
 * AEM Assets雲端服務現在支援品牌入口網站。 您可以設定AEM Assets可以與品牌入口網站一起服務，以便與品牌入口網站使用者共用及分發資產。
-如需詳細資訊，請參 [閱「使用品牌入口網站設定AEM Assets雲端服務」](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+如需詳細資訊，請參 [閱「使用品牌入口網站設定AEM Assets雲端服務」](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)。
 
 ### 增強功能 {#enhancements-646}
 
