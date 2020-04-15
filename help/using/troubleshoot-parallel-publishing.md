@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # 疑難排解平行發佈至 Brand Portal 的問題 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-品牌入口網站已設定AEM Assets，讓核准的品牌資產順暢地從AEM Assets作者例項接收（或發佈）。 設 [定後](../using/configure-aem-assets-with-brand-portal.md),AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，以供Brand Portal使用者核准使用。 使用多個複製代理程式：AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2和更新版本，以允許高速並行發佈。
+品牌入口網站已設定AEM Assets，讓核准的品牌資產順暢地從AEM Assets作者例項接收（或發佈）。 設 [定後](../using/configure-aem-assets-with-brand-portal.md),AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，以供Brand Portal使用者核准使用。 AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2和更新版本都使用多個複製代理，以允許高速並行發佈。
 
 >[!NOTE]
 >
