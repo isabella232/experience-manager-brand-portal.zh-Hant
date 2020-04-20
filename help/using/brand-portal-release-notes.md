@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 6.4.6的新增功能 {#what-s-new-in-646}
 
-### 新功能 {#new-feature}
+### New Features {#new-feature}
 
 此版本包含下列新功能：
 
@@ -119,6 +119,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 這些網站僅提供給客戶使用。 如果您是客戶且需要存取權，請連絡您的Adobe客戶經理。
 
-* [](https://daycare.day.com) 產 [品存取](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [產品存取](https://login.marketing.adobe.com)
 
 * [Adobe客戶服務](https://helpx.adobe.com/contact.html)
