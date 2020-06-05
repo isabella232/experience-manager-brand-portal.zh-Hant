@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 0%
 
 ---
 
 
 # 常見問題 {#frequently-asked-questions}
 
-品牌入口網站常見問答集主要針對使用者在使用最新AEM Assets Brand Portal 6.4.5版或更舊版本時可能遇到的查詢和問題。
+品牌入口網站常見問答集主要針對使用者在使用最新AEM Assets Brand Portal 6.4.6版或更舊版本時可能遇到的查詢和問題。
 
 
-## 品牌入口網站6.4.6常見問答集 {#faqs-bp646}
+## 品牌入口網站6.4.6常見問答集  {#faqs-bp646}
 
 **客戶。 現有的舊式OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
-**Ans。** 舊版OAuth設定已過時。 您必須將AEM Assets作者例項升級至最新的Service Pack，並使用Adobe IO進行設定。 如需詳 [細資訊，請參閱「設定AEM資產與品牌入口網站](configure-aem-assets-with-brand-portal.md) 」。 不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**Ans。** 舊版OAuth設定已過時。 您必須將AEM Assets作者例項升級至最新的Service Pack，並透過Adobe Developer Console加以設定。 如需詳 [細資訊，請參閱「設定AEM資產與品牌入口網站](configure-aem-assets-with-brand-portal.md) 」。 不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
-**客戶。 升級至Adobe I/O後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。我的作者實例位於AEM 6.5.4。可能的原因是什麼？**
+**客戶。 升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。 可能的原因是什麼？**
 
-**Ans。** 是的，在使用Adobe I/O將貢獻資料夾的資產發佈至AEM 6.5.4的AEM Assets時，有已知問題。此問題將在下一個Service Pack中修正。
+**Ans。** 是的，透過Adobe Developer Console將貢獻資料夾的資產發佈至AEM 6.5.4上的AEM Assets時，有已知問題。
+
+此問題已在AEM 6.5.5中修正。 您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
 
-## 品牌入口網站6.4.5常見問答集 {#faqs-bp645}
+## 品牌入口網站6.4.5常見問答集  {#faqs-bp645}
 
 **客戶。 品牌入口網站6.4.5版的主要變更為何？**
 
@@ -76,14 +81,14 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 **客戶。 「貢獻」檔案夾包含哪些內容？**
 
-**Ans。** Contribution **(貢獻** )資料夾包含兩個子資料 **夾NEW** （新）和 **SHARED（共用）**。 一開始，NEW檔案夾是空白的，而SHARED檔案夾包含品牌入口網站使用者的參考內容（可重複使用的資產）。
+**Ans。** **Contribution** （貢獻）資料夾包含兩個子資 **料夾** NEW **（新）**和SHARED（共用）。 一開始，NEW檔案夾是空白的，而SHARED檔案夾包含品牌入口網站使用者的參考內容（可重複使用的資產）。
 品牌入口網站使用者會存取 **Contribution** 檔案夾，並上傳 **NEW檔案夾中的** 內容。
 
 
 
 **客戶。  我可以修改現有貢獻資料夾的名稱嗎？**
 
-**Ans。** 否 ****，您無法修改現有貢獻資料 **夾的名稱** 。
+**Ans。** **否**，您無法修改現有貢獻資料 **夾的** 名稱。
 
 
 
@@ -106,6 +111,7 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 >[!NOTE]
 >
 >如果您不是現有的品牌入口網站使用者，請要求AEM管理員在AEM管理控制台中建立您的使用者，並將您的個人檔案新增至品牌入口網站使用者清單中的使用者設定檔案。 請參閱「 [新增品牌入口網站使用者](brand-portal-configure-asset-sourcing.md)」。
+
 
 
 
@@ -174,6 +180,6 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 這些網站僅提供給客戶使用。 如果您是客戶且需要存取權，請連絡您的Adobe客戶經理。
 
-* [](https://daycare.day.com) 產 [品存取](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [產品存取](https://login.marketing.adobe.com)
 
 * [Adobe客戶服務](https://helpx.adobe.com/contact.html)
