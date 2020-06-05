@@ -1,53 +1,57 @@
 ---
-title: AEM Assets品牌入口網站概觀
+title: Overview of AEM Assets Brand Portal
 seo-title: AEM Assets品牌入口網站概觀
-description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
-seo-description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
+description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
+seo-description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 8%
 
 ---
 
 
-# AEM Assets品牌入口網站概觀 {#overview-of-aem-assets-brand-portal}
+# Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-身為行銷人員，您有時需要與通路合作夥伴和內部商業使用者共同作業，以快速建立、管理並傳遞相關的數位內容給客戶。 在整個客戶歷程中及時傳遞相關內容，對於推動更大的需求、轉化、參與度和客戶忠誠度至關重要。
+As a marketer, you sometimes need to collaborate with channel partners and internal business users to quickly create, manage, and deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
 
-但是，開發解決方案以支援與延伸內部團隊、合作夥伴和經銷商有效且安全地分享經核准的品牌標誌、准則、宣傳資產或產品像片，是一項挑戰。
+However, it is a challenge to develop solutions that support efficient and secure sharing of approved brand logos, guidelines, campaign assets, or product shots with extended internal teams, partners, and resellers.
 
-**Adobe Experience Manager(AEM)Assets Brand Portal** ，著重說明行銷人員需要透過提供資產分發和資產貢獻功能，與全球分散的Brand Portal使用者有效地協作。
+**Adobe Experience Manager (AEM) Assets Brand Portal** focuses on the marketer’s need to effectively collaborate with the globally distributed Brand Portal users by providing asset distribution and asset contribution capabilities.
 
-資產分發可讓您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產分發給外部人士和內部商業使用者。 但是，資產貢獻可讓品牌入口網站使用者將資產上傳至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 貢獻功能稱為品牌入口 **網站中的「資產採購」**。 此外，它可改善資產分發的整體品牌入口網站體驗，並從品牌入口網站使用者（外部機構／團隊）獲得貢獻，加速資產上市時間，並降低不合規和未授權存取的風險。
-請參閱「品 [牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)」。
+Asset distribution allows you to easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. 但是，資產貢獻可讓品牌入口網站使用者將資產上傳至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 The contribution feature is called as **Assets Sourcing in Brand Portal**. And together, it improves the overall Brand Portal experience of asset distribution and contribution from the Brand Portal users (external agencies/teams), accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+See, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
-以瀏覽器為基礎的入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
+The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
 
-## 使用品牌入口網站設定AEM資產 {#configure-brand-portal}
+## 使用 Brand Portal 設定 AEM Assets {#configure-brand-portal}
 
-Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定，Adobe I/O會購買IMS Token以授權您的品牌入口網站租用戶。
+Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入口網站設定，Adobe Developer Console會購買IMS Token以授權您的品牌入口網站租用戶。
 
 >[!NOTE]
 >
->AEM Assets雲端服務、AEM Assets 6.3及更新版本支援透過Adobe I/O以品牌入口網站設定AEM Assets。
+>Configuring AEM Assets with Brand Portal via Adobe Developer Console is supported on AEM Assets cloud service, AEM Assets 6.3 and above.
 
-### 使用品牌入口網站設定AEM資產的必要條件 {#prerequisites}
 
-您需要下列項目才能設定具有品牌入口網站的AEM資產：
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
+
+您需要下列項目才能使用 Brand Portal 設定 AEM Assets：
 
 * 啟動並執行AEM Assets例項。
-* 品牌入口網站租用戶URL。
-* 對品牌入口網站的IMS組織具有系統管理員權限的使用者。
+* Brand Portal 租用戶 URL。
+* 在 Brand Portal 租用戶的 IMS 組織具有系統管理員權限的使用者。
 
-如需詳細資訊，請參 [閱「使用品牌部份設定AEM資產」](../using/configure-aem-assets-with-brand-portal.md)。
+For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 
-## 品牌入口網站中的使用者角色 {#Personas}
+## User personas in Brand Portal {#Personas}
 
-品牌入口網站支援下列使用者角色：
+Brand Portal supports the following user roles:
 
 * 來賓用戶
 * 檢視者
@@ -67,9 +71,9 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 ### Guest user {#guest-user}
 
-任何未經驗證而對品牌入口網站上資產有限存取的使用者皆為訪客使用者。 來賓會話允許用戶訪問公共資料夾和集合。 身為來賓用戶，您可以瀏覽資產詳細資訊，並擁有公共資料夾和系列成員的完整資產視圖。 您可以搜尋、下載公共資產並新增至 [!UICONTROL Lightbox] 集合。
+Any user having limited access to assets on Brand Portal without undergoing authentication is a guest user. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
 
-不過，來賓作業會限制您建立系列和已儲存的搜尋，並進一步共用。 來賓作業中的使用者無法存取資料夾和系列設定，也無法將資產共用為連結。 以下是來賓用戶可以執行的任務清單：
+However, guest session restricts you from creating collections and saved searches, and share them further. 來賓作業中的使用者無法存取資料夾和系列設定，也無法將資產共用為連結。 以下是來賓用戶可以執行的任務清單：
 
 [瀏覽及存取公共資產](browse-assets-brand-portal.md)
 
@@ -77,23 +81,23 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 [下載公用資產](brand-portal-download-users.md)
 
-[將資產新增至 [!UICONTROL 燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 檢視者 {#viewer}
 
-品牌入口網站中的標準使用者通常是具有檢視器角色的使用者。 具有此角色的使用者可以存取允許的資料夾、系列和資產。 使用者也可以瀏覽、預覽、下載和匯出資產（原始或特定轉譯）、設定帳戶設定，以及搜尋資產。 以下是檢視器可執行的工作清單：
+A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
 [瀏覽資產](browse-assets-brand-portal.md)
 
-[搜尋資產](brand-portal-searching.md)
+[Search for assets](brand-portal-searching.md)
 
 [下載資產](brand-portal-download-users.md)
 
 ### 編輯者 {#editor}
 
-具有編輯器角色的使用者可以執行檢視器可以執行的所有工作。 此外，編輯器還可以查看管理員共用的檔案和資料夾。 具有編輯器角色的使用者也可以與其他人共用內容（檔案、檔案夾、系列）。
+A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
 
-除了檢視器可執行的工作外，編輯器還可執行下列其他工作：
+Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
 [共用資料夾](brand-portal-sharing-folders.md)
 
@@ -103,13 +107,13 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 ### 管理員 {#administrator}
 
-管理員在 [!UICONTROL Admin Console中包含標示為系統管理員或品牌入口網站產品管理員的]使用者。 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站的使用情況和儲存報告。
+An administrator includes a user marked as system administrator or Brand Portal product administrator in [!UICONTROL Admin Console]. 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站的使用情況和儲存報告。
 
-管理員可以執行編輯器可以執行的所有任務，以執行以下附加任務：
+An administrator can perform all tasks that an Editor can perform the following additional tasks:
 
 [管理使用者、群組和使用者角色](brand-portal-adding-users.md)
 
-[自訂壁紙、頁首和電子郵件](brand-portal-branding.md)
+[Customize wallpaper, page headers, and emails](brand-portal-branding.md)
 
 [使用自訂搜尋 Facet](brand-portal-search-facets.md)
 
@@ -119,30 +123,31 @@ Adobe Experience Manager(AEM)Assets是透過Adobe I/O以品牌入口網站設定
 
 [使用報表](brand-portal-reports.md)
 
-除了上述工作外，AEM Assets中的「作者」也可以執行下列工作：
+In addition to the above tasks, an Author in AEM Assets can perform the following tasks:
 
-[使用品牌入口網站設定AEM資產](../using/configure-aem-assets-with-brand-portal.md)
+[使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
-[將資料夾發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[將資料夾發佈至 Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[將系列發佈至品牌入口網站](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[將集合發佈至 Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
+## Alternate alias for Brand Portal url {#tenant-alias-for-portal-url}
 
-品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有URL使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
-請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
+Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. The alias URL can be created by having an alternate prefix in the URL.\
+Note that only the prefix of the Brand Portal URL can be customized and not the entire URL. 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
 
 不過，AEM Author例項只能以租 [用戶ID](../using/configure-aem-assets-with-brand-portal.md) URL設定，而不能以租用戶別名（替代）URL設定。
 
 >[!NOTE]
 >
->若要在現有入口網站URL中取得租用戶名稱的別名，組織必須向Adobe支援部門提出新的租用戶別名建立要求。 首先檢查別名是否可用，然後建立別名，即可處理此請求。
+>To get an alias for tenant name in existing portal URL, organizations need to contact Adobe support with a new tenant alias creation request. This request is processed by first checking if the alias is available and then creating the alias.
 >
->要替換舊別名或刪除舊別名，必須執行相同的進程。
+>To replace the old or delete the old alias, the same process needs to be followed.
+
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
-使用者可從登入畫面要求存取品牌入口網站。 這些請求會傳送至品牌入口網站管理員，這些管理員會透過Adobe [!UICONTROL Admin Console授與使用者存取權]。 在授予存取權後，使用者會收到通知電子郵件。
+Users can request access to Brand Portal from the login screen. 這些請求會傳送至品牌入口網站管理員，這些管理員會透過Adobe [!UICONTROL Admin Console授與使用者存取權]。 在授予存取權後，使用者會收到通知電子郵件。
 
 若要申請存取權，請執行下列動作：
 
