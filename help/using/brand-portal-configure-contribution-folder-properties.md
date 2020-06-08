@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
@@ -20,16 +23,16 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 
-* **添加說明**:提供貢獻資料夾的高階說明。
-* **上傳簡介**: 上載包含資產相關資訊的資產需求文檔。
-* **新增參與者**:新增品牌入口網站使用者或群組，以授與他們對貢獻資料夾的存取權。
+* **添加說明**: 提供貢獻資料夾的高階說明。
+* **上傳簡介**:  上載包含資產相關資訊的資產需求文檔。
+* **新增參與者**: 新增品牌入口網站使用者或群組，以授與他們對貢獻資料夾的存取權。
 
 資產需求是指管理員提供的詳細資訊，以協助參與者（品牌入口網站使用者）瞭解貢獻資料夾的需求和需求。 管理員上傳資產需求檔案，其中包含應新增至貢獻檔案夾的資產類型及資產相關資訊的簡介，例如用途、影像類型、最大大小等。
 
 然後，管理員可以先授與品牌入口網站使用者／群組的貢獻資料夾存取權，再將新建立的貢獻資料夾發佈至品牌入口網站。
 
 **若要設定貢獻資料夾屬性：**
-1. 登入您的AEM作者例項預設URL:http:// localhost:4502/aem/start.html
+1. 登入您的AEM作者例項預設URL: http:// localhost:4502/aem/start.html
 1. 導覽至「 **[!UICONTROL 資產>檔案]** 」，並找出貢獻檔案夾。
 1. 選取貢獻資料夾，然後按一 **[!UICONTROL 下屬性]**![](assets/properties.png)。 資料夾屬性窗口開啟。
    ![](assets/contribution-folder-property1.png)
