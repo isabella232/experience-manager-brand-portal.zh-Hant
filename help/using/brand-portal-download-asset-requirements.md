@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
@@ -21,14 +24,14 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 品牌入口網站使用者會執行下列活動以下載資產需求：
 
-* **下載簡介**:下載附在貢獻檔案夾中的簡短（資產需求檔案），該檔案夾包含資產相關資訊，例如資產類型、用途、支援的格式、最大資產大小等。
-* **下載基準資產**:下載可用來瞭解所需資產類型的基準資產。 品牌入口網站使用者可使用這些資產作為參考，以建立新資產以作貢獻。
+* **下載簡介**: 下載附在貢獻檔案夾中的簡短（資產需求檔案），該檔案夾包含資產相關資訊，例如資產類型、用途、支援的格式、最大資產大小等。
+* **下載基準資產**: 下載可用來瞭解所需資產類型的基準資產。 品牌入口網站使用者可使用這些資產作為參考，以建立新資產以作貢獻。
 
 「品牌入口網站」控制面板會反映品牌入口網站使用者允許的所有現有資料夾，以及新共用的貢獻資料夾。 在此範例中，品牌入口網站使用者僅能存取新建立的貢獻資料夾，不會與使用者共用其他現有資料夾。
 
 **若要下載資產需求：**
 
-1. 登入您的品牌入口網站實例。
+1. 登入您的品牌入口網站例項。
 1. 從「品牌入口網站」控制面板選取貢獻資料夾。
 1. 按一 **[!UICONTROL 下屬性]**![](assets/properties.png)。 屬性視窗隨即開啟，顯示「資產貢獻」檔案夾詳細資訊。
    ![](assets/download-asset-requirement1.png)
