@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ AEM管理員會上傳 **SHARED** 檔案夾中的基準資產，以協助品牌�
 **若要上傳基準資產：**
 
 1. 登入您的AEM作者實例。
-預設URL:http:// localhost:4502/aem/start.html
+預設URL: http:// localhost:4502/aem/start.html
 1. 導覽至「 **[!UICONTROL 資產>檔案]** 」，並找出您要上傳基準資產的貢獻檔案夾。
 1. 按一下以開啟貢獻資料夾，您可在貢獻資料夾中看到兩個子&#x200B;**[!UICONTROL 資料夾]** - **[!UICONTROL SHARED]** 和NEW。
 1. 按一 **[!UICONTROL 下「共用]** 」資料夾。
