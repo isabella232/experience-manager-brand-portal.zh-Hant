@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 **若要發佈貢獻資料夾：**
 
 1. 登入您的AEM作者實例。
-預設URL:http:// localhost:4502/aem/start.html
+預設URL: http:// localhost:4502/aem/start.html
 1. 導覽至「 **[!UICONTROL 資產>檔案]** 」，並找出您要發佈至品牌入口網站的貢獻資料夾。
 1. 選取貢獻資料夾，然後按一 **[!UICONTROL 下「快速發佈>發佈至品牌入口網站」]**。
    ![](assets/publish-contribution-folder-to-bp.png)
