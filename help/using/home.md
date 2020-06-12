@@ -4,10 +4,10 @@ seo-title: AEM Brand Portal 使用手冊
 description: AEM Brand Portal 使用手冊
 seo-description: 說明如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
 
@@ -50,4 +50,4 @@ Brand Portal 解決方案的工作流程如下圖所示。
 
 ### 實用資源
 
-* [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [瞭解使用AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
