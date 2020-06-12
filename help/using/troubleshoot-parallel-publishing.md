@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5b16a4073592896264237f00554e361ed8929383
+source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ![](assets/test-connection.png)
 
-## 疑難排解首次發佈失敗：驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 疑難排解首次發佈失敗： 驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 若要驗證您的發佈設定：
 
@@ -60,25 +63,26 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 清除現有品牌入口網站發佈設定 {#clean-up-existing-config}
 
-發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如：沒 `mac-<tenantid>-replication` 有最新的私鑰，因此發佈失敗，出現「401未授權」錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
+發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如： `mac-<tenantid>-replication` 沒有最新的私鑰，因此發佈失敗，出現「401 unauthorized」錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
 
 1. 前往(考 `localhost:4502/crx/de/` 慮您正在localhost:4502上執行作者例項：\
-   i.刪除 `/etc/replication/agents.author/mp_replication`ii。 刪除 `/etc/cloudservices/mediaportal/<config_name>`
+   i. 刪除 `/etc/replication/agents.author/mp_replication`ii。 刪除 `/etc/cloudservices/mediaportal/<config_name>`
+`/etc/cloudservices/mediaportal/<config_name>`前往localhost:4502/useradmin:
 
-1. 前往localhost:4502/useradmin:\
-   i.搜索用戶 `mac-<tenantid>replication`ii。 刪除此用戶
+1. i. 搜索用戶 `mac-<tenantid>replication`ii。 刪除此用戶\
+   現在系統都清理乾淨了。 現在，您可以嘗試建立新的cloudservice組態，並仍然使用https://legacy-oauth.cloud.adobe.io/中現有的JWT應用 [程式[#$tu31]。 您不需要建立新的應用程式，只需從新建立的雲端組態更新公開金鑰。
 
-現在系統都清理乾淨了。 現在，您可以嘗試建立新的cloudservice組態，並仍然使用https://legacy-oauth.cloud.adobe.io/中現有的JWT應用 [程式](https://legacy-oauth.cloud.adobe.io/)。 您不需要建立新的應用程式，只需從新建立的雲端組態更新公開金鑰。
 
-## 開發人員連線JWT應用程式租用戶可見度問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果位 [於https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)，則會列出目前使用者持有系統管理員的所有組織（租戶）。 如果您在這裡找不到組織名稱，或者您無法在這裡為必要的租用戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限。
+## 如果位 [於https://legacy-oauth.cloud.adobe.io/[#$tu34]，則會列出目前使用者持有系統管理員的所有組織（租戶）。 如果您在這裡找不到組織名稱，或者您無法在這裡為必要的租用戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限。
 
-此使用者介面有一個已知問題：任何租用戶只能看到前10個應用程式。 當您建立應用程式時，請停留在該頁面上並為URL建立書籤。 您不需要前往應用程式的清單頁面，並尋找您建立的應用程式。 您可以直接點按此書籤化URL，並視需要更新／刪除應用程式。
+
 
 JWT應用程式可能未正確列出。 因此，建議在建立JWT應用程式時記下URL/為其添加書籤。
 
-## 運行配置停止工作 {#running-configuration-stops-working}
+運行配置停止工作 {#running-configuration-stops-working}
+
+## 如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。{#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -105,8 +109,26 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
-
 如果連續發佈失敗且佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** ，並嘗試解決所報告的錯誤。
 
-根據錯誤，建議您記錄支援票證，以便品牌入口網站工程團隊協助您解決問題。
+根據錯誤，建議您記錄支援票證，以便品牌入口網站工程團隊協助您解決問題。****
+
+配置複製代理以避免連接超時錯誤 {#connection-timeout}
+
+
+## **問題**: 我無法將資產從AEM Assets發佈至品牌入口網站。 複製日誌表示連接超時。
+
+**解析度**: 如果複製佇列中有多個待審請求，發佈通常會失敗並出現逾時錯誤。 要解決此問題，請確保將複製代理配置為避免超時。
+
+**執行以下步驟以配置複製代理：**
+
+登入您的AEM Assets作者實例。
+1. 從「工 **具** 」面板，導覽至「部 **[!UICONTROL 署]** >復 **[!UICONTROL 制」]**。
+1. 在「複製」頁中，按一下「作 **[!UICONTROL 者上的代理」]**。 您可以看到您的品牌門戶租用戶的四個複製代理。**]******
+1. 按一下複製代理URL以開啟代理詳細資訊。****
+1. 按一下 **[!UICONTROL 編輯]** ，修改複製代理設定。
+1. 在「代理設定」中，按一下「 **[!UICONTROL Extended]** 」頁籤。
+1. 啟用「關 **[!UICONTROL 閉連接]** 」複選框。
+1. 重複步驟4到7 ，以配置所有四個複製代理。****
+1. 重新啟動伺服器。
+1. Restart the server.
