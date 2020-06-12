@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,9 @@ ht-degree: 0%
 
 ## 品牌入口網站6.4.6常見問答集  {#faqs-bp646}
 
-
-
 **客戶。 現有的舊式OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
 **Ans。** 舊版OAuth設定已過時。 您必須將AEM Assets作者例項升級至最新的Service Pack，並透過Adobe Developer Console加以設定。 如需詳 [細資訊，請參閱「設定AEM資產與品牌入口網站](configure-aem-assets-with-brand-portal.md) 」。 不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
-
 
 **客戶。 升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。 可能的原因是什麼？**
 
@@ -40,13 +37,11 @@ ht-degree: 0%
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
-
 **客戶。 我想在AEM Assets雲端例項上啟用「資產來源補充」功能。 如何設定？**
 
 **Ans。** 否，AEM Assets雲端服務目前不支援「資產來源補充」功能。
 
 保持連線，並檢視發行說明，以取得即將發行之功能可用性的通知。
-
 
 **客戶。 我無法將資產從AEM Assets發佈至品牌入口網站，而複製代理記錄檔會引發異常`java.net.SocketException: Connection timed out`。 有速效藥嗎？**
 
@@ -61,12 +56,6 @@ ht-degree: 0%
 
 啟用所有四個複製代理的設定，以避免任何複製代理出現問題。
 
-
-**客戶。 在AEM Assets中，我看不到從品牌入口網站發佈的貢獻資料夾內容。 可能的原因是什麼？**
-
-**Ans。** 請連絡您的AEM Assets管理員以驗證設定，並確定您的品牌入口網站租用戶僅設定一個AEM Assets作者例項。
-
-當您在多個AEM Assets作者例項上設定品牌入口網站租用戶時，可能會發生此問題。 例如，管理員會在AEM Assets作者執行個體的測試與生產環境上設定相同的品牌入口租用戶。 在此案例中，資產發佈會在Brand Portal中觸發，但AEM Assets作者例項無法匯入資產coz，複製代理程式不會收到請求的Token。
 
 ## 品牌入口網站6.4.5常見問答集  {#faqs-bp645}
 
