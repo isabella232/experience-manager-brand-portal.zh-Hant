@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 0%
 
 此外，所有現有功能都保持不變。 品牌入口網站使用者可從貢獻資料夾以及其他許可的資料夾檢視、搜尋及下載資產。 此外，管理員還可以進一步共用貢獻資料夾、修改屬性並將資產新增至系列。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## 必備條件 {#prerequisites}
+
+* AEM 6.5.2或更新版本。
+* 請確定您的AEM Assets例項已設定為品牌入口網站。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* 請確定您的品牌入口網站租用戶已設定一個AEM Assets作者例項。
 
 >[!NOTE]
 >
->AEM 6.5.2.0和更新版本支援品牌入口網站中的資產採購。
->
->AEM Assets雲端服務及舊版不支援此功能- AEM 6.3和AEM 6.4。
->
->請連絡Adobe支援，將您的AEM實例升級至最新支援的AEM版本。
+>AEM Assets雲端服務不支援資產來源補充。
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![品牌入口網站資產來源補充](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ ht-degree: 0%
 >
 >如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在您的作者實例上。
 
-
-## 必備條件 {#prerequisites}
-
-* AEM 6.5.0.2或更新版本。
-* 請確定您的AEM Assets例項已設定為品牌入口網站。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## 另請參閱 {#reference-articles}
 
