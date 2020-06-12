@@ -5,7 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 70%
 
 ---
 
@@ -20,13 +23,13 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [瞭解使用AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
 + 從 AEM Assets 發佈至 Brand Portal {#publish}
-   + [使用品牌入口網站設定AEM資產](using/configure-aem-assets-with-brand-portal.md)
-   + [將資產發佈至品牌入口網站](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [將資料夾發佈至品牌入口網站](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [將系列發佈至品牌入口網站](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [使用 Brand Portal 設定 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
+   + [將資產發佈至 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [將資料夾發佈至 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [將集合發佈至 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [疑難排解平行發佈至 Brand Portal 的問題](using/troubleshoot-parallel-publishing.md)
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
