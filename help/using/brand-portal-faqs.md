@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ ht-degree: 0%
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
-
 **客戶。 在AEM Assets中，我看不到從品牌入口網站發佈的貢獻資料夾內容。 可能的原因是什麼？**
 
 **Ans。** 請連絡您的AEM Assets管理員以驗證設定，並確定您的品牌入口網站租用戶僅設定一個AEM Assets作者例項。
@@ -58,7 +57,7 @@ ht-degree: 0%
 1. 在「代理設定」中，按一下「 **[!UICONTROL Extended]** 」頁籤。
 1. 啟用「關 **[!UICONTROL 閉連接]** 」複選框。
 1. 重複步驟4到7 ，以配置所有四個複製代理。
-1. 重新啟動伺服器。
+1. 重新啟動伺服器並驗證連接。
 
 
 ## 品牌入口網站6.4.5常見問答集  {#faqs-bp645}
