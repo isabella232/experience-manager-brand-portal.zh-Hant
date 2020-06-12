@@ -5,10 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 70%
+source-wordcount: '284'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 70%
    + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [瞭解使用AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
+   + [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
 + 從 AEM Assets 發佈至 Brand Portal {#publish}
    + [使用 Brand Portal 設定 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
