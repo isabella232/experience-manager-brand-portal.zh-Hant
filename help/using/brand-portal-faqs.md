@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,28 @@ ht-degree: 0%
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
-**客戶。 我想在AEM Assets雲端例項上啟用「資產來源補充」功能。 如何設定？**
 
-**Ans。** 否，AEM Assets雲端服務目前不支援「資產來源補充」功能。
+**客戶。 在AEM Assets中，我看不到從品牌入口網站發佈的貢獻資料夾內容。 可能的原因是什麼？**
 
-保持連線，並檢視發行說明，以取得即將發行之功能可用性的通知。
+**Ans。** 請連絡您的AEM Assets管理員以驗證設定，並確定您的品牌入口網站租用戶僅設定一個AEM Assets作者例項。
 
-**客戶。 我無法將資產從AEM Assets發佈至品牌入口網站，而複製代理記錄檔會引發異常`java.net.SocketException: Connection timed out`。 有速效藥嗎？**
+當您在多個AEM Assets作者例項上設定品牌入口網站租用戶時，可能會發生此問題。 例如，管理員會在AEM Assets作者執行個體的測試與生產環境上設定相同的品牌入口租用戶。 在此案例中，資產發佈會在Brand Portal中觸發，但AEM Assets作者例項無法匯入資產coz，複製代理程式不會收到請求的Token。
 
-**Ans。** 如果複製隊列中有待處理的請求數，則複製代理可能不處理發佈資產的請求並拋出異常： `java.net.SocketException: Connection timed out`.
 
-執行下列步驟以修正問題：
+**客戶。 我無法將資產從AEM Assets發佈至品牌入口網站。 複製日誌表示連接超時。 有速效藥嗎？**
 
-1. 開啟複製代理，然後按一下 **[!UICONTROL 編輯]** ，修改複製代理設定。
-1. 在「代理設定」中，按一下「擴展」選 **[!UICONTROL 項卡]**。
-1. 啟用核取方塊「 **[!UICONTROL 關閉連線]**」。
-1. 重新啟動複製包（伺服器）。
+**Ans。** 如果複製佇列中有多個待審請求，發佈通常會失敗並出現逾時錯誤。 要解決此問題，請確保將複製代理配置為避免超時。
 
-啟用所有四個複製代理的設定，以避免任何複製代理出現問題。
+執行以下步驟以配置複製代理：
+1. 登入您的AEM Assets作者實例。
+1. 從「工 **具** 」面板，導覽至「部 **[!UICONTROL 署]** >復 **[!UICONTROL 制」]**。
+1. 在「複製」頁中，按一下「作 **[!UICONTROL 者上的代理」]**。 您可以看到您的品牌門戶租用戶的四個複製代理。
+1. 按一下複製代理URL以開啟代理詳細資訊。
+1. 按一下 **[!UICONTROL 編輯]** ，修改複製代理設定。
+1. 在「代理設定」中，按一下「 **[!UICONTROL Extended]** 」頁籤。
+1. 啟用「關 **[!UICONTROL 閉連接]** 」複選框。
+1. 重複步驟4到7 ，以配置所有四個複製代理。
+1. 重新啟動伺服器。
 
 
 ## 品牌入口網站6.4.5常見問答集  {#faqs-bp645}
