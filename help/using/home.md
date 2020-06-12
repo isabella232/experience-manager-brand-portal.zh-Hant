@@ -4,7 +4,10 @@ seo-title: AEM Brand Portal 使用手冊
 description: AEM Brand Portal 使用手冊
 seo-description: 說明如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
 
@@ -39,7 +42,7 @@ Brand Portal 解決方案的工作流程如下圖所示。
 |--- |---|
 | [新功能](whats-new.md) | Brand Portal 和舊版的不同之處和最新產品。 |
 | [發行說明](brand-portal-release-notes.md) | 目前版本中的增強功能、已修正的嚴重問題，以及已知問題。 |
-| [使用品牌入口網站設定AEM資產](../using/configure-aem-assets-with-brand-portal.md) | 如何使用 AEM Assets 來複寫 Brand Portal 以發佈資產。 |
+| [使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用 AEM Assets 來複寫 Brand Portal 以發佈資產。 |
 | [疑難排解平行發佈的問題](troubleshoot-parallel-publishing.md) | 疑難排解 Brand Portal 和 AEM Assets 之間的複寫。 |
 | [支援的檔案格式](brand-portal-supported-formats.md) | Brand Portal 支援的檔案格式，可供預覽和下載。 |
 | [將資產發佈至 Brand Portal](brand-portal-sharing-folders.md) | 如何將資料夾、集合、連結、預設集、結構、Facet 和標記發佈至 Brand Portal。 |
@@ -47,4 +50,4 @@ Brand Portal 解決方案的工作流程如下圖所示。
 
 ### 實用資源
 
-* [瞭解使用AEM Assets的品牌入口網站](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [瞭解使用AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
