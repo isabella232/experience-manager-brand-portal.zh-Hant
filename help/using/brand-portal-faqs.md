@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
+source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 **Ans。** 是的，透過Adobe Developer Console將貢獻資料夾的資產發佈至AEM 6.5.4上的AEM Assets時，有已知問題。
 
-此問題已在AEM 6.5.5中修正。 您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
+AEM 6.5.5中的問題已修正。 您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
