@@ -10,7 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 若要預覽、播放和下載視訊，品牌入口網站會向管理員公開下列兩種設定：
 
 * [動態媒體混合設定](#configure-dm-hybrid-settings)如果AEM Author例項是在動態媒體混合模式上執行。
-* [動態媒體[!DNL Scene 7]設定](#configure-dm-scene7-settings)如果AEM Author例項是在動態媒體模式上&#x200B;**[!DNL Scene 7]** 執行。
+* [動態 [!DNL Scene 7] 媒體](#configure-dm-scene7-settings)設定如果AEM Author例項在動態媒體模式上執行&#x200B;**[!DNL Scene 7]** 。
 根據您在AEM Author實例中設定的設定來設定其中一個設定，此實例會複製品牌入口網站租用戶。
 
 >[!NOTE]
@@ -55,12 +58,12 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 若要在品牌入口網站上處理動態視訊，請確定：
 
-* **在DM(Dynamic Media)模式上啟動AEM Author**(在 [Dynamic Media Hybrid模式或](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic Media [!DNL Scene 7]模式上啟動AEM Author例項（已設定品牌入口網站） [](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
-* **在AEM Author上設定Dynamic Media Cloud服務** Based the Dynamic Media Mode AEM Author is running on, set of [Dynamic Media cloud services](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) or [[!DNL Scene 7] cloud services on AEM Author from](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) Tools **** |雲 **端服務** |動 **態媒體**。
-* **在品牌入口網站上設定動態媒體**&#x200B;根據AEM Author上的Dynamic Media cloud設定，從品牌入口網站管理工具設定 [Dynamic Media設定或](#configure-dm-hybrid-settings) [!DNL Scene 7]設定 [](#configure-dm-scene7-settings) 。
+* **在DM(Dynamic Media)模式上啟動AEM Author**&#x200B;在 [Dynamic Media Hybrid模式或](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic [Mediamode [!DNL Scene 7] 上啟動AEM Author例項（已設定品牌入口網站）](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
+* **在AEM Author上設定Dynamic Media雲端服務** Based the Dynamic Media mode AEM Author is running on, set of [Dynamic Media cloud services](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) or [[!DNL Scene 7] cloud services on AEM Author from](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)**Tools** |雲 **端服務** |動 **態媒體**。
+* **在品牌入口網站上設定動態媒體**&#x200B;根據AEM Author上的Dynamic Media cloud設定，從品牌入口網站 [管理工具設定動態媒體設](#configure-dm-hybrid-settings) 定 [[!DNL Scene 7] ](#configure-dm-scene7-settings) 或設定。
 如果您使用 [Dynamic Media Hybrid和Dynamic Media](#separate-tenants) Scene7模式，請確定個別的Brand Portal租戶會用於AEM Author執行個體 ********。
 * **使用視訊編碼發佈檔案夾**&#x200B;套用 [至品牌入口網站套](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 用視訊編碼，並將包含AEM Author例項之多媒體資產的檔案夾發佈至品牌入口網站。
-* **安全預覽的SPS中的白名單****[!DNL Scene 7]**[&#x200B;如果使用Dynamic Media-](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) （公司可安全預覽），建議公司使用SPS Publishing Flash Administrator(Spscene Flash Publishing System Administrator)，為各自的SPS地區建立公開出口IP **[!DNL Scene 7]**[](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** 。
+* **允許列出SPS中的出口IP**(如果使用Dynamic Media **[!DNL Scene 7]** ( [為公司提供安全預覽)，建議公司](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 允許使用SPS(Scene Scine Flash Publishing Administrator)系統為各SPS地區(發佈Flash Publishing Scene Scene **[!DNL Scene 7]**[](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** Administrator)的公眾出口IP。
 出口IP如下：
 
 | **區域** | **出口IP** |
@@ -69,7 +72,7 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
-若要將這些出口IP列入白名單，請參 [閱為安全測試服務準備您的帳戶](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
+若要允許列出其中一個出口IP，請參 [閱為安全測試服務準備帳戶](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
 
 ## 最佳實務
 
@@ -85,11 +88,11 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 確保諸如 **[!UICONTROL Chrid]**, **** Id,Video Service **[!UICONTROL ID(Video Service IR)中的配置——如Sham Design]************************[!DNL Scene 7]****** In The Dynamic Region Chrid Align Chrid Ad Samig Mad Mad Man入口和AEM雲配置。
 
-### 動態媒體場景7模式的白名單公開出口IP
+### 允許列出動態媒體場景7模式的公開出口IP
 
 如果使用Dynamic Media **[!UICONTROL Scene 7]**- [having secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-來將視訊資產提供給品牌入口網站， **[!UICONTROL Scene 7]** 會針對測試環境或內部應用程式建立專用的影像伺服器。 對此伺服器的任何請求都會檢查源IP地址。 如果傳入請求不在已核准的IP位址清單中，則會傳回失敗回應。
 因此， **[!UICONTROL Scene-7]** Company Administrator會透過 **[!UICONTROL SPS]** (Scene-7 Publishing System)flash UI，為其公司的 **[!UICONTROL Secure Testing]** Environment設定核准的IP位址清單。 請確定您各自地區的出口IP（來自下列）已新增至核准清單。
-若要將這些出口IP列入白名單，請參 [閱為安全測試服務準備您的帳戶](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
+若要允許列出其中一個出口IP，請參 [閱為安全測試服務準備帳戶](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
 出口IP如下：
 
 | **區域** | **出口IP** |
@@ -109,6 +112,7 @@ source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 1. 選取AEM標誌，從品牌入口網站頂端的工具列存取管理工具。
 
 2. 從管理工具面板中，選取「視 **[!UICONTROL 訊」圖格]** 。<br />
+
    ![品牌入口網站上的動態媒體混合配置](assets/DMHybrid-Video.png)
    **[!UICONTROL 「編輯動態媒體設定]** 」頁面隨即開啟。<br />
    ![品牌門戶上的動態媒體混合配置](assets/edit-dynamic-media-config.png)
