@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 2%
 
 ---
 
@@ -29,11 +32,12 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 在品牌入口網站中，管理員可以檢視、下載過期資產並新增至系列。 但是，編輯人員和檢視器只能檢視過期的資產並新增至系列。
 
-管理員可以將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水共用。 如果您從包含已到期資產和非已到期資產的檔案夾中選取任何已到期資產，則「共 **[!UICONTROL 用連結]**」動作將不可用。 但是，如果您選取的資料夾包含過期和未過期的資產，則「共用」和「共[!UICONTROL 用]**[!UICONTROL &#x200B;連結]** 」動作可用。
+管理員可以將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水分享。 如果您從包含已到期資產和非已到期資產的檔案夾中選取任何已到期資產，則「共 **[!UICONTROL 用連結]** 」動作將不可用。 但是，如果您選取的資料夾包含過期和未過期的資產，則「共用」和「共 [!UICONTROL 用]**[!UICONTROL 連結]** 」動作可用。
 
 >[!NOTE]
 >
 >資料夾仍可共用為連結，即使其包含過期的資產亦然。 在此情況下，連結不會列出已到期的資產，且只會共用未到期的資產。
+
 
 下表顯示過期資產的使用權限：
 
@@ -48,6 +52,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 >
 >如果檢視器和編輯人員下載包含已過期和未過期資產的檔案夾，則只會下載未過期的資產。 如果資料夾只包含過期的資產，則會下載空的資料夾。
 
+
 ### 資產的到期狀態 {#expiration-status-of-assets}
 
 您可以在資產的「卡片檢視」中檢視資產的 **[!UICONTROL 到期狀態]**。 卡片上的紅旗表示資產已過期。
@@ -58,9 +63,10 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 >
 >清單和欄檢視不會顯示資產的到期狀態。
 
+
 ## 資產連結到期 {#asset-link-expiration}
 
-透過連結共用資產時，管理員和編輯人員可使用「連結共用」對話方塊中的「到期日」欄位，設 **[!UICONTROL 定到期日和]**時間**** 。 連結的預設有效期為分享連結當日起7天。
+透過連結共用資產時，管理員和編輯人員可使用「連結共用」對話方塊中的「到期日」欄位，設 **[!UICONTROL 定到期日和]** 時間 **** 。 連結的預設有效期為分享連結當日起7天。
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +80,11 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 受授權保護的資產 [會附加授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，這是透過在AEM Assets中設定資產的 [中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 來完成。
 
-如果您選擇下載受授權保護的資產，則會將您重新導向至「版權 **[!UICONTROL 管理]**」頁面。
+如果您選擇下載受授權保護的資產，則會將您重新導向至「版權 **[!UICONTROL 管理]** 」頁面。
 
 ![](assets/asset-copyright-mgmt.png)
 
-您必須在這裡選擇要下載的資產，並接受相關的授權合約。 如果您不接受授權合約，則不 **[!UICONTROL 會啟用]**「下載」按鈕。
+您必須在這裡選擇要下載的資產，並接受相關的授權合約。 如果您不接受授權合約，則不 **[!UICONTROL 會啟用]** 「下載」按鈕。
 
 ![](assets/licensed-asset-download-2.png)
 
