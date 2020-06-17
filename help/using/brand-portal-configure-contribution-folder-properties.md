@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -47,3 +47,4 @@ AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 >[!NOTE]
 >
 >搜尋結果是以AEM Assets中設定的品牌入口網站使用者清單為基礎。 請確定您有更新的品牌入口網站使用者清單。 請參閱「上 [傳品牌入口網站使用者清單](brand-portal-configure-asset-sourcing.md)」。
+
