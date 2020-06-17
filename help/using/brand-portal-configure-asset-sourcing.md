@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,6 +25,7 @@ AEM管理員可以在AEM **作者例項中設定「資產來源補充** 」。 �
 >[!NOTE]
 >
 >在您從設定開始之前，請確定您的AEM Assets例項已設定為品牌入口網站。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
 
 
 下列影片示範如何在您的AEM作者例項上設定資產來源補充：
