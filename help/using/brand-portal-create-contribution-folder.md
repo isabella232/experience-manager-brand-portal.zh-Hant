@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,6 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者可以在AE
 >[!NOTE]
 >
 >請確定您為「貢獻」檔案夾提供適當的名稱，因為您無法在建立檔案夾後修改檔案夾名稱。
+>
+>不支援「貢獻」檔案夾巢狀。 請勿在其他「貢獻」檔案夾內建立「貢獻」檔案夾。
+
