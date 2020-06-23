@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
+source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 1. 導覽至「 **[!UICONTROL 資產貢獻]** 」標籤。
 1. 輸入貢獻資 **[!UICONTROL 料夾的]** 「高階說明」。
 1. 按一 **[!UICONTROL 下「上傳簡]** 報 ![](assets/upload.png) 」，從本機電腦瀏覽並上傳資 **產需求檔案**。
-1. 在「 **[!UICONTROL 新增使用者或群組]**」中，搜尋並新 **** 增您要與其共用貢獻資料夾的品牌入口網站使用者。 「貢獻」資料夾無法指派給群組。
-這些品牌入口網站使用者將擁有存取貢獻檔案夾和從其品牌入口網站介面上傳內容的權限，而不需存取AEM作者實例。
+1. 在「新 **[!UICONTROL 增使用者或群組」欄位中]** ，新增您要與其共用貢獻資料夾的品牌入口網站使用者。 新增的使用者可使用品牌入口網站介面，存取內容並上傳至貢獻資料夾。 目前，您無法將群組新增至貢獻資料夾。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
    ![](assets/contribution-folder-property2.png)
