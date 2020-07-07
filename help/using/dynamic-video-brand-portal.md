@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 3%
@@ -40,7 +40,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->動態視訊不受品牌入口網站租戶支援，這些租戶已設定為在 **[!UICONTROL Scene7Connect執行模式中執行的AEM Author]** 。
+>動態視訊不受品牌入口網站租戶支援，這些租戶已設定為在 **[!UICONTROL Scene7Connect執行模式上執行的AEM Author]** 。
 
 ## 動態視訊如何播放？ {#how-are-dynamic-videos-played}
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 若要允許列出其中一個出口IP，請參 [閱為安全測試服務準備帳戶](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
 
-## 最佳實務
+## 最佳作法
 
 若要確保您的動態視訊資產能夠從品牌入口網站（和共用連結）成功預覽、播放和下載，請遵循下列實務：
 
@@ -104,22 +104,24 @@ ht-degree: 3%
 ## 設定動態媒體（混合）設定 {#configure-dm-hybrid-settings}
 
 如果AEM Author例項是在動態媒體混合模式上執行，請使用「管理工具」面板中的 **[!UICONTROL Video]** tile來設定「動態媒體」閘道設定。
+
 >[!NOTE]
 >
 >視訊 [編碼設定檔](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ，不會發佈至品牌入口網站，而是從 **[!UICONTROL Scene 7伺服器擷取]** 。 因此，若要在品牌入口網站中成功播放視訊編碼，請確定設定詳細資訊與AEM Author例項中的 [[!UICONTROL Scene7雲端設定相同]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 。
+
 若要在品牌入口網站租戶上設定動態媒體設定：
 
 1. 選取AEM標誌，從品牌入口網站頂端的工具列存取管理工具。
-
-2. 從管理工具面板中，選取「視 **[!UICONTROL 訊」圖格]** 。<br />
+1. 從管理工具面板中，選取「視 **[!UICONTROL 訊」圖格]** 。
 
    ![品牌入口網站上的動態媒體混合配置](assets/DMHybrid-Video.png)
-   **[!UICONTROL 「編輯動態媒體設定]** 」頁面隨即開啟。<br />
+
+   **[!UICONTROL 「編輯動態媒體設定]** 」頁面隨即開啟。
+
    ![品牌門戶上的動態媒體混合配置](assets/edit-dynamic-media-config.png)
 
-3. 指 **[!UICONTROL 定註冊ID]****[!UICONTROL 和視訊服務URL]** （DM閘道URL）。 請確定這些詳細資訊與您AEM Author例項中 **[!UICONTROL 「工具>雲端服務]** 」中的相同。
-
-4. 選擇 **保存** ，保存配置。
+1. 指 **[!UICONTROL 定註冊ID]****[!UICONTROL 和視訊服務URL]** （DM閘道URL）。 請確定這些詳細資訊與您AEM Author例項中 **[!UICONTROL 「工具>雲端服務]** 」中的相同。
+1. 選擇 **保存** ，保存配置。
 
 ## 設定動態媒體Scene7設定 {#configure-dm-scene7-settings}
 
