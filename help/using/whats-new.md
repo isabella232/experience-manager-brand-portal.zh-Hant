@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 >
 >建議您將AEM例項更新為最新的Service Pack。
 
-
-
 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
 
 請參閱 [品牌入口網站常見問答](brand-portal-faqs.md)。
@@ -96,11 +94,9 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 >
 >舊版不支援此功能- AEM 6.3和AEM 6.4。
 
-
-
 ### 上傳資產至貢獻資料夾 {#upload-assets-in-bp}
 
-具有適當權限的品牌入口網站使 [用者可下載資產需求](brand-portal-download-asset-requirements.md) ，以瞭解貢獻的需求，並將包含多個資產的多個資產或檔案夾上傳至貢獻檔案夾。 不過，請注意，品牌入口網站使用者只能將資產上傳至 **NEW** 子資料夾。 SHARED **資料夾** ，用於分配需求和基準資產。 請參閱， [上傳資產至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)
+具有適當權限的品牌入口網站使 [用者可下載資產需求](brand-portal-download-asset-requirements.md) ，以瞭解貢獻的需求，並將包含多個資產的多個資產或檔案夾上傳至貢獻檔案夾。 不過，請注意，品牌入口網站使用者只能將資產上傳至 **NEW** 子資料夾。 SHARED **資料夾** ，是用於分配需求和基準資產。 請參閱， [上傳資產至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -153,7 +149,6 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 >[!NOTE]
 >
 >在選擇「部 **分搜索** 」(Partial Search **)複選框時，** 預設情況下會選擇「忽略大小寫」(Ignore Case)。
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
