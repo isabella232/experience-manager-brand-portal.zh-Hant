@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 4%
@@ -80,8 +80,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 >
 >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe Developer Console進行設定。
 
-
-
 >[!TIP]
 >
 >***僅限現有客戶***
@@ -89,7 +87,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 >舊版OAuth閘道設定將可繼續適用於現有客戶。
 >
 >如果您在舊版OAuth閘道配置中遇到問題，請刪除現有的配置，並透過Adobe Developer Console建立新的配置。
-
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
