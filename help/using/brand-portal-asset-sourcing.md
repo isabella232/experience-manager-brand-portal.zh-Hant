@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -43,7 +43,6 @@ ht-degree: 0%
 >
 >AEM Assets雲端服務不支援資產來源補充。
 
-
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![品牌入口網站資產來源補充](assets/asset-sourcing.png)
@@ -56,7 +55,6 @@ ht-degree: 0%
 >AEM 6.5.5中的問題已修正。 您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 >
 >如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在您的作者實例上。
-
 
 ## 另請參閱 {#reference-articles}
 
