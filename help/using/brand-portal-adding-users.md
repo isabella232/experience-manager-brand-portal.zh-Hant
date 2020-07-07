@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -39,7 +39,6 @@ Comment Type: draft
 >
 >若要在品牌入口網站中建立群組，請從Adobe [!UICONTROL Admin Console]，使用「 **[!UICONTROL 產品>產品設定檔]**」，而非「使 **[!UICONTROL 用者頁面>使用者群組」]**。 Adobe [!UICONTROL Admin Console中的產品設定檔] ，可用來在品牌入口網站中建立群組。
 
-
 ## 新增使用者 {#add-a-user}
 
 如果您是產品管理員，請使用Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) ，來建立使用者並將他們指派至產品設定檔(*先前稱為產品設定*)，這些設定檔在品牌入口網站中顯示為群組。 您可以使用群組來執行大量作業，例如角色管理和資產共用。
@@ -48,11 +47,9 @@ Comment Type: draft
 >
 >沒有品牌入口網站存取權的新使用者可以從品牌入口網站的登入畫面要求存取權。 如需詳細資訊，請參 [閱「要求存取品牌入口網站」](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取要求通知後，按一下相關通知，然後按一下「授 **[!UICONTROL 予存取權」]**。 或者，請依照收到的存取要求電子郵件中的連結進行。 接下來，若要透過 [Adobe [!UICONTROL Admin Console新增使用者]](http://adminconsole.adobe.com/enterprise/overview)，請依照下列步驟執行步驟4-7。
 
-
 >[!NOTE]
 >
 >您可以直接或 [從 [!UICONTROL 品牌入口網站登入Adobe Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 。 如果您直接登入，請依照下列程式中的步驟4-7新增使用者。
-
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -93,8 +90,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列程式中的步驟4-7新增產品設定檔。
-
+>您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列步驟步驟4-7新增產品設定檔。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -128,7 +124,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入Admin Console，請依照下列程式中的步驟4-7，將使用者新增至產品設定檔。
-
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -179,7 +174,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >您可以直接或 [[!UICONTROL 從品牌入口]](https://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列步驟步驟4-8，將使用者新增至產品設定檔。
-
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -271,7 +265,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >對於共用為連結的資產，會根據共用資產的使用者權限，套用存取影像檔案原始轉譯的權限。
-
 
 要修改角色並有權訪問特定組成員的原始轉譯，請執行以下步驟：
 
