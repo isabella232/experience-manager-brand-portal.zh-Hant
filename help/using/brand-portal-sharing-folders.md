@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -49,7 +49,6 @@ ht-degree: 1%
 >
 >AEM 6.3.2.1以 **[!UICONTROL 後版本提供啟用「公用檔案夾發佈]** 」的選項。
 
-
 ## 存取共用資料夾 {#access-to-shared-folders}
 
 以下矩陣討論不同使用者角色的共用／取消共用資產的存取權限與權限：
@@ -64,7 +63,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 >依預設，在設 **** 定品牌入口網站與AEM作者複製時，「公用資料夾發佈」選項會停用。 如果啟用此選項，則所有使用者（非管理員使用者）都預設可存取發佈至品牌入口網站的資料夾。
-
 
 ### 非管理員使用者存取共用資料夾 {#non-admin-user-access-to-shared-folders}
 
