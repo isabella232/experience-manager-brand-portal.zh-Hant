@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -42,4 +42,3 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者可以在AE
 >非管理員使用者只能建立及共用資產貢獻資料夾。 建立貢獻資料夾後，非管理員使用者便無法修改或刪除它。
 >
 >不支援資產貢獻檔案夾巢狀。 您可以在資料夾中建立多個貢獻資料夾，但不得在其他貢獻資料夾中建立貢獻資料夾。
-
