@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 AEM Brand入口網站可讓訪客存取入口網站。 訪客使用者不需要憑證即可進入入口網站，並可存取入口網站的公用資產（和系列）。 來賓作業中的使用者可將資產新增至燈箱（私人系列）並下載資產，直到作業持續為止，除非來賓使用者選擇「結束作業」，否則作業從作業開始算起2 [[!UICONTROL 小時]](#exit-guest-session)。
 
 訪客存取功能可讓組織 [快速地與目標對象共用已核准的資產](../using/brand-portal-sharing-folders.md#how-to-share-folders) ，而不需將其上線。 Brand Portal 6.4.2版之後，已配備為多個並行來賓用戶提供服務，這是每個組織的用戶配額總量的10%。 允許訪客存取可節省管理和載入大量需要在品牌入口網站上使用有限功能的使用者的時間。\
-組織可以使用管理工具面板中「存取」設定的「允許來賓存取 **[!UICONTROL 」選項，啟用（或停用）組織的品牌入口網站帳戶]****** 上的來賓存取。
+組織可以使用管理工具面板中的「存取」設定的「允許來賓存取 **[!UICONTROL 」選項，啟用（或停用）組織品牌入口網站帳戶的]****** 來賓存取。
 
 <!--
 Comment Type: annotation
@@ -61,12 +61,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 這些父資料夾是虛擬資料夾，不能對其執行任何操作。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
 
-與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 任務時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
+與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 工作時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
 
 >[!NOTE]
 >
 >虛擬資料夾的預設縮略圖是第一個共用資料夾的縮略圖。
-
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
