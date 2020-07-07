@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 然後，管理員可以先授與品牌入口網站使用者／群組的貢獻資料夾存取權，再將新建立的貢獻資料夾發佈至品牌入口網站。
 
 **若要設定貢獻資料夾屬性：**
+
 1. 登入您的AEM作者例項預設URL: http:// localhost:4502/aem/start.html
 1. 導覽至「 **[!UICONTROL 資產>檔案]** 」，並找出貢獻檔案夾。
 1. 選取貢獻資料夾，然後按一 **[!UICONTROL 下屬性]**![](assets/properties.png)。 資料夾屬性窗口開啟。
@@ -40,11 +41,10 @@ AEM管理員在設定貢獻檔案夾的屬性時，會執行下列活動。
 1. 輸入貢獻資 **[!UICONTROL 料夾的]** 「高階說明」。
 1. 按一 **[!UICONTROL 下「上傳簡]** 報 ![](assets/upload.png) 」，從本機電腦瀏覽並上傳資 **產需求檔案**。
 1. 在「新 **[!UICONTROL 增使用者或群組」欄位中]** ，新增您要與其共用貢獻資料夾的品牌入口網站使用者。 新增的使用者可使用品牌入口網站介面，存取內容並上傳至貢獻資料夾。 目前，您無法將群組新增至貢獻資料夾。
-
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >搜尋結果是以AEM Assets中設定的品牌入口網站使用者清單為基礎。 請確定您有更新的品牌入口網站使用者清單。 請參閱「上 [傳品牌入口網站使用者清單](brand-portal-configure-asset-sourcing.md)」。
-
