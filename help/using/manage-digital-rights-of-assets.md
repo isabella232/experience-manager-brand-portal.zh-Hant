@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ ht-degree: 2%
 >
 >資料夾仍可共用為連結，即使其包含過期的資產亦然。 在此情況下，連結不會列出已到期的資產，且只會共用未到期的資產。
 
-
 下表顯示過期資產的使用權限：
 
 |  | **[!UICONTROL 連結共用]** | **[!UICONTROL 下載]** | **[!UICONTROL 屬性]** | **[!UICONTROL 新增至系列]** | **[!UICONTROL 刪除]** |
@@ -52,7 +51,6 @@ ht-degree: 2%
 >
 >如果檢視器和編輯人員下載包含已過期和未過期資產的檔案夾，則只會下載未過期的資產。 如果資料夾只包含過期的資產，則會下載空的資料夾。
 
-
 ### 資產的到期狀態 {#expiration-status-of-assets}
 
 您可以在資產的「卡片檢視」中檢視資產的 **[!UICONTROL 到期狀態]**。 卡片上的紅旗表示資產已過期。
@@ -62,7 +60,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >清單和欄檢視不會顯示資產的到期狀態。
-
 
 ## 資產連結到期 {#asset-link-expiration}
 
