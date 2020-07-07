@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -133,9 +133,6 @@ AEM 6.5.5中的問題已修正。 您可以在Adobe Developer Console上將AEM A
 >[!NOTE]
 >
 >如果您不是現有的品牌入口網站使用者，請要求AEM管理員在AEM管理控制台中建立您的使用者，並將您的個人檔案新增至品牌入口網站使用者清單中的使用者設定檔案。 請參閱「 [新增品牌入口網站使用者](brand-portal-configure-asset-sourcing.md)」。
-
-
-
 
 **客戶。 使用者匯入的CSV檔案格式為何？**
 
