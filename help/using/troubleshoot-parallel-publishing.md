@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -24,7 +24,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >Adobe建議升級至AEM 6.4.1.0，以確保AEM Assets品牌入口網站已成功設定為AEM Assets。 AEM 6.4的限制會在使用品牌入口網站設定AEM資產時顯示錯誤，複製會失敗。
-
 
 在設定品牌入口網站的雲端服務 **[!UICONTROL /etc/cloudservice下]**，系統會自動產生所有必要的使用者和Token並儲存在儲存庫中。 建立雲服務配置，並建立複製和複製代理複製內容所需的服務用戶。 這將建立四個複製代理。 因此，當您從AEM發佈許多資產至品牌入口網站時，這些資產會排入佇列，並透過「輪流作業」在這些複製代理之間分發。
 
