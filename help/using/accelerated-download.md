@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Brand Portal與IBM Aspera Connect整合，讓大型資產檔案的下載效能�
 >[!NOTE]
 >
 >下載速度因網路頻寬、伺服器延遲和用戶端地理位置等因素而異。
-
 
 如果啟用，品牌入口網站使用者可透過安裝Aspera Connect用戶端，大幅降低從品牌入口網站或透過共用連結下載所需資產檔案所花的時間。
 
@@ -137,7 +136,7 @@ Microsoft Edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
 ![](assets/aspera-preferences.png)
 
-此外，Aspera Connect用戶端也可標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
+此外，Aspera Connect用戶端也可以標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
 
 ![](assets/aspera-automaticallylaunch.png)
 
