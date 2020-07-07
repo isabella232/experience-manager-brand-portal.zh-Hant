@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,8 +25,6 @@ AEM管理員可以在AEM **作者例項中設定「資產來源補充** 」。 �
 >[!NOTE]
 >
 >在您從設定開始之前，請確定您的AEM Assets例項已設定為品牌入口網站。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 下列影片示範如何在您的AEM作者例項上設定資產來源補充：
 
@@ -52,7 +50,6 @@ AEM管理員可以上傳「品牌入口網站」使用者設定(.csv)檔案，�
 >[!NOTE]
 >
 >CSV檔案的格式與Admin Console支援的大量使用者匯入格式相同。 電子郵件、名字和姓氏是必填的。
-
 
 管理員可在AEM Admin Console中新增使用者，請參閱「管 [理使用者](brand-portal-adding-users.md) 」以取得詳細資訊。 在Admin Console中新增使用者後，這些使用者可以新增至品牌入口網站使用者設定檔案，然後指派存取貢獻資料夾的權限。
 
