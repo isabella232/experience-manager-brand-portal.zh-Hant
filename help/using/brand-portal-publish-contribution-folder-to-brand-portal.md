@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ ht-degree: 0%
    ![](assets/publish-contribution-folder-to-bp.png)
 貢獻資料夾發佈至品牌入口網站後，您會收到成功訊息。
 
-電子郵件／脈衝通知會傳送至指派給貢獻資料夾的品牌入口網站使用者／群組。 品牌入口網站使用者可以存取貢獻資料夾並開始貢獻。 請參閱「 [上傳資產至貢獻資料夾」](brand-portal-upload-assets-to-contribution-folder.md)。
+電子郵件／脈衝通知會傳送給指派給貢獻資料夾的品牌入口網站使用者。 品牌入口網站使用者可以存取貢獻資料夾並開始貢獻。 請參閱「 [上傳資產至貢獻資料夾」](brand-portal-upload-assets-to-contribution-folder.md)。
