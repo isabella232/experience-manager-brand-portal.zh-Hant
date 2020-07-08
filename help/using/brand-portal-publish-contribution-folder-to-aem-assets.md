@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
+source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 0%
 1. 按一 **[!UICONTROL 下「發佈至AEM]** 」 ![](assets/export.png)。
    ![](assets/publish-contribution-folder-to-aem.png)
 
-在發佈工作流程的不同階段，會傳送電子郵件／脈衝通知給品牌入口網站使用者和AEM管理員：
-1. **佇列** -當品牌入口網站中的發佈工作流程觸發時，會傳送通知給品牌入口網站使用者。
+在發佈工作流程的不同階段，會傳送電子郵件／脈衝通知給品牌入口網站的使用者和管理員：
+1. **已佇列** -當品牌入口網站中觸發發佈工作流程時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
 
-1. **完成** -發佈工作流程完成時，會傳送通知給品牌入口網站使用者和AEM管理員，例如貢獻檔案夾已成功發佈至AEM資產。
+1. **完成** -當發佈工作流程完成時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員，亦即貢獻資料夾已成功發佈至AEM資產。
 
 
