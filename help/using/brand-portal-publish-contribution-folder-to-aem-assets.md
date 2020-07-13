@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ ht-degree: 0%
 **若要發佈貢獻資料夾：**
 
 1. 登入您的品牌入口網站例項。
-1. 從「品牌入口網站」控制面板選取貢獻資料夾。
-1. 按一 **[!UICONTROL 下「發佈至AEM]** 」 ![](assets/export.png)。
+1. 從控制面板中選取貢獻資料夾。
+1. 按一 **[!UICONTROL 下「發佈至AEM」]**
+
+   ![](assets/export.png)。
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 在發佈工作流程的不同階段，會傳送電子郵件／脈衝通知給品牌入口網站的使用者和管理員：
 1. **已佇列** -當品牌入口網站中觸發發佈工作流程時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
 
-1. **完成** -當發佈工作流程完成時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員，亦即貢獻資料夾已成功發佈至AEM資產。
+1. **完成** -當貢獻資料夾成功發佈至AEM Assets時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
 
 
