@@ -5,12 +5,15 @@ description: 設定下載加速、建立公 [!UICONTROL 用智慧型系列] 、�
 seo-description: 設定下載加速、建立公 [!UICONTROL 用智慧型系列] 、建立公 [!UICONTROL 用系列] ，並讓管理員使用者刪除租戶上的資產。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
-topic-tags: 管理
-content-type: 引用
+topic-tags: administration
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +67,7 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 
 ## 允許下載加速 {#allow-download-acceleration}
 
-[[!UICONTROL 允許下載加速]](../using/accelerated-download.md) 」設定可讓組織透過與IBM Aspera connect（隨選安裝應用程式）整合，允許加速從品牌入口網站和共用連結下載資產。 該應用程式使用專有技術來消除TCP開銷。
+[[!UICONTROL 允許下載加速]](../using/accelerated-download.md) 」設定可讓組織透過與IBM Aspera Connect（隨選安裝應用程式）整合，允許加速從品牌入口網站和共用連結下載資產。 該應用程式使用專有技術來消除TCP開銷。
 
 ## 啟用資料夾階層 {#enable-folder-hierarchy}
 
