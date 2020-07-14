@@ -132,7 +132,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 
 ## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
 
-品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有URL使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
+品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有租用戶使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
 請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
 
 不過，AEM Author例項只能以租 [用戶ID](../using/configure-aem-assets-with-brand-portal.md) URL設定，而不能以租用戶別名（替代）URL設定。
@@ -164,6 +164,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID][!UICONTROL 或]Federated ID **[!UICONTROL ，請按一]**下登入Chropt。
 「登 [!UICONTROL 入] 」頁面隨即開啟。
    1. 提供您 [!UICONTROL 的Adobe ID認證] ，然後按一 **[!UICONTROL 下登入]**。<br />
+
    ![Adobe登入](assets/bplogin_request_access_3.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。<br />
@@ -174,6 +175,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 「注 [!UICONTROL 冊] 」頁面隨即開啟。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
    1. 選擇 **[!UICONTROL 註冊]**。<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    您會被重新導向至「請 [!UICONTROL 求存取] 」頁面。
@@ -202,6 +204,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 要更改語言，請執行以下操作：
 
 1. 從頂 [!UICONTROL 部菜單中選] 擇「用戶  」>「編輯配置檔案」。<br />
+
    ![編輯設定檔](assets/EditBPProfile.png)
 
 1. 在「 [!UICONTROL Experience Cloud設定] 」頁面上，從「語言  」下拉式選單中選取語言。
