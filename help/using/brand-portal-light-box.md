@@ -10,13 +10,16 @@ topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 4%
 
 ---
 
 
 # 管理燈箱集合 {#manage-the-lightbox-collection}
 
-**[!UICONTROL 燈箱]**(Lightbox)是一種特殊的系列，可讓您輕鬆存取資產。 每位使用者都有獨**[!UICONTROL &#x200B;佔的燈箱]** ，當他們第一次登入品牌入口網站時會自動建立燈箱。 無法 **[!UICONTROL 刪除Lightbox]**集合。
+**[!UICONTROL 燈箱]** (Lightbox)是一種特殊的系列，可讓您輕鬆存取資產。 每位使用者都有獨 **[!UICONTROL 佔的燈箱]** ，當他們第一次登入品牌入口網站時會自動建立燈箱。 無法 **[!UICONTROL 刪除Lightbox]** 集合。
 
 ## 將資產新增至燈箱 {#add-assets-to-lightbox}
 
@@ -30,30 +33,30 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
    ![](assets/add_to_collection.png)
 
-1. 在「新 **[!UICONTROL 增至系列]**」頁面上，預**[!UICONTROL &#x200B;設會選取「燈箱]** 」系列。
+1. 在「新 **[!UICONTROL 增至系列]** 」頁面上，預 **[!UICONTROL 設會選取「燈箱]** 」系列。
 
-   按一下&#x200B;**[!UICONTROL 「新增」]**。選取的資產會新增至燈**[!UICONTROL &#x200B;箱中]**。
+   按一下&#x200B;**[!UICONTROL 「新增」]**。選取的資產會新增至燈 **[!UICONTROL 箱中]**。
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. 若要檢閱新增至 **[!UICONTROL Lightbox的資產]**，請按一下左側導軌上的「**[!UICONTROL  Collections]** 」（系列），然後按一下 **[!UICONTROL Lightbox]**系列。
+1. 若要檢閱新增至 **[!UICONTROL Lightbox的資產]**，請按一下左側導軌上的「 **[!UICONTROL Collections]** 」（系列），然後按一下 **[!UICONTROL Lightbox]** 系列。
 
    ![](assets/collections_lightbox.png)
 
-   新增至 **[!UICONTROL Lightbox的資產]**，會出現在**[!UICONTROL  Lightbox頁面中]** 。
+   新增至 **[!UICONTROL Lightbox的資產]** ，會出現在 **[!UICONTROL Lightbox頁面中]** 。
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## 從燈箱移除資產 {#remove-assets-from-lightbox}
 
-1. 若要檢閱 [!UICONTROL Lightbox中的資產]，請按一下左側導軌上的「 **[!UICONTROL Collections]**」（系列），然後按一下[!UICONTROL Lightbox]系列。
+1. 若要檢閱 [!UICONTROL Lightbox中的資產]，請按一下左側導軌上的「 **[!UICONTROL Collections]** 」（系列），然後按一下 [!UICONTROL Lightbox] 系列。
 
    ![](assets/collections_lightbox-1.png)
 
-1. 選擇要從系列中移除的檔案夾，然後按一下頂 **[!UICONTROL 端工具]**列中的「移除」。
+1. 選擇要從系列中移除的檔案夾，然後按一下頂 **[!UICONTROL 端工具]** 列中的「移除」。
 
    ![](assets/collections_lightboxdelete.png)
 
-1. 在警告訊息方塊中，按一下「 **[!UICONTROL 移除]**」以確認移除。
+1. 在警告訊息方塊中，按一下「 **[!UICONTROL 移除]** 」以確認移除。
 
-資料夾會從 **[!UICONTROL Lightbox集合中刪除]**。
+資料夾會從 **[!UICONTROL Lightbox集合中刪除]** 。
