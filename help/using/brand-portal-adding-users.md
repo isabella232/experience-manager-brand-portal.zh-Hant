@@ -66,9 +66,11 @@ Comment Type: draft
 1. 在「管理控制台」中，執行下列其中一項動作以建立新使用者：
 
    * 在頂端的工具列中，按一下「 **[!UICONTROL 概述」]**。 在「概 [!UICONTROL 述」頁] ，按一下 **[!UICONTROL 品牌入口網站產品卡中的]** 「指派使用者」。
+
    ![管理控制台概觀](assets/admin_console_overviewadduser.png)
 
    * 在頂端的工具列中，按一下「使 **[!UICONTROL 用者」]**。 在「使 [!UICONTROL 用者] 」頁面中，  預設會選取左側導軌中的「使用者」。 按一 **[!UICONTROL 下「新增使用者]**」。
+
    ![管理控制台新增使用者](assets/admin_console_adduseruserpage.png)
 
 1. 在「新增使用者」對話方塊中，輸入您要新增之使用者的電子郵件ID，或從您輸入時顯示的建議清單中選取使用者。
@@ -86,11 +88,11 @@ Comment Type: draft
 
 ## 新增產品設定檔 {#add-a-product-profile}
 
-在 [!UICONTROL Admin Console] （管理控制台）中，產品設定檔（先前稱為產品設定）可用於在品牌入口網站中建立群組，以便您在品牌入口網站中執行大量作業，例如角色管理和資產共用。 **品牌入口網站** 是預設的可用產品設定檔； 您可以建立更多產品設定檔，並將使用者新增至新的產品設定檔。
+在 [!UICONTROL Admin Console] （管理控制台）中，產品設定檔（舊稱產品設定）可用來在品牌入口網站中建立群組，以便您在品牌入口網站中執行大量作業，例如角色管理和資產共用。 **品牌入口網站** 是預設的可用產品設定檔； 您可以建立更多產品設定檔，並將使用者新增至新的產品設定檔。
 
 >[!NOTE]
 >
->您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列步驟步驟4-7新增產品設定檔。
+>您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列程式中的步驟4-7新增產品設定檔。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -145,9 +147,11 @@ Comment Type: draft
 1. 若要將個別使用者新增至產品設定檔，請執行下列動作：
 
    * 按一 **[!UICONTROL 下「新增使用者]**」。
+
    ![群組以在品牌入口網站中對應產品描述檔](assets/admin_console_productprofilesalesgroup.png)
 
    * 在「將 [!UICONTROL 使用者新增至銷售群組] 」頁面中，輸入您要新增之使用者的電子郵件ID，或從您鍵入時顯示的建議清單中選取該使用者。
+
    ![新增使用者至群組](assets/admin_console_addusertosalesgroup.png)
 
    * 按一下&#x200B;**[!UICONTROL 「儲存」]**。
@@ -157,9 +161,11 @@ Comment Type: draft
 1. 若要將大量使用者新增至產品設定檔，請執行下列動作：
 
    * 選擇 **[!UICONTROL 省略號(...)>「依CSV新增使用者」]**。
+
    ![大量新增使用者](assets/admin_console_addbulkusers.png)
 
    * 在「依 **[!UICONTROL CSV新增使用者]** 」頁面中，下載CSV範本或拖放CSV檔案。
+
    ![依csv新增使用者](assets/admin_console_addbulkuserscsv.png)
 
    * 按一下 **[!UICONTROL 上傳]**。
