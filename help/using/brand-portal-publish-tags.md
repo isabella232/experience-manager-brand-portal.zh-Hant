@@ -1,20 +1,23 @@
 ---
-title: 發佈標籤至品牌入口網站
-seo-title: 發佈標籤至品牌入口網站
+title: 將標記發佈至 Brand Portal
+seo-title: 將標記發佈至 Brand Portal
 description: 瞭解如何從AEM Assets發佈標籤至品牌入口網站。
 seo-description: 瞭解如何從AEM Assets發佈標籤至品牌入口網站。
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
-topic-tags: 發佈
+topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 4%
 
 ---
 
 
-# Publish tags to Brand Portal {#publish-tags-to-brand-portal}
+# 將標記發佈至 Brand Portal {#publish-tags-to-brand-portal}
 
 瞭解如何從AEM Assets發佈標籤至品牌入口網站。
 
@@ -28,7 +31,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ## Manage tags {#manage-tags}
 
-您可以使用預先存在的標籤來附加至資產，或從AEM標籤主控台(工&#x200B;**[!UICONTROL 具)建立新標籤|標籤| AEM標籤]**)。 在這兩種情況下，您必須先將標籤發佈至品牌入口網站，然後將其與適當的資產建立關聯。
+您可以使用預先存在的標籤來附加至資產，或從AEM標籤主控台(工&#x200B;**[!UICONTROL 具)建立新標籤 |標籤 | AEM標籤]**)。 在這兩種情況下，您必須先將標籤發佈至品牌入口網站，然後將其與適當的資產建立關聯。
 
 若要在AEM上建立標籤、在品牌入口網站上發佈標籤，並將標籤與適當的資產（或系列）產生關聯，請依照下列步驟進行：
 
@@ -44,21 +47,22 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 1. 指定：
 
    * **[!UICONTROL 標題]**
+
       *（必要）* ，標籤的顯示標題。
    * **[!UICONTROL 名稱]**
-      *(required) A name for the tag.* If not specified, a valid node name is created from the Title. See TagID.[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID)
+      *（必要）* ，標籤的名稱。 如果未指定，則從「標題」建立有效的節點名稱。 請參閱 [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID)。
    * **說明**
-      *(optional) A description of the tag.*
-   * **Tag Path
-JCR path of the tag.**
 
-1. Select Submit to create the tag.****
+      *（選用）* ，標籤的說明。
+   * **標籤標**&#x200B;記的PathJCR路徑。
 
-   Once you have created a tag on AEM instance, the tag will be available to be attached to an asset (using Properties section or Manage Tags section of that asset).
+1. 選擇 **[!UICONTROL 提交]** ，以建立標籤。
+
+   在AEM例項上建立標籤後，標籤便可附加至資產（使用該資產的「屬性」區段或「管理標籤」區段）。
 
 1. **將標籤發佈至品牌入口網站**。
 
-   Go to AEM Tags console (Tools | Tagging | AEM Tags), select the desired tag and Publish to Brand Portal.****
+   前往 **[!UICONTROL AEM Tags Console]** (工[!UICONTROL 具 |標籤 | AEM標籤])，選取所要的標籤並發佈至品牌入口網站。
 
 1. **將標籤附加至資產（或系列）**。
 
@@ -83,5 +87,5 @@ AEM Assets品牌入口網站可讓您讓特定資產成為根據關鍵字標籤�
 
 1. 儲存變更。
 1. 將資產發佈至 Brand Portal.
-1. Log in to Brand Portal. View Advanced tab in Properties section of the asset.
-******** Note that the Search Promote keyword is also visible in the Properties of that asset.****
+1. 登入品牌入口網站。 在資 **[!UICONTROL 產的]** 「屬性 **** 」區段中檢視「進階」標籤。
+請注意， **[!UICONTROL Search Promote]** 關鍵字也會顯示在該資產的「屬性」中。
