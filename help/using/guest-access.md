@@ -61,7 +61,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 這些父資料夾是虛擬資料夾，不能對其執行任何操作。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
 
-與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 工作時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
+與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 任務時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
 
 >[!NOTE]
 >
