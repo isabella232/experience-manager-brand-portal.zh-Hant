@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -25,14 +28,14 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 1. 在註冊頁面中，指定您的詳細資訊（包括名字、姓氏、密碼和國家／地區）。
    >[!NOTE]
    >
-   >如果您是現有的Adobe Marketing cloud使用者，系統會顯示登入頁面，而非登入頁面。 若要登入Adobe Marketing Cloud，請輸入您的Adobe ID和密碼。
+   >如果您是現有的Adobe Marketing Cloud使用者，系統會顯示登入頁面，而非登入頁面。 若要登入Adobe Marketing Cloud，請輸入您的Adobe ID和密碼。
 
    >[!NOTE]
    >
    >如果您的組織使用企業ID，而非檢視此註冊頁面，則會將您重新導向至企業登入頁面。 如需詳細資訊，請 [參閱「企業ID」、登入和帳戶說明](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)。
 
-1. 按一 **[!UICONTROL 下「繼續]**」，繼續前往您組織的品牌入口網站頁面。
-1. 從「品牌入口網站」登入頁面，按一 **[!UICONTROL 下「登入]**」以登入品牌入口網站。
+1. 按一 **[!UICONTROL 下「繼續]** 」，繼續前往您組織的品牌入口網站頁面。
+1. 從「品牌入口網站」登入頁面，按一 **[!UICONTROL 下「登入]** 」以登入品牌入口網站。
 
    ![品牌入口網站登入頁面](assets/signin-onboarding.png)
 
