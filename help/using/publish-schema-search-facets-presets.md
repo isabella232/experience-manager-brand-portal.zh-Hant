@@ -10,6 +10,9 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1160'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 >[!NOTE]
 >
->如果AEM Author例項未在 **[!UICONTROL Dynamic Media Mode]**（客戶尚未購買Dynamic Media）中執行，則上傳時不會建立資產的**[!UICONTROL  Pyramid TIFF]** 轉譯。 影像預設集或動態轉譯適用於資產的 **[!UICONTROL Pyramid TIFF]**，因此，如果**[!UICONTROL  Pyramid TIFF]** （金字塔TIFF）不適用於AEM Author實例，則品牌入口網站也無法使用。 因此，資產詳細資料頁面和下載對話方塊的轉譯邊欄中不會顯示動態轉譯。
+>如果AEM Author例項未在 **[!UICONTROL Dynamic Media Mode]** （客戶尚未購買Dynamic Media）中執行，則上傳時不會建立資產的 **[!UICONTROL Pyramid TIFF]** 轉譯。 影像預設集或動態轉譯適用於資產的 **[!UICONTROL Pyramid TIFF]** ，因此，如果 **[!UICONTROL Pyramid TIFF]** （金字塔TIFF）不適用於AEM Author實例，則品牌入口網站也無法使用。 因此，資產詳細資料頁面和下載對話方塊的轉譯邊欄中不會顯示動態轉譯。
 
 若要將影像預設集發佈至品牌入口網站：
 
@@ -40,14 +43,14 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 >[!NOTE]
 >
->當使用者按一 **[!UICONTROL 下「發佈至品牌入口網站]**」時，影像預設集會排入發佈佇列。 建議用戶監視複製代理的日誌以確認發佈是否成功。
+>當使用者按一 **[!UICONTROL 下「發佈至品牌入口網站]** 」時，影像預設集會排入發佈佇列。 建議用戶監視複製代理的日誌以確認發佈是否成功。
 
 若要從品牌入口網站取消發佈影像預設集：
 
-1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「 **[!UICONTROL Tools]**」（工具）圖示並導覽至「**[!UICONTROL  Assets > Image Presets]**」。
-1. 選取影像預設集，然後從 **[!UICONTROL 頂端的可用選項中選取]**「從品牌入口網站移除」。
+1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「 **[!UICONTROL Tools]** 」（工具）圖示並導覽至「 **[!UICONTROL Assets > Image Presets]**」。
+1. 選取影像預設集，然後從 **[!UICONTROL 頂端的可用選項中選取]** 「從品牌入口網站移除」。
 
-## 發佈中繼資料結構至品牌入口網站 {#publish-metadata-schema-to-brand-portal}
+## 發佈中繼資料結構至品牌入口網站  {#publish-metadata-schema-to-brand-portal}
 
 中繼資料結構描述在資產／系列的屬性頁面上顯示的版面和屬性。
 
@@ -70,7 +73,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 若要從AEM Author例項發佈中繼資料結構，請至品牌入口網站：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產> **[!UICONTROL 中繼資料結構]**」。
-1. 選取中繼資料結構，然後從 **[!UICONTROL 上方的可用選項中選取「發佈至品牌入口網站]**」。
+1. 選取中繼資料結構，然後從 **[!UICONTROL 上方的可用選項中選取「發佈至品牌入口網站]** 」。
 
 >[!NOTE]
 >
@@ -78,8 +81,8 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 若要從品牌入口網站取消發佈中繼資料結構：
 
-1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產>中繼資 **[!UICONTROL 料結構」]**。
-1. 選取中繼資料結構，然後從 **[!UICONTROL 頂端的可用選項中]**，選取「從品牌入口網站移除」。
+1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「資產> **[!UICONTROL 中繼資料結構]**」。
+1. 選取中繼資料結構，然後從 **[!UICONTROL 頂端的可用選項中]** ，選取「從品牌入口網站移除」。
 
 ## 將搜尋Facet發佈至品牌入口網站 {#publish-search-facets-to-brand-portal}
 
@@ -88,15 +91,15 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-如果您願意使用AEM Author例項中的自訂搜尋表單 **[!UICONTROL Assets Admin Search Rail]**，則您可以將自訂的搜尋表單從AEM Author例項發佈至品牌入口網站，而不是在品牌入口網站上重新建立相同的表單。
+如果您願意使用AEM Author例項中的自訂搜尋表單 **[!UICONTROL Assets Admin Search Rail]** ，則您可以將自訂的搜尋表單從AEM Author例項發佈至品牌入口網站，而不是在品牌入口網站上重新建立相同的表單。
 
 >[!NOTE]
 >
->AEM Assets上鎖定的 **[!UICONTROL 搜尋表單「資產管理搜尋邊欄]**」無法發佈至品牌入口網站，除非加以編輯。 編輯並發佈至品牌入口網站後，此搜尋表單會覆寫品牌入口網站上的搜尋表單。
+>AEM Assets上鎖定的 **[!UICONTROL 搜尋表單「資產管理搜尋邊欄]** 」無法發佈至品牌入口網站，除非加以編輯。 編輯並發佈至品牌入口網站後，此搜尋表單會覆寫品牌入口網站上的搜尋表單。
 
 若要將編輯過的搜尋Facet從AEM Author例項發佈至品牌入口網站：
 
-1. 點選／按一下AEM標誌，然後前往「工具>一 **[!UICONTROL 般>搜尋表單」]**。
+1. 點選/按一下AEM標誌，然後前往「工具 **[!UICONTROL >一般 >搜 尋表格]**」。
 1. 選取編輯過的搜尋表單，然後選取「 **[!UICONTROL 發佈至品牌入口網站」]**。
 
    >[!NOTE]
@@ -106,16 +109,16 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 若要從品牌入口網站取消發佈搜尋表單：
 
 1. 在AEM Author例項中，點選／按一下AEM標誌以存取全域導覽主控台，並點選／按一下「工具」圖示並導覽至「一般>搜 **[!UICONTROL 尋表格]**」。
-1. 選取搜尋表單，然後從上 **[!UICONTROL 方可用的選項中選取]**「從品牌入口網站移除」。
+1. 選取搜尋表單，然後從上 **[!UICONTROL 方可用的選項中選取]** 「從品牌入口網站移除」。
 
 >[!NOTE]
 >
->「從 **[!UICONTROL 品牌入口網站取消發佈]**」動作會保留品牌入口網站上的預設搜尋表單，且不會還原為發佈前使用的最後一個搜尋表單。
+>「從 **[!UICONTROL 品牌入口網站取消發佈]** 」動作會保留品牌入口網站上的預設搜尋表單，且不會還原為發佈前使用的最後一個搜尋表單。
 
 ### 限制 {#limitations}
 
 1. 很少有搜尋謂語不適用於品牌入口網站的搜尋篩選器。 當這些搜尋謂語在從AEM Author例項發佈至品牌入口網站的搜尋表單中時，會將其篩選掉。 因此，在品牌入口網站的發佈表單中，使用者可看到的謂詞數目較少。 請參 [閱適用於品牌入口網站篩選器的搜尋謂語](../using/brand-portal-search-facets.md#list-of-search-predicates)。
 
-1. 對於 [!UICONTROL Options Predicate]，如果使用者在AEM Author例項中使用任何自訂路徑來讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，使用者可以在「 **[!UICONTROL Add Options]**Predicate」（在選項謂詞中新增選項）中選取「Manual********」（手動）選項，以在Brand Portal中手動新增這些選項。
+1. 對於 [!UICONTROL Options Predicate]，如果使用者在AEM Author例項中使用任何自訂路徑來讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，使用者可以在「 **[!UICONTROL Add Options]** Predicate」（在選項謂詞中新增選項）中選取「Manual ******** 」（手動）選項，以在Brand Portal中手動新增這些選項。
 
 ![](assets/options-predicate-manual.png)
