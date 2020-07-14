@@ -4,12 +4,15 @@ seo-title: 支援的檔案格式
 description: '每個AEM Assets品牌入口網站都支援特定的檔案格式，如矩陣所示。 '
 seo-description: '每個AEM Assets品牌入口網站都支援特定的檔案格式，如矩陣所示。 '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: 簡介
+topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 46%
 
 ---
 
