@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 下載資產 {#download-assets}
 
-所有使用者都可同時下載多個資產和資料夾，供他們從品牌入口網站存取。 如此，就可安全地散發核准的品牌資產，以供離線使用。 閱讀以瞭解如何從品牌入口網站下載已核准的資產，以及從下載效能中預 [期的](../using/brand-portal-download-users.md#main-pars-header)。
+所有使用者都可同時下載多個資產和資料夾，以便從品牌入口網站存取。 如此，就可安全地散發核准的品牌資產，以供離線使用。 閱讀以瞭解如何從品牌入口網站下載已核准的資產，以及從下載效能中預 [期的](../using/brand-portal-download-users.md#main-pars-header)。
 
 >[!NOTE]
 >
@@ -32,9 +32,11 @@ ht-degree: 1%
 1. 從品牌入口網站介面，執行下列其中一項作業：
 
    * 選取您要下載的檔案夾或資產。 從頂端的工具列，按一下「下 **[!UICONTROL 載]** 」圖示。
+
    ![](assets/downloadassets-1.png)
 
    * 若要下載單一資料夾或資產，請將指標暫留在資料夾或資產上。 從可用的快速動作縮圖中，按一下「下 **[!UICONTROL 載]** 」圖示。
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -67,6 +69,7 @@ ht-degree: 1%
    * 若要加速從品牌入口網站下載資產檔案，請選取「啟用下載 **[!UICONTROL 加速]** 」選項， [然後遵循精靈](../using/accelerated-download.md#main-pars-header-405749062)。 若要進一步瞭解如何更快速下載資產，請參 [閱指南以加速從品牌入口網站的下載](../using/accelerated-download.md)。
 
    * 若要將自訂 [影像預設集套用至資產及其轉譯](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，請選 **[!UICONTROL 取「動態轉譯」]**。 指定自訂影像預設集屬性（大小、格式、色域、解析度和影像修飾元），以便在下載資產及其轉譯時套用自訂影像預設集。 若要僅下載動態轉譯，請 **[!UICONTROL 刪除資產]**。
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -76,6 +79,7 @@ ht-degree: 1%
    * 若要在下載資產時保留品牌入口網站檔案夾階層，請為每 **[!UICONTROL 個資產選取「建立個別檔案夾」]**。 依預設，會忽略品牌入口網站資料夾階層，所有資產都會下載到您本機系統的一個資料夾中。
 
    * 若要傳送電子郵件通知給具有下載資產連結的使用者，請選取「電子 **[!UICONTROL 郵件]**」。
+
    ![](assets/download-link.png)
 
    >[!NOTE]
