@@ -40,7 +40,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->動態視訊不受品牌入口網站租戶支援，這些租戶已設定為在 **[!UICONTROL Scene7Connect執行模式上執行的AEM Author]** 。
+>動態視訊不受品牌入口網站租戶支援，這些租戶已設定為在 **[!UICONTROL Scene7Connect執行模式中執行的AEM Author]** 。
 
 ## 動態視訊如何播放？ {#how-are-dynamic-videos-played}
 
