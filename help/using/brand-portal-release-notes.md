@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '801'
 ht-degree: 4%
 
 ---
@@ -55,6 +55,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 ### 已知問題 {#known-issues-6462}
 
 此發行包含下列已知問題：
+
+* 檢視器使用者目前可看到系列的共用連結。
 
 * 如果階層中的檔案夾從AEM Assets重新命名，而包含資產的巢狀檔案夾已發佈至品牌入口網站，則在重新發佈根檔案夾之前，不會在品牌入口網站中更新檔案夾的標題。
 
