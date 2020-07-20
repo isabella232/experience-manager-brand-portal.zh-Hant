@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 8%
@@ -68,7 +68,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 
 *訪客使用者只能瀏覽、存取和搜尋公用資料夾和系列中的資產。
 
-*檢視器使用者可檢視並下載與他們共用的公開資產，並可新增這些資產以建立其專屬的系列。
+*檢視器使用者可以存取和下載與他們共用的公開資產，並可以新增這些資產以建立其專屬的系列。
 
 >[!NOTE]
 >
