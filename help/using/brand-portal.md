@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1603'
 ht-degree: 8%
 
 ---
@@ -62,11 +62,18 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 |  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用集合** | **以連結方式共用資產** | **存取管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **來賓用戶** | ✓* | ✓* | ✓* | x | x | x | x |
-| **檢視者** | ✓ | ✓ | ✓ | x | x | x | x |
+| **檢視者** | ✓* | ✓* | ✓* | x | x | x | x |
 | **編輯者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理員** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 *訪客使用者只能瀏覽、存取和搜尋公用資料夾和系列中的資產。
+
+*檢視器使用者可檢視並下載與他們共用的公開資產，並可新增這些資產以建立其專屬的系列。
+
+>[!NOTE]
+>
+>已知的問題是，檢視器使用者目前可看到系列的共用連結。 檢視器使用者沒有新增使用者以建立共用連結的權限。 此問題將會在即將發行的版本中修正，檢視器使用者將無法使用系列的共用連結選項。
+
 
 ### Guest user {#guest-user}
 
@@ -132,7 +139,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 
 ## 品牌入口網站URL的替代別名 {#tenant-alias-for-portal-url}
 
-品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有租用戶使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
+品牌入口網站6.4.3版之後，組織可以有一個替代（別名）URL供其品牌入口網站的現有URL使用。 別名URL可以通過在URL中具有備用前置詞來建立。\
 請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。 例如，現有網域 **[!UICONTROL geometrix.brand-portal.adobe.com的組織可取得]** geomettrixinc.brand-portal.adobe.com **** 。
 
 不過，AEM Author例項只能以租 [用戶ID](../using/configure-aem-assets-with-brand-portal.md) URL設定，而不能以租用戶別名（替代）URL設定。
