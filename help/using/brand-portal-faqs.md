@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 0%
 **客戶。 現有的舊式OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
 **Ans。** 舊版OAuth設定已過時。 您必須將AEM Assets作者例項升級至最新的Service Pack，並透過Adobe Developer Console加以設定。 如需詳 [細資訊，請參閱「設定AEM資產與品牌入口網站](configure-aem-assets-with-brand-portal.md) 」。 不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+
+
+**客戶。 我已使用管理員共用的資產連結建立系列。 但我無法為我的系列建立共用連結。 我是否需要特殊權限才能執行此動作？**
+
+**Ans。** 此功能依設計而定，檢視器使用者不得共用系列的連結，因為他們擁有有限的權限，因此無法新增使用者以建立共用連結。 檢視器使用者目前可看到系列的共用連結，這是已知的問題。 此問題將會在即將發行的版本中修正，檢視器使用者將無法使用系列的共用連結選項。
+
 
 **客戶。 升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。 可能的原因是什麼？**
 
