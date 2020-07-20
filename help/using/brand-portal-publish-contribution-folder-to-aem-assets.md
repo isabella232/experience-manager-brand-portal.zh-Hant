@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,11 @@ ht-degree: 0%
 **若要發佈貢獻資料夾：**
 
 1. 登入您的品牌入口網站例項。
-1. 從控制面板中選取貢獻資料夾。
-1. 按一 **[!UICONTROL 下「發佈至AEM」]**
 
-   ![](assets/export.png)。
+1. 從「品牌入口網站」控制面板選取貢獻資料夾。
+1. 按一 **[!UICONTROL 下「發佈至AEM]**」。
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
