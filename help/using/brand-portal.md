@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1522'
 ht-degree: 8%
 
 ---
@@ -62,18 +62,21 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 |  | **瀏覽** | **搜尋** | **下載** | **共用資料夾** | **共用集合** | **以連結方式共用資產** | **存取管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **來賓用戶** | ✓* | ✓* | ✓* | x | x | x | x |
-| **檢視者** | ✓* | ✓* | ✓* | x | x | x | x |
+| **檢視者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **編輯者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理員** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 *訪客使用者只能瀏覽、存取和搜尋公用資料夾和系列中的資產。
 
-*檢視器使用者可以存取和下載與他們共用的公開資產，並可以新增這些資產以建立其專屬的系列。
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->已知的問題是，檢視器使用者目前可看到系列的共用連結。 檢視器使用者沒有新增使用者以建立共用連結的權限。 此問題將會在即將發行的版本中修正，檢視器使用者將無法使用系列的共用連結選項。
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
