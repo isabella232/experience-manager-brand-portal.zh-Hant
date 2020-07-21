@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1118'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 4%
 
 # 以連結方式共用資產 {#share-assets-as-a-link}
 
-AEM Assets品牌入口網站管理員和編輯人員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
+AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視並共用與他們共用的資產。
 
-透過連結分享資產是讓外部人士也能使用的便利方式，因為接收者不需要登入品牌入口網站即可存取資產。 接收者（檢視器使用者）可以存取和下載與他們共用的公用資產，並可以新增這些資產以建立其自己的系列。
+透過連結分享資產是讓外部人士也能使用的便利方式，因為接收者不需要登入品牌入口網站即可存取資產。
+
+連結共用存取權限僅限編輯和管理員使用。
 
 如需詳細資訊，請 [參閱管理使用者、群組和使用者角色](../using/brand-portal-adding-users.md#manage-user-roles)。
 
