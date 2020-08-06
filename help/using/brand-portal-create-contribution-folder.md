@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -27,7 +27,6 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者，可以�
 >[!NOTE]
 >
 >您可以在資料夾中建立多個貢獻資料夾，但不得在其他貢獻資料夾中建立貢獻資料夾。
-
 
 要建立貢獻資料夾：
 1. 登入您的AEM作者實例。
