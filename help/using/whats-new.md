@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新功能
 seo-title: AEM Assets Brand Portal 的新功能
-description: 檢視6.4.6的新功能和增強功能。
-seo-description: 檢視6.4.6的新功能和增強功能。
+description: 檢視6.4.7的新功能和增強功能。
+seo-description: 檢視6.4.7的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
 workflow-type: tm+mt
-source-wordcount: '4462'
-ht-degree: 1%
+source-wordcount: '4746'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,35 @@ ht-degree: 1%
 # AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
+
+## 6.4.7版的變更 {#what-changed-in-647}
+
+品牌入口網站6.4.7版本著重於改善檔案檢視器體驗、從品牌入口網站下載資產的設定，以及主要客戶要求。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+### 檔案檢視器 {#doc-viewer}
+
+文 *件檢視器* ，可增強PDF檢視器體驗。 在品牌入口網站中檢視PDF檔案時，它提供的體驗與Adobe Document Cloud類似。
+
+之前，轉譯僅適用於PDF檔案的第一頁，而預設PDF檢視器中的可用選項也有限。
+
+透過 *Document Viewer* 實作，品牌入口網站的使用者可檢視PDF中繼資料，並體驗新選項來播放PDF檔案，例如頁面檢視、索引檢視、線上搜尋、放大、縮小、上一頁、下一頁、切換至頁面、符合螢幕大小、隱藏或取消隱藏工具列。
+
+品牌入口網站使用者現在可獲得改善的PDF檢視器體驗，而其他格式的體驗則保持不變。
+
+![](assets/doc-viewer.png)
+
+### 下載設定 {#download-configurations}
+
+「下載設定」是新的設定，可讓品牌入口網站管理員從品牌入口網站設定資產下載。
+
+從品牌入口網站下載資產的現有工作流程不可避免地會出現包含多種下載選項的彈出式視窗。
+
+在Brand Portal 6.4.7中，您可從Brand Portal使用者介面設定下載資產。 快速下載、自訂轉譯和系統轉譯是三種可用的設定。 品牌入口網站管理員可以選取任何組合來設定資產下載。 管理員也可以啟用或禁用這些配置。
+
+快速下載設定會在資產下載期間略過快顯視窗的外觀。 若是自訂轉譯或系統轉譯，或是多種設定，會出現快顯視窗，並下載原始資產以及資產轉譯。
+
+![](assets/download-configuration.png)
+
 
 ## 6.4.6版的變更 {#what-changed-in-646}
 
@@ -401,7 +430,7 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 * 資產搜尋回應的改善幅度高達40%。
 * 瀏覽效能提升40%。
 
-**注意**: 根據實驗室進行的測試，引用了一些改進。
+**注意**:根據實驗室進行的測試，引用了一些改進。
 
 ### 增強的報告功能
 
@@ -554,7 +583,7 @@ Brand Portal 6.3.1包含全新和增強的功能，以便將Brand Portal與AEM�
 
 ### 其他 Metadata {#additional-metadata}
 
-Brand Portal 6.3.1推出額外的中繼資料，與AEM Assets 6.3相當。 您可以使用「結構編輯器」表單來控制應在「資產屬性」頁面上顯示的中繼資料。 外部連結共用使用者無法看到資產中繼資料，他們只能使用連結共用URL來預覽和下載資產。
+Brand Portal 6.3.1推出額外的中繼資料，與AEM Assets 6.3相當。您可以使用「結構編輯器」表單來控制應在「資產屬性」頁面上顯示的中繼資料。 外部連結共用使用者無法看到資產中繼資料，他們只能使用連結共用URL來預覽和下載資產。
 
 ![](assets/additionsinmetadata.png)
 
