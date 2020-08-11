@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 0%
+source-wordcount: '4753'
+ht-degree: 1%
 
 ---
 
@@ -24,29 +24,46 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 6.4.7版的變更 {#what-changed-in-647}
 
-品牌入口網站6.4.7版本著重於改善檔案檢視器體驗、從品牌入口網站下載資產的設定，以及主要客戶要求。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+Brand Portal 6.4.7版在Document Viewer中提供增強的資產下載體驗，並包含重要的修正。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### 檔案檢視器 {#doc-viewer}
 
-文 *件檢視器* ，可增強PDF檢視器體驗。 在品牌入口網站中檢視PDF檔案時，它提供的體驗與Adobe Document Cloud類似。
+Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔案時，提供與Adobe Document Cloud類似的體驗。
 
-之前，轉譯僅適用於PDF檔案的第一頁，而預設PDF檢視器中的可用選項也有限。
+之前，檢視PDF檔案的選項有限。
 
-透過 *Document Viewer* 實作，品牌入口網站的使用者可檢視PDF中繼資料，並體驗新選項來播放PDF檔案，例如頁面檢視、索引檢視、線上搜尋、放大、縮小、上一頁、下一頁、切換至頁面、符合螢幕大小、隱藏或取消隱藏工具列。
+有了Document Viewer，品牌入口網站的使用者現在可以選擇檢視頁面、檢視書籤、搜尋頁面文字、放大、縮小、導覽至上一頁和下一頁、切換至頁面、符合視窗、符合螢幕大小，以及隱藏或取消隱藏工具列。
 
-品牌入口網站使用者現在可獲得改善的PDF檢視器體驗，而其他格式的體驗則保持不變。
+>[!NOTE]
+>
+>其他檔案格式的檢視體驗保持不變。
+
+
 
 ![](assets/doc-viewer.png)
 
-### 下載設定 {#download-configurations}
+### 下載體驗 {#download-configurations}
 
-「下載設定」是新的設定，可讓品牌入口網站管理員從品牌入口網站設定資產下載。
+資產下載程式已經過改良，提供簡化的使用者體驗，同時從品牌入口網站下載資產。
 
-從品牌入口網站下載資產的現有工作流程不可避免地會出現包含多種下載選項的彈出式視窗。
+從品牌入口網站下載資產的現有工作流程不可避免地會出現「下載 **** 」對話方塊，其中包含多種下載選項供您選擇。
 
-在Brand Portal 6.4.7中，您可從Brand Portal使用者介面設定下載資產。 快速下載、自訂轉譯和系統轉譯是三種可用的設定。 品牌入口網站管理員可以選取任何組合來設定資產下載。 管理員也可以啟用或禁用這些配置。
+在Brand Portal 6.4.7中，Brand Portal管理員可以設定資產下載 **[!UICONTROL 設定]** 。 可用的配置包括：
+* **[!UICONTROL 快速下載]**
+* **[!UICONTROL 自訂轉譯]**
+* **[!UICONTROL 系統轉譯]**
 
-快速下載設定會在資產下載期間略過快顯視窗的外觀。 若是自訂轉譯或系統轉譯，或是多種設定，會出現快顯視窗，並下載原始資產以及資產轉譯。
+品牌入口網站管理員可以啟用任何組合來設定資產下載。
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* 如果這三個設定都關閉，資產就會下載，而不需要任何額外的對話方塊，可簡化品牌入口網站使用者的下載體驗。 根據此設定，下載工作流程對於獨立資產、多個資產、包含資產的資料夾、授權或未授權資產，以及當使用共用連結下載資產時，都會維持不變。
+
+* 如果任何「自訂轉譯 **[!UICONTROL 」或「]** 系統轉譯」已啟用 ******** ，則會顯示「下載」對話方塊，並下載原始資產以及資產轉譯。 啟用 **[!UICONTROL 快速下載]** (Fast Download)設定可加速下載程式。
 
 ![](assets/download-configuration.png)
 
