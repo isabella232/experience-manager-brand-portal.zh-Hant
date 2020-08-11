@@ -1,8 +1,8 @@
 ---
 title: 發行說明
 seo-title: 發行說明
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6.2版中的功能、增強功能、已修正的重大問題和已知問題。
-seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6.2版中的增強功能、已修正的重大問題和已知問題。
+description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版中的功能、增強功能、已修正的重大問題和已知問題。
+seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版本中的增強功能、已修正的重大問題和已知問題。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,117 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 4%
+source-wordcount: '505'
+ht-degree: 6%
 
 ---
 
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.6.2版本中的新功能、增強功能、已修正的重大問題和已知問題。
+深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版本中的新功能、增強功能、已修正的重大問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets品牌入口網站 |
 |---|---|
-| 版本 | 6.4.6.2 |
-| 日期 | 2020年6月 |
+| 版本 | 6.4.7 |
+| 日期 | 2020年8月 |
 
 ## 概覽 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 品牌入口網站可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## What&#39;s New in 6.4.6.2 {#what-s-new-in-6462}
+## What&#39;s New in 6.4.7 {#whats-new-in-647}
 
-### 已修正的重大問題 {#critical-issues-fixed-6462}
-
-此版本包含下列重大問題的修正：
-
-* 從品牌入口網站移除已發佈的中繼資料結構會導致錯誤。
-
-* 如果管理員透過Adobe Developer Console以品牌入口網站設定Experience Manager Assets 6.5.4，品牌入口網站使用者無法將貢獻資料夾的資產從品牌入口網站發佈至Experience Manager。
-
-* 重複複製父資料夾會導致衝突。
-
-* 使用者無法產生「連結共用」報表。
-
-* 使用者可使用copyPage命令複製品牌入口網站端點的MAC機密。
-
-* cqTags導致在VA5克隆上重新建立索引。
-
-
-### 已知問題 {#known-issues-6462}
-
-此發行包含下列已知問題：
-
-* 檢視器使用者不得共用系列的連結，但產品介面中會顯示共用選項。
-
-* 如果階層中的檔案夾從AEM Assets重新命名，而包含資產的巢狀檔案夾已發佈至品牌入口網站，則在重新發佈根檔案夾之前，不會在品牌入口網站中更新檔案夾的標題。
-
-
-## What&#39;s New in 6.4.6 {#what-s-new-in-646}
-
-### New Features {#new-feature}
+### New Features {#new-features}
 
 此版本包含下列新功能：
 
-* 訪客登入品牌入口網站的驗證碼。 See, [Brand Portal guest access](../using/guest-access.md) for more information.
+* Document Viewer已推出，可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔案時，有新的選項可供使用。
 
-* AEM Assets雲端服務現在支援品牌入口網站。 您可以設定AEM Assets可以與品牌入口網站一起服務，以便與品牌入口網站使用者共用及分發資產。
-如需詳細資訊，請參 [閱「使用品牌入口網站設定AEM Assets雲端服務」](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)。
+<!--
+* Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
+-->
 
-### 增強功能 {#enhancements-646}
+* 資產下載程式的進階，可改善品牌入口網站的使用者體驗，同時從品牌入口網站下載資產。 品牌入口網站管理員可 **[!UICONTROL 以從]** DownloadPortal設 **[!UICONTROL 定設定「快速下載]**」、「自訂轉譯 **[!UICONTROL 」和「]****** 系統轉譯」。
 
-此版本的品牌入口網站包含下列增強功能：
+如需詳細資訊， [請參閱Brand Portal 6.4.7的新增功能](whats-new.md)。
 
-* 在AEM 6.3和更新版本中，AEM Assets和品牌入口網站之間的授權管道已變更。 AEM Assets現在已透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
-
->[!NOTE]
->
->自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe Developer Console進行設定。
-
->[!TIP]
->
->***僅限現有客戶***
->
->舊版OAuth閘道設定將可繼續適用於現有客戶。
->
->如果您在舊版OAuth閘道配置中遇到問題，請刪除現有的配置，並透過Adobe Developer Console建立新的配置。
-
-For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
-
-### 已修正的重大問題 {#critical-issues-fixed}
+### 已修正的重大問題 {#critical-issues-fixed-647}
 
 此版本包含下列重大問題的修正：
 
-* 中繼資料結構下拉式值無法在資產屬性中顯示。
+* 檢視器使用者不得分享系列的連結，但產品介面上會顯示分享的選項。
 
-* 中繼資料子架構不會根據資產屬性中的mimetype來顯示標籤。
+* 選 **[!UICONTROL 項列上的]** 「下載」按鈕不會列出所選資料夾的所有授權資產。
 
-* 取消發佈中繼資料結構會填入錯誤訊息，雖然結構已在後端移除。
+* 顯示特定關鍵字的結果需要較長的搜尋時間。
 
-* 預覽影像不會針對已發佈的資產顯示。
+* 下載 **[!UICONTROL 期間，大量選]****** 擇授權和未授權資產時，不會顯示「同意」和「不同意」核取方塊。
 
-* 使用者無法發佈或取消發佈名稱中包含單一報價的資產。
+* 以篩選為基礎的搜尋會顯示在產品介面上的處理，而無搜尋結果。
 
-* 下載多個資產時不會顯示條款與條件。
+* 如果共用資料夾包含許多大型資產，則不會從共用連結下載資產。
 
-* 已解決次要安全性弱點。
 
-### 已知問題 {#known-issues}
+### 已知問題 {#known-issues-647}
 
 此發行包含下列已知問題：
 
-* 在AEM 6.5.4上升級至Adobe Developer Console時，品牌入口網站使用者無法將貢獻資料夾資產發佈至AEM Assets。
+* 如果選取多個資產，則在使用分享連結下載期間，在授權合約頁面上按一下「條款與條件」時，不會顯示授權文字。
 
-   此問題將在下一個Service Pack 6.5.5中修正。
-
-   如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在您的作者實例上。
-
-* 下載資產時，「排除系統轉譯」選項無法正常運作。
 
 
 ## 語言 {#languages}
