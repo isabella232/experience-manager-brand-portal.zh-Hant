@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '871'
 ht-degree: 3%
 
 ---
@@ -23,26 +23,29 @@ ht-degree: 3%
 
 影像預設集用來產生可預覽及下載之影像的動態轉譯。 在預覽影像及其轉譯時，您可以選擇預設集，以依照管理員設定的規格重新格式化影像。
 
-若要在品牌入口網站中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至品牌入口網站的AEM作者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。 無法從Brand Portal產生PTIFF轉譯。
+(*如果AEM(Author)例項是在&#x200B;**Dynamic Media Hybrid模式上執行***)若要在品牌入口網站中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至品牌入口網站的AEM作者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。
 
 >[!NOTE]
 >
 >當下載影像及其轉譯時，您無法從現有的預設集中選擇。 您可以改為指定自訂影像預設集的屬性。 如需詳細資訊，請參 [閱下載影像時套用影像預設集](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
 
-如需建立影像預設集時所需參數的詳細資訊，請參閱「管 [理影像預設集」](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
+
+如需建立影像預設集時所需參數的詳細資訊，請參閱「管理 [影像預設集」](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
 
 ## 建立影像預設集 {#create-an-image-preset}
 
-管理員可以建立影像預設集，這些預設集會在資產詳細資料頁面上顯示為動態轉譯。 您可以從頭開始建立影像預設集，或以新名稱儲存現有的影像預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當影像被傳送以供觀看時，其外觀根據所選擇的命令被優化。
-請注意，只有管理員才能在品牌入口網站中建立影像預設集。
+AEM管理員可以建立影像預設集，這些預設集會以動態轉譯的形式出現在資產詳細資料頁面上。 您可以從頭開始建立影像預設集，或以新名稱儲存現有的影像預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當影像被傳送以供觀看時，其外觀根據所選擇的命令被優化。
 
-請注意，只有管理員才能在品牌入口網站中建立影像預設集。
 
 >[!NOTE]
 >
 >影像的動態轉譯是使用其金字塔TIFF來建立。 如果金字塔TIFF不適用於任何資產，則無法在品牌入口網站中擷取該資產的動態轉譯。
-如果AEM（作者）例項在 **Dynamic Media Hybrid模式上執行**，則會在AEM儲存庫中建立並儲存影像資產的金字塔TIFF轉譯。 但是，如果AEM（作者）例項在 **Dynamic Media Scene 7模式中執行**，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
-當這些資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
+>
+>如果AEM（作者）例項在 **Dynamic Media Hybrid模式上執行**，則會在AEM儲存庫中建立並儲存影像資產的金字塔TIFF轉譯。
+>
+>但是，如果AEM（作者）例項在 **Dynamic Media Scene 7模式中執行**，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
+>當這些資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
+
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
