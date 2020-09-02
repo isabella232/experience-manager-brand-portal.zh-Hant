@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -79,7 +79,8 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 * 如果「自 **[!UICONTROL 訂轉譯]****** 」和「系統轉譯」設定都已關閉，則會下載資產的原始轉譯，而不會向使用者顯示任何其他對話方塊。
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * 如果任何「自訂轉譯 **[!UICONTROL 」或「]********** 系統轉譯」設定已啟用，則會出現另一個「下載」對話方塊，您可在其中選擇是下載原始資產及其轉譯，還是只下載特定轉譯。
