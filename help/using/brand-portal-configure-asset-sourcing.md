@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,10 @@ AEM管理員可以在AEM **作者例項中設定「資產來源補充** 」。 �
 AEM管理員可以在AEM Web Console設定（亦即「設定管理員」）中啟用「資產來源補充」。
 
 **要啟用資產來源補充，請執行以下操作：**
-1. 登入您的AEM作者例項，並開啟「設定管理員」預設URL: http:// localhost:4502/system/console/configMgr
+1. 登入您的AEM作者例項，並開啟「設定管理員」預設URL:http:// localhost:4502/system/console/configMgr
 1. 使用關鍵字「資 **產來源補充** 」搜索以 **[!UICONTROL 查找「資產來源補充功能標幟配置」]**
 1. 按一下「 **[!UICONTROL 資產來源補充功能標籤配置]** 」(Asset Sourcing Feature Flag Config)以開啟配置窗口
-1. 啟用核取 **[!UICONTROL 方塊feature.flag.active.status]**
+1. 選中 **[!UICONTROL feature.flag.active.status複選框]** 。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ![](assets/enable-asset-sourcing.png)
@@ -54,7 +54,7 @@ AEM管理員可以上傳「品牌入口網站」使用者設定(.csv)檔案，�
 管理員可在AEM Admin Console中新增使用者，請參閱「管 [理使用者](brand-portal-adding-users.md) 」以取得詳細資訊。 在Admin Console中新增使用者後，這些使用者可以新增至品牌入口網站使用者設定檔案，然後指派存取貢獻資料夾的權限。
 
 **若要上傳品牌入口網站使用者清單：**
-1. 登入您的AEM作者例項預設URL: http:// localhost:4502/aem/start.html
+1. 登入您的AEM作者例項預設URL:http:// localhost:4502/aem/start.html
 1. 從「工 **具** 」面板 ![](assets/tools.png) ，導覽至「資產>品 **[!UICONTROL 牌入口網站使用者」]**
    ![](assets/upload-user-list1.png)
 1. 「品牌入口網站上傳參與者」視窗隨即開啟。
