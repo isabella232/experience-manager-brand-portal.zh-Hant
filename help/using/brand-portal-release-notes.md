@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 6%
 
 ---
@@ -53,13 +53,13 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 此版本包含下列重大問題的修正：
 
-* 檢視器使用者不得分享系列的連結，但產品介面上會顯示分享的選項。
+* 檢視器使用者不得分享系列的連結，但是他們可以在產品介面上看到分享的選項。
 
 * 選 **[!UICONTROL 項列上的]** 「下載」按鈕不會列出所選資料夾的所有授權資產。
 
 * 顯示特定關鍵字的結果需要較長的搜尋時間。
 
-* 下載 **[!UICONTROL 期間，大量選]****** 擇授權和未授權資產時，不會顯示「同意」和「不同意」核取方塊。
+* 在下 **[!UICONTROL 載期間]****** ，大量選擇授權和未授權資產時，不會顯示「同意」和「不同意」核取方塊。
 
 * 以篩選為基礎的搜尋會顯示在產品介面上的處理，而無搜尋結果。
 
@@ -90,7 +90,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 認證平台 {#certified-platforms}
 
-要確定哪些平台已通過此版本的Brand Portal認證，請參閱「技術需求」的「受支援的瀏覽器製作使用者介面 **」一節中的「** Support for Touch-optimized UI **」（針對觸控最佳化的UI支援）** 欄 [](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)。
+要確定哪些平台已通過此版本的Brand Portal認證，請參閱「技術需求」的「受支援的瀏覽器製作使用者介面 **」一節中的「支援觸控最佳化UI** 」 **欄**[](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)。
 
 ## 連結 {#links}
 
