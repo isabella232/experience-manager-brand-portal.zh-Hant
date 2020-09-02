@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '334'
 ht-degree: 9%
 
 ---
@@ -20,17 +20,18 @@ ht-degree: 9%
 
 # 使用 Brand Portal 設定 AEM Assets {#configure-integration}
 
-Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入口網站設定，Adobe Developer Console會購買IMS Token以授權您的品牌入口網站租用戶。 AEM Assets雲端服務、AEM Assets 6.3及更新版本現在支援品牌入口網站。
+使用Adobe Experience Manager Assets品牌入口網站將Adobe Experience Manager Assets設定為雲端服務，可讓您發佈資產並與品牌入口網站使用者分發。 但是，使用品牌入口網站設定AEM 6.3（及以上版本）可讓品牌入口網站使用者使用資產發佈、資產分發和資產貢獻功能。
 
-設定AEM Assets可以與品牌入口網站一起服務，讓您可以與品牌入口網站使用者一起發佈和分發資產。 但是，在AEM 6.3（及更新版本）上設定品牌入口網站可讓品牌入口網站使用者使用資產發佈、資產分發和資產貢獻功能。
+Adobe Experience Manager Assets已透過Adobe Developer Console設定品牌入口網站，該網站會購買Adobe身分管理服務(IMS)Token，以授權您的品牌入口網站租用戶。
 
 >[!NOTE]
 >
 >***針對AEM Assets 6.3和更新版本***
 >
->之前，品牌入口網站是透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。
+>之前，品牌入口網站是透過舊版OAuth閘道在傳統介面中設定，該閘道使用JSON Web Token(JWT)交換來取得IMS Token進行授權。
 >
 >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe Developer Console進行設定。
+
 
 >[!TIP]
 >
@@ -40,7 +41,8 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入�
 >
 >如果您在舊版OAuth閘道配置中遇到問題，請刪除現有的配置，並透過Adobe Developer Console建立新的配置。
 
-設定具有品牌入口網站的AEM資產的步驟依您的AEM版本而異，以及您是首次設定或升級現有的設定：
+
+設定具有品牌入口網站的AEM資產的步驟依您的AEM版本而異，以及您是第一次設定或升級現有的設定：
 
 | **AEM版本** | **新設定** | **升級配置** |
 |---|---|---|
