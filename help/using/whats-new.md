@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
 workflow-type: tm+mt
-source-wordcount: '4753'
+source-wordcount: '4758'
 ht-degree: 1%
 
 ---
@@ -61,16 +61,18 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* 如果這三個設定都關閉，資產就會下載，而不需要任何額外的對話方塊，可簡化品牌入口網站使用者的下載體驗。 根據此設定，下載工作流程對於獨立資產、多個資產、包含資產的資料夾、授權或未授權資產，以及當使用共用連結下載資產時，都會維持不變。
+* 如果「自 **[!UICONTROL 訂轉譯]** 」和「 **** 系統轉譯」設定都已關閉，則會下載資產的原始轉譯，而不需使用其他對話方塊來簡化品牌入口網站使用者的下載體驗。
 
 * 如果任何「自訂轉譯 **[!UICONTROL 」或「]** 系統轉譯」已啟用 ******** ，則會顯示「下載」對話方塊，並下載原始資產以及資產轉譯。 啟用 **[!UICONTROL 快速下載]** (Fast Download)設定可加速下載程式。
+
+根據此設定，單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程將維持不變。
 
 ![](assets/download-configuration.png)
 
 
 ## 6.4.6版的變更 {#what-changed-in-646}
 
-在Brand Portal 6.4.6中，AEM Assets和Brand Portal之間的授權管道已變更。 AEM Assets雲端服務、AEM Assets 6.3及更新版本現在支援品牌入口網站。 在AEM Assets 6.3和更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統UI中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
+在Brand Portal 6.4.6中，AEM Assets和Brand Portal之間的授權管道已變更。 AEM Assets現在支援品牌入口網站，即雲端服務、AEM Assets 6.3和更新版本。 在AEM Assets 6.3和更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統UI中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -142,7 +144,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 ### 上傳資產至貢獻資料夾 {#upload-assets-in-bp}
 
-具有適當權限的品牌入口網站使 [用者可下載資產需求](brand-portal-download-asset-requirements.md) ，以瞭解貢獻的需求，並將包含多個資產的多個資產或檔案夾上傳至貢獻檔案夾。 不過，請注意，品牌入口網站使用者只能將資產上傳至 **NEW** 子資料夾。 SHARED **資料夾** ，是用於分配需求和基準資產。 請參閱， [上傳資產至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)
+具有適當權限的品牌入口網站使 [用者可下載資產需求](brand-portal-download-asset-requirements.md) ，以瞭解貢獻的需求，並將包含多個資產的多個資產或檔案夾上傳至貢獻檔案夾。 不過，請注意，品牌入口網站使用者只能將資產上傳至 **NEW** 子資料夾。 SHARED **資料夾** ，用於分配需求和基準資產。 請參閱， [上傳資產至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -266,7 +268,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 ### 排程發佈至品牌入口網站
 
-資產（和檔案夾）可排程從 [AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 「作者」例項發佈至品牌入口網站的工作流程，以供日後的日期和時間使用。
+資產（和檔案夾）可排程從 [AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 「作者」例項發佈至品牌入口網站的工作流程，以供日後的日期、時間使用。
 
 同樣地，發佈的資產也可以在稍後（時間）從入口網站移除，方法是排程「從品牌入口網站取消發佈」工作流程。
 
@@ -459,7 +461,7 @@ Brand Portal 6.4.1是平台升級版本，提供多種新功能和重要的增�
 
 ![](assets/accessassetreport.png)
 
-**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地控制。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
+**品牌入口網站的報告**「報告」介面已改善使用體驗，讓組織可以更直覺地掌控。 除了建立各種報表外，管理員現在還可以重新造訪產生的報表，並下載或刪除這些報表，因為這些報表會儲存在品牌入口網站中。
 
 您可新增或移除預設欄，以自訂每個要建立的報表。 此外，自訂欄可新增至「下載」、「有效期」和「發佈」報表，以控制其詳細程度。
 
