@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者，可以�
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL 「建立資料夾]** 」(Create Folder)對話框開啟。
 
-1. 輸入 **[!UICONTROL 資料夾的Title]** and **[!UICONTROL Name]** ，並啟用「資產貢獻」 **[!UICONTROL 核取方塊]** 。
+1. 輸入 **[!UICONTROL 資料夾的Title]** and **[!UICONTROL Name]** （標題和名稱），然後選取「 **[!UICONTROL 資產貢獻]** 」核取方塊。
 建議您使用小寫字母，而不需任何空格來命名資料夾。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。您可以在AEM Assets儲存庫中看到列出的貢獻資料夾。
