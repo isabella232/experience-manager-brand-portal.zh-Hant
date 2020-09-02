@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 3%
+source-wordcount: '402'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,11 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 * 管理員刪除資產
 * 非管理員使用者建立公開系列
 * 非管理員使用者建立公用智慧型系列
-* 下載加速
 * 非管理員使用者可看見共用資料夾的上層階層
 
 這些配置已作為「一般設 **[!UICONTROL 置」配置在管理工具面板上提供]** 。
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **A** Configuration，允許管理員從品牌入口網站刪除資產。 （預設為啟用）
 
@@ -38,9 +37,7 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 
 **C** Configuration允許非管理員使用者建立公用智慧型系列。 （預設為啟用）
 
-**D** Configuration：允許下載從入口網站和共用連結下載的資產的加速。 （預設為停用）
-
-**E** Configuration（E配置），向非管理員用戶（編輯者、檢視者、來賓用戶）顯示共用資料夾的資料夾層次結構（從根目錄）。 （預設為停用）
+**D** Configuration to display folder hierarchy（從根目錄）for shared folders to non-admin users(Editors, Viewers, Guest Users)。 （預設為停用）
 
 ## 啟用／禁用常規配置 {#enable-disable-general-configurations}
 
@@ -59,15 +56,17 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 
 ## 允許非管理員建立公開系列 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL 允許公用系列建立]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 、設定控制非管理員是否可在品牌入口網站上建立公用系列。 預設會啟用設定。 停用組態可防止其入口網站上有許多公用系列，以儲存系統空間。
+[[!UICONTROL 允許公用系列建立]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 、設定控制非管理員是否可在品牌入口網站上建立公用系列。 預設會啟用設定。 停用設定可防止組織在其入口網站上擁有許多公用系列，以儲存系統空間。
 
 ## 允許非管理員建立公用智慧型系列 {#allow-public-smart-collections-creation-by-non-admins}
 
 [[!UICONTROL 允許公用智慧型系列建立]](../using/brand-portal-searching.md#main-pars-header-500620467) 、設定控制非管理員是否可將搜尋儲存為智慧型系列，並讓該租用戶公開。 預設會啟用設定。 停用設定可防止組織的品牌入口網站上有大量由非管理員使用者建立的公開智慧型系列。
 
-## 允許下載加速 {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-[[!UICONTROL 允許下載加速]](../using/accelerated-download.md) 」設定可讓組織透過與IBM Aspera Connect（隨選安裝應用程式）整合，允許加速從品牌入口網站和共用連結下載資產。 該應用程式使用專有技術來消除TCP開銷。
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## 啟用資料夾階層 {#enable-folder-hierarchy}
 
