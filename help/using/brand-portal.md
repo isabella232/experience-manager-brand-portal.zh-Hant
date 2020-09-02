@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1524'
 ht-degree: 8%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 8%
 
 ## 使用 Brand Portal 設定 AEM Assets {#configure-brand-portal}
 
-Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console以品牌入口網站設定，Adobe Developer Console會購買IMS Token以授權您的品牌入口網站租用戶。
+Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
 
 >[!NOTE]
 >
->AEM Assets雲端服務、AEM Assets 6.3及更新版本支援透過Adobe Developer Console以品牌入口網站設定AEM Assets。
+>AEM Assets是雲端服務、AEM Assets 6.3及更新版本，支援透過Adobe Developer Console以品牌入口網站設定AEM Assets。
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
