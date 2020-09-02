@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 0%
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**客戶。 升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。 可能的原因是什麼？**
+**客戶。 升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。可能的原因是什麼？**
 
 **Ans。** 是的，透過Adobe Developer Console將貢獻資料夾的資產發佈至AEM 6.5.4上的AEM Assets時，有已知問題。
 
-AEM 6.5.5中的問題已修正。 您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
+AEM 6.5.5中的問題已修正。您可以在Adobe Developer Console上將AEM Assets實例升級至最新的Service Pack AEM 6.5.5, [並升級您的組態](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 。
 
 如需AEM 6.5.4的立即修正，建議您下載 [修補程式](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，並安裝在AEM作者實例上。
 
@@ -61,7 +61,7 @@ AEM 6.5.5中的問題已修正。 您可以在Adobe Developer Console上將AEM A
 1. 按一下複製代理URL以開啟代理詳細資訊。
 1. 按一下 **[!UICONTROL 編輯]** ，修改複製代理設定。
 1. 在「代理設定」中，按一下「 **[!UICONTROL Extended]** 」頁籤。
-1. 啟用「關 **[!UICONTROL 閉連接]** 」複選框。
+1. 選中「關 **[!UICONTROL 閉連接]** 」複選框。
 1. 重複步驟4到7 ，以配置所有四個複製代理。
 1. 重新啟動伺服器並驗證連接。
 
