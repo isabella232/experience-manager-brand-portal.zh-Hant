@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->品牌入口網站使用者只能將內容／資產上傳 **至** NEW檔案夾。 他們沒有刪除已上傳資產的權限。
+>品牌入口網站使用者只能將內容／資產上傳 **至** NEW檔案夾。
 >
 >任何品牌入口網站帳戶／租用戶的上傳上限 **為** 10 GB。
 
