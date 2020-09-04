@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 ### 下載體驗 {#download-configurations}
 
-資產下載程式已經過改良，提供簡化的使用者體驗，同時從品牌入口網站下載資產。
+資產下載程式已經過改良，提供簡化的使用者體驗，同時 [從品牌入口網站下載資產](brand-portal-download-users.md)。
 
 從品牌入口網站下載資產的現有工作流程不可避免地會出現「下載 **** 」對話方塊，其中包含多種下載選項供您選擇。
 
