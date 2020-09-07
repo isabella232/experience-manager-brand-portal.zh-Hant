@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 6%
@@ -45,7 +45,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* 資產下載程式的進階，可改善品牌入口網站的使用者體驗，同時 [從品牌入口網站下載資產](brand-portal-download-users.md)。 品牌入口網站管理員可 **[!UICONTROL 以從]** DownloadPortal設 **[!UICONTROL 定設定「快速下載]**」、「自訂轉譯 **[!UICONTROL 」和「]****** 系統轉譯」。
+* 資產下載程式的進階，可改善品牌入口網站的使用者體驗，同時 [從品牌入口網站下載資產](brand-portal-download-assets.md)。 品牌入口網站管理員可 **[!UICONTROL 以從]** DownloadPortal設 **[!UICONTROL 定設定「快速下載]**」、「自訂轉譯 **[!UICONTROL 」和「]****** 系統轉譯」。
 
 如需詳細資訊， [請參閱Brand Portal 6.4.7的新增功能](whats-new.md)。
 
