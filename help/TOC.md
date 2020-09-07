@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 70%
@@ -56,7 +56,7 @@ ht-degree: 70%
    + [在 Brand Portal 上搜尋資產](using/brand-portal-searching.md)
    + [使用自訂搜尋 Facet](using/brand-portal-search-facets.md)
 + 使用下載功能 {#download}
-   + [下載資產](using/brand-portal-download-users.md)
+   + [下載資產](using/brand-portal-download-assets.md)
    + [Brand Portal 上的動態視訊支援](using/dynamic-video-brand-portal.md)
    + [管理燈箱集合](using/brand-portal-light-box.md)
    + [管理資產的數位版權](using/manage-digital-rights-of-assets.md)
