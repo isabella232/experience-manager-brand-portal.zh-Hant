@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 影像預設集用來產生可預覽及下載之影像的動態轉譯。 在預覽影像及其轉譯時，您可以選擇預設集，以依照管理員設定的規格重新格式化影像。
 
-(*如果AEM(Author)例項是在&#x200B;**Dynamic Media Hybrid模式上執行***)若要在品牌入口網站中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至品牌入口網站的AEM作者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。
+(如&#x200B;*果AEM作者例項是在&#x200B;**Dynamic Media Hybrid模式上執行***)若要在品牌入口網站中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至品牌入口網站的AEM作者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ AEM管理員可以建立影像預設集，這些預設集會以動態轉譯的�
 >
 >影像的動態轉譯是使用其金字塔TIFF來建立。 如果金字塔TIFF不適用於任何資產，則無法在品牌入口網站中擷取該資產的動態轉譯。
 >
->如果AEM（作者）例項在 **Dynamic Media Hybrid模式上執行**，則會在AEM儲存庫中建立並儲存影像資產的金字塔TIFF轉譯。
+>如果AEM作者例項是在 **Dynamic Media Hybrid模式上執行**，則會在AEM儲存庫中建立並儲存影像資產的金字塔TIFF轉譯。
 >
->但是，如果AEM（作者）例項在 **Dynamic Media Scene 7模式中執行**，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
+>但是，如果AEM作者例項是在 **Dynamic Media Scene 7模式上執行**，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
 >當這些資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
 
 
