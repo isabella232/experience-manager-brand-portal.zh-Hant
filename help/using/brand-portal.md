@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 8%
@@ -88,7 +88,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 [搜尋公共資產](brand-portal-searching.md)
 
-[下載公用資產](brand-portal-download-users.md)
+[下載公用資產](brand-portal-download-assets.md)
 
 [將資產新增至 [!UICONTROL 燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -100,7 +100,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 [搜尋資產](brand-portal-searching.md)
 
-[下載資產](brand-portal-download-users.md)
+[下載資產](brand-portal-download-assets.md)
 
 ### 編輯者 {#editor}
 
