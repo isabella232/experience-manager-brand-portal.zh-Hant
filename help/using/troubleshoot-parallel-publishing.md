@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![](assets/test-connection.png)
 
-## 疑難排解首次發佈失敗： 驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 疑難排解首次發佈失敗：驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 若要驗證您的發佈設定：
 
@@ -66,11 +66,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如： `mac-<tenantid>-replication` 沒有最新的私鑰，因此發佈失敗，出現「401 unauthorized」錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
 
 1. 前往(考 `localhost:4502/crx/de/` 慮您正在localhost:4502上執行作者例項：\
-   i. 刪除 `/etc/replication/agents.author/mp_replication`ii。 刪除 
+   i.刪除 `/etc/replication/agents.author/mp_replication`ii。 刪除 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. 前往localhost:4502/useradmin:\
-   i. 搜索用戶 `mac-<tenantid>replication`ii。 刪除此用戶
+   i.搜索用戶 `mac-<tenantid>replication`ii。 刪除此用戶
 
 現在系統都清理乾淨了。 現在，您可以嘗試建立新的cloudservice組態，並仍然使用https://legacy-oauth.cloud.adobe.io/中現有的JWT應用 [程式](https://legacy-oauth.cloud.adobe.io/)。 您不需要建立新的應用程式，只需從新建立的雲端組態更新公開金鑰。
 
@@ -118,9 +118,7 @@ permission
 
 ## 配置複製代理以避免連接超時錯誤 {#connection-timeout}
 
-**問題**: 我無法將資產從AEM Assets發佈至品牌入口網站。 複製日誌表示連接超時。
-
-**解析度**: 如果複製佇列中有多個待審請求，發佈通常會失敗並出現逾時錯誤。 要解決此問題，請確保將複製代理配置為避免超時。
+如果複製佇列中有多個待審請求，發佈作業通常會失敗並出現逾時錯誤。 要解決此問題，請確保將複製代理配置為避免超時。
 
 執行以下步驟以配置複製代理：
 1. 登入您的AEM Assets作者實例。
@@ -129,6 +127,6 @@ permission
 1. 按一下複製代理URL以開啟代理詳細資訊。
 1. 按一下 **[!UICONTROL 編輯]** ，修改複製代理設定。
 1. 在「代理設定」中，按一下「 **[!UICONTROL Extended]** 」頁籤。
-1. 啟用「關 **[!UICONTROL 閉連接]** 」複選框。
+1. 選中「關 **[!UICONTROL 閉連接]** 」複選框。
 1. 重複步驟4到7 ，以配置所有四個複製代理。
 1. 重新啟動伺服器。
