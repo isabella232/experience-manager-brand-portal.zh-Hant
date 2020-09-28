@@ -4,17 +4,17 @@ seo-title: AEM Brand Portal 使用手冊
 description: AEM Brand Portal 使用手冊
 seo-description: 說明如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
+source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 81%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
 
-# 簡介
+# Adobe Experience Manager Assets品牌入口網站 {#aem-brand-portal}
 
-**Adobe Experience Manager(AEM)Assets Brand Portal** ，透過將經核准的品牌和產品資產安全地發佈給外部代理商、合作夥伴、內部團隊和經銷商以供下載，協助組織滿足其行銷需求。
+**Adobe Experience Manager Assets Brand Portal** ，透過安全地將經過核准的品牌和產品資產發佈給外部機構、合作夥伴、內部團隊和經銷商以供下載，協助組織滿足其行銷需求。
 
 缺少安全的資產共用解決方案可能會導致：
 
