@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -116,6 +116,12 @@ Test..
       >受授權保護的資產 [附加了授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，這是透過在Experience Manager Assets中設定資產的 [中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 來完成的。
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >從資產詳細資訊頁面下載時，請確定選取所有必要的資產轉譯，然後按一下「下 **[!UICONTROL 載」]**。 選取的轉譯會下載到您的本機電腦。
+      > 
+      >下載後，「下載」 **[!UICONTROL 按鈕會停用]** ，以避免建立已下載轉譯的重複副本。 若要下載更多（遺失或其他轉譯副本），請重新整理瀏覽器以重新啟用下載按鈕。
 
       如果在「 **[!UICONTROL Download Settings]** ( **[!UICONTROL Download Settings]** )」中啟用了任何「自訂轉譯 **[!UICONTROL 」或「系統轉譯」配置，則「]********** DownloadRenditions(s)」對話框將顯示預設選中的CondloadAsset(s)check Box。 如果啟 **[!UICONTROL 用「快速下載]** 」設定，預設會選 **[!UICONTROL 取「啟用下載加速]** 」核取方塊。
 
