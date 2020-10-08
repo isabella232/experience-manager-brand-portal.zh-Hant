@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -88,11 +88,11 @@ Comment Type: draft
 
 ## 新增產品設定檔 {#add-a-product-profile}
 
-在 [!UICONTROL Admin Console] （管理控制台）中，產品設定檔（舊稱產品設定）可用來在品牌入口網站中建立群組，以便您在品牌入口網站中執行大量作業，例如角色管理和資產共用。 **品牌入口網站** 是預設的可用產品設定檔； 您可以建立更多產品設定檔，並將使用者新增至新的產品設定檔。
+在 [!UICONTROL Admin Console] （管理控制台）中，產品設定檔（舊稱產品設定）可用來在品牌入口網站中建立群組，以便您在品牌入口網站中執行大量作業，例如角色管理和資產共用。 **品牌入口網站** 是預設的可用產品設定檔；您可以建立更多產品設定檔，並將使用者新增至新的產品設定檔。
 
 >[!NOTE]
 >
->您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列程式中的步驟4-7新增產品設定檔。
+>您可以直接或 [[!UICONTROL 從品牌入口網站]](http://adminconsole.adobe.com/enterprise/overview) 登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列程式中的步驟4-7新增產品設定檔。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -125,7 +125,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->您可以直接或 [[!UICONTROL 從品牌入口]](http://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入Admin Console，請依照下列程式中的步驟4-7，將使用者新增至產品設定檔。
+>您可以直接或 [[!UICONTROL 從品牌入口網站]](http://adminconsole.adobe.com/enterprise/overview) 登入Admin Console。 如果您直接登入Admin Console，請依照下列程式中的步驟4-7，將使用者新增至產品設定檔。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -179,7 +179,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->您可以直接或 [[!UICONTROL 從品牌入口]](https://adminconsole.adobe.com/enterprise/overview) ，登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列步驟步驟4-8，將使用者新增至產品設定檔。
+>您可以直接或 [[!UICONTROL 從品牌入口網站]](https://adminconsole.adobe.com/enterprise/overview) 登入Admin Console。 如果您直接登入 [!UICONTROL Admin Console] ，請依照下列步驟步驟4-8，將使用者新增至產品設定檔。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -209,7 +209,6 @@ Comment Type: draft
    >
    >品牌入口網站僅支援系統管理員和產品管理員角色。
    >
-   >
    >Adobe建議您避免使用系統管理員角色，因為它授予組織內所有產品的管理員權限。 例如，組織的系統管理員（包括3種Marketing Cloud產品）擁有這3種產品的完整權限集。 只有系統管理員可以設定AEM資產，以便從AEM資產發佈至品牌入口網站。 For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >相反地，「產品管理員」角色僅授予特定產品的管理員權限。 如果您想要在品牌入口網站中實施更精細的存取控制，請使用產品管理員角色並選取產品作為品牌入口網站。
@@ -230,8 +229,8 @@ Comment Type: draft
 
 除了管理員角色外，品牌入口網站還支援下列角色：
 
-* [!UICONTROL 檢視器]: 具有此角色的用戶可以查看管理員與他們共用的檔案和資料夾。 檢視器也可以搜尋及下載資產。 不過，檢視器無法與其他使用者共用內容(檔案 [!UICONTROL 、檔案夾]、系列)。
-* [!UICONTROL 編輯器]: 具有此角色的使用者擁有檢視器的所有權限。 此外，編輯人員可與其他使用者共用內容(資 [!UICONTROL 料夾]、系列、連結)。
+* [!UICONTROL 檢視器]:具有此角色的用戶可以查看管理員與他們共用的檔案和資料夾。 檢視器也可以搜尋及下載資產。 不過，檢視器無法與其他使用者共用內容(檔案 [!UICONTROL 、檔案夾]、系列)。
+* [!UICONTROL 編輯器]:具有此角色的使用者擁有檢視器的所有權限。 此外，編輯人員可與其他使用者共用內容(資 [!UICONTROL 料夾]、系列、連結)。
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
@@ -278,14 +277,13 @@ Comment Type: draft
 1. 選擇要更改角色的組。
 1. 從「角色」( **[!UICONTROL Role]** )下拉式清單中選取適當的角色。
 
-   允許群組成員存取影像檔案的原始轉譯(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-icon、image/photoshop、.pshop、.psk)從入口網站或共用連結下載，請保留該群 **[!UICONTROL 組的「存取原始]** 」選項。 依預設， **[!UICONTROL 會為所有使用者選取「存取原始]** 」選項。 若要防止使用者群組存取原始轉譯，請取消選取該群組對應的選項。
+   允許群組成員存取影像檔案的原始轉譯(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-icon、image/photoshop、.pshop、image/vnd.adobe.poshop)從入口網站或共用連結下載，請保留該群 **[!UICONTROL 組的「存取原始]** 」選項。 依預設， **[!UICONTROL 會為所有使用者選取「存取原始]** 」選項。 若要防止使用者群組存取原始轉譯，請取消選取該群組對應的選項。
 
    ![用戶組角色](assets/access-original-rend.png)
 
    >[!NOTE]
    >
    >如果將使用者新增至多個群組，且其中一個群組有限制，則限制將套用至該使用者。
-   >
    >
    >此外，管理員即使是受限制群組的成員，也無法存取影像檔案的原始轉譯的限制。
 
@@ -294,4 +292,3 @@ Comment Type: draft
    >[!NOTE]
    >
    >使用者對群組的關聯或使用者的群組成員資格，每8小時會同步至品牌入口網站。 對用戶或組角色的更改在下次同步作業運行後生效。
-
