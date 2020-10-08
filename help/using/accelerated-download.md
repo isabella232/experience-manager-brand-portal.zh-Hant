@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Brand Portal與IBM Aspera Connect整合，讓大型資產檔案的下載效能�
 >[!NOTE]
 >
 >下載速度因網路頻寬、伺服器延遲和用戶端地理位置等因素而異。
-
 
 預設 **[!UICONTROL 會啟用「快速下載]** 」設定，這可大幅降低從品牌入口網站下載所需資產檔案所花的時間。
 
