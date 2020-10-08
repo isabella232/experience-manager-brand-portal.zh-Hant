@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -31,7 +31,6 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 >[!NOTE]
 >
 >品牌入口網站上的連結共用功能允許下載高達5GB的郵遞區號。
-
 
 以下是將資產共用為連結的步驟：
 
@@ -59,7 +58,7 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 
 1. 在電子郵件地址方塊中，輸入您要與其共用連結之使用者的電子郵件ID。 您可以與多位使用者共用連結。
 
-   如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 如果使用者是外部使用者，請輸入完整的電子郵件ID，然後按 **[!UICONTROL Enter]**; 電子郵件ID會新增至使用者清單。
+   如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 如果使用者是外部使用者，請輸入完整的電子郵件ID，然後按 **[!UICONTROL Enter]**;電子郵件ID會新增至使用者清單。
 
    ![](assets/link-sharing-text.png)
 
@@ -67,7 +66,7 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 1. 在「消 **[!UICONTROL 息]** 」框中，根據需要鍵入消息。
 1. 在「過 **[!UICONTROL 期]** 」欄位中，使用日期選擇器指定連結的到期日期和時間。 依預設，到期日會從您共用連結的日期開始設為7天。
 
-   透過連結共用的資產會在超過「到期日」欄位中指定的日期和時間後 **[!UICONTROL 到期]** 。 如需有關過期資產行為以及基於品牌入口網站使用者角色之允許活動變更的詳細資訊，請參 [閱管理資產的數位權限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
+   透過連結共用的資產會在超過「到期日」欄位中指定的日期和時間後 **[!UICONTROL 到期]** 。 如需有關過期資產行為以及根據使用者角色在品牌入口網站中所允許活動變更的詳細資訊，請參 [閱管理資產的數位權限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
 
 1. 按一下&#x200B;**[!UICONTROL 「共用」]**。訊息會確認連結已與使用者共用。 使用者會收到包含連結的電子郵件。
 
