@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 >[!NOTE]
 >
 >從Brand Portal下載資產前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9。
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >只有管理員才能下載過期的資產。 如需過期資產的詳細資訊，請參 [閱「管理資產的數位權限」](../using/manage-digital-rights-of-assets.md)。
-
 
 ## 下載資產的步驟 {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Test..
       >
       >品牌入口網站支援在Hybird和Scene 7模式中設定動態媒體。
       >
-      >(如&#x200B;*果AEM作者例項是在&#x200B;**Dynamic Media Hybrid模式上執行***)      >若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramidtiff轉譯存在於AEM Assets作者例項中，該資產是從該例項發佈的。 當資產發佈至品牌入口網站時，也會發佈其金字塔轉譯。
+      >(如&#x200B;*果AEM作者例項是在&#x200B;**Dynamic Media Hybrid模式上執行***)
+      >
+      >若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramidtiff轉譯存在於AEM Assets作者例項中，該資產是從該例項發佈的。 當資產發佈至品牌入口網站時，也會發佈其金字塔轉譯。
 
    * 若要在下載資產時保留品牌入口網站檔案夾階層，請選取「為每個 **[!UICONTROL 資產建立個別檔案夾]** 」核取方塊。 依預設，會忽略品牌入口網站檔案夾階層，所有資產都會下載到您本機系統的一個檔案夾中。
 
@@ -179,7 +179,6 @@ Test..
    >[!NOTE]
    >
    >個別下載的資產會顯示在資產下載報表中。 不過，如果下載了包含資產的檔案夾，該檔案夾和資產不會顯示在資產下載報表中。
-
 
 ## 預期的下載效能 {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Test..
 >[!NOTE]
 >
 >引用的資料是在測試條件下觀察到的，不同位置的使用者會看到不同的延遲和頻寬。
-
