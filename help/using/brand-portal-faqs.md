@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -187,20 +187,13 @@ AEM 6.5.5中的問題已修正。您可以在Adobe Developer Console上將AEM As
 **Ans。** 在AEM中，每次將資料夾發佈至品牌入口網站時，都會保留記錄檔。 在發佈時，所有未發佈至品牌入口網站的資產都會放入複製佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至品牌入口網站。 當AEM使用者再次發佈資料夾時，只有先前未發佈的資產（存在於複製佇列中）才會發佈至品牌入口網站。
 從AEM Assets發佈至品牌入口網站的任何資料夾，以及「貢獻」資料夾中的SHARED資料夾，都適用此點。
 
-
-
 **客戶。 我要與誰聯絡有問題？**
 
 **Ans。** 請聯絡您的Adobe客戶經理或客戶支援。
 
-
 >[!NOTE]
 >
 >發行時間表尚未確定，可能會有所變更。 請連絡您的Adobe客戶經理或客戶支援以取得更新的發行計畫。
-
-
-
-
 
 ## 產品存取與支援（受限制的網站） {#product-access-and-support-restricted-sites}
 
