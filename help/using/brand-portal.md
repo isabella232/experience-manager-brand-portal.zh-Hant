@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 8%
@@ -72,10 +72,8 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
- >
- >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
- >
- 
+>
+>There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
 ### Guest user {#guest-user}
@@ -118,7 +116,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 管理員在 [!UICONTROL Admin Console中包含標示為系統管理員或品牌入口網站產品管理員的]使用者。 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站的使用情況和儲存報告。
 
-管理員可以執行編輯器可以執行的所有任務，以執行以下附加任務：
+管理員可以執行編輯器可以執行的所有任務，以執行下列其他任務：
 
 [管理使用者、群組和使用者角色](brand-portal-adding-users.md)
 
