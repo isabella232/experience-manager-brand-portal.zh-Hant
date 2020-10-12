@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新功能
 seo-title: AEM Assets Brand Portal 的新功能
-description: 檢視6.4.7的新功能和增強功能。
-seo-description: 檢視6.4.7的新功能和增強功能。
+description: 檢視2020.10.0的新功能和增強功能。
+seo-description: 檢視2020.10.0的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '5387'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 1%
 # AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
+
+## 2020.10.0中的變更 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0是增強版，著重於簡化資產下載體驗並包含重要修正。 此增強功能包括資產下載的全新和改良工作流程、排除轉譯的其他選項、從「轉譯」面板直接下載、允許特定使用者群組存取和下載權限的設定，以及從所有品牌入口網站頁面輕鬆導覽至檔案、系列和共用連結。 **** 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+
+### 簡化下載體驗 {#download-dialog}
+
+之前，「下載 **** 」對話方塊會顯示多個選項，例如為每個資產建立個別的檔案夾、電子郵件資產、選取原始資產、自訂轉譯、動態轉譯、排除系統轉譯，以及啟用下載加速，當選取多個資產或檔案夾供下載時，這些選項對非技術或新使用者不明確。 此外，使用者無法看到所有資產轉譯或排除特定的自訂或動態轉譯。
+
+新的「下 **[!UICONTROL 載]** 」對話方塊可推廣資產選擇和篩選程式，讓品牌入口網站使用者更容易在下載資產轉譯時做出有效決策。 它會根據「下載」設定和「下載」設定，列出所有選 [**[!UICONTROL 取的資產]**](brand-portal-download-assets.md)**[!UICONTROL 及其轉譯]** 。
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+從「下 **[!UICONTROL 載]** 」對話方塊，使用者可以：
+
+* 在下載清單中檢視任何資產的所有可用轉譯。
+* 排除下載不需要的資產轉譯。
+* 只需按一下，即可將相同的轉譯集套用至所有類似的資產類型。
+* 針對不同的資產類型套用不同的轉譯集。
+* 為每一個資產建立個別的資料夾.
+* 下載選取的資產及其轉譯。
+
+單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程，都維持不變。
+
+![下載對話](assets/download-dialog-box.png)
+
+### 快速導覽  {#quick-navigation}
+
+之前，檢視檔案、系列和共 **[!UICONTROL 用連結的選項已隱藏]********** ，而且使用者每次要切換至另一個檢視時，都需要按幾下滑鼠。
+
+在Brand Portal 2020.10.0中，使用者可以使用快速導覽連結，按一下滑鼠，從所有品牌入口網站頁面導覽至 **[!UICONTROL Files]**、 **[!UICONTROL Collections]**&#x200B;和 **[!UICONTROL Shared Links]** 。
+
+![collection-navigation](assets/collection-navigation.png)
+
+### 增強的轉譯面板 {#rendition-panel}
+
+在舊版中，只有在「下載設定」中啟用任何「自訂轉譯 **[!UICONTROL 」或「系統轉譯」時，使用者才能在「轉譯」面板中檢視原始資產及其]************** 轉譯。 此外，使用者必須下載所有資產轉譯，因為沒有篩選器可排除不需要的特定自訂或動態轉譯。
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+在品牌入口網站2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資訊頁面的「轉譯」面板下載選取的轉譯，而不需開啟「下載 ******** 」對話方塊。
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![轉譯——面板](assets/rendition-panel.png)
+
+
+### 設定下載權限 {#download-permissions}
+
+除了現有的 [**[!UICONTROL 下載設定]**](brand-portal-download-assets.md) ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
+
+之前，這些設定僅限群組使用者下載原始資產。
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+「使 **[!UICONTROL 用者角色]****** 」頁面上的「群組」標籤可讓管理員設定檢視和下載設定：
+
+* 如果已 **[!UICONTROL 開啟「下載原稿]** 」和「下載轉譯 **** 」設定，則所選群組的使用者可以檢視並下載原始資產及其轉譯。
+* 如果兩個設定都已關閉，使用者只能檢視原始資產。 資產轉譯不會顯示給資產詳細資料頁面上的使用者。
+* 如果只 **[!UICONTROL 開啟「下載原稿]** 」設定，使用者只能從資產詳細資料頁面檢視及下載原始資產。
+* 如果只 **[!UICONTROL 開啟「下載轉譯]** 」設定，使用者可以檢視原始資產，但無法下載。 不過，使用者可以檢視並下載資產轉譯。
+
+![view-download-permission](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>如果將使用者新增至多個群組，且其中一個群組有限制，則限制會套用至使用者。
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## 6.4.7版的變更 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字�
 
 ![](assets/edit-search-form.png)
 
-**使用案例**
 
 您現在可以限制在已瀏覽的特定資料夾內搜尋資產，而不是從根資料夾開始。
 
@@ -252,7 +339,8 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 若要允許在特定租用戶帳戶上預覽和下載動態媒體轉譯，管理員需要在「管理工具」面板的 **Video設定中，指定** Dynamic Media Configuration **** (視訊服務URL(DM-Gateway URL)和註冊ID，以擷取動態視訊)。
 
-**使用案例** Dynamic Media影片可在下列位置預覽：
+
+動態媒體影片可在以下位置預覽：
 
 * 資產詳細資訊頁面
 * 資產的卡片檢視
@@ -274,6 +362,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 同樣地，發佈的資產也可以在稍後（時間）從入口網站移除，方法是排程「從品牌入口網站取消發佈」工作流程。
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 不過，AEM Author例項只能以租 [用戶ID](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) URL設定，而不能以租用戶別名（替代）URL設定。
 
-**使用案例**「組織」可自訂入口網站URL，而不是固定Adobe提供的URL，以符合其品牌需求。
+組織可自訂入口網站URL，而不是固定Adobe提供的URL，以符合其品牌需求。
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -296,7 +385,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 此版本提供簡化的下載體驗，並減少點按和警告次數，網址為：
 
 * 選擇只下載轉譯（而非原始資產）。
-* 當存取原始轉譯受到限制時，下載資產。
+* 當存取原始轉譯受到限制時，請下載資產。
 
 ## 6.4.2版的變更 {#what-changed-in-1}
 
