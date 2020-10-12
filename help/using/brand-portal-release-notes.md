@@ -1,8 +1,8 @@
 ---
 title: 發行說明
 seo-title: 發行說明
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版中的功能、增強功能、已修正的重大問題和已知問題。
-seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版本中的增強功能、已修正的重大問題和已知問題。
+description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2020.10.0版中的功能、增強功能、已修正的重大問題和已知問題。
+seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2020.10.0版本中的增強功能、已修正的重大問題和已知問題。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '500'
 ht-degree: 6%
 
 ---
@@ -20,59 +20,92 @@ ht-degree: 6%
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal 6.4.7版本中的新功能、增強功能、已修正的重大問題和已知問題。
+深入瞭解Adobe Experience Manager Assets Brand Portal 2020.10.0版本中的新功能、增強功能、已修正的重大問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets品牌入口網站 |
 |---|---|
-| 版本 | 6.4.7 |
-| 日期 | 2020年8月 |
+| 版本 | 2020.10.0 |
+| 日期 | 2020年10月 |
 
 ## 概覽 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 品牌入口網站可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## What&#39;s New in 6.4.7 {#whats-new-in-647}
+## What&#39;s New in 2020.10.0 {#whats-new-in-2020.10.0}
 
 ### New Features {#new-features}
 
 此版本包含下列新功能：
 
-* Document Viewer已推出，可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔案時，有新的選項可供使用。
+* 「下 **[!UICONTROL 載]** 」對話方塊會在清單檢視中改版，並提供其他選項來排除不需要的轉譯、針對類似資產類型套用相同的規則集，以及下載選取的資產轉譯。
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* 現在，只要按 **[!UICONTROL 一下滑鼠]********** ，即可從所有品牌入口網站頁面導覽至「檔案」、「系列」和「共用連結」。
+
+* 資產詳 **[!UICONTROL 細資訊頁面中的]** 「轉譯」面板現在可讓品牌入口網站使用者選取原始資產和（或）特定資產轉譯，並直接從「轉譯」面板下載它們，而不需開啟「下載」對 **[!UICONTROL 話方塊]****** 。
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* 除了現有的 **[!UICONTROL 下載設定]** ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
+
+
+### 已修正的重大問題 {#critical-issues-fixed}
+
+此版本包含下列重大問題的修正：
+
+* 如果PDF包含子資產，使用者將無法檢視PDF頁面。
+
+
+### 已知問題 {#known-issues}
+
+此發行包含下列已知問題：
+
+* 如果使用者使用共用連結下載資產，則即使停用「允許下載原始檔案」選項 **[!UICONTROL ，也會下載原始資產]** 。
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* 資產下載程式的進階，可改善品牌入口網站的使用者體驗，同時 [從品牌入口網站下載資產](brand-portal-download-assets.md)。 品牌入口網站管理員可 **[!UICONTROL 以從]** DownloadPortal設 **[!UICONTROL 定設定「快速下載]**」、「自訂轉譯 **[!UICONTROL 」和「]****** 系統轉譯」。
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-如需詳細資訊， [請參閱Brand Portal 6.4.7的新增功能](whats-new.md)。
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### 已修正的重大問題 {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-此版本包含下列重大問題的修正：
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* 檢視器使用者不得分享系列的連結，但是他們可以在產品介面上看到分享的選項。
+This release includes fixes to the following critical issues:
 
-* 選 **[!UICONTROL 項列上的]** 「下載」按鈕不會列出所選資料夾的所有授權資產。
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* 顯示特定關鍵字的結果需要較長的搜尋時間。
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* 在下 **[!UICONTROL 載期間]****** ，大量選擇授權和未授權資產時，不會顯示「同意」和「不同意」核取方塊。
+* The search takes longer to show the results for certain keywords.
 
-* 以篩選為基礎的搜尋會顯示在產品介面上的處理，而無搜尋結果。
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* 如果共用資料夾包含許多大型資產，則不會從共用連結下載資產。
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### 已知問題 {#known-issues-647}
-
-此發行包含下列已知問題：
-
-* 如果選取多個資產，則在使用分享連結下載期間，在授權合約頁面上按一下「條款與條件」時，不會顯示授權文字。
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## 語言 {#languages}
 
