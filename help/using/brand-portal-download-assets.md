@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -121,7 +121,6 @@ Test..
       >從資產詳細資訊頁面下載時，請確定選取所有必要的資產轉譯，然後按一下「下 **[!UICONTROL 載」]**。 選取的轉譯會下載到您的本機電腦。
       > 
       >下載後，「下載」 **[!UICONTROL 按鈕會停用]** ，以避免建立已下載轉譯的重複副本。 若要下載更多（遺失或其他轉譯副本），請重新整理瀏覽器以重新啟用下載按鈕。
-
 
       如果在「 **[!UICONTROL Download Settings]** ( **[!UICONTROL Download Settings]** )」中啟用了任何「自訂轉譯 **[!UICONTROL 」或「系統轉譯」配置，則「]********** DownloadRenditions(s)」對話框將顯示預設選中的CondloadAsset(s)check Box。 如果啟 **[!UICONTROL 用「快速下載]** 」設定，預設會選 **[!UICONTROL 取「啟用下載加速]** 」核取方塊。
 
