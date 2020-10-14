@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 1%
@@ -102,6 +102,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 >
 >如果將使用者新增至多個群組，且其中一個群組有限制，則限制會套用至使用者。
 
+
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
  >
@@ -128,6 +129,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 >[!NOTE]
 >
 >其他檔案格式的檢視體驗保持不變。
+
 
 ![](assets/doc-viewer.png)
 
