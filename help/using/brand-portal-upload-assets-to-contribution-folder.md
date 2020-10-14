@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,6 +29,7 @@ ht-degree: 0%
 >
 >任何品牌入口網站租用戶的上傳上限 **為10** GB，累計會套用至所有貢獻資料夾。
 
+
 將新建立的資產發佈至AEM Assets後，品牌入口網站的使用者可以從「新增」檔案夾中刪除這些資產。 但是，品牌入口網站管理員可以從NEW和SHARED資料夾刪除資產。
 
 當建立貢獻資料夾的目標達成後，品牌入口網站管理員可以刪除貢獻資料夾，以釋放其他使用者的上傳空間。
@@ -38,6 +39,7 @@ ht-degree: 0%
 >建議在將貢獻資料夾發佈至AEM Assets後釋放上傳空間，以便讓其他品牌入口網站使用者可以取得貢獻。
 >
 >如果您需要將品牌入口網站租用戶的上傳限制延長至 **10** GB以上，請聯絡Adobe支援，指定此要求。
+
 
 **若要上傳新資產：**
 
