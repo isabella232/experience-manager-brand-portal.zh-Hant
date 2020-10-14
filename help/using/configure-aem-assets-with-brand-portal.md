@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 9%
@@ -31,6 +31,7 @@ Adobe Experience Manager Assets已透過Adobe Developer Console設定品牌入�
 >之前，品牌入口網站是透過舊版OAuth閘道在傳統介面中設定，該閘道使用JSON Web Token(JWT)交換來取得IMS Token進行授權。
 >
 >自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe Developer Console進行設定。
+
 
 >[!TIP]
 >
