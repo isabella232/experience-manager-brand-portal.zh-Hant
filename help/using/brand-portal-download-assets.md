@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ Test..
       >
       >如果您是第一次下載資產，但瀏覽器中未安裝IBM Aspera Connect，則會提示您安裝Aspera下載加速器。
 
+
       >[!NOTE]
       >
       >如果您下載的資產也包含授權資產，則會將您重新導向至「版權 **[!UICONTROL 管理]** 」頁面。 在本頁中，選取資產，按一下「 **[!UICONTROL 同意]**」，然後按一下「 **[!UICONTROL 下載」]**。 如果您選擇不同意，則不會下載授權資產。
       > 
       >受授權保護的資產 [附加了授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，這是透過在Experience Manager Assets中設定資產的 [中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 來完成的。
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Test..
       >
       >管理員可使用品牌功能自訂電子郵件訊息，即標誌、說明和頁 [尾](../using/brand-portal-branding.md) 。
 
+
    * 您可以選取預先定義的影像預設集，或從「下載」對話方塊建立自訂 **[!UICONTROL 動態]** 轉譯。
 
       若要將自訂 [影像預設集套用至資產及其轉譯](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，請選取「 **** 動態轉譯」核取方塊。 指定影像預設集屬性（例如大小、格式、色域、解析度和影像修飾元），以便在下載資產及其轉譯時套用自訂影像預設集。 若要僅下載動態轉譯，請清除「 **[!UICONTROL 資產」核取方塊]** 。
@@ -166,6 +169,7 @@ Test..
       >
       >若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramidtiff轉譯存在於AEM Assets作者例項中，該資產是從該例項發佈的。 當資產發佈至品牌入口網站時，也會發佈其金字塔轉譯。
 
+
    * 若要在下載資產時保留品牌入口網站檔案夾階層，請選取「為每個 **[!UICONTROL 資產建立個別檔案夾]** 」核取方塊。 依預設，會忽略品牌入口網站檔案夾階層，所有資產都會下載到您本機系統的一個檔案夾中。
 
 1. 按一 **[!UICONTROL 下下載]**。
@@ -177,6 +181,7 @@ Test..
    >[!NOTE]
    >
    >個別下載的資產會顯示在資產下載報表中。 不過，如果下載了包含資產的檔案夾，該檔案夾和資產不會顯示在資產下載報表中。
+
 
 ## 預期的下載效能 {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Test..
 | 倫敦 | 179毫秒 | 0.32 MB/秒 | 106分鐘 |
 | 新加坡 | 196毫秒 | 0.5 MB/秒 | 68分鐘 |
 
+
 >[!NOTE]
 >
 >引用的資料是在測試條件下觀察到的，不同位置的使用者會看到不同的延遲和頻寬。
+
