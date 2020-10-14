@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -45,6 +45,7 @@ AEM管理員和擁有建立新檔案夾權限的非管理員使用者，可以�
    >[!NOTE]
    >
    >非管理員使用者可以建立和共用資產貢獻資料夾，但無法修改或刪除它。
+
 
    ![](assets/create-contribution-folder.png)
 
