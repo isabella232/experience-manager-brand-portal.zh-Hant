@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -194,6 +194,7 @@ AEM 6.5.5中的問題已修正。您可以在Adobe Developer Console上將AEM As
 >[!NOTE]
 >
 >發行時間表尚未確定，可能會有所變更。 請連絡您的Adobe客戶經理或客戶支援以取得更新的發行計畫。
+
 
 ## 產品存取與支援（受限制的網站） {#product-access-and-support-restricted-sites}
 
