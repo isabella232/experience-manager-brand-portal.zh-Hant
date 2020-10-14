@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -223,6 +223,7 @@ Comment Type: draft
    >
    >若要撤銷使用者的管理員權限，請在「編輯管理員」頁面中進 **[!UICONTROL 行適當的變更]** ，然後按一下「 **[!UICONTROL 儲存」]**。
 
+
 ## 管理使用者角色 {#manage-user-roles}
 
 管理員可修改品牌入口網站中使用者的角色。
@@ -250,9 +251,11 @@ Comment Type: draft
    >
    >管理員 [!UICONTROL 用戶的] 「角色」清單被禁用。 您無法選擇這些用戶來修改其角色。
 
+
    >[!NOTE]
    >
    >如果用戶是編輯器組的成員，則用戶角色也會被禁用。 若要撤銷使用者的編輯權限，請將使用者從「編輯器」群組中移除，或將整個群組的角色變更為「檢視器」。
+
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。將為相應用戶修改角色。 如果您選擇了多個用戶，則會同時修改所有用戶的角色。
 
@@ -287,8 +290,10 @@ Comment Type: draft
    >
    >此外，管理員即使是受限制群組的成員，也無法存取影像檔案的原始轉譯的限制。
 
+
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。將修改相應組的角色。
 
    >[!NOTE]
    >
    >使用者對群組的關聯或使用者的群組成員資格，每8小時會同步至品牌入口網站。 對用戶或組角色的更改在下次同步作業運行後生效。
+
