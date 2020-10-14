@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -29,6 +29,7 @@ ht-degree: 3%
 >
 >當下載影像及其轉譯時，您無法從現有的預設集中選擇。 您可以改為指定自訂影像預設集的屬性。 如需詳細資訊，請參 [閱下載影像時套用影像預設集](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
 
+
 如需建立影像預設集時所需參數的詳細資訊，請參閱「管理 [影像預設集」](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
 
 ## 建立影像預設集 {#create-an-image-preset}
@@ -44,6 +45,7 @@ AEM管理員可以建立影像預設集，這些預設集會以動態轉譯的�
 >但是，如果AEM作者例項是在 **Dynamic Media Scene 7模式上執行**，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
 >
 >當這些資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
+
 
 1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
 
