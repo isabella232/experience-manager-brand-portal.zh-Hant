@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 6%
+source-wordcount: '544'
+ht-degree: 5%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * 除了現有的 **[!UICONTROL 下載設定]** ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
 
+### 增強功能 {#enhancements}
 
-### 已修正的重大問題 {#critical-issues-fixed}
+此發行包含下列增強功能：
 
-此版本包含下列重大問題的修正：
+* 來賓用戶的會話超時閾值已從2小時減少到15分鐘。
+* 多頁 **[!UICONTROL PDF的其他「檢視頁面]** 」選項已移除，因為使用者現在可以從Adobe Document Cloud檢視器檢視PDF頁面。
 
-* 如果PDF包含子資產，使用者將無法檢視PDF頁面。
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### 已知問題 {#known-issues}
 
 此發行包含下列已知問題：
 
-* 如果使用者使用共用連結下載資產，則即使停用「允許下載原始檔案」選項 **[!UICONTROL ，也會下載原始資產]** 。
+* 「資產報表」 **[!UICONTROL 上的搜尋]** ，會顯示產品介面上的處理，但沒有搜尋結果。
+* 非管理員使用者無法在資產詳細資料頁面上看到視訊DM編碼。
+* 在「下載」對話方塊中，個別資產轉譯的大小與總下載大小的對齊方式會扭曲。
 
 
 
