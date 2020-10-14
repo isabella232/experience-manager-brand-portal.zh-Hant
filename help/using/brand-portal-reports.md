@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 2%
@@ -78,7 +78,6 @@ ht-degree: 2%
    >[!NOTE]
    >
    >「連結共用報表」不會顯示有權存取透過連結分享之資產或已透過連結下載資產的使用者。
-   >
    >
    >若要追蹤透過共用連結的下載，您必須在選取「建立報表」頁面上的「僅連結共 **[!UICONTROL 用下載]** 」選項後 **[!UICONTROL 產生下載報表]** 。 不過，在本例中，使用者（下載者）是匿名的。
 
