@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -31,6 +31,7 @@ AEM Assets品牌入口網站管理員可與授權的內部使用者和外部實�
 >[!NOTE]
 >
 >品牌入口網站上的連結共用功能允許下載高達5GB的郵遞區號。
+
 
 以下是將資產共用為連結的步驟：
 
