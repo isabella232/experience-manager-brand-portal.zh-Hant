@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 1%
@@ -249,7 +249,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 品牌入口網站6.4.4版著重於文字搜尋和主要客戶要求的增強功能。 請參閱最新 [的品牌入口網站發行說明](brand-portal-release-notes.md)。
 
-### 搜尋增強功能 {#search-enhancements}
+### 搜尋增強功能
 
 Brand Portal 6.4.4以上版本支援篩選窗格中屬性謂語的部分文字搜尋。 要允許部分文本搜索，您需要在搜索表單中啟 **用「屬性謂語中的部分搜索** 」。
 
