@@ -1,9 +1,16 @@
 ---
-source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
+source-git-commit: dca4fd9dfa7a021491cb77391b4d98d6fe61eafc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 # Adobe Experience Manager品牌入口網站檔案
+
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 這是Adobe Experience Manager品牌入口網站檔案的儲存庫。
 
