@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0是增強版，著重於簡化資產下載體驗並包含�
 之前，「下載 **** 」對話方塊會顯示多個選項，例如為每個資產建立個別的檔案夾、電子郵件資產、選取原始資產、自訂轉譯、動態轉譯、排除系統轉譯，以及啟用下載加速，當選取多個資產或檔案夾供下載時，這些選項對非技術或新使用者不明確。 此外，使用者無法看到所有資產轉譯或排除特定的自訂或動態轉譯。
 
 新的「下 **[!UICONTROL 載]** 」對話方塊可推廣資產選擇和篩選程式，讓品牌入口網站使用者更容易在下載資產轉譯時做出有效決策。 它會根據「下載」設定和「下載」設定，列出所有選 [**[!UICONTROL 取的資產]**](brand-portal-download-assets.md)**[!UICONTROL 及其轉譯]** 。
+
+>[!NOTE]
+>
+>現在，所有使用者都會依預設啟用 **[!UICONTROL Fast Download]** ，而且必須先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9，再從品牌入口網站下載資產。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在品牌入口網站2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資訊頁面的「轉譯」面板下載選取的轉譯，而不需開啟「下載 ******** 」對話方塊。
+在Brand Portal 2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資訊頁面的「轉 [譯」面板下載選取的轉譯 **[!UICONTROL ，而不需開啟「]**](brand-portal-download-assets.md#download-assets-from-asset-details-page)**** 下載」對話方塊。
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![轉譯——面板](assets/rendition-panel.png)
+![轉譯——面板](assets/renditions-panel.png)
 
 
 ### 設定下載權限 {#download-permissions}
 
-除了現有的 [**[!UICONTROL 下載設定]**](brand-portal-download-assets.md) ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
+除了現有的 [**[!UICONTROL 下載設定]**](brand-portal-download-assets.md) ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。
+
+以管理員身分登入您的品牌入口網站租戶，並導覽至「工 **[!UICONTROL 具]** >使 **[!UICONTROL 用者]**」。
+
+在「使 **[!UICONTROL 用者角色]** 」頁面中，導覽至「群組 **** 」標籤，以設定使用者群組的檢視和（或）下載權限
 
 之前，這些設定僅限群組使用者下載原始資產。
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 「使 **[!UICONTROL 用者角色]****** 」頁面上的「群組」標籤可讓管理員設定檢視和下載設定：
 
