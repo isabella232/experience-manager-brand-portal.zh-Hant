@@ -1,8 +1,8 @@
 ---
 title: 管理一般租用戶組態
 seo-title: 管理一般租用戶組態
-description: 設定下載加速、建立公 [!UICONTROL 用智慧型系列] 、建立公 [!UICONTROL 用系列] ，並讓管理員使用者刪除租戶上的資產。
-seo-description: 設定下載加速、建立公 [!UICONTROL 用智慧型系列] 、建立公 [!UICONTROL 用系列] ，並讓管理員使用者刪除租戶上的資產。
+description: 設定下載加速、建立公用智慧型系列、建立公用系列，並讓管理員使用者刪除租戶上的資產。
+seo-description: 設定下載加速、建立公用智慧型系列、建立公用系列，並讓管理員使用者刪除租戶上的資產。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
