@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
+source-wordcount: '5471'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 為每一個資產建立個別的資料夾.
 * 下載選取的資產及其轉譯。
 
-單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程，都維持不變。
+單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程，都維持不變。 請參 [閱從品牌入口網站下載資產的步驟](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 ![下載對話](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal 2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資訊頁面的「轉 [譯」面板下載選取的轉譯 **[!UICONTROL ，而不需開啟「]**](brand-portal-download-assets.md#download-assets-from-asset-details-page)**** 下載」對話方塊。
+在Brand Portal 2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資訊頁面的「轉譯」面板下 [載選取的轉譯](brand-portal-download-assets.md#download-assets-from-asset-details-page) ，而不需開啟「下載」對 **** 話方塊。
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### 設定下載權限 {#download-permissions}
 
-除了現有的 [**[!UICONTROL 下載設定]**](brand-portal-download-assets.md) ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。
+除了現有的 **[!UICONTROL 下載設定]** ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。
 
 以管理員身分登入您的品牌入口網站租戶，並導覽至「工 **[!UICONTROL 具]** >使 **[!UICONTROL 用者]**」。
 
@@ -99,6 +99,8 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * 如果兩個設定都已關閉，使用者只能檢視原始資產。 資產轉譯不會顯示給資產詳細資料頁面上的使用者。
 * 如果只 **[!UICONTROL 開啟「下載原稿]** 」設定，使用者只能從資產詳細資料頁面檢視及下載原始資產。
 * 如果只 **[!UICONTROL 開啟「下載轉譯]** 」設定，使用者可以檢視原始資產，但無法下載。 不過，使用者可以檢視並下載資產轉譯。
+
+請參閱 [設定資產下載](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
 
 ![view-download-permission](assets/download-permissions.png)
 
