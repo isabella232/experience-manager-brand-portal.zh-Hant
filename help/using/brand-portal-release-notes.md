@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '585'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 此版本包含下列新功能：
 
-* 「下 **[!UICONTROL 載]** 」對話方塊會在清單檢視中改版，並提供其他選項來排除不需要的轉譯、針對類似資產類型套用相同的規則集，以及下載選取的資產轉譯。
+* 「下 **[!UICONTROL 載]** 」對話方塊會在清單檢視中改版，並提供其他選項來排除不需要的轉譯、針對類似資產類型套用相同的規則集，以及下載選取的資產轉譯。 請參 [閱從品牌入口網站下載資產的步驟](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 * 現在，只要按 **[!UICONTROL 一下滑鼠]********** ，即可從所有品牌入口網站頁面導覽至「檔案」、「系列」和「共用連結」。
 
-* 資產詳 **[!UICONTROL 細資訊頁面中的]** 「轉譯」面板現在可讓品牌入口網站使用者選取原始資產和（或）特定資產轉譯，並直接從「轉譯」面板下載它們，而不需開啟「下載」對 **[!UICONTROL 話方塊]****** 。
+* 資產詳 **[!UICONTROL 細資訊頁面中的]** 「轉譯」面板現在可讓品牌入口網站使用者選取原始資產和（或）特定資產轉譯，並直接從「轉譯」面板下載它們，而不需開啟「下載」對 **[!UICONTROL 話方塊]****** 。 請參 [閱「從資產詳細資訊頁面下載資產」](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 除了現有的 **[!UICONTROL 下載設定]** ，品牌入口網站管理員也可以設定不同使用者群組的權限，以便從資產詳細資料頁面檢視及（或）下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
+* 除了現有的 **[!UICONTROL 下載設定]**[](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) ，品牌入口網站管理員也可以設定不同使用者群組的權限，以檢視和（或）從資產詳細資訊頁面下載原始資產及其轉譯。 這些設定將定義哪些人可以存取和（或）下載資產轉譯。
 
 ### 增強功能 {#enhancements}
 
