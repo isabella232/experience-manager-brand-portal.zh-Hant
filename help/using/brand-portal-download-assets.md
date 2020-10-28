@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更新版本）中，預設會啟用「 **[!UICONTROL Fast Download]** 」（快速下載）設定，此設定會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9。 如需詳細資訊，請參 [閱指南以加速從品牌入口網站下載](../using/accelerated-download.md)。
+>在Brand Portal 2020.10.0（及更新版本）中，預設會啟用「 **[!UICONTROL Fast Download]** 」（快速下載）設定，此設定會使用IBM Aspera Connect來加速資產下載。 [從Brand Portal下載資產前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 。 如需詳細資訊，請參 [閱指南以加速從品牌入口網站下載](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect並繼續正常的下載程式，請連絡品牌入口網站管理員以關閉「快速下 **[!UICONTROL 載]** 」設定。
 
@@ -66,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 以管理員身分登入您的品牌入口網站租戶，並導覽至「工 **[!UICONTROL 具]** >下 **[!UICONTROL 載]**」。
 
-管理員可以為品牌入口網站使用者啟用任何組合的設定，以存取和下載轉譯。
+管理員可以為品牌入口網站使用者啟用任何組合設定，以存取和下載轉譯。
 
 ![](assets/download-configuration.png)
 
@@ -403,7 +403,7 @@ Following are the steps to download assets or folders containing assets from Bra
 | 努瓦達 | 275毫秒 | 0.5 MB/秒 | 68分鐘 |
 | 雪梨 | 175毫秒 | 0.49 MB/秒 | 69分鐘 |
 | 倫敦 | 179毫秒 | 0.32 MB/秒 | 106分鐘 |
-| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68分鐘 |
+| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68 minutes |
 
 
 >[!NOTE]
