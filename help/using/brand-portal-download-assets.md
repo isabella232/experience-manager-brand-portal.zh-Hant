@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更新版本）中，預設會啟用「 **[!UICONTROL Fast Download]** 」（快速下載）設定，此設定會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9。
+>在Brand Portal 2020.10.0（及更新版本）中，預設會啟用「 **[!UICONTROL Fast Download]** 」（快速下載）設定，此設定會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9。 如需詳細資訊，請參 [閱指南以加速從品牌入口網站下載](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect並繼續正常的下載程式，請連絡品牌入口網站管理員以關閉「快速下 **[!UICONTROL 載]** 」設定。
 
@@ -51,8 +51,6 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 * **[!UICONTROL 快速下載]**
 
    它使用IBM Aspera Connect來加速下載資產。 依預設，「下 **[!UICONTROL 載設定」中]** ，會啟用「快速 **[!UICONTROL 下載」設定]**。
-
-   如需詳細資訊，請參 [閱指南以加速從品牌入口網站下載](../using/accelerated-download.md)。
 
 * **[!UICONTROL 自訂轉譯]**
 
