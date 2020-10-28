@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 * 現在，只要按 **[!UICONTROL 一下滑鼠]********** ，即可從所有品牌入口網站頁面導覽至「檔案」、「系列」和「共用連結」。
 
-* 資產詳 **[!UICONTROL 細資訊頁面中的]** 「轉譯」面板現在可讓品牌入口網站使用者選取原始資產和（或）特定資產轉譯，並直接從「轉譯」面板下載它們，而不需開啟「下載」對 **[!UICONTROL 話方塊]****** 。 請參 [閱「從資產詳細資訊頁面下載資產」](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* 資產詳 **[!UICONTROL 細資訊頁面中的]** 「轉譯」面板現在可讓品牌入口網站使用者選取原始資產和（或）特定資產轉譯，並直接從「轉譯」面板下載它們，而不需開啟「下載」對 **[!UICONTROL 話方塊]****** 。 請參閱 [從資產詳細資訊頁面下載資產](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
