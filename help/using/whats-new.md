@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
+source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
 workflow-type: tm+mt
-source-wordcount: '5471'
+source-wordcount: '5479'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2020.10.0是增強版，著重於簡化資產下載體驗並包含�
 
 >[!NOTE]
 >
->現在，所有使用者都會依預設啟用 **[!UICONTROL Fast Download]** ，而且必須先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9，再從品牌入口網站下載資產。
+>現在，所有使用者都會依預設啟用 **[!UICONTROL Fast Download]** ，而且需要先在瀏覽器的擴充功能中安裝 [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) ，再從品牌入口網站下載資產。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
