@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -120,7 +120,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/download-on-guest.png)
 
-在「 **[!UICONTROL 下載]** 」對話方 [!UICONTROL 塊中選取「啟用下載加] 速」，可 [以增強下載效能](../using/accelerated-download.md)。
+在「 **[!UICONTROL 下載]** 」對話方 [!UICONTROL 塊中選取「啟用下載加速] 」，可 [以增強下載效能](../using/accelerated-download.md)。
 
 ## 退出來賓會話 {#exit-guest-session}
 
