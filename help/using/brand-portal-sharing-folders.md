@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 資料夾資產的存取權限取決於其父資料夾的存取權限，而與子資料夾的設定無關。 此行為受AEM中 [的ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) （子資料夾從父資料夾繼承ACL）的控制。 例如，如果資料夾A包含包含資料夾C的資料夾B，則對資料夾A具有訪問權限的用戶組（或用戶）對資料夾B和資料夾C也具有相同的訪問權限。資料夾B是A的子資料夾，它繼承其ACL，資料夾C是B的子資料夾繼承其ACL。
 
-同樣地，具有僅訪問資料夾B權限的用戶組（或用戶）對資料夾C具有相同的訪問權限，但對資料夾A則不具有相同的訪問權限。 因此，建議組織安排其內容，以便將大部分暴露的資產放置在子資料夾中，並限制從子資料夾到根資料夾的訪問。
+同樣地，具有僅訪問資料夾B權限的用戶組（或用戶）對資料夾C具有相同的訪問權限，但對資料夾A則不具有相同的訪問權限。因此，建議組織安排其內容，以便將大部分暴露的資產放置在子資料夾中，並限制從子資料夾到根資料夾的訪問。
 
 ### Public folder publish {#public-folder-publish}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 這些父資料夾是虛擬資料夾，不能對其執行任何操作。 您可以使用鎖定表徵圖來識別這些虛擬資料夾。
 
-與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 工作時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
+與共用資料夾不同，暫留或在「卡片檢視」中選取動作 **[!UICONTROL 任務時]**，不會顯示任何動作工作。 **[!UICONTROL 在「列視圖]** 」和「清單視圖」中選擇虛擬資料夾時， **[!UICONTROL 將顯示「概述]** 」 **[!UICONTROL 按鈕]**。
 
 >[!NOTE]
 >
@@ -124,6 +124,7 @@ ht-degree: 1%
 
 1. 如有必要，請按一 **[!UICONTROL 下「變更縮圖]** 」以修改資料夾的縮圖影像。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
 1. 若要存取共用資料夾，請使用您共用資料夾之使用者的認證登入品牌入口網站。 查看介面中的共用資料夾。
 
 ## 取消共用資料夾 {#unshare-the-folders}
