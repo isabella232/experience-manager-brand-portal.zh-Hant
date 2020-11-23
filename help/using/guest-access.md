@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 來賓會話持續時間 {#guest-session-duration}
 
-來賓用戶會話保持活動狀態2小時。 這表示燈箱的狀態會保留到 **[!UICONTROL Lightbox]** 1小時後開始，而在2小時後，目前的來賓作業會重新啟動，因此燈箱狀態會遺失。\
-例如，訪客使用者於15時登入品牌入口網站，並將資產新增至Lightbox，於16時50分下載。 如果使用者未在17:00之前下載 **[!UICONTROL Lightbox]** 集合（或其資產）, **[!UICONTROL Lightbox]** 將會變成空白，因為使用者必須在1小時結束時（即1700小時）重新啟動工作階段。
+
+來賓用戶會話保持活動狀態15分鐘。
+這表示燈箱的狀態會從工作階段開始時間保留 **** 15分鐘，在此之後，目前的來賓工作階段會重新啟動，因此燈箱狀態會遺失。
+
+例如，訪客使用者於15時登入品牌入口網站，並將資產新增至 **[!UICONTROL Lightbox]** ，於15時05分下載。 如果使用者未在15:15小時（登入後15分鐘內）之前下載 **[!UICONTROL Lightbox]** 集合（或其資產），則使用者必須重新啟動工作階段。 燈 **[!UICONTROL 箱將為空]** ，這表示如果作業遺失，已上傳的資產將不再可用。
 
 ## 允許併發來賓會話 {#concurrent-guest-sessions-allowed}
 
