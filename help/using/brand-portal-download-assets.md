@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
 source-wordcount: '1886'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 以管理員身分登入您的品牌入口網站租戶，並導覽至「工 **[!UICONTROL 具]** >下 **[!UICONTROL 載]**」。
 
-管理員可以為品牌入口網站使用者啟用任何組合設定，以存取和下載轉譯。
+管理員可以為品牌入口網站使用者啟用任何組合的設定，以存取和下載轉譯。
 
 ![](assets/download-configuration.png)
 
@@ -403,7 +403,7 @@ Following are the steps to download assets or folders containing assets from Bra
 | 努瓦達 | 275毫秒 | 0.5 MB/秒 | 68分鐘 |
 | 雪梨 | 175毫秒 | 0.49 MB/秒 | 69分鐘 |
 | 倫敦 | 179毫秒 | 0.32 MB/秒 | 106分鐘 |
-| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68 minutes |
+| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68分鐘 |
 
 
 >[!NOTE]
