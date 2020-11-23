@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 將貢獻資料夾發佈至品牌入口網站 {#publish-contribution-folder-to-brand-portal}
 
-設定貢 [獻資料夾後](brand-portal-configure-contribution-folder-properties.md),AEM使用者（管理員／非管理員使用者）可將貢獻資料夾從AEM Assets發佈至品牌入口網站。 擁有存取貢獻資料夾權限的品牌入口網站使用者／群組，會在發佈動作完成時收到電子郵件／脈衝通知。
+設定貢 [獻資料夾後](brand-portal-configure-contribution-folder-properties.md),AEM使用者（管理員／非管理員使用者）可將貢獻資料夾從AEM Assets發佈至品牌入口網站。 擁有存取貢獻檔案夾權限的品牌入口網站使用者會在發佈動作完成時收到電子郵件／脈衝通知。
 
 
 **若要發佈貢獻資料夾：**
