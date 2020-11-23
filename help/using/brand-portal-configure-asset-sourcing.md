@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -55,11 +55,14 @@ AEM管理員可以上傳「品牌入口網站」使用者設定(.csv)檔案，�
 
 **若要上傳品牌入口網站使用者清單：**
 1. 登入您的AEM作者例項預設URL:http:// localhost:4502/aem/start.html
-1. 從「工 **具** 」面板 ![](assets/tools.png) ，導覽至「資產>品 **[!UICONTROL 牌入口網站使用者」]**
+1. 從「工 **具** 」面板，導覽至「資 **[!UICONTROL 產>品牌入口網站使用者」]**
+
    ![](assets/upload-user-list1.png)
+
 1. 「品牌入口網站上傳參與者」視窗隨即開啟。
 從本機電腦瀏覽並上傳包 **含作用中品牌入口網站使用者清單** 的設定(.csv)檔案。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
    ![](assets/upload-user-list2.png)
 
 
