@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,6 @@ AEM管理員可以上傳「品牌入口網站」使用者設定(.csv)檔案，�
    ![](assets/upload-user-list2.png)
 
 
-管理員可在設定貢獻資料夾時，從此使用者清單提供對特定使用者／群組的存取權。
+管理員可在設定貢獻資料夾時，從此使用者清單提供特定使用者的存取權。
 
 如需詳細資訊，請參閱「設 [定貢獻資料夾](brand-portal-contribution-folder.md)」。
