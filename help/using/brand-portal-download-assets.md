@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1879'
 ht-degree: 2%
 
 ---
@@ -191,9 +191,8 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->如果選取了超過20個資產供下載，則會略過「 **[!UICONTROL Download]** 」（下載）對話方塊，而使用者可存取的所有轉譯（不包括動態轉譯）都會直接下載到Zip檔案夾中。
->
->下載包含資產和系列的檔案夾時，會遵循相同的行為。 可存取的轉譯（不包括動態轉譯）會直接下載在zip檔案夾中。
+>如果選取了檔案夾、系列或超過20個資產供下載，則會略過「下載 **** 」對話方塊，而使用者可存取的所有資產轉譯（不包括動態轉譯）會下載在zip檔案夾中。 資產轉譯會下載在zip檔案夾中每個資產的個別檔案夾中。
+
 
 >[!NOTE]
 >
