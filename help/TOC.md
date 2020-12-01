@@ -15,7 +15,7 @@ ht-degree: 71%
 ---
 
 
-# Adobe Experience Manager Assets品牌入口網站指南 {#using}
+# Adobe Experience Manager Assets品牌入口網站指南{#using}
 
 + [Brand Portal 指南](using/home.md)
 + 簡介 {#introduction}
@@ -35,16 +35,16 @@ ht-degree: 71%
    + [疑難排解平行發佈至 Brand Portal 的問題](using/troubleshoot-parallel-publishing.md)
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
-+ 品牌入口網站中的資產採購 {#asset-sourcing-in-brand-portal}
++ 品牌入口網站中的資產來源補充{#asset-sourcing-in-brand-portal}
    + [概覽](using/brand-portal-asset-sourcing.md)
    + [在AEM中設定資產來源補充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM Assets中設定貢獻檔案夾 {#configure-contribution-folder}
+   + 在AEM Assets {#configure-contribution-folder}中設定貢獻資料夾
       + [概覽](using/brand-portal-contribution-folder.md)
       + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
       + [設定貢獻資料夾屬性](using/brand-portal-configure-contribution-folder-properties.md)
       + [上傳基準資產](using/brand-portal-upload-baseline-assets.md)
       + [將貢獻資料夾發佈至品牌入口網站](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + 在品牌入口網站中使用資產來源補充 {#using-asset-sourcing}
+   + 在品牌入口網站{#using-asset-sourcing}中使用資產來源補充
       + [概覽](using/brand-portal-overiew-using-asset-sourcing.md)
       + [下載資產需求](using/brand-portal-download-asset-requirements.md)
       + [上傳資產至貢獻資料夾](using/brand-portal-upload-assets-to-contribution-folder.md)
