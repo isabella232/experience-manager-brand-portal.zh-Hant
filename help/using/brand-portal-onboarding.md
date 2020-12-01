@@ -23,7 +23,7 @@ ht-degree: 2%
 
 以下是首次登入品牌入口網站的使用者要執行的步驟：
 
-1. 開啟歡迎電子郵件，然後按一 **[!UICONTROL 下開始]**。
+1. 開啟歡迎電子郵件，然後按一下「開始使用&#x200B;**[!UICONTROL 」。]**
 
 1. 在註冊頁面中，指定您的詳細資訊（包括名字、姓氏、密碼和國家／地區）。
    >[!NOTE]
@@ -32,10 +32,10 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您的組織使用企業ID，而非檢視此註冊頁面，則會將您重新導向至企業登入頁面。 如需詳細資訊，請 [參閱「企業ID」、登入和帳戶說明](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)。
+   >如果您的組織使用企業ID，而非檢視此註冊頁面，則會將您重新導向至企業登入頁面。 如需詳細資訊，請參閱[Enterprise ID、登入和帳戶說明](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)。
 
-1. 按一 **[!UICONTROL 下「繼續]** 」，繼續前往您組織的品牌入口網站頁面。
-1. 從「品牌入口網站」登入頁面，按一 **[!UICONTROL 下「登入]** 」以登入品牌入口網站。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**，前往您組織的品牌入口網頁。
+1. 從品牌入口網站登入頁面，按一下&#x200B;**[!UICONTROL 登入]**&#x200B;以登入品牌入口網站。
 
    ![品牌入口網站登入頁面](assets/signin-onboarding.png)
 
