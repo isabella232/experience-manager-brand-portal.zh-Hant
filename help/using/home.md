@@ -12,9 +12,9 @@ ht-degree: 74%
 ---
 
 
-# Adobe Experience Manager Assets品牌入口網站指南 {#aem-brand-portal}
+# Adobe Experience Manager Assets品牌入口網站指南{#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** ，透過安全地將經過核准的品牌和產品資產發佈給外部機構、合作夥伴、內部團隊和經銷商以供下載，協助組織滿足其行銷需求。
+**Adobe Experience Manager Assets Brand** Portalaids組織可透過安全地將經過核准的品牌和產品資產分發給外部機構、合作夥伴、內部團隊和經銷商以供下載，來滿足其行銷需求。
 
 缺少安全的資產共用解決方案可能會導致：
 
