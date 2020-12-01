@@ -18,20 +18,20 @@ ht-degree: 0%
 ---
 
 
-# 將貢獻資料夾發佈至品牌入口網站 {#publish-contribution-folder-to-brand-portal}
+# 將貢獻資料夾發佈至品牌入口網站{#publish-contribution-folder-to-brand-portal}
 
-設定貢 [獻資料夾後](brand-portal-configure-contribution-folder-properties.md),AEM使用者（管理員／非管理員使用者）可將貢獻資料夾從AEM Assets發佈至品牌入口網站。 擁有存取貢獻檔案夾權限的品牌入口網站使用者會在發佈動作完成時收到電子郵件／脈衝通知。
+在設定[貢獻檔案夾](brand-portal-configure-contribution-folder-properties.md)後，AEM使用者（管理員／非管理員使用者）就可以將貢獻檔案夾從AEM Assets發佈至品牌入口網站。 擁有存取貢獻檔案夾權限的品牌入口網站使用者會在發佈動作完成時收到電子郵件／脈衝通知。
 
 
 **若要發佈貢獻資料夾：**
 
 1. 登入您的AEM作者實例。
 預設URL:http:// localhost:4502/aem/start.html
-1. 導覽至「 **[!UICONTROL 資產>檔案]** 」，並找出您要發佈至品牌入口網站的貢獻資料夾。
-1. 選取貢獻資料夾，然後按一 **[!UICONTROL 下「快速發佈>發佈至品牌入口網站」]**。
+1. 導覽至「**[!UICONTROL 資產>檔案]**」，並找出您要發佈至品牌入口網站的貢獻資料夾。
+1. 選取貢獻資料夾，然後按一下「快速發佈>發佈至品牌入口網站」**[!UICONTROL 。]**
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    貢獻資料夾發佈至品牌入口網站後，您會收到成功訊息。
 
-電子郵件／脈衝通知會傳送給指派給貢獻資料夾的品牌入口網站使用者。 品牌入口網站使用者可以存取貢獻資料夾並開始貢獻。 請參閱「 [上傳資產至貢獻資料夾」](brand-portal-upload-assets-to-contribution-folder.md)。
+電子郵件／脈衝通知會傳送給指派給貢獻資料夾的品牌入口網站使用者。 品牌入口網站使用者可以存取貢獻資料夾並開始貢獻。 請參閱[將資產上傳至貢獻資料夾](brand-portal-upload-assets-to-contribution-folder.md)。
