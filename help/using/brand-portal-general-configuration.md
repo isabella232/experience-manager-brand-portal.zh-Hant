@@ -27,40 +27,40 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 * 非管理員使用者建立公用智慧型系列
 * 非管理員使用者可看見共用資料夾的上層階層
 
-這些配置已作為「一般設 **[!UICONTROL 置」配置在管理工具面板上提供]** 。
+這些配置在管理工具面板上以&#x200B;**[!UICONTROL 一般設定]**&#x200B;配置的形式提供。
 
 ![](assets/general-config.png)
 
-**A** Configuration，允許管理員從品牌入口網站刪除資產。 （預設為啟用）
+**AConfiguration，可讓管理員從品牌入口網站刪除資產。**   （預設為啟用）
 
-**B** 「設定」，允許非管理員使用者建立公用系列。 （預設為啟用）
+**BConfiguration(**   BConfiguration)，允許非管理員使用者建立公用系列。（預設為啟用）
 
-**C** Configuration允許非管理員使用者建立公用智慧型系列。 （預設為啟用）
+**設定**   ，允許非管理員使用者建立公用智慧型系列。（預設為啟用）
 
-**D** Configuration to display folder hierarchy（從根目錄）for shared folders to non-admin users(Editors, Viewers, Guest Users)。 （預設為停用）
+**DC**  設定，可向非管理員使用者（編輯者、檢視者、訪客使用者）顯示共用資料夾的資料夾階層（從根目錄）。（預設為停用）
 
-## 啟用／禁用常規配置 {#enable-disable-general-configurations}
+## 啟用／禁用常規配置{#enable-disable-general-configurations}
 
 要啟用／禁用這些配置，請執行以下操作：
 
 1. 以管理員權限登入。
 1. 從頂端的工具列選取AEM標誌以存取管理工具。
-1. 從管理工具面板中，選擇「 **[!UICONTROL 一般]** 」以開啟「 **** 一般設定」頁。
+1. 從管理工具面板中，選擇&#x200B;**[!UICONTROL 一般]**&#x200B;以開啟「一般設定&#x200B;]**」頁面。**[!UICONTROL 
 1. 使用相應的切換開關來啟用／禁用任何常規配置。
 1. **[!UICONTROL 儲存變更。]**
 1. 註銷，使更改生效。
 
-## 允許管理員使用者從品牌入口網站刪除資產 {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 允許管理員使用者從品牌入口網站{#allow-admin-users-to-delete-assets-from-brand-portal}刪除資產
 
-**[!UICONTROL 允許使用者刪除]** 設定可讓組織允許（或限制）具有管理員權限的使用者從品牌入口網站刪除資產和資料夾。
+**[!UICONTROL 允許使用者刪]** 除設定可讓組織允許（或限制）具有管理員權限的使用者從品牌入口網站刪除資產和資料夾。
 
-## 允許非管理員建立公開系列 {#allow-public-collections-creation-by-non-admins}
+## 允許非管理員建立公開系列{#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL 允許公用系列建立]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 、設定控制非管理員是否可在品牌入口網站上建立公用系列。 預設會啟用設定。 停用設定可防止組織在其入口網站上擁有許多公用系列，以儲存系統空間。
+[[!UICONTROL 允許建立公用]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 系列設定設定控制非管理員是否可在品牌入口網站上建立公用系列。預設會啟用設定。 停用設定可防止組織在其入口網站上擁有許多公用系列，以儲存系統空間。
 
-## 允許非管理員建立公用智慧型系列 {#allow-public-smart-collections-creation-by-non-admins}
+## 允許非管理員建立公用智慧型系列{#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL 允許公用智慧型系列建立]](../using/brand-portal-searching.md#main-pars-header-500620467) 、設定控制非管理員是否可將搜尋儲存為智慧型系列，並讓該租用戶公開。 預設會啟用設定。 停用設定可防止組織的品牌入口網站上有大量由非管理員使用者建立的公開智慧型系列。
+[[!UICONTROL 允許公用智慧型系]](../using/brand-portal-searching.md#main-pars-header-500620467) 列建立組態設定控制非管理員是否可將搜尋儲存為智慧型系列，並讓該租用戶公開。預設會啟用設定。 停用設定可防止組織的品牌入口網站上有大量由非管理員使用者建立的公開智慧型系列。
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
@@ -70,4 +70,4 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 
 ## 啟用資料夾階層 {#enable-folder-hierarchy}
 
-[[!UICONTROL 啟用檔案夾階層]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) (Enable Folder Hierarchy)設定可讓管理員控制非管理員使用者（編輯者、檢視者和訪客使用者）在登入後如何看到共用檔案夾。
+[[!UICONTROL 啟用資]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 料夾階層組態可讓管理員控制非管理員使用者（編輯者、檢視者和來賓使用者）在登入後如何看到共用資料夾。
