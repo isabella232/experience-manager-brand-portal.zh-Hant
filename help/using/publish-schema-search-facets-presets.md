@@ -119,6 +119,6 @@ ht-degree: 3%
 
 1. 很少有搜尋謂語不適用於品牌入口網站的搜尋篩選器。 當這些搜尋謂語在從AEM Author例項發佈至品牌入口網站的搜尋表單中時，會將其篩選掉。 因此，在品牌入口網站的發佈表單中，使用者可看到的謂詞數目較少。 請參閱[適用於品牌入口網站](../using/brand-portal-search-facets.md#list-of-search-predicates)篩選器的搜尋謂語。
 
-1. 對於[!UICONTROL Options Predicate]，如果使用者使用任何自訂路徑在AEM Author例項中讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，用戶可以在&#x200B;**[!UICONTROL **[!UICONTROL  Options Predicate ]**的&lt;a2/>Add Options]**&#x200B;中選擇&#x200B;**[!UICONTROL Manual]**&#x200B;選項，以在Brand Portal手動添加這些選項。
+1. 對於[!UICONTROL Options Predicate]，如果使用者使用任何自訂路徑在AEM Author例項中讀取選項，則無法在品牌入口網站中運作。 這些額外的路徑和選項不會隨搜尋表單發佈至品牌入口網站。 在這種情況下，用戶可以在&#x200B;**[!UICONTROL Add Options]**&#x200B;**[!UICONTROL Options Predicate]**&#x200B;的中選擇&#x200B;**[!UICONTROL Manual]**&#x200B;選項，以在Brand Portal手動添加這些選項。
 
 ![](assets/options-predicate-manual.png)
