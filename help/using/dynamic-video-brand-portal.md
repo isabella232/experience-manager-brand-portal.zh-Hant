@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: b9d5f4df0d44a62f307a6a289fbcada6099bdc03
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 3%
@@ -72,8 +72,8 @@ secure preview **[!DNL Scene 7]**  [enabled如果使用Dynamic Media-](https://d
 
 | **區域** | **出口IP** |
 |--- |--- |
-| 不適用 | 192.243.237.86 |
-| EMEA | 185.34.189.4 |
+| 不適用 | 130.248.160.66、52.151.32.108 |
+| EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
 要允許列出其中一個出口IP，請參閱[準備您的帳戶以用於安全測試服務](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
