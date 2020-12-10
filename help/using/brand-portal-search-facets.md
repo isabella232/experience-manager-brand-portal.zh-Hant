@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 9%
+source-wordcount: '1298'
+ht-degree: 8%
 
 ---
 
@@ -69,6 +69,12 @@ ht-degree: 9%
    >在選中&#x200B;**[!UICONTROL 部分搜索]**&#x200B;複選框時，預設選擇&#x200B;**[!UICONTROL 忽略大小寫]**。
 
 1. 在&#x200B;**[!UICONTROL 屬性名稱]**&#x200B;欄位中，開啟屬性選擇器並選取執行搜尋的屬性。 或者，輸入屬性的名稱。 例如，輸入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+
+   >[!NOTE]
+   >
+   >在品牌入口網站中，預設會為`dam:asset`的`jcrcontent/metadata`中所有屬性（以`xmp`開頭的屬性除外）建立索引。
+   >
+   >建立屬性謂語時，可以使用任何已編製索引的屬性。 如果配置了任何非索引屬性，則未索引屬性上的搜索查詢不能提供任何搜索結果。
 
    ![](assets/title-prop.png)
 
