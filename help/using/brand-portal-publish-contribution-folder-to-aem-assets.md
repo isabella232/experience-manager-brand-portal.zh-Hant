@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,16 @@ ht-degree: 0%
 1. **已佇列** -當品牌入口網站中觸發發佈工作流程時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
 
 1. **完成** -當貢獻資料夾成功發佈至AEM Assets時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
+
+
+**發佈工作狀態**
+
+管理員可使用兩個報表來檢視從Brand Portal發佈至AEM Assets的資產貢獻資料夾狀態。
+
+* 在品牌入口網站中，導覽至「工具&#x200B;**** > **[!UICONTROL 資產貢獻狀態]**」。 此報告會反映所有發佈工作的狀態，包括發佈工作流程的不同階段（已佇列和完成）。
+
+* 在AEM Assets作者例項中，導覽至&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Jobs]**。 此報表只反映處於待定狀態的發佈作業。
+
+
 
 
