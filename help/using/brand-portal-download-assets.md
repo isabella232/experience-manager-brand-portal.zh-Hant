@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1940'
 ht-degree: 2%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 ## 設定資產下載{#configure-download}
 
-品牌入口網站管理員可以為品牌入口網站使用者設定資產下載設定和權限，讓他們能夠從品牌入口網站介面存取及下載資產轉譯。
+品牌入口網站管理員可以為品牌入口網站使用者設定資產下載和使用者群組設定，讓他們可以從品牌入口網站介面存取及下載資產轉譯。
 
-從品牌入口網站存取和下載轉譯是由下列組態所定義：
+>[!NOTE]
+>
+>套用在使用者介面上的下載設定，可讓品牌入口網站使用者獲得自助服務體驗，以輕鬆設定和下載資產轉譯。 它不會限制應用程式層的資產下載，例如，使用者仍可以使用完整的URL路徑存取及下載資產轉譯。
+
+從品牌入口網站介面存取及下載資產轉譯是由下列組態所定義：
 
 * 啟用下載設定
-* 設定下載權限
+* 設定使用者群組設定
 
 ### 啟用下載設定{#enable-download-settings}
 
@@ -75,11 +79,11 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 >
 >只有管理員才能下載過期的資產。 如需過期資產的詳細資訊，請參閱[管理資產的數位權限](../using/manage-digital-rights-of-assets.md)。
 
-### 設定下載權限{#configure-download-permissions}
+### 配置用戶組設定{#configure-user-group-settings}
 
-除了&#x200B;**[!UICONTROL 下載設定]**&#x200B;外，品牌入口網站管理員還可以進一步設定不同使用者群組檢視和（或）下載原始資產及其轉譯的權限。
+除了&#x200B;**[!UICONTROL 下載設定]**&#x200B;外，品牌入口網站管理員還可以進一步設定不同使用者群組的設定，以檢視和（或）下載原始資產及其轉譯。
 
-以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 使用者]**。 在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中，導覽至&#x200B;**[!UICONTROL 群組]**&#x200B;標籤，以設定使用者群組的檢視和（或）下載權限。
+以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 使用者]**。 在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中，導覽至&#x200B;**[!UICONTROL 群組]**&#x200B;標籤，以設定使用者群組的檢視和（或）下載設定。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 下列矩陣定義使用者是否可存取轉譯，視[下載組態](#configure-download)而定：
 
-| **下載設定：自訂轉譯** | **下載設定：系統轉譯** | **使用者群組權限：下載原稿** | **使用者群組權限：下載轉譯** | **結果** |
+| **下載設定：自訂轉譯** | **下載設定：系統轉譯** | **使用者群組設定：下載原稿** | **使用者群組設定：下載轉譯** | **結果** |
 |---|---|---|---|---|
 | 開啟 | 開啟 | 開啟 | 開啟 | 檢視並下載所有轉譯 |
 | 開啟 | 開啟 | 關閉 | 關閉 | 檢視原始資產 |
@@ -112,7 +116,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->如果您沒有存取或下載轉譯的權限，請連絡品牌入口網站管理員。
+>如果您沒有存取或下載資產轉譯的權限，請連絡品牌入口網站管理員。
 
 如果使用者有轉譯的存取權，則會提供使用者增強的&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，其中包含下列功能：
 * 在下載清單中檢視任何資產的所有可用轉譯。
