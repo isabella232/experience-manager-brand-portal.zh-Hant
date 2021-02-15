@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 2%
+source-wordcount: '1960'
+ht-degree: 3%
 
 ---
 
 
-# 從品牌入口網站{#download-assets-from-bp}下載資產
+# 從  Brand Portal 下載資產 {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
@@ -68,11 +68,16 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
    這些縮圖是根據「DAM更新資產」工作流程自動在AEM Assets中產生的。
 
+* **[!UICONTROL 資產下載]**
+
+   可讓每個資產在個別資料夾中下載轉譯。 此設定適用於下載資料夾、系列和大量下載資產（超過20個資產）。
+
+
 以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**。
 
-管理員可以為品牌入口網站使用者啟用任何組合設定，以存取和下載轉譯。
+管理員可以為品牌入口網站使用者啟用任何組合的設定，以存取和下載轉譯。
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 * 排除下載不需要的資產轉譯。
 * 只需按一下，即可將相同的轉譯集套用至所有類似的資產類型。
 * 針對不同的資產類型套用不同的轉譯集。
-* 為每個資產轉譯建立個別的檔案夾。
+* 為每個資產建立個別的資料夾。
 * 下載選取的資產及其轉譯。
 
 ![下載對話](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
    ![移除](assets/remove.png)
 
-   若要在下載資產時保留品牌入口網站檔案夾階層，請選取「為每個資產建立個別檔案夾」核取方塊。 ****&#x200B;依預設，會忽略「品牌入口網站」檔案夾階層，所有資產都會下載到zip檔案夾中。
+   若要在下載資產時保留品牌入口網站檔案夾階層，請選取「為每個資產建立個別檔案夾」核取方塊。****
 
    下載按鈕會反映所選項目的計數。 套用完規則後，按一下「下載項目&#x200B;**[!UICONTROL 」。]**
 
@@ -195,7 +200,9 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->如果選取了檔案夾、系列或超過20個資產供下載，則會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，而使用者可存取的所有資產轉譯（不包括動態轉譯）會下載在zip檔案夾中。 資產轉譯會下載在zip檔案夾中每個資產的個別檔案夾中。
+>如果選取了檔案夾、系列或超過20個資產供下載，則會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，而使用者可存取的所有資產轉譯（不包括動態轉譯）會下載在zip檔案夾中。
+>
+>如果&#x200B;**[!UICONTROL Asset Download]**&#x200B;設定在&#x200B;**[!UICONTROL Download Settings]**&#x200B;中啟用，資產轉譯會下載在zip檔案夾內每個資產的個別檔案夾中。
 
 
 >[!NOTE]
