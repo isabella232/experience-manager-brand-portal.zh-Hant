@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新功能
 seo-title: AEM Assets Brand Portal 的新功能
-description: 檢視2020.10.0的新功能和增強功能。
-seo-description: 檢視2020.10.0的新功能和增強功能。
+description: 檢視2021.02.0的新功能和增強功能。
+seo-description: 檢視2021.02.0的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 1%
+source-wordcount: '5798'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 1%
 # AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 Adobe正致力於改善整體品牌入口網站體驗。 搶先一窺新功能和增強功能。
+
+## 2021.02.0 {#what-changed-in-feb-2021}中的變更
+
+Brand Portal 2021.02.0是增強版，著重於改善資產下載體驗並包含重要修正。 它可讓管理員設定資料夾、系列的預設下載行為，以及在租用戶層級大量下載資產。 品牌入口網站&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;也已修改，以反映有效的品牌入口網站使用者。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
+
+
+### 資產下載{#asset-download-setting}
+
+除了現有的&#x200B;**[!UICONTROL 下載設定]**&#x200B;外，品牌入口網站管理員現在還可以設定&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定。 此設定可讓管理員控制資料夾、系列和大量下載資產（超過20個資產）的預設下載行為。
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+之前，所有資產轉譯都直接下載在Zip檔案夾中。 已略過&#x200B;**[!UICONTROL Download]**&#x200B;對話方塊以檢視資料夾和系列，而且沒有方法可控制資產的下載行為，因此很難從大量下載中搜尋特定轉譯。
+
+**[!UICONTROL 「資]** 產下載」設定現在提供選項，可供您在下載資料夾、系列或大量下載資產時，為每個資產建立個別的資料夾。
+
+如果&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定已停用，則會將檔案夾或系列下載至包含相同檔案夾下所有資產轉譯的Zip檔案夾，但使用共用連結下載資產除外。
+
+
+以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**。 管理員可以啟用「資產下載」**[!UICONTROL 設定，在下載資料夾、系列和大量下載資產時，為每個資產建立個別的資料夾。]**
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### 使用狀況報告{#usage-report}
+
+品牌入口網站&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;已修改，僅反映作用中的品牌入口網站使用者。 未指派給管理控制台中任何產品設定檔的品牌入口網站使用者被視為非作用中使用者，不會反映在&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;中。
+
+之前，「使用狀況報表」中會顯示活動中和非活動中的使用者。
+
+![](assets/usage-report.png)
 
 ## 2020.10.0 {#what-changed-in-oct-2020}中的變更
 
@@ -71,7 +109,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal 2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資料頁面的「轉譯」面板[下載選取的轉譯，而不需開啟](brand-portal-download-assets.md#download-assets-from-asset-details-page)下載&#x200B;**[!UICONTROL 對話方塊。]**
+在Brand Portal 2020.10.0中，使用者可以排除特定轉譯，並直接從資產詳細資料頁面的「轉譯」面板](brand-portal-download-assets.md#download-assets-from-asset-details-page)下載選取的轉譯，而不需開啟&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊。[
 
 
 <!-- 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![轉譯——面板](assets/renditions-panel.png)
 
 
-### 設定下載權限{#download-permissions}
+### 設定下載設定{#download-permissions}
 
-除了現有的&#x200B;**[!UICONTROL Download]**&#x200B;組態外，品牌入口網站管理員也可以設定不同使用者群組的權限，以檢視和（或）從資產詳細資訊頁面下載原始資產及其轉譯。
+除了現有的&#x200B;**[!UICONTROL Download]**&#x200B;組態外，品牌入口網站管理員也可以設定不同使用者群組的設定，以檢視和（或）從資產詳細資訊頁面下載原始資產及其轉譯。
 
 以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 使用者]**。
 
-在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中，導覽至&#x200B;**[!UICONTROL 群組]**&#x200B;標籤，以設定使用者群組的檢視和（或）下載權限
+在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中，導覽至&#x200B;**[!UICONTROL 群組]**&#x200B;標籤，以設定使用者群組的檢視和（或）下載設定。
 
 之前，這些設定僅限群組使用者下載原始資產。
 
@@ -118,7 +156,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ## 6.4.7 {#what-changed-in-647}中的變更
 
-Brand Portal 6.4.7版在Document Viewer中提供增強的資產下載體驗，並包含重要的修正。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
+Brand Portal 6.4.7版在Document Viewer中提供增強的資產下載體驗，並包含重要修正。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -160,12 +198,10 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 根據此設定，單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程將維持不變。
 
-![](assets/download-configuration.png)
-
 
 ## 6.4.6 {#what-changed-in-646}中的變更
 
-在Brand Portal 6.4.6中，AEM Assets和Brand Portal之間的授權管道已變更。 AEM Assets現在支援品牌入口網站，即雲端服務、AEM Assets 6.3和更新版本。 在AEM Assets 6.3和更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統UI中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
+在Brand Portal 6.4.6中，AEM Assets和Brand Portal之間的授權管道已變更。 AEM Assets現在支援品牌入口網站作為雲端服務、AEM Assets 6.3和更新版本。 在AEM Assets 6.3和更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統UI中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -199,10 +235,10 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 | **AEM版本** | **新設定** | **升級配置** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [建立設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/tw/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](/content/help/tw/zh-Hant/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 聯絡支援 | 聯絡支援 |
 
 >[!NOTE]
@@ -216,9 +252,9 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 ## 6.4.5 {#what-changed-in-645}中的變更
 
 
-品牌入口網站6.4.5是一項功能發行，主要提供品牌入口網站使用者（外部代理商／團隊）上傳內容至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 此功能稱為&#x200B;**[品牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)**，並將透過為使用者提供雙向機制，讓他們能夠貢獻資產並與其他全球分散的品牌入口網站使用者共用資產，以改善客戶體驗。
+Brand Portal 6.4.5 發佈了一項功能，此功能主要讓 Brand Portal 使用者 (外部代理商/團隊) 無需存取作者環境，就可將內容上傳至 Brand Portal 並發佈至 AEM Assets。此功能稱為&#x200B;**[品牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)**，並將透過為使用者提供雙向機制，讓他們能夠貢獻資產並與其他全球分散的品牌入口網站使用者共用資產，以改善客戶體驗。
 
-### 品牌入口網站中的資產來源補充{#asset-sourcing-in-bp}
+### Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-bp}
 
 「資產來源補充」可讓AEM使用者（管理員／非管理員使用者）建立具有額外&#x200B;**Asset Contribution**&#x200B;屬性的新資料夾，以確保建立的新資料夾可由品牌入口網站使用者提交資產。 這會自動觸發在新建立的&#x200B;**Contribution**&#x200B;資料夾中建立另外兩個子資料夾（稱為NEW和SHARED）的工作流程。
 
@@ -253,7 +289,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 
 ## 6.4.4 {#what-changed-in-644}中的變更
 
-品牌入口網站6.4.4版著重於文字搜尋和主要客戶要求的增強功能。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
+Brand Portal 6.4.4 版著重於文字搜尋和主要客戶請求的增強功能。請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
 
 ### 搜尋增強功能
 
@@ -366,7 +402,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 
 ### 排程發佈至品牌入口網站
 
-資產（和資料夾）可排程從[AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)「作者例項」發佈至品牌入口網站的工作流程，以便在日後的日期、時間內執行。
+資產（和資料夾）會排程從[AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011)「作者例項」發佈至品牌入口網站的工作流程，以便在日後的日期、時間內執行。
 
 同樣地，發佈的資產也可以在稍後（時間）從入口網站移除，方法是排程「從品牌入口網站取消發佈」工作流程。
 
@@ -383,7 +419,7 @@ AEM Author例項位於Dynamic Media混合模式的使用者除了可以預覽和
 請注意，只能自訂品牌入口網站URL的首碼，而不能自訂整個URL。\
 例如，現有網域為&#x200B;**geometrix.brand-portal.adobe.com**&#x200B;的組織可取得依要求建立的&#x200B;**geomettrixinc.brand-portal.adobe.com**。
 
-不過，AEM Author例項可以[設定](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)，但只能使用租用戶ID URL，而不能使用租用戶別名（替代）URL。
+不過，AEM Author例項可以[設定](https://helpx.adobe.com/tw/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)，但只能使用租用戶ID URL，而不能使用租用戶別名（替代）URL。
 
 組織可自訂入口網站URL，而不是固定Adobe提供的URL，以符合其品牌需求。
 
@@ -704,7 +740,7 @@ Brand Portal 6.3.1包含全新和增強的功能，以便將Brand Portal與AEM�
 
 ### 其他 Metadata {#additional-metadata}
 
-Brand Portal 6.3.1推出額外的中繼資料，與AEM Assets 6.3相當。您可以使用「結構編輯器」表單來控制應在「資產屬性」頁面上顯示的中繼資料。 外部連結共用使用者無法看到資產中繼資料，他們只能使用連結共用URL來預覽和下載資產。
+Brand Portal 6.3.1推出額外的中繼資料，與AEM Assets 6.3相當。您可以使用「結構編輯器」表單來控制應在「資產屬性」頁面上顯示的中繼資料。 外部連結共用使用者看不到資產中繼資料，他們只能使用連結共用URL來預覽和下載資產。
 
 ![](assets/additionsinmetadata.png)
 
