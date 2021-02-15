@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Brand Portal與IBM Aspera Connect整合，讓大型資產檔案的下載效能�
 
 預設會啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;組態，大幅降低從品牌入口網站下載所需資產檔案所花的時間。
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## 加速檔案下載的先決條件{#prerequisites-to-accelerate-file-download}
 
@@ -117,7 +117,7 @@ Aspera Connect應用程式提供系統上的「活動視窗」，讓使用者可
 
 >[!NOTE]
 >
->Aspera Connect客戶端應用程式有一個已知的限制，如果&#x200B;**[!UICONTROL Preferences]**&#x200B;中的頁籤&#x200B;**[!UICONTROL Transfers]**&#x200B;下啟用了「始終詢問我要在何處保存下載的檔案」，則不會出現選擇下載位置的提示。 ]****[!UICONTROL &#x200B;在下載開始之前，請在文字方塊中提供位置&#x200B;**[!UICONTROL 將下載的檔案儲存至]**。
+>Aspera Connect客戶端應用程式有已知的限制，如果&#x200B;**[!UICONTROL Preferences]**&#x200B;中的頁籤&#x200B;**[!UICONTROL Transfers]**&#x200B;下啟用了「始終詢問我要在何處保存下載的檔案」，則不會出現選擇下載位置的提示。 ]****[!UICONTROL &#x200B;在下載開始之前，請在文字方塊中提供位置&#x200B;**[!UICONTROL 將下載的檔案儲存至]**。
 
 ## 在Microsoft Edge瀏覽器{#using-file-accelerator-on-microsoft-edge-browser}上使用檔案加速器
 
@@ -142,7 +142,7 @@ Microsoft Edge以增強保護模式(EPM)運行，在同一專用網路或受信�
 
 ![](assets/aspera-preferences.png)
 
-此外，Aspera Connect用戶端也可以標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
+此外，Aspera Connect用戶端也可標籤為在系統啟動時自動啟動，如此連線用戶端就會執行，並可供下載，開始更快速。
 
 ![](assets/aspera-automaticallylaunch.png)
 
