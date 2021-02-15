@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2021.02.0是增強版，著重於改善資產下載體驗並包含�
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-之前，所有資產轉譯都直接下載在Zip檔案夾中。 已略過&#x200B;**[!UICONTROL Download]**&#x200B;對話方塊以檢視資料夾和系列，而且沒有方法可控制資產的下載行為，因此很難從大量下載中搜尋特定轉譯。
+之前，所有資產轉譯都直接下載在Zip檔案夾中。 檔案夾和系列會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，而且沒有方法可控制資產的下載行為，因此很難從大量下載中搜尋特定轉譯。
 
 **[!UICONTROL 「資]** 產下載」設定現在提供選項，可供您在下載資料夾、系列或大量下載資產時，為每個資產建立個別的資料夾。
 
