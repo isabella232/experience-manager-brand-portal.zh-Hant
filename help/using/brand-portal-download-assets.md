@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1935'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 * **[!UICONTROL 資產下載]**
 
-   可讓每個資產在個別資料夾中下載轉譯。 此設定適用於下載資料夾、系列和大量下載資產（超過20個資產）。
+   可讓每個資產在個別資料夾中下載轉譯。 此設定適用於資料夾、系列和大量下載資產（超過20個資產）。
 
 
 以管理員身分登入您的品牌入口網站，並導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**。
@@ -135,7 +135,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
 >[!NOTE]
 >
->**[!UICONTROL Download]**&#x200B;對話方塊只會在選取要下載的資產時顯示，而&#x200B;**[!UICONTROL Download Settings]**&#x200B;中已啟用「自訂轉譯&#x200B;]**或**[!UICONTROL &#x200B;系統轉譯&#x200B;]**」。**[!UICONTROL 
+>**[!UICONTROL 下載]**&#x200B;對話方塊只會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 自訂轉譯]**&#x200B;和（或）**[!UICONTROL 系統轉譯]**&#x200B;時顯示。
 
 
 ### 下載資產的步驟{#bulk-download}
@@ -157,7 +157,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
       >[!NOTE]
       >
-      >如果您是第一次下載資產，但瀏覽器中未安裝IBM Aspera Connect，則會提示您安裝Aspera下載加速器。
+      >如果您是第一次下載資產，但瀏覽器中未安裝IBM Aspera Connect，則會提示您安裝Aspera下載加速器](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。[
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
    下載按鈕會反映所選項目的計數。 套用完規則後，按一下「下載項目&#x200B;**[!UICONTROL 」。]**
 
-   ![下載對話](assets/download-dialog-new.png)
+   ![下載對話](assets/download-dialog-box-new.png)
 
 1. 依預設，**[!UICONTROL 快速下載]**&#x200B;設定會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用。 因此，會出現確認方塊，允許使用IBM Aspera Connect加速下載。
 
    若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip檔案夾中。
 
-   如果不想使用IBM Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL Fast Download]**&#x200B;被拒絕或失敗，系統將填入一條Error消息。 按一下「正常下載」按鈕，繼續下載資產。 ****&#x200B;選取的轉譯會下載在zip檔案夾中，而不使用IBM Aspera Connect。
+   如果不想使用IBM Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL Fast Download]**&#x200B;被拒絕或失敗，系統將填入一條Error消息。 按一下「正常下載」按鈕，繼續下載資產。****
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 >
 >（*如果AEM作者例項在&#x200B;**動態媒體混合模式***上執行）
 >
->若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramidtiff轉譯存在於AEM Assets作者例項中，該資產是從該例項發佈的。 當資產從AEM發佈至品牌入口網站時，也會發佈其Pyramid tiff轉譯。
+>若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramidtiff轉譯存在於AEM Assets作者例項中，該資產是從這裡發佈的。 當資產從AEM發佈至品牌入口網站時，也會發佈其Pyramid tiff轉譯。
 
 
 
@@ -249,7 +249,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個資
 
    若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip檔案夾中。
 
-   如果您拒絕使用&#x200B;**[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕繼續下載。 選取的轉譯會下載在zip檔案夾中，而不使用IBM Aspera Connect。
+   如果您拒絕使用&#x200B;**[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下「正常下載」按鈕，繼續下載資產。****
 
 >[!NOTE]
 >
