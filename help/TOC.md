@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 71%
+ht-degree: 74%
 
 ---
 
 
-# Adobe Experience Manager Assets品牌入口網站指南{#using}
+# Adobe Experience Manager資產品牌入口網站指南{#using}
 
 + [Brand Portal 指南](using/home.md)
 + 簡介 {#introduction}
@@ -25,7 +25,7 @@ ht-degree: 71%
    + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [瞭解使用AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
+   + [瞭解與AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
 + 從 AEM Assets 發佈至 Brand Portal {#publish}
    + [使用 Brand Portal 設定 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
@@ -35,10 +35,10 @@ ht-degree: 71%
    + [疑難排解平行發佈至 Brand Portal 的問題](using/troubleshoot-parallel-publishing.md)
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
-+ 品牌入口網站中的資產來源補充{#asset-sourcing-in-brand-portal}
++ Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-brand-portal}
    + [概覽](using/brand-portal-asset-sourcing.md)
-   + [在AEM中設定資產來源補充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM Assets {#configure-contribution-folder}中設定貢獻資料夾
+   + [在中配置資產來源AEM補充](using/brand-portal-configure-asset-sourcing.md)
+   + 在 AEM Assets 中設定「貢獻」資料夾 {#configure-contribution-folder}
       + [概覽](using/brand-portal-contribution-folder.md)
       + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
       + [設定貢獻資料夾屬性](using/brand-portal-configure-contribution-folder-properties.md)
