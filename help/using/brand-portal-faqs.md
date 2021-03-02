@@ -1,7 +1,7 @@
 ---
 title: 常見問題
 seo-title: null
-description: 深入瞭解Adobe Experience Manager Assets品牌入口網站中的常見問題。
+description: 深入瞭解Adobe Experience Manager資產品牌入口網站中的常見問題。
 seo-description: null
 uuid: null
 content-type: reference
@@ -10,24 +10,24 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 0%
+source-wordcount: '1516'
+ht-degree: 2%
 
 ---
 
 
 # 常見問題 {#frequently-asked-questions}
 
-品牌入口網站常見問答集主要針對使用者在使用最新AEM Assets Brand Portal 6.4.6版或更舊版本時可能遇到的查詢和問題。
+品牌入口網站常見問答集主要針對使用者在使用最新的AEM Assets品牌入口網站6.4.6版或更舊版本時可能遇到的查詢和問題。
 
 
 ## 品牌入口網站6.4.6常見問答集{#faqs-bp646}
 
 **客戶。現有的舊式OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
-**Ans。** 舊版OAuth設定已過時。您必須將AEM Assets作者例項升級至最新的Service Pack，並透過Adobe Developer Console加以設定。 如需詳細資訊，請參閱[使用品牌入口網站設定AEM資產。 ](configure-aem-assets-with-brand-portal.md)不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**Ans。** 舊版OAuth設定已過時。您必須將AEM Assets作者實例升級至最新的Service Pack，並透過Adobe開發人員主控台進行設定。 如需詳細資訊，請參閱[使用品牌入口網站設定AEM Assets。 ](configure-aem-assets-with-brand-portal.md)不過，若要讓舊版OAuth設定在升級前運作，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -35,19 +35,19 @@ ht-degree: 0%
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**客戶。升級至Adobe Developer Console後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM資產。 我的作者實例位於AEM 6.5.4。可能的原因是什麼？**
+**客戶。升級至「Adobe開發人員主控台」後，我無法將貢獻資料夾的資產從品牌入口網站發佈至AEM Assets。 我的作者例項AEM是6.5.4。可能的原因是什麼？**
 
-**Ans。** 是的，透過Adobe Developer Console將貢獻資料夾的資產發佈至AEM 6.5.4上的AEM Assets時，有已知問題。
+**Ans。** 是的，透過Adobe開發人員主控台將貢獻資料夾的資產發佈至AEM Assets的AEM6.5.4時，有已知問題。
 
-AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Developer Console上的最新Service Pack AEM 6.5.5和[，以升級您的設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+此問題已在AEM6.5.5中修正。您可以將AEM Assets實例升級至最新的Service Pack AEM 6.5.5和[，以升級Adobe開發人員控制台上的配置](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
-如需AEM 6.5.4的立即修正，建議您下載Hotfix[並安裝在AEM作者實例上。](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)
+如需6.AEM5.4的立即修正，建議您下載Hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)並安裝在您的作AEM者例項上。[
 
-**客戶。在AEM Assets中，我看不到從品牌入口網站發佈的貢獻資料夾內容。 可能的原因是什麼？**
+**客戶。我看不到貢獻資料夾的內容，這些內容是從AEM Assets的Brand Portal發佈的。 可能的原因是什麼？**
 
-**Ans。** 請連絡您的AEM Assets管理員以驗證設定，並確定您的品牌入口網站租用戶僅設定一個AEM Assets作者例項。
+**Ans。** 請連絡您的AEM Assets管理員以驗證設定，並確保您的品牌入口網站租用戶僅設定一個AEM Assets作者例項。
 
-當您在多個AEM Assets作者例項上設定品牌入口網站租用戶時，可能會發生此問題。 例如，管理員會在AEM Assets作者執行個體的測試與生產環境上設定相同的品牌入口租用戶。 在此案例中，資產發佈會在Brand Portal中觸發，但AEM Assets作者例項無法匯入資產coz，複製代理程式不會收到請求的Token。
+當您在多個AEM Assets作者例項上設定品牌入口網站租戶時，可能會發生此問題。 例如，管理員在AEM Assets的測試與生產環境作者實例上設定相同的品牌入口租用戶。 在這種情況下，Brand Portal中會觸發資產發佈，但AEM Assets作者實例無法匯入資產coz，複製代理不會收到請求的Token。
 
 
 **客戶。我無法將資產從AEM Assets發佈至品牌入口網站。 複製日誌表示連接超時。 有快速修正嗎？**
@@ -70,7 +70,7 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 **客戶。品牌入口網站6.4.5版的主要變更為何？**
 
-**Ans。** AEM Assets Brand Portal 6.4.5是一項功能發行，可讓品牌入口網站使用者從品牌入口網站例項內上傳內容，並將「貢獻」檔案夾發佈回AEM Assets，而不需要管理員權限。如需詳細資訊，請參閱品牌入口網站中的[資產來源補充](brand-portal-asset-sourcing.md)。
+**Ans。** AEM Assets品牌入口網站6.4.5是功能發行，可讓品牌入口網站使用者從品牌入口網站例項內上傳內容，並將貢獻資料夾發佈回AEM Assets，毋需擁有管理員權限。如需詳細資訊，請參閱品牌入口網站中的[資產來源補充](brand-portal-asset-sourcing.md)。
 
 
 
@@ -95,13 +95,13 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 **客戶。身為品牌入口網站使用者，我需要執行什麼動作？**
 
-**Ans。** Brand Portal 6.4.5版隨附一項名為「資產來源補充」的新功能。AEM管理員必須在AEM Assets中設定「資產來源補充」功能，才能為品牌入口網站使用者啟用此功能。 有關詳細資訊，請參閱[啟用資產來源補充](brand-portal-configure-asset-sourcing.md)。
+**Ans。** Brand Portal 6.4.5版隨附一項名為「資產來源補充」的新功能。管AEM理員必須在AEM Assets設定「資產來源補充」功能，才能為品牌入口網站使用者啟用此功能。 有關詳細資訊，請參閱[啟用資產來源補充](brand-portal-asset-sourcing.md)。
 
 
 
 **客戶。誰可以建立貢獻資料夾？**
 
-**Ans。** 任何擁有在AEM Assets中建立新檔案夾權限的AEM使用者，都可以建立 **** Contribution檔案夾。若要建立&#x200B;**Contribution**&#x200B;檔案夾，請建立類型&#x200B;**Asset Contribution**的新檔案夾。
+**Ans。** 任何AEM擁有在AEM Assets建立新資料夾權限的使用者，都可以建立 **** Contribution資料夾。若要建立&#x200B;**Contribution**&#x200B;檔案夾，請建立類型&#x200B;**Asset Contribution**的新檔案夾。
 此資料夾會與作用中的品牌入口網站使用者共用，以取得貢獻。
 
 
@@ -127,7 +127,7 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 **客戶。我是否可將資產上傳至任何允許的資料夾？**
 
-**Ans。** 並非所有允許的資料夾。品牌入口網站使用者只能將內容上傳至AEM或品牌入口網站管理員共用的&#x200B;**Contribution**&#x200B;資料夾。
+**Ans。** 並非所有允許的資料夾。品牌入口網站使用者只能將內容上傳至由或品牌入口網站管理員共用的&#x200B;**貢獻** AEM資料夾。
 
 
 
@@ -137,41 +137,41 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 >[!NOTE]
 >
->如果您不是現有的品牌入口網站使用者，請要求AEM管理員在AEM管理控制台中建立您的使用者，並將您的個人檔案新增至品牌入口網站使用者清單中的使用者設定檔案。 請參閱[新增品牌入口網站使用者](brand-portal-configure-asset-sourcing.md)。
+>如果您不是現有的品牌入口網站使用者，請AEM要求管理員在管理主控台中建立您的使用者，並將您的個人檔案新增至品牌入口網站使用者清單中的使用者設定檔案。
 
 **客戶。用戶導入的CSV檔案格式是什麼？**
 
-**Ans。** 格式與Admin Console支援的大量使用者匯入格式相同。電子郵件、名字和姓氏是必填的。
+**Ans。** 其格式與大量使用者匯入Admin Console所支援的格式相同。電子郵件、名字和姓氏是必填的。
 
 
 
 **客戶。「資產貢獻」使用者下拉式清單中填入使用者清單（品牌入口網站參與者）的內容？**
 
-**Ans。** 下拉式清單中的使用者會從AEM中上傳的品牌入口網站使用者設定(.csv)檔案中填入。
+**Ans。** 下拉式清單中的使用者會從上傳的品牌入口網站使用者設定(.csv)檔案中填入AEM。
 
 
 
 **客戶。我可以在何處查看導入和發佈作業的狀態？**
 
-**Ans。** 在AEM中，您可以在Asyncjob頁面中看到匯入 **** 的狀態。在品牌入口網站中，您可以在&#x200B;**[!UICONTROL 工具>資產貢獻狀態]**&#x200B;中查看發佈工作的狀態。
+**Ans。** 在中AEM，您可以在非同步作業頁面中查看導入 **** 的狀態。在品牌入口網站中，您可以在&#x200B;**[!UICONTROL 工具>資產貢獻狀態]**&#x200B;中查看發佈工作的狀態。
 
 
 
-**客戶。在AEM中定期執行的匯入工作頻率是多少？**
+**客戶。定期在中運行的導入作業的頻AEM率是多少？**
 
-**Ans。** 在AEM中，投票每5分鐘執行一次。
+**Ans。** 投AEM票每5分鐘執行一次。
 
 
 
 **客戶。資料夾可從Brand Portal發佈至AEM Assets的次數是否有任何原因？**
 
-**Ans。** 否。NEW資料夾中的所有資 **** 產都會發佈至AEM Assets，不論這些資產先前已發佈的事實為何。每當&#x200B;**Contribution**&#x200B;資料夾從Brand Portal發佈至AEM Assets時，它都會覆寫&#x200B;**NEW**&#x200B;資料夾的內容。
+**Ans。** 否。  **** NEWfolder中的所有資產都會發佈至AEM Assets，不論這些資產是否在先前發佈。每當&#x200B;**Contribution**&#x200B;資料夾從品牌入口網站發佈至AEM Assets時，它會覆寫&#x200B;**NEW**&#x200B;資料夾的內容。
 
 
 
 **客戶。如何上傳「貢獻」檔案夾中的新資產？**
 
-**Ans。** 請參閱上傳資產至貢獻資 [料夾的詳細檔案](brand-portal-upload-assets-to-contribution-folder.md)。
+**Ans。** 請參閱上傳資產至貢獻資 [料夾的詳細檔案](brand-portal-publish-contribution-folder-to-brand-portal.md)。
 
 
 
@@ -183,12 +183,12 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 **客戶。如果資料夾從AEM Assets發佈至動態的品牌入口網站，會發生什麼情況？**
 
-**Ans。** 在AEM中，每次將資料夾發佈至品牌入口網站時，都會保留記錄檔。在發佈時，所有未發佈至品牌入口網站的資產都會放入複製佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至品牌入口網站。 當AEM使用者再次發佈資料夾時，只有先前未發佈的資產（存在於複製佇列中）才會發佈至品牌入口網站。
-從AEM Assets發佈至品牌入口網站的任何資料夾，以及「貢獻」資料夾中的SHARED資料夾，都適用此點。
+**Ans。** 在中AEM，每次將資料夾發佈至品牌入口網站時，都會保留記錄檔。在發佈時，所有未發佈至品牌入口網站的資產都會放入複製佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至品牌入口網站。 當使用AEM者再次發佈資料夾時，只有先前未發佈的資產（存在於複製佇列中）才會發佈至品牌入口網站。
+從AEM Assets發佈至品牌入口網站的任何資料夾，以及貢獻資料夾中的SHARED資料夾，都適用此點。
 
 **客戶。我要與誰聯繫，問題包括：**
 
-**Ans。** 請聯絡您的Adobe客戶經理或客戶支援。
+**Ans。** 聯絡您的Adobe客戶經理或客戶支援。
 
 >[!NOTE]
 >
@@ -197,7 +197,7 @@ AEM 6.5.5中的問題已修正。您可以將AEM Assets實例升級至Adobe Deve
 
 ## 產品存取與支援（受限制網站）{#product-access-and-support-restricted-sites}
 
-這些網站僅提供給客戶使用。 如果您是客戶且需要存取權，請連絡您的Adobe客戶經理。
+這些網站僅提供給客戶使用。 如果您是客戶並需要存取權，請聯絡您的Adobe客戶經理。
 
 * [](https://daycare.day.com) [產品存取](https://login.marketing.adobe.com)
 
