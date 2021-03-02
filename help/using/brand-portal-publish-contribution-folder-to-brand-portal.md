@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![](assets/contribution-folder.png)
 
-您現在可以設定貢獻資料夾屬性。
+您也可以在建立貢獻資料夾時設定貢獻資料夾屬性。
 
 ## 設定貢獻資料夾屬性{#configure-contribution-folder-properties}
 
