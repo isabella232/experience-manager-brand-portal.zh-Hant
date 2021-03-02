@@ -1,8 +1,8 @@
 ---
 title: 發行說明
 seo-title: 發行說明
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2021.02.0版中的功能、增強功能、已修正的重大問題和已知問題。
-seo-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2021.02.0版本中的增強功能、已修正的重大問題和已知問題。
+description: 深入瞭解Adobe Experience Manager資產品牌入口網站2021.02.0版的功能、增強功能、已修正的重大問題和已知問題。
+seo-description: 深入瞭解Adobe Experience Manager資產品牌入口網站2021.02.0版的增強功能、已修正的重大問題和已知問題。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '558'
 ht-degree: 5%
 
 ---
@@ -20,24 +20,26 @@ ht-degree: 5%
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal 2021.02.0版中的新功能、增強功能、已修正的重大問題和已知問題。
+深入瞭解Adobe Experience Manager資產品牌入口網站2021.02.0版中的新功能、增強功能、已修正的重大問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
-| 產品 | Adobe Experience Manager Assets品牌入口網站 |
+| 產品 | Adobe Experience Manager資產品牌入口網站 |
 |---|---|
 | 版本 | 2021.02.0 |
 | 日期 | 2021年2月 |
 
 ## 概覽 {#overview}
 
-Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和跨裝置的內部商業使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 品牌入口網站可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
+Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部廠商和內部企業使用者，並跨裝置發佈。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未授權存取的風險。 品牌入口網站可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
 ## 2021.02.0 {#whats-new-in-2021.02.0}的新增功能
 
 ### 新功能{#new-features}
 
 此版本包含下列新功能：
+
+* 資產來源補充功能現已在AEM Assets提供，做為Cloud Service。 它可讓品牌入口網站使用者將資產上傳至允許的貢獻檔案夾，並將貢獻檔案夾從品牌入口網站發佈至AEM Assets，做為Cloud Service例項。
 
 * 在&#x200B;**[!UICONTROL 下載設定]**&#x200B;下方，新增了額外的&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定。 它會在下載資料夾、系列或大量下載資產時，為每個資產建立個別的資料夾。 請參閱[下載設定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)。
 
@@ -157,12 +159,12 @@ This release includes the following known issues:
 
 ## 連結 {#links}
 
-* [adobe.com上的Adobe Experience Manager產品頁面](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Adobe Experience Manageradobe.com產品頁面](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Assets品牌入口網站檔案](https://helpx.adobe.com/tw/experience-manager/brand-portal/user-guide.html)
 
 ## 產品存取與支援（受限制網站）{#product-access-and-support-restricted-sites}
 
-這些網站僅提供給客戶使用。 如果您是客戶且需要存取權，請連絡您的Adobe客戶經理。
+這些網站僅提供給客戶使用。 如果您是客戶並需要存取權，請聯絡您的Adobe客戶經理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
