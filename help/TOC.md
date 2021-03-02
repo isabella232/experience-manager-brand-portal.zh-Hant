@@ -7,10 +7,10 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 74%
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -36,19 +36,9 @@ ht-degree: 74%
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-brand-portal}
-   + [概覽](using/brand-portal-asset-sourcing.md)
-   + [在中配置資產來源AEM補充](using/brand-portal-configure-asset-sourcing.md)
-   + 在 AEM Assets 中設定「貢獻」資料夾 {#configure-contribution-folder}
-      + [概覽](using/brand-portal-contribution-folder.md)
-      + [建立貢獻資料夾](using/brand-portal-create-contribution-folder.md)
-      + [設定貢獻資料夾屬性](using/brand-portal-configure-contribution-folder-properties.md)
-      + [上傳基準資產](using/brand-portal-upload-baseline-assets.md)
-      + [將貢獻資料夾發佈至品牌入口網站](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + 在品牌入口網站{#using-asset-sourcing}中使用資產來源補充
-      + [概覽](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [下載資產需求](using/brand-portal-download-asset-requirements.md)
-      + [上傳資產至貢獻資料夾](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [資產來源補充概述](using/brand-portal-asset-sourcing.md)
+   + [在AEM Assets配置貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
    + [共用集合](using/brand-portal-share-collection.md)
    + [共用資料夾](using/brand-portal-sharing-folders.md)
