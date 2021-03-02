@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 當建立貢獻資料夾的目標達成後，品牌入口網站管理員可以刪除貢獻資料夾，以釋放其他使用者的上傳空間。
 
-**發佈工作狀態**
+## 發佈工作狀態{#publishing-job-status}
 
 管理員可使用兩個報告來檢視從Brand Portal發佈至AEM Assets的資產貢獻資料夾狀態。
 
@@ -129,13 +129,27 @@ ht-degree: 0%
 
    ![](assets/contribution-folder-status.png)
 
-* 在AEM Assets作者實例中，導航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作業]**。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
+* 在AEM Assets（內部部署或受管理服務），導航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作業]**。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
 
    ![](assets/publishing-status.png)
 
+* 在AEM Assets作為Cloud Service，導航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 資產]** > **[!UICONTROL 報表]**。
+
+   按一下「建立&#x200B;****」按鈕，並選取「發佈&#x200B;****」以建立發佈報表。
+
+   ![](assets/create-publish-report.png)
+
+   輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**，然後選擇貢獻資料夾的&#x200B;**[!UICONTROL 資料夾路徑]**&#x200B;並計畫&#x200B;**[!UICONTROL Now]**&#x200B;的報告。 按一下&#x200B;**[!UICONTROL 下一步]**。
+
+   ![](assets/create-publish-report1.png)
+
+   在報表中選取您要的欄位屬性，並產生它。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
+
+<!--
 >[!NOTE]
 >
->作為Cloud Service的AEM Assets的用戶介面可能略有不同，但世界流量保持不變。
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
