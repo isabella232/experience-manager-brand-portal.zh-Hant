@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ ht-degree: 0%
 
 1. 登入您的品牌入口網站例項。
 1. 從「品牌入口網站」控制面板選取貢獻資料夾。
-1. 按一下&#x200B;**[!UICONTROL 屬性]** ![](assets/properties.png)。 屬性視窗隨即開啟，顯示「資產貢獻」檔案夾詳細資訊。
-   ![](assets/download-asset-requirement1.png)
-1. 按一下「下載Brief **** ![](assets/download.png)」，將資產需求檔案下載到本機電腦上。
+1. 按一下&#x200B;**[!UICONTROL 屬性]**。 此時將開啟包含貢獻資料夾詳細資訊的「屬性」窗口。
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. 按一下&#x200B;**[!UICONTROL 下載簡報]**&#x200B;選項，將資產需求檔案下載至本機電腦。
+
+   ![](assets/download.png)
+
 1. 返回品牌入口網站儀表板。
 1. 按一下以開啟貢獻資料夾，您可在貢獻資料夾中看到兩個子資料夾-**[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 SHARED資料夾包含管理員共用的所有基準資產（參考內容）。
 1. 您可以下載&#x200B;**[!UICONTROL SHARED]**資料夾，其中包含本機電腦上所有的基準資產。
-或者，您可以開啟**[!UICONTROL SHARED]**&#x200B;資料夾，然後按一下&#x200B;**下載**&#x200B;表徵圖![](assets/download.png)下載單個檔案／資料夾。
-   ![](assets/download-asset-requirement3.png)
+或者，您可以開啟**[!UICONTROL SHARED]**&#x200B;資料夾，然後按一下&#x200B;**下載**&#x200B;表徵圖以下載單個檔案／資料夾。
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 請詳閱簡介（資產需求檔案），並參考基準資產以瞭解資產需求。 現在，您可以建立新的貢獻資產，並將其上傳至貢獻資料夾。
 
@@ -82,15 +91,15 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL NEW]**&#x200B;資料夾。
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. 按一下「建立&#x200B;**[!UICONTROL >]** > **[!UICONTROL 檔案]**」，上傳包含多個資產的個別檔案或檔案夾(.zip)。
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. 瀏覽資產（檔案或檔案夾）並上傳至&#x200B;**[!UICONTROL NEW]**&#x200B;檔案夾。
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 將所有資產或檔案夾上傳至NEW檔案夾後，將貢獻檔案夾發佈至AEM Assets。
 
@@ -110,7 +119,7 @@ ht-degree: 0%
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 在發佈工作流程的不同階段，會傳送電子郵件／脈衝通知給品牌入口網站使用者和管理員：
 1. **已佇列** -當品牌入口網站中觸發發佈工作流程時，會傳送通知給品牌入口網站使用者和品牌入口網站管理員。
@@ -129,21 +138,17 @@ ht-degree: 0%
 
    ![](assets/contribution-folder-status.png)
 
-* 在AEM Assets（內部部署或受管理服務），導航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作業]**。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
+* 在AEM Assets（內部部署或受管理服務），導航至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Jobs]**。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
 
    ![](assets/publishing-status.png)
 
-* 在AEM Assets作為Cloud Service，導航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 資產]** > **[!UICONTROL 報表]**。
+* 在AEM Assets作為Cloud Service，導航至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Jobs]**。
 
-   按一下「建立&#x200B;****」按鈕，並選取「發佈&#x200B;****」以建立發佈報表。
+   或者，您也可以從全域導覽直接導覽至&#x200B;**[!UICONTROL Jobs]**。
 
-   ![](assets/create-publish-report.png)
+   此報表反映所有發佈工作的最終狀態（成功或錯誤），包括將資產從Brand Portal匯入至AEM Assets做為Cloud Service。
 
-   輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**，然後選擇貢獻資料夾的&#x200B;**[!UICONTROL 資料夾路徑]**&#x200B;並計畫&#x200B;**[!UICONTROL Now]**&#x200B;的報告。 按一下&#x200B;**[!UICONTROL 下一步]**。
-
-   ![](assets/create-publish-report1.png)
-
-   在報表中選取您要的欄位屬性，並產生它。 此報告反映所有發佈工作的最終狀態（成功或錯誤）。
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
