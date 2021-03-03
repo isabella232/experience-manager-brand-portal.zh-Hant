@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ ht-degree: 0%
 擁有建AEM立新資料夾權限的管理員和非管理員使用者，可以在AEM Assets建立貢獻資料夾。
 若要建立貢獻檔案夾，請建立新的「資產貢獻」類型檔案夾，以確保建立的新檔案夾可由品牌入口網站使用者提交資產。  這會自動觸發工作流程，此工作流程會在貢獻資料夾中建立另外兩個子資料夾，稱為SHARED和NEW。
 
+
 >[!NOTE]
 >
 >您可以在資料夾中建立多個貢獻資料夾。 請勿在其他貢獻資料夾內建立貢獻資料夾。
+
+您可以在建立貢獻資料夾時，分別設定貢獻資料夾屬性。 在此示例中，我們將分別配置屬性。
 
 **要建立貢獻資料夾：**
 1. 登入您的AEM Assets實例。
@@ -68,7 +71,6 @@ ht-degree: 0%
 
    ![](assets/contribution-folder.png)
 
-您也可以在建立貢獻資料夾時設定貢獻資料夾屬性。
 
 ## 設定貢獻資料夾屬性{#configure-contribution-folder-properties}
 
