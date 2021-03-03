@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 5%
 
 ---
@@ -91,6 +91,13 @@ Brand Portal users can exclude specific renditions which are not required and di
 * 當使用共用連結下載資產（縮圖或網頁轉譯）時，會發生不一致的行為。
 
 請參閱[品牌入口網站2021.02.0](whats-new.md)的新增功能。
+
+
+### 已知問題 {#known-issues}
+
+此發行包含下列已知問題：
+
+* 使用者不會收到「資產來源補充」發佈工作流程的電子郵件通知。
 
 <!--
 ### Known Issues {#known-issues}
