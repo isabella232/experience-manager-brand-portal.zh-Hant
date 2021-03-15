@@ -1,8 +1,8 @@
 ---
 title: 使用 Brand Portal 設定 AEM Assets
 seo-title: 使用 Brand Portal 設定 AEM Assets
-description: 深入瞭解如何使用品牌入口網站設定AEM資產。
-seo-description: 深入瞭解如何使用品牌入口網站設定AEM資產。
+description: 深入瞭解使用品牌入口網站設定AEM Assets。
+seo-description: 深入瞭解使用品牌入口網站設定AEM Assets。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,43 +10,49 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 9%
+source-wordcount: '430'
+ht-degree: 22%
 
 ---
 
 
 # 使用 Brand Portal 設定 AEM Assets {#configure-integration}
 
-使用Adobe Experience Manager Assets品牌入口網站將Adobe Experience Manager Assets設定為雲端服務，可讓您發佈資產並與品牌入口網站使用者分發。 但是，使用品牌入口網站設定AEM 6.3（及以上版本）可讓品牌入口網站使用者使用資產發佈、資產分發和資產貢獻功能。
+使用品牌入口網站設定Adobe Experience Manager資產可讓品牌入口網站使用者進行資產發佈、資產分發和資產貢獻功能。 它可讓AEM Assets使用者發佈資產，並與品牌入口網站使用者一起分發。 品牌入口網站使用者可以存取共用資產並借由上傳新資產至資產貢獻檔案夾並將其發佈回AEM Assets來貢獻。
 
-Adobe Experience Manager Assets已透過Adobe Developer Console設定品牌入口網站，該網站會購買Adobe身分管理服務(IMS)Token，以授權您的品牌入口網站租用戶。
+在以下網站支援使用品牌入口網站設定AEM Assets:
+* AEM Assets as a Cloud Service 
+* AEM Assets(內部和Managed Services)6.3及以上版本
+
+AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。 啟動工作流程會在後端建立必要的設定，並在與AEM Assets相同的IMS組織上啟動品牌入口網站，做為Cloud Service例項。
+
+然而，AEM Assets(內部和Managed Services)是使用Adobe開發人員主控台手動設定品牌入口網站，此主控台會購買AdobeIdentity Management服務(IMS)代號以授權品牌入口網站租戶。
 
 >[!NOTE]
 >
->***針對AEM Assets 6.3和更新版本***
+>***AEM Assets6.3及以上版本***
 >
 >之前，品牌入口網站是透過舊版OAuth閘道在傳統介面中設定，該閘道使用JSON Web Token(JWT)交換來取得IMS Token進行授權。
 >
->自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe Developer Console進行設定。
+>自2020年4月6日起，不再支援透過舊版OAuth進行的設定，並變更為透過Adobe開發人員主控台進行設定。
 
 
 >[!TIP]
 >
->***僅限現有客戶***
+>***僅限現有客戶(內部和Managed Services)***
 >
 >舊版OAuth閘道設定將可繼續適用於現有客戶。
 >
->如果您在舊版OAuth閘道配置中遇到問題，請刪除現有的配置，並透過Adobe Developer Console建立新的配置。
+>如果您在舊版OAuth閘道配置中遇到問題，請刪除現有配置，並透過Adobe開發人員主控台建立新的配置。
 
-設定具有品牌入口網站的AEM資產的步驟依您的AEM版本而異，以及您是第一次設定或升級現有的設定：
+使用品牌入口網站設定AEM Assets的步驟因您的版AEM本、您是第一次設定或升級現有組態而異：
 
-| **AEM版本** | **新設定** | **升級配置** |
+| **版AEM本** | **新設定** | **升級配置** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [啟動品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5（6.5.4.0及以上版本）** | [建立設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4（6.4.8.0及以上版本）** | [建立設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM6.3（6.3.3.8及以上版本）** | [建立設定](https://helpx.adobe.com/tw/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 聯絡支援 | 聯絡支援 |
