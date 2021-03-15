@@ -1,52 +1,48 @@
 ---
 title: AEM Assets品牌入口網站概觀
 seo-title: AEM Assets品牌入口網站概觀
-description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
-seo-description: AEM Assets Brand Portal可協助您輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部企業使用者，並跨裝置發佈。
+description: AEM Assets品牌入口網站可協助您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產發佈給外部廠商和內部商業使用者。
+seo-description: AEM Assets品牌入口網站可協助您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產發佈給外部廠商和內部商業使用者。
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
+source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 8%
+source-wordcount: '1553'
+ht-degree: 6%
 
 ---
 
 
-# AEM Assets品牌入口網站簡介{#overview-of-aem-assets-brand-portal}
+# AEM Assets品牌入口網站概觀{#overview-of-aem-assets-brand-portal}
 
 身為行銷人員，您有時需要與通路合作夥伴和內部商業使用者共同作業，以快速建立、管理並傳遞相關的數位內容給客戶。 在整個客戶歷程中及時傳遞相關內容，對於推動更大的需求、轉化、參與度和客戶忠誠度至關重要。
 
 但是，開發解決方案以支援與延伸內部團隊、合作夥伴和經銷商有效且安全地分享經核准的品牌標誌、准則、宣傳資產或產品像片，是一項挑戰。
 
-**Adobe Experience Manager(AEM)Assets Brand** Portal著重於行銷人員需要透過提供資產分發和資產貢獻功能，與全球分散的Brand Portal使用者有效協作。
+**Adobe Experience Manager(AEM)Assets Brand** Portal著重於行銷人員的需求，透過提供資產分發和資產貢獻功能，有效地與全球分散的品牌入口網站使用者協作。
 
-資產分發可讓您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產分發給外部人士和內部商業使用者。 但是，資產貢獻可讓品牌入口網站使用者將資產上傳至品牌入口網站並發佈至AEM資產，而不需存取作者環境。 貢獻功能稱為&#x200B;**品牌入口網站中的資產來源補充**。 此外，它可改善資產分發的整體品牌入口網站體驗，並從品牌入口網站使用者（外部機構／團隊）獲得貢獻，加速資產上市時間，並降低不合規和未授權存取的風險。
+資產分發可讓您輕鬆取得、控制並安全地透過各種裝置將經過核准的創意資產分發給外部人士和內部商業使用者。 但是，資產貢獻可讓品牌入口網站使用者將資產上傳至品牌入口網站並發佈至AEM Assets，而不需存取作者環境。 貢獻功能稱為&#x200B;**品牌入口網站中的資產來源補充**。 此外，它可改善資產分發的整體品牌入口網站體驗，並從品牌入口網站使用者（外部機構／團隊）獲得貢獻，加速資產上市時間，並降低不合規和未授權存取的風險。
 請參閱[品牌入口網站中的資產來源補充](brand-portal-asset-sourcing.md)。
 
 以瀏覽器為基礎的入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
 
 ## 使用 Brand Portal 設定 AEM Assets {#configure-brand-portal}
 
-Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌入口網站，該網站會購買IMS Token以授權您的品牌入口網站租用戶。
+使用品牌入口網站設定Adobe Experience Manager資產可讓品牌入口網站使用者進行資產發佈、資產分發和資產貢獻功能。
 
 >[!NOTE]
 >
->AEM Assets是雲端服務、AEM Assets 6.3及更新版本，支援透過Adobe Developer Console以品牌入口網站設定AEM Assets。
+>將AEM Assets配置為品牌門戶在AEM Assets支援Cloud ServiceAEM Assets6.3和更高版本。
 
-### 使用品牌入口網站{#prerequisites}設定AEM資產的必要條件
+AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。 啟動工作流程會在後端建立必要的設定，並在與AEM Assets相同的IMS組織上啟動品牌入口網站，做為Cloud Service例項。
 
-您需要下列項目才能使用 Brand Portal 設定 AEM Assets：
+然而，AEM Assets(內部和Managed Services)是使用Adobe開發人員主控台手動設定品牌入口網站，此主控台會購買AdobeIdentity Management服務(IMS)代號以授權品牌入口網站租戶。
 
-* 啟動並執行AEM Assets例項。
-* Brand Portal 租用戶 URL。
-* 在 Brand Portal 租用戶的 IMS 組織具有系統管理員權限的使用者。
-
-如需詳細資訊，請參閱「設定AEM資產與品牌門戶[」。](../using/configure-aem-assets-with-brand-portal.md)
+如需詳細資訊，請參閱[搭配品牌入口網站設定AEM Assets。](../using/configure-aem-assets-with-brand-portal.md)
 
 ## 品牌入口網站{#Personas}中的使用者角色
 
@@ -114,9 +110,9 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 ### 管理員 {#administrator}
 
-管理員在[!UICONTROL 管理控制台]中包含標示為系統管理員或品牌入口網站產品管理員的使用者。 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站的使用情況和儲存報告。
+管理員在[!UICONTROL Admin Console]中包括標籤為系統管理員或品牌門戶產品管理員的用戶。 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站的使用情況和儲存報告。
 
-管理員可以執行編輯器可以執行的所有任務，以執行下列其他任務：
+管理員可以執行編輯器可以執行的所有任務，以執行以下附加任務：
 
 [管理使用者、群組和使用者角色](brand-portal-adding-users.md)
 
@@ -130,7 +126,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 [使用報表](brand-portal-reports.md)
 
-除了上述工作外，AEM Assets中的「作者」也可以執行下列工作：
+除了上述工作外，AEM Assets的作者還可以執行下列工作：
 
 [使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
@@ -147,13 +143,13 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
 >[!NOTE]
 >
->若要在現有入口網站URL中取得租用戶名稱的別名，組織必須向Adobe支援部門提出新的租用戶別名建立要求。 首先檢查別名是否可用，然後建立別名，即可處理此請求。
+>若要在現有入口網站URL中取得租用戶名稱的別名，組織需要透過新的租用戶別名建立請求，與Adobe支援聯絡。 首先檢查別名是否可用，然後建立別名，即可處理此請求。
 >
 >要替換舊別名或刪除舊別名，必須執行相同的進程。
 
 ## 要求存取品牌入口網站{#request-access-to-brand-portal}
 
-使用者可從登入畫面要求存取品牌入口網站。 這些請求會傳送給品牌入口網站管理員，這些管理員會透過Adobe [!UICONTROL 管理控制台]授與使用者存取權。 在授予存取權後，使用者會收到通知電子郵件。
+使用者可從登入畫面要求存取品牌入口網站。 這些請求會傳送給品牌入口網站管理員，這些管理員會透過Adobe[!UICONTROL Admin Console]授予使用者存取權。 在授予存取權後，使用者會收到通知電子郵件。
 
 若要申請存取權，請執行下列動作：
 
@@ -163,22 +159,23 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
    將開啟[!UICONTROL 請求訪問]頁。
 
-1. 若要申請存取組織的品牌入口網站，您必須擁有有效的[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]。
+1. 若要申請存取組織的品牌入口網站，您必須有有效的[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]。
 
    在[!UICONTROL 請求存取]頁面中，使用您的ID登入（藍本1）或建立[!UICONTROL Adobe ID]（藍本2）:<br />
    ![[!UICONTROL 請求存取]](assets/bplogin_request_access_2.png)
 
    **方案1**
    1. 如果您有[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]，請按一下「登入&#x200B;**[!UICONTROL 」。]**[!UICONTROL 登入]頁面隨即開啟。
-   1. 提供您的[!UICONTROL Adobe ID]認證，然後按一下「登入&#x200B;**[!UICONTROL 」。<br />]**
+   1. 提供您的[!UICONTROL Adobe ID]憑證，然後按一下&#x200B;**[!UICONTROL 登錄]**。<br />
 
    ![Adobe登入](assets/bplogin_request_access_3.png)
 
    您會被重新導向至「請求存取[!UICONTROL 」頁面。<br />]
    **方案2**
-   1. 如果您沒有[!UICONTROL Adobe ID]，請按一下&#x200B;**[!UICONTROL 從[!UICONTROL 請求存取]頁面取得Adobe ID]**。
+   1. 如果您沒有[!UICONTROL Adobe ID]，則要建立一個，請按一下[!UICONTROL 請求訪問]頁中的&#x200B;**[!UICONTROL 獲取Adobe ID]**。
 [!UICONTROL 登入]頁面隨即開啟。
-   1. 按一下「取得Adobe ID ]**」。**[!UICONTROL [!UICONTROL 註冊]頁面隨即開啟。
+   1. 按一下&#x200B;**[!UICONTROL 獲取Adobe ID]**。
+[!UICONTROL 註冊]頁面隨即開啟。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
    1. 選擇&#x200B;**[!UICONTROL 註冊]**。<br />
 
@@ -197,13 +194,13 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
 若要授予存取權，產品管理員必須按一下品牌入口網站通知區中的相關通知，然後按一下&#x200B;**[!UICONTROL 授予存取權]**。
-或者，產品管理員可依存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL 管理控制台]，並將使用者新增至相關的產品設定。
+或者，產品管理員可以遵循存取要求電子郵件中提供的連結，造訪[!UICONTROL Adobe]Admin Console，並將使用者新增至相關的產品設定。
 
-您會被重新導向至「Adobe [!UICONTROL 管理控制台]](https://adminconsole.adobe.com/enterprise/overview)」首頁。 [使用Adobe [!UICONTROL Admin Console]來建立使用者並指派給產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 有關在[!UICONTROL 管理控制台]中添加用戶的詳細資訊，請參閱[添加用戶](brand-portal-adding-users.md#add-a-user)（按照添加用戶過程中的步驟4-7操作）。
+您會被重新導向至[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)首頁。 使用Adobe[!UICONTROL Admin Console]來建立使用者，並將他們指派至產品設定檔（先前稱為產品設定），這些設定檔在品牌入口網站中顯示為群組。 有關在[!UICONTROL Admin Console]中添加用戶的詳細資訊，請參閱[添加用戶](brand-portal-adding-users.md#add-a-user)（按照添加用戶過程中的步驟4-7操作）。
 
 ## 品牌入口網站語言{#brand-portal-language}
 
-您可以從Adobe [!UICONTROL Experience Cloud設定]變更品牌入口網站語言。
+您可以從Adobe[!UICONTROL Experience Cloud設定]變更品牌入口網站語言。
 
 ![存取要求的通知](assets/BPLang.png)
 
@@ -213,7 +210,7 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 
    ![編輯設定檔](assets/EditBPProfile.png)
 
-1. 在「[!UICONTROL Experience Cloud設定]」頁面上，從「[!UICONTROL 語言]」下拉式選單中選取語言。
+1. 在[!UICONTROL Experience Cloud設定]頁面上，從[!UICONTROL 語言]下拉菜單中選擇一種語言。
 
 ## 品牌入口網站維護通知{#brand-portal-maintenance-notification}
 
@@ -232,4 +229,4 @@ Adobe Experience Manager(AEM)Assets是透過Adobe Developer Console設定品牌�
 ## 相關資源{#related-resources}
 
 * [Adobe客戶服務](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)
-* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [論AEM壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
