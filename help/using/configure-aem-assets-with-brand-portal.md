@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '433'
 ht-degree: 22%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 22%
 
 在以下網站支援使用品牌入口網站設定AEM Assets:
 * AEM Assets as a Cloud Service 
-* AEM Assets(內部和Managed Services)6.3及以上版本
+* AEM Assets（內部部署及管理服務）6.3及以上版本
 
 AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。 啟動工作流程會在後端建立必要的設定，並在與AEM Assets相同的IMS組織上啟動品牌入口網站，做為Cloud Service例項。
 
-然而，AEM Assets(內部和Managed Services)是使用Adobe開發人員主控台手動設定品牌入口網站，此主控台會購買AdobeIdentity Management服務(IMS)代號以授權品牌入口網站租戶。
+然而，AEM Assets（內部部署及受管理服務）是使用Adobe開發人員主控台手動設定品牌入口網站，該主控台會購買AdobeIdentity Management服務(IMS)代號以授權品牌入口網站租戶。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，�
 
 >[!TIP]
 >
->***僅限現有客戶(內部和Managed Services)***
+>***僅適用於現有客戶（內部部署和受管理服務）***
 >
 >舊版OAuth閘道設定將可繼續適用於現有客戶。
 >
