@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
+source-wordcount: '6125'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0是增強版，將AEM Assets的Brand Portal自動化工作
 
 ### 將AEM Assets品牌入口網站自動化為Cloud Service{#bp-automation-on-cloud-service}
 
-AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。 Cloud Manager使用者會觸發啟動工作流程，在後端建立必要的設定，並在與AEM Assets相同的IMS組織上啟動品牌入口網站，做為Cloud Service例項。
+AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。
 
 之前，AEM Assets作為Cloud Service是使用Adobe開發人員主控台手動設定品牌入口網站。
+
+Cloud Manager使用者會觸發啟動工作流程，在後端建立必要的設定，並在與AEM Assets相同的IMS組織上啟動品牌入口網站，做為Cloud Service例項。
+
+若要在您的AEM Assets啟用品牌入口網站，請以Cloud Service實例：
+
+1. 登入AdobeCloud Manager，並導覽至&#x200B;**[!UICONTROL Environments]**。
+1. 從清單中選擇環境（逐個）以查看環境詳細資訊。 找到與品牌入口網站相關的環境後，按一下&#x200B;**[!UICONTROL 啟用品牌入口網站]**&#x200B;按鈕，開始啟動工作流程。
+1. 啟用品牌入口網站租用戶後，狀態會變更為「已啟用」。
+
+![檢視狀態](assets/create-environment5.png)
 
 請參閱[啟用AEM Assets的品牌入口網站作為Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)。
 
