@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -39,9 +39,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 此版本包含下列新功能：
 
+* AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。
+
 * 資產來源補充功能現已在AEM Assets提供，做為Cloud Service。 它可讓品牌入口網站使用者將資產上傳至允許的貢獻檔案夾，並將貢獻檔案夾從品牌入口網站發佈至AEM Assets，做為Cloud Service例項。
 
-* 在&#x200B;**[!UICONTROL 下載設定]**&#x200B;下方，新增了額外的&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定。 它會在下載資料夾、系列或大量下載資產時，為每個資產建立個別的資料夾。 請參閱[下載設定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)。
+* 在&#x200B;**[!UICONTROL 下載設定]**&#x200B;下方，新增了額外的&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定。 它會在下載資料夾、系列或大量下載資產時，為每個資產建立個別的資料夾。
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
