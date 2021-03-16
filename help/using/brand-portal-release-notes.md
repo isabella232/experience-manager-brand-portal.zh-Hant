@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '600'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 此版本包含下列新功能：
 
-* AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。
+* AEM Assets作為Cloud Service，現在有權擁有預先設定的品牌入口網站例項。 Cloud Manager使用者可以啟動AEM Assets的品牌入口網站，做為Cloud Service實例。
 
 * 資產來源補充功能現已在AEM Assets提供，做為Cloud Service。 它可讓品牌入口網站使用者將資產上傳至允許的貢獻檔案夾，並將貢獻檔案夾從品牌入口網站發佈至AEM Assets，做為Cloud Service例項。
 
