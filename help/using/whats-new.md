@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您輕鬆取得、控�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}中的變更
 
-Brand Portal 2021.02.0是增強版，將AEM Assets的Brand Portal自動化工作流程引入Cloud Service，促進AEM Assets的Asset Sourcing功能，做為Cloud Service，改善資產下載體驗，並包含重要修正。 此外，管理員也可在租用戶層級設定資料夾、系列和大量下載資產的預設下載行為。 品牌入口網站&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;也已修改，以反映有效的品牌入口網站使用者。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
+Brand Portal 2021.02.0是增強版，將AEM Assets的Brand Portal啟動工作流程帶入Cloud Service，將AEM Assets的Asset Sourcing功能提升為Cloud Service，改善資產下載體驗，並包含重要修正。 此外，管理員也可在租用戶層級設定資料夾、系列和大量下載資產的預設下載行為。 品牌入口網站&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;也已修改，以反映有效的品牌入口網站使用者。 請參閱最新的[品牌入口網站發行說明](brand-portal-release-notes.md)。
 
-### 將AEM Assets品牌入口網站自動化為Cloud Service{#bp-automation-on-cloud-service}
+### 將AEM Assets的品牌入口網站啟用為Cloud Service{#bp-automation-on-cloud-service}
 
-AEM Assets作為Cloud Service，會從Cloud Manager啟動品牌入口網站，自動設定品牌入口網站。
+AEM Assets作為Cloud Service，現在有權擁有預先設定的品牌入口網站例項。 Cloud Manager使用者可以啟動AEM Assets的品牌入口網站，做為Cloud Service實例。
 
 之前，AEM Assets作為Cloud Service是使用Adobe開發人員主控台手動設定品牌入口網站。
 
@@ -225,7 +225,7 @@ Document Viewer可增強PDF檢視體驗。 在品牌入口網站中檢視PDF檔�
 根據此設定，單機資產、多個資產、包含資產的檔案夾、授權或未授權資產，以及使用共用連結下載資產的下載工作流程將維持不變。
 
 
-## 6.4.6 {#what-changed-in-646}中的變更
+## 6.4.2 {#what-changed-in-646}中的變更
 
 在Brand Portal 6.4.6中，AEM Assets與Brand Portal之間的授權通道已變更。 品牌入口網站現在在AEM Assets成為AEM Assets6.3及更高版本的Cloud Service。 在AEM Assets6.3及更新版本中，品牌入口網站先前已透過舊版OAuth閘道在傳統使用者介面中設定，該閘道使用JWT代號交換來取得IMS存取代號以進行授權。 AEM Assets現在已透過Adobe開發人員主控台設定品牌入口網站，此主控台會購買IMS代號以授權您的品牌入口網站租用戶。
 
@@ -458,7 +458,7 @@ Dynamic Media視訊編碼可從以下網址下載：
 * 選擇只下載轉譯（而非原始資產）。
 * 當存取原始轉譯受到限制時，請下載資產。
 
-## 6.4.2 {#what-changed-in-1}中的變更
+## 6.4.6 {#what-changed-in-1}中的變更
 
 Brand Portal 6.4.2版提供多種功能，以滿足組織的資產分發需求，並協助他們透過訪客存取和最佳的下載體驗，觸及到遍布全球的大量使用者。 品牌入口網站也透過管理員的新設定、新增的報表，以及符合客戶要求，為組織提供更強大的控制力。
 
