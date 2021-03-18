@@ -8,11 +8,12 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 3%
+source-wordcount: '872'
+ht-degree: 4%
 
 ---
 
@@ -23,31 +24,31 @@ ht-degree: 3%
 
 影像預設集用來產生可預覽及下載之影像的動態轉譯。 在預覽影像及其轉譯時，您可以選擇預設集，以依照管理員設定的規格重新格式化影像。
 
-（*如果AEM作者例項在&#x200B;**動態媒體混合模式***上執行）若要在品牌入口網站中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至品牌入口網站的AEM作者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。
+(*如果作AEM者例項在&#x200B;**Dynamic Media混合模式***上執行)若要在品牌入口網站中檢視資產的動態轉譯，請確定其金字塔轉譯存在於您發佈至品牌入口網站的作AEM者例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至品牌入口網站。
 
 >[!NOTE]
 >
->當下載影像及其轉譯時，您無法從現有的預設集中選擇。 您可以改為指定自訂影像預設集的屬性。 如需詳細資訊，請參閱[下載影像時套用影像預設集](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
+>當下載影像及其轉譯時，沒有選項可從現有的預設集中選擇。 您可以改為指定自訂影像預設集的屬性。 如需詳細資訊，請參閱[下載影像時套用影像預設集](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
 
 
 如需建立影像預設集時所需參數的詳細資訊，請參閱[管理影像預設集](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
 
 ## 建立影像預設集{#create-an-image-preset}
 
-AEM管理員可以建立影像預設集，這些預設集會以動態轉譯的形式出現在資產詳細資料頁面上。 您可以從頭開始建立影像預設集，或以新名稱儲存現有的影像預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當影像被傳送以供觀看時，其外觀根據所選擇的命令被優化。
+管理員AEM可以建立影像預設集，這些預設集會以動態轉譯的形式出現在資產詳細資料頁面上。 您可以從頭開始建立影像預設集，或以新名稱儲存現有的影像預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當影像被傳送以供觀看時，其外觀根據所選擇的命令被優化。
 
 >[!NOTE]
 >
 >影像的動態轉譯是使用其金字塔TIFF來建立。 如果金字塔TIFF不適用於任何資產，則無法在品牌入口網站中擷取該資產的動態轉譯。
 >
->如果AEM作者例項在&#x200B;**動態媒體混合模式**&#x200B;上執行，則會建立影像資產的金字塔TIFF轉譯並儲存在AEM儲存庫中。
+>如AEM果作者實例運行在&#x200B;**Dynamic Media混合模式**&#x200B;上，則會建立影像資產的金字塔TIFF轉譯並保存在儲存庫AEM中。
 >
->但是，如果AEM作者例項在&#x200B;**Dynamic Media Scene 7模式**&#x200B;上執行，則影像資產的金字塔TIFF轉譯會存在於Scene 7伺服器上。
+>但是，AEM如果作者例項在&#x200B;**Dynamic Media場景7模式**&#x200B;上執行，則影像資產的金字塔TIFF轉譯會存在於場景7伺服器上。
 >
 >當這些資產發佈至品牌入口網站時，會套用影像預設集並顯示動態轉譯。
 
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
 1. 在管理工具面板中，按一下「影像預設集」。****
 
@@ -65,7 +66,7 @@ AEM管理員可以建立影像預設集，這些預設集會以動態轉譯的�
    >
    >您也可以使用&#x200B;**[!UICONTROL 編輯影像預設集]**&#x200B;頁面來編輯現有影像預設集的屬性。 要編輯影像預設集，請從影像預設集頁面中選擇該預設集，然後按一下「編輯」。****
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。影像預設集會建立並顯示在影像預設集頁面上。
+1. 按一下「**[!UICONTROL 儲存]**」。影像預設集會建立並顯示在影像預設集頁面上。
 1. 要刪除影像預設集，請從影像預設集頁面中選擇它，然後按一下&#x200B;**[!UICONTROL Delete]**。 在確認頁中，按一下&#x200B;**[!UICONTROL Delete]**&#x200B;確認刪除。 影像預設集會從影像預設集頁面中移除。
 
 ## 在預覽影像{#apply-image-presets-when-previewing-images}時套用影像預設集
