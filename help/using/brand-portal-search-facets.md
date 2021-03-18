@@ -8,11 +8,12 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
+role: 管理員
 translation-type: tm+mt
-source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,27 +22,27 @@ ht-degree: 8%
 
 管理員可將搜尋謂語新增至[!UICONTROL 篩選器]面板，以自訂搜尋並讓搜尋功能變得多功能。
 
-品牌入口網站支援[多面搜尋](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)，以精細搜尋已核准的品牌資產，這可能是由於&#x200B;[**Filters**&#x200B;面板](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)所致。 透過管理工具中的&#x200B;**[!UICONTROL 搜尋表單]**，在「篩選器」面板上提供搜尋Facet。 管理工具的「搜尋表單」頁面中，存在名為「資產管理搜尋邊欄」的預設搜尋表單。 不過，管理員可以透過新增、修改或移除搜尋謂語來編輯預設搜尋表單（資產管理搜尋邊欄），自訂預設的「篩選」面板，讓搜尋功能變得多功能。
+品牌入口網站支援[多面搜尋](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)，以精細搜尋已核准的品牌資產，這可能是由於&#x200B;[**Filters**&#x200B;面板](../using/brand-portal-searching.md#search-using-facets-in-filters-panel)所致。 透過管理工具中的&#x200B;**[!UICONTROL 搜尋表單]**，在「篩選器」面板上提供搜尋Facet。 管理工具的「搜尋Forms」頁面中存在名為「資產管理搜尋邊欄」的預設搜尋表單。 不過，管理員可以透過新增、修改或移除搜尋謂語來編輯預設搜尋表單（資產管理搜尋邊欄），自訂預設的「篩選」面板，讓搜尋功能變得多功能。
 
 您可以使用各種搜尋謂語來自訂&#x200B;**[!UICONTROL Filters]**&#x200B;面板。 例如，新增屬性述詞以搜尋符合您在此述詞中指定之單一屬性的資產。 新增選項述詞，以搜尋符合您為特定屬性所指定之一或多個值的資產。 新增日期範圍述詞，以搜尋在指定日期範圍內建立的資產。
 
 >[!NOTE]
 >
->AEM可讓組織將自訂的搜尋表單從AEM Author[發佈至品牌入口網站，而不是在品牌入口網站上重新建立相同的表單。](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)
+>AEM可讓組織[將自訂的搜尋表單從AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)發佈至品牌入口網站，而不是在品牌入口網站上重新建立相同的表單。
 
 ## 添加搜索謂詞{#add-a-search-predicate}
 
 要向&#x200B;**[!UICONTROL Filters]**&#x200B;面板添加搜索謂語：
 
-1. 若要存取管理工具，請按一下頂端工具列中的AEM標誌。
+1. 若要存取管理工具，請按一AEM下頂端工具列中的標誌。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，按一下「搜尋表單」。****
+1. 在管理工具面板中，按一下「搜尋Forms ]**」。**[!UICONTROL 
 
    ![](assets/navigation-panel-1.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋表單]**&#x200B;頁面中，選取&#x200B;**[!UICONTROL 資產管理搜尋邊欄]**。
+1. 在&#x200B;**[!UICONTROL 搜尋Forms]**&#x200B;頁面中，選取&#x200B;**[!UICONTROL 資產管理搜尋邊欄]**。
 
    ![](assets/search-forms-page.png)
 
@@ -94,7 +95,7 @@ ht-degree: 8%
 | **[!UICONTROL 路徑瀏覽器]** | 搜尋謂詞以搜尋特定位置的資產。 **注意：對** *於登入的使用者，「篩選」上的路徑瀏覽器只會顯示與使用者共用的資料夾（及其祖先）的內容結構。* <br> 管理員使用者可使用路徑瀏覽器導覽至任何資料夾，以搜尋該資產。<br> 但是，非管理員使用者可在路徑瀏覽器中導覽至該資料夾，以搜尋資料夾中的資產（可供他們存取）。 | <ul><li>欄位標籤</li><li>路徑</li><li>說明</li></ul> |
 | **[!UICONTROL 屬性]** | 根據特定中繼資料屬性搜尋資產。 **注意：在選** *取「部分搜尋」時，預設會選取「忽略大小寫」*。 | <ul><li>欄位標籤</li><li>預留位置</li><li>屬性名稱</li><li>部分搜尋</li><li>忽略大小寫</li><li> 說明</li></ul> |
 | **[!UICONTROL 多值屬性]** | 與屬性謂語類似，但允許以分隔字元分隔的多個輸入值（預設值為COMMA[,]），以結果傳回符合任何輸入值的資產。 | <ul><li>欄位標籤</li><li>預留位置</li><li>屬性名稱</li><li>分隔符號支援</li><li>忽略大小寫</li><li>說明</li></ul> |
-| **[!UICONTROL 標記]** | 搜尋謂詞以根據標籤搜尋資產。 您可以設定Path屬性，以填入「標籤」清單中的各種標籤。 *注意：如果管理員從AEM發佈搜尋表單，而路徑不包含租用戶資訊，例如[!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]，則可能需要變更路徑值。[!UICONTROL `/etc/tags/<custom_tag_namespace>`] | <ul><li>欄位標籤</li><li>屬性名稱</li><li>路徑</li><li>說明</li></ul> |
+| **[!UICONTROL 標記]** | 搜尋謂詞以根據標籤搜尋資產。 您可以設定Path屬性，以填入「標籤」清單中的各種標籤。 *注意：如果管理員發佈搜尋表單時，路徑不包含租用戶資訊，例如[!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]，則可能AEM需要變更路徑值。[!UICONTROL `/etc/tags/<custom_tag_namespace>`] | <ul><li>欄位標籤</li><li>屬性名稱</li><li>路徑</li><li>說明</li></ul> |
 | **[!UICONTROL 路徑]** | 搜尋謂詞以搜尋特定位置的資產。 | <ul><li>欄位標籤</li><li>路徑</li><li>說明</li></ul> |  |
 | **[!UICONTROL 相對日期]** | 搜尋謂詞以根據資產建立的相對日期來搜尋資產。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>相對日期</li></ul> |
 | **[!UICONTROL 範圍]** | 搜尋謂詞，以搜尋位於指定屬性值範圍內的資產。 在「篩選器」面板中，您可以指定範圍的最小和最大屬性值。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>說明</li></ul> |
@@ -121,11 +122,11 @@ ht-degree: 8%
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，按一下「搜尋表單」。****
+1. 在管理工具面板中，按一下「搜尋Forms ]**」。**[!UICONTROL 
 
    ![](assets/navigation-panel-2.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋表單]**&#x200B;頁面中，選取&#x200B;**[!UICONTROL 資產管理搜尋邊欄]**。
+1. 在&#x200B;**[!UICONTROL 搜尋Forms]**&#x200B;頁面中，選取&#x200B;**[!UICONTROL 資產管理搜尋邊欄]**。
 
    ![](assets/search-forms-page.png)
 
