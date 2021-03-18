@@ -1,34 +1,29 @@
 ---
 cloud: experience-cloud
-solution-title: 學習與支援
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-manager.html
-solution-image: null
-getting-started-title: 快速入門
-getting-started-url: https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html
-tutorials-title: 教學課程
-tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hant
 solution: Experience Manager
+feature-set: Experience Manager Assets
+type: 文件
 index: y
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 內部使用的中繼資料
 
-metadata.md檔案包含回購層級中繼資料，這些中繼資料會傳遞至回購中的使用者指南TOC.md檔案。 如果您想要變更任何使用指南的metadata.md內容，請在任何TOC.md檔案中進行變更。
+metadata.md 檔案包含存放庫層級中繼資料，這些中繼資料會傳遞至存放庫中的使用手冊 TOC.md 檔案。如果想要變更任何使用手冊的 metadata.md 內容，請在 TOC.md 檔案中變更。
 
-| 中繼資料 | 它的功能 |
+| 中繼資料 | 功能 |
 |--- |--- |
-| 解決方案標題 | 在文章標題中用作連結 |
-| solution-hub-url | 開啟幫助中心頁 |
-| 解決方案圖示 | 在解決方案標題旁顯示解決方案圖示。 尚未實施 |
-| getting-started-url | 幫助快速入門頁面的連結 |
-| 教學課程-url | 連結至教學課程影片——說明教學課程或KT教學課程 |
-| 迷你目錄層級 | 決定出現在右側欄中的標題層數。 預設值為2 |
+| solution-title | 在文章標題中作為連結使用 |
+| solution-hub-url | 開啟 Helpx 中樞頁面 |
+| solution-icon | 在解決方案標題旁顯示解決方案圖示。尚未實作 |
+| getting-started-url | Helpx 快速入門頁面連結 |
+| tutorials-url | 教學課程影片 (Helpx 或 KT 教學課程其中之一) 的連結 |
+| mini-toc-levels | 決定顯示在右側欄中的標題層數量。預設值為 2 |
 | git-repo | 指定主回購協定的內部使用位置 |
