@@ -8,10 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1757'
 ht-degree: 11%
 
 ---
@@ -21,13 +22,13 @@ ht-degree: 11%
 
 中繼資料結構描述「屬性」頁面的版面配置，以及使用特定結構的資產所顯示的中繼資料屬性。 您套用至資產的架構會決定顯示在其「屬性」頁面上的中繼資料欄位。
 
-每個資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面包含預設中繼資料屬性，視資產的MIME類型而定。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂的中繼資料結構。 AEM Assets品牌入口網站提供各種MIME類型資產的預設表單。 不過，您也可以為此類資產新增自訂表格。
+每個資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面包含預設中繼資料屬性，視資產的MIME類型而定。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂的中繼資料結構。 AEM Assets品牌入口網站提供各種MIME類型資產的預設表單。 不過，您也可以新增此類資產的自訂表單。
 
 ## 添加元資料架構表單{#add-a-metadata-schema-form}
 
 要建立新的元資料架構表單，請執行以下操作：
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -35,7 +36,7 @@ ht-degree: 11%
 
    ![](assets/navigation-panel.png)
 
-1. 在&#x200B;**[!UICONTROL 中繼資料結構表單]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL 建立]**。
+1. 在&#x200B;**[!UICONTROL 中繼資料結構Forms]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL 建立]**。
 
    ![](assets/create-metadata-schema-form.png)
 
@@ -51,12 +52,12 @@ ht-degree: 11%
 
 要編輯元資料結構表單，請執行以下操作：
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
 1. 在管理工具面板中，按一下&#x200B;**[!UICONTROL 元資料結構]**。
-1. 從&#x200B;**[!UICONTROL 中繼資料結構表單]**&#x200B;頁面中，選擇結構表單以編輯其屬性，例如&#x200B;**[!UICONTROL collection]**。
+1. 從&#x200B;**[!UICONTROL 中繼資料結構Forms]**&#x200B;頁面，選擇結構表單以編輯其屬性，例如&#x200B;**[!UICONTROL collection]**。
 
    ![](assets/metadata-schema-forms.png)
 
@@ -86,12 +87,12 @@ ht-degree: 11%
 | **[!UICONTROL 數量]** | 添加數字元件。 |
 | **[!UICONTROL 日期]** | 新增日期元件。 |
 | **[!UICONTROL 下拉式]** | 新增下拉式清單。 |
-| **[!UICONTROL 標準標記]** | 新增標記. **注意：** 管理員可能需要變更路徑值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他們從AEM發佈中繼資料結構表單，其中路徑不包含租用戶資訊，例如 `/etc/tags/<custom_tag_namespace>`。 |
-| **[!UICONTROL 智慧標記]** | 如果您已購買並設定AEM智慧型標籤附加元件，則自動偵測標籤。 |
+| **[!UICONTROL 標準標記]** | 新增標記. **注意：** 管理員可能需要變更路徑值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他們發佈中繼資料結構表單，AEM則路徑不包含租用戶資訊，例如 `/etc/tags/<custom_tag_namespace>`。 |
+| **[!UICONTROL 智慧標記]** | 自動偵測標籤(如果您已購買並設定智慧AEM標籤附加元件)。 |
 | **[!UICONTROL 隱藏欄位]** | 新增隱藏欄位。 儲存資產時，會以POST參數傳送。 |
 | **[!UICONTROL 資產引用者]** | 新增此元件以檢視資產參考的資產清單。 |
 | **[!UICONTROL 資產引用]** | 新增以顯示參考資產的資產清單。 |
-| **[!UICONTROL 資產評等]** | 從AEM Assets新增資產在發佈至品牌入口網站之前的平均評分。 |
+| **[!UICONTROL 資產評等]** | 在資產發佈至品牌入口網站之前，從AEM Assets新增資產的平均評級。 |
 | **[!UICONTROL 關聯式中繼資料]** | 新增以控制資產「屬性」頁面中其他中繼資料標籤的顯示。 |
 
 >[!NOTE]
@@ -123,7 +124,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->所有中繼資料欄位都是資產的中繼資料編輯器形式中的唯讀欄位。 由於資產的中繼資料必須在AEM Assets中編輯，才能將資產發佈至品牌入口網站。
+>所有中繼資料欄位都是資產的中繼資料編輯器形式中的唯讀欄位。 由於資產的中繼資料必須在AEM Assets編輯，才能將資產發佈至品牌入口網站。
 
 #### 在架構表單{#add-or-delete-a-tab-in-the-schema-form}中添加或刪除頁籤
 
@@ -143,13 +144,13 @@ ht-degree: 11%
 
 要將元資料結構表單應用於資料夾，請執行以下操作：
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
 1. 在管理工具面板中，按一下&#x200B;**[!UICONTROL 元資料結構]**。
 
-1. 從&#x200B;**[!UICONTROL 中繼資料結構表單]**&#x200B;頁面中，選取您要套用至資產的結構表單，例如&#x200B;**[!UICONTROL clothing]**。
+1. 從&#x200B;**[!UICONTROL 中繼資料結構Forms]**&#x200B;頁面中，選取您要套用至資產的結構結構表單，例如&#x200B;**[!UICONTROL clothing]**。
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
@@ -179,7 +180,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->刪除對預設表單所做的自定義更改後，**[!UICONTROL Lock]**&#x200B;符號將重新顯示在元資料架構介面上的表單名稱之前，以指示表單恢復為預設狀態。
+>刪除對預設表單所做的自定義更改後，**[!UICONTROL Lock]**&#x200B;符號將重新顯示在元資料架構介面上的表單名稱之前，以指示表單已恢復為預設狀態。
 
 ## MIME類型{#schema-forms-for-mime-types}的架構表單
 
