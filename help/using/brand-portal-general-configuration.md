@@ -9,10 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '403'
 ht-degree: 4%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 4%
 
 # 管理一般租用戶組態 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
+AEM Assets品牌入口網站可讓組織為特定租戶設定下列功能：
 
 * 管理員刪除資產
 * 非管理員使用者建立公開系列
@@ -44,7 +45,7 @@ AEM Assets Brand Portal可讓組織為特定租戶設定下列功能：
 要啟用／禁用這些配置，請執行以下操作：
 
 1. 以管理員權限登入。
-1. 從頂端的工具列選取AEM標誌以存取管理工具。
+1. 從頂AEM端的工具列選擇標誌以存取管理工具。
 1. 從管理工具面板中，選擇&#x200B;**[!UICONTROL 一般]**&#x200B;以開啟「一般設定&#x200B;]**」頁面。**[!UICONTROL 
 1. 使用相應的切換開關來啟用／禁用任何常規配置。
 1. **[!UICONTROL 儲存變更。]**
