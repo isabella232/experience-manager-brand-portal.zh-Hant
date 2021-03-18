@@ -9,10 +9,11 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
+role: 管理員
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
@@ -20,19 +21,19 @@ ht-degree: 2%
 
 # 管理資產的數位版權 {#manage-digital-rights-of-assets}
 
-確保創意資產和品牌資料的安全分發和使用對於保護您的品牌至關重要。 您可將到期日（和時間）與已核准的資產從AEM發佈至品牌入口網站，或是授權這些資產以條件性使用，在組織內外強制執行此授權。 此外，品牌入口網站可讓您指定從品牌入口網站分享之資產連結的到期日。
+確保創意資產和品牌資料的安全分發和使用對於保護您的品牌至關重要。 您可將到期日（和時間）與已核准的資產關聯至品牌入口網站，或透過授權這些資產進行條AEM件性使用，在組織內外強制執行此動作。 此外，品牌入口網站可讓您指定從品牌入口網站分享之資產連結的到期日。
 
 閱讀以瞭解資產在品牌入口網站上的保護方式，並瞭解相關的使用權限。
 
 ## 資產到期日{#asset-expiration}
 
-資產到期是控制組織內品牌入口網站上已核准資產使用的有效方式。 從AEM Assets發佈至品牌入口網站的所有資產都可以有到期日，這會限制不同使用者角色對這些資產的使用。
+資產到期是控制組織內品牌入口網站上已核准資產使用的有效方式。 從AEM Assets發佈至品牌入口網站的所有資產都可具有到期日，這會限制不同使用者角色對這些資產的使用。
 
 ### 與過期資產相關的使用權限{#usage-permissions-expired-assets}
 
 在品牌入口網站中，管理員可以檢視、下載過期資產並新增至系列。 但是，編輯人員和檢視器只能檢視過期的資產並新增至系列。
 
-管理員可以將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水分享。 如果您從包含已到期資產和非已到期資產的資料夾中選取任何已到期資產，則&#x200B;**[!UICONTROL 共用連結]**&#x200B;動作將不可用。 但是，如果您選擇包含已過期和未過期資產的資料夾，則[!UICONTROL Share]和&#x200B;**[!UICONTROL Share Link]**&#x200B;動作可用。
+管理員可將過期的資產從AEM Assets發佈至品牌入口網站。 但是，過期的資產無法透過品牌入口網站的墨水分享。 如果您從包含已到期資產和非已到期資產的資料夾中選取任何已到期資產，則&#x200B;**[!UICONTROL 共用連結]**&#x200B;動作將不可用。 但是，如果您選擇包含已過期和未過期資產的資料夾，則[!UICONTROL Share]和&#x200B;**[!UICONTROL Share Link]**&#x200B;動作可用。
 
 >[!NOTE]
 >
@@ -73,9 +74,9 @@ ht-degree: 2%
 
 ## 授權資產{#licensed-assets}
 
-授權資產必須在從Brand Portal下載之前接受授權合約。 授權資產的本合約是當您直接從品牌入口網站或透過共用連結下載資產時。 無論過期與否，所有使用者都可檢視受授權保護的資產。 但是，過期授權資產的下載和使用有限。 若要瞭解過期授權資產的行為以及根據使用者角色允許的活動，請參閱過期資產的使用權限[。](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)
+授權資產必須在從Brand Portal下載之前接受授權合約。 授權資產的本合約是當您直接從品牌入口網站或透過共用連結下載資產時。 無論過期與否，所有使用者都可檢視受授權保護的資產。 但是，過期授權資產的下載和使用有限。 若要瞭解過期授權資產的行為以及根據使用者角色允許的活動，請參閱過期資產的使用權限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。[
 
-受授權保護的資產附加了[授權合約，這是透過在AEM Assets中設定資產的[中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)來完成的。](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)
+受授權保護的資產附加了[授權合約，這是透過在AEM Assets設定資產的[中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)來完成的。](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)
 
 如果您選擇下載受授權保護的資產，則會將您重新導向至「著作權管理」(Copyright Management)]**頁面。**[!UICONTROL 
 
