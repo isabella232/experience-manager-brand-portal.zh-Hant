@@ -8,10 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 2%
 
 如果沒有自訂品牌的壁紙影像，則登入頁面上會顯示預設壁紙。
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -45,7 +46,7 @@ ht-degree: 2%
    執行下列任一項作業：
 
    * 若要從電腦上傳影像，請按一下「上傳」****。 導覽至所需影像並上傳。
-   * 若要使用現有的品牌入口網站影像，請按一下「從現有&#x200B;**[!UICONTROL 選取」。]**&#x200B;使用資產選擇器選擇影像。
+   * 若要使用現有的品牌入口網站影像，請按一下「從現有&#x200B;]**選取」。**[!UICONTROL &#x200B;使用資產選擇器選擇影像。
 
    ![](assets/asset-picker.png)
 
@@ -59,11 +60,11 @@ ht-degree: 2%
 
 1. 若要啟用或停用預設壁紙，請在&#x200B;**[!UICONTROL 「設定品牌>壁紙]**」頁面中執行下列動作：
 
-   * 若要在品牌入口網站登入頁面上顯示預設的壁紙影像，請從頂端的工具列按一下「停用壁紙&#x200B;**[!UICONTROL 」。]**&#x200B;訊息會確認自訂影像已停用。
+   * 若要在品牌入口網站登入頁面上顯示預設的壁紙影像，請從頂端的工具列按一下「停用壁紙&#x200B;]**」。**[!UICONTROL &#x200B;訊息會確認自訂影像已停用。
 
    ![](assets/chlimage_1-1.png)
 
-   * 若要在品牌入口網站登入頁面上還原自訂影像，請從工具列按一下「啟用壁紙&#x200B;**[!UICONTROL 」。]**&#x200B;訊息會確認影像已復原。
+   * 若要在品牌入口網站登入頁面上還原自訂影像，請從工具列按一下「啟用壁紙&#x200B;]**」。**[!UICONTROL &#x200B;訊息會確認影像已復原。
 
    ![](assets/chlimage_1-2.png)
 
@@ -75,7 +76,7 @@ ht-degree: 2%
 
 登入品牌入口網站後，頁首會顯示在各種品牌入口網站頁面上。
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -87,9 +88,9 @@ ht-degree: 2%
 
    ![](assets/default-header.png)
 
-1. 若要上傳頁首影像，請按一下「選擇影像&#x200B;**[!UICONTROL 」圖示，然後選擇「上傳]** a3/>」。****
+1. 若要上傳頁首影像，請按一下「選擇影像&#x200B;]**」圖示，然後選擇「上傳**[!UICONTROL  a3/>」。****
 
-   若要使用現有的品牌入口網站影像，請選擇「從現有的&#x200B;**[!UICONTROL 選取」。]**
+   若要使用現有的品牌入口網站影像，請選擇「從現有的&#x200B;]**選取」。**[!UICONTROL 
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -111,11 +112,11 @@ ht-degree: 2%
 
 1. 若要啟用或停用頁首影像，請在&#x200B;**[!UICONTROL 「設定品牌>頁首影像]**」頁面中執行下列動作：
 
-   * 若要防止頁首影像出現在品牌入口網站頁面上，請從頂端的工具列按一下「停用頁首&#x200B;**[!UICONTROL 」。]**&#x200B;訊息會確認影像已停用。
+   * 若要防止頁首影像出現在品牌入口網站頁面上，請從頂端的工具列按一下「停用頁首&#x200B;]**」。**[!UICONTROL &#x200B;訊息會確認影像已停用。
 
    ![](assets/chlimage_1-4.png)
 
-   * 若要讓頁首影像重新出現在品牌入口網站頁面上，請從頂端的工具列按一下「啟動頁首&#x200B;**[!UICONTROL 」。]**&#x200B;訊息會確認影像已啟動。
+   * 若要讓頁首影像重新出現在品牌入口網站頁面上，請從頂端的工具列按一下「啟動頁首&#x200B;]**」。**[!UICONTROL &#x200B;訊息會確認影像已啟動。
 
    ![](assets/chlimage_1-5.png)
 
@@ -127,7 +128,7 @@ ht-degree: 2%
 
 當資產共用為連結時，使用者會收到包含連結的電子郵件。 管理員可以自訂這些電子郵件的訊息，即標誌、說明和頁尾。
 
-1. 從頂端的AEM工具列，按一下Adobe標誌以存取管理工具。
+1. 從頂AEM端的工具列，按一下Adobe標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
