@@ -8,24 +8,25 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
+role: 管理員
 translation-type: tm+mt
-source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 疑難排解平行發佈至 Brand Portal 的問題 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-品牌入口網站已設定AEM Assets，讓核准的品牌資產順暢地從AEM Assets作者例項接收（或發佈）。 在[設定](../using/configure-aem-assets-with-brand-portal.md)後，AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，供Brand Portal使用者核准使用。 AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2和更新版本都使用多個複製代理，以允許高速並行發佈。
+Brand Portal已設定為AEM Assets，讓已核准的品牌資產順暢地從AEM Assets作者例項接收（或發佈）。 在[設定](../using/configure-aem-assets-with-brand-portal.md)後，AEM Author會使用複製代理將選取的資產複製至Brand Portal雲端服務，供Brand Portal使用者核准使用。 使用多個復AEM制代理程式6.2 SP1-CFP5、AEM CFP 6.3.0.2和更新版本，以允許高速並行發佈。
 
 >[!NOTE]
 >
->Adobe建議升級至AEM 6.4.1.0，以確保AEM Assets品牌入口網站已成功設定為AEM Assets。 AEM 6.4的限制會在使用品牌入口網站設定AEM資產時顯示錯誤，複製會失敗。
+>Adobe建議升級AEM至6.4.1.0，以確保AEM Assets品牌入口網站已成功配置AEM Assets。 6.4中的AEM限制會在使用品牌門戶配置AEM Assets時出錯，複製失敗。
 
-在&#x200B;**[!UICONTROL /etc/cloudservice]**&#x200B;下為品牌入口網站設定雲端服務時，系統會自動產生所有必要的使用者和Token並儲存在儲存庫中。 建立雲服務配置，並建立複製和複製代理複製內容所需的服務用戶。 這將建立四個複製代理。 因此，當您從AEM發佈許多資產至品牌入口網站時，這些資產會排入佇列，並透過「輪流作業」在這些複製代理之間分發。
+在&#x200B;**[!UICONTROL /etc/cloudservice]**&#x200B;下為品牌入口網站設定雲端服務時，系統會自動產生所有必要的使用者和Token並儲存在儲存庫中。 建立雲服務配置，並建立複製和複製代理複製內容所需的服務用戶。 這將建立四個複製代理。 因此，當您從Brand Portal發佈許AEM多資產時，這些資產會排入佇列，並透過Round Robin在這些複製代理之間分發。
 
 不過，發佈可能會間歇性失敗，因為大型的sling工作、AEM Author例項上的Network和&#x200B;**[!UICONTROL Disk I/O]**&#x200B;增加，或AEM Author例項的效能降低。 因此，建議在開始發佈之前測試與複製代理的連接。
 
@@ -39,7 +40,7 @@ ht-degree: 2%
 1. 檢查是否建立了複製代理
 1. 測試連線
 
-**建立雲端服務時的尾隨記錄檔**
+**建立Cloud Service時尾隨記錄檔**
 
 檢查尾部記錄。 檢查是否建立了複製代理。 如果複製代理建立失敗，請通過對雲服務進行小幅更改來編輯雲服務。 驗證並再次檢查是否建立了複製代理。 否則，請重新編輯服務。
 
@@ -63,7 +64,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 清除現有品牌入口網站發佈設定{#clean-up-existing-config}
 
-發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如：`mac-<tenantid>-replication`沒有最新的私鑰，因此發佈失敗，出現&quot;401 unauthorized&quot;錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
+發佈時的大部分時間都無法運作，原因可能是發佈使用者(例如：`mac-<tenantid>-replication`沒有最新的私鑰，因此發佈失敗，出現&quot;401 unauthorized&quot;錯誤，複製代理日誌中未報告其他錯誤。 您可能希望避免疑難排解，並改為建立新的設定。 若要讓新設定正常運作，請從作者設定中清除AEM下列：
 
 1. 前往`localhost:4502/crx/de/`(考慮到您正在localhost:4502上執行author instance:\
    i.刪除`/etc/replication/agents.author/mp_replication`
@@ -111,7 +112,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 AEM已內建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
+如果複製代理（發佈到品牌門戶時情況正常）停止處理發佈作業，請檢查複製日誌。 已內AEM建自動重試，因此，如果特定資產發佈失敗，則會自動重試。 如果出現網路錯誤等間歇性問題，則可能會在重試期間成功。
 
 如果連續發佈失敗且佇列遭到封鎖，則應檢查&#x200B;**[!UICONTROL test connection]**&#x200B;並嘗試解決所報告的錯誤。
 
