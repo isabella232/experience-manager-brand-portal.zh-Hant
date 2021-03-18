@@ -8,10 +8,11 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
+role: 管理員
 translation-type: tm+mt
-source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1024'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 2%
 
 若要檢視報表，請依照下列步驟進行：
 
-1. 從頂端的工具列，點選／按一下AEM標誌以存取管理工具。
+1. 從頂端的工具列，點選／按一下標誌AEM以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -43,7 +44,7 @@ ht-degree: 2%
 
    若要檢視報表，請按一下報表連結。 或者，選取報表，並從工具列點選／按一下「檢視」圖示。
 
-   **[!UICONTROL 使用]** 狀況報表會顯示有效品牌入口網站使用者人數、所有資產佔用的儲存空間，以及品牌入口網站中資產總計的相關資訊。未指派給管理控制台中任何產品設定檔的品牌入口網站使用者被視為非作用中使用者，不會反映在&#x200B;**[!UICONTROL 使用狀況報表]**中。
+   **[!UICONTROL 使用]** 狀況報表會顯示有效品牌入口網站使用者人數、所有資產佔用的儲存空間，以及品牌入口網站中資產總計的相關資訊。未指派給Admin Console中任何產品描述檔的品牌入口網站使用者被視為非作用中使用者，不會反映在&#x200B;**[!UICONTROL 使用狀況報表]**中。
 報表也會顯示每個資訊度量的允許容量。
 
    ![](assets/usage-report.png)
@@ -64,7 +65,7 @@ ht-degree: 2%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL 「發]** 布報表」會列出並提供在指定時段內從AEM發佈至品牌入口網站的所有資產的相關資訊。
+   **[!UICONTROL 發]** 布報告會列出並提供在指定時間範圍內從品牌入口網站發佈AEM的所有資產的相關資訊。
 
    ![](assets/publish-report.png)
 
@@ -94,7 +95,7 @@ ht-degree: 2%
 
 您可自訂「下載」、「過期」和「發佈」報表中的欄供檢視。 若要產生報表，請依照下列步驟進行：
 
-1. 從頂端的工具列，點選／按一下AEM標誌以存取管理工具。
+1. 從頂端的工具列，點選／按一下標AEM志以存取管理工具。
 
 1. 在管理工具面板中，點選／按一下「建立／管理報表」]**以開啟「資產報表」]**&#x200B;頁面。**[!UICONTROL **[!UICONTROL 
 
