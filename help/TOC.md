@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
@@ -9,7 +9,7 @@ user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品�
 feature: 品牌入口網站
 role: 業務從業人員
 translation-type: tm+mt
-source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
+source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 80%
