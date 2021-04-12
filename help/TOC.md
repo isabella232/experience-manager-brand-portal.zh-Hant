@@ -7,11 +7,11 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
 feature: 品牌入口網站
-role: 業務從業人員
+role: Business Practitioner
 translation-type: tm+mt
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
+source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '281'
 ht-degree: 80%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 80%
    + [首次登入體驗](using/brand-portal-onboarding.md)
    + [管理使用者、群組和使用者角色](using/brand-portal-adding-users.md)
    + [自訂壁紙、標題和電子郵件訊息](using/brand-portal-branding.md)
-   + [使用自訂搜尋 Facet](using/brand-portal-search-facets.md)
    + [使用中繼資料結構表單](using/brand-portal-metadata-schemas.md)
    + [套用影像預設集或動態轉譯](using/brand-portal-image-presets.md)
    + [使用報表](using/brand-portal-reports.md)
