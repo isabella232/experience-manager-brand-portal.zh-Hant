@@ -1,27 +1,26 @@
 ---
-title: 瀏覽品牌入口網站上的資產
-seo-title: 瀏覽品牌入口網站上的資產
-description: 使用品牌入口網站上的不同檢視選項和UI元素，瀏覽資產、遍歷資產階層並搜尋資產。
-seo-description: 使用品牌入口網站上的不同檢視選項和UI元素，瀏覽資產、遍歷資產階層並搜尋資產。
+title: 在Brand Portal上瀏覽資產
+seo-title: 在Brand Portal上瀏覽資產
+description: 在Brand Portal上使用不同的檢視選項和UI元素，瀏覽資產、周遊資產階層和搜尋資產。
+seo-description: 在Brand Portal上使用不同的檢視選項和UI元素，瀏覽資產、周遊資產階層和搜尋資產。
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
-source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
+exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 3%
 
 ---
 
+# 瀏覽Brand Portal上的資產{#browsing-assets-on-brand-portal}
 
-# 瀏覽品牌入口網站{#browsing-assets-on-brand-portal}上的資產
+AEM Assets Brand Portal提供多種功能和使用者介面元素，可方便您瀏覽資源、遍歷資產階層，以及在使用不同檢視選項時搜尋資產。
 
-AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您瀏覽各種資源、遍歷資產階層，以及在使用不同檢視選項時搜尋資產。
-
-頂端AEM工具列中的AEM標誌可協助管理員使用者存取管理工具面板。
+頂端的AEM工具列中的AEM標誌可方便管理員使用者存取管理工具面板。
 
 ![](assets/aemlogo.png)
 
@@ -29,19 +28,19 @@ AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您
 
 ![](assets/bp_subheader.png)<br />
 
-品牌入口網站左上角的邊欄選擇器會下拉式清單，以顯示導覽至資產階層、簡化搜尋並顯示資源的選項。
+Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資產階層、簡化搜尋及顯示資源的選項。
 
 ![](assets/siderail-1.png)
 
-您可以使用品牌入口網站右上角的檢視選擇器中的任何可用檢視（卡片、欄和清單）來檢視、瀏覽及選取資產。
+您可以使用Brand Portal右上角的檢視選取器中的任何可用檢視（卡片、欄和清單）來檢視、導覽及選取資產。
 
 ![](assets/viewselector.png)
 
 ## 查看和選擇資源{#viewing-and-selecting-resources}
 
-檢視、導覽和選取每個檢視在概念上都相同，但處理方式的變化較小，視您使用的檢視而定。
+檢視、導覽和選取每個檢視在概念上在所有檢視中都相同，但處理方式有小的變化，視您使用的檢視而定。
 
-您可以使用任何可用的檢視來檢視、瀏覽及選擇（以執行進一步動作）您的資源：
+您可以使用任何可用檢視來檢視、導覽及選取（以執行進一步動作）您的資源：
 
 * 欄檢視
 * 卡片檢視
@@ -51,37 +50,37 @@ AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您
 
 ![](assets/card-view.png)
 
-卡片檢視會顯示目前層級上每個項目的資訊卡。 這些卡片提供下列詳細資訊：
+卡片視圖顯示當前級別上每個項目的資訊卡。 這些卡片提供下列詳細資料：
 
-* 資產／資料夾的視覺呈現。
+* 資產/資料夾的視覺表示法。
 * 類型
 * 標題
 * 名稱
-* 資產從AEM發佈至品牌入口網站的日期和時間
+* 從AEM發佈資產至Brand Portal的日期和時間
 * 大小
 * 尺寸
 
-您可以點選／按一下卡片（小心以避免快速動作），或使用標題](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[階層連結，以向下導覽階層。
+您可以點選/按一下資訊卡（注意以避免快速動作），或使用標題](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[階層連結，以向下導覽階層。
 
 ![](assets/cardquickactions.png)
 
-#### 非管理員使用者的資訊卡檢視
+#### 非管理員使用者的卡片檢視
 
-資料夾的卡片在「卡片檢視」中，會向非管理員使用者（編輯者、檢視器和來賓使用者）顯示資料夾階層資訊。 此功能可讓使用者得知資料夾的位置，以及他們存取的上層階層。
-資料夾層次結構資訊對於區分具有與從不同資料夾層次結構共用的其他資料夾相似名稱的資料夾特別有用。 如果非管理員使用者不知道與他們共用之資產的檔案夾結構，則名稱相似的資產／檔案夾似乎會令人困惑。
+資料夾卡片在「卡片檢視」中，會向非管理員使用者（編輯者、檢視者和訪客使用者）顯示資料夾階層資訊。 此功能可讓使用者了解資料夾的位置，以及他們正在存取的父階層。
+資料夾階層資訊對於區分名稱類似於從不同資料夾階層共用之其他資料夾的資料夾特別有用。 如果非管理員使用者不知道與他們共用之資產的資料夾結構，則名稱類似的資產/資料夾似乎會令人困惑。
 
-* 各卡片上顯示的路徑會被截斷以符合卡片大小。 不過，使用者可將完整路徑視為將滑鼠暫留在截斷路徑上的工具提示。
+* 個別卡片上顯示的路徑會遭截斷以符合卡片大小。 不過，使用者可將完整路徑視為將游標暫留在截斷路徑上的工具提示。
 
 ![](assets/folder-hierarchy1.png)
 
-**檢視資產屬性的概述選項**
+**檢視資產屬性的概觀選項**
 
-「概述」選項可供非管理員使用者（編輯者、檢視者、來賓使用者）檢視選取資產／檔案夾的「資產屬性」。 「概述」(Overview)選項可見：
+非管理員使用者（編輯者、檢視者、訪客使用者）可使用概述選項來檢視所選資產/資料夾的資產屬性。 「概述」選項會顯示：
 
-* 在工具列上，選擇資產／資料夾。
-* 在下拉式清單中，選取邊欄選擇器。
+* 在頂端的工具列中選取資產/資料夾。
+* 在下拉式清單中選取邊欄選取器。
 
-在選取資產／資料夾時選取&#x200B;**[!UICONTROL 概述]**&#x200B;選項時，使用者可以看到資產建立的標題、路徑和時間。 但是，在資產詳細資料頁面上，選取「概述」選項可讓使用者查看資產的中繼資料。
+在選取資產/資料夾時選取&#x200B;**[!UICONTROL 概述]**&#x200B;選項時，使用者可以看到資產建立的標題、路徑和時間。 然而，在資產詳細資料頁面上選取「概述」選項，可讓使用者查看資產的中繼資料。
 
 ![](assets/overview-option.png)
 
@@ -89,7 +88,7 @@ AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您
 
 #### 在卡片檢視中檢視設定
 
-**[!UICONTROL 在從視]** 圖選擇器中選擇「視圖設 **[!UICONTROL 置」]** 時，「視圖設定」對話框開啟。它可讓您調整卡片檢視中資產縮圖的大小。 這樣，您就可以個人化檢視，並控制顯示的縮圖數。
+**[!UICONTROL 從檢]** 視選取器選取檢視設定 **[!UICONTROL 時，]** 會開啟檢視設定對話方塊。它可讓您調整「卡片」檢視中的資產縮圖大小。 這樣，您就可以個人化您的檢視，並控制顯示的縮圖數目。
 
 ![](assets/cardviewsettings.png)
 
@@ -104,13 +103,13 @@ AEM Assets Brand Portal提供多種功能和使用者介面元素，可協助您
 * 標題
 * 地區設定
 * 類型
-* 維
+* Dimension
 * 大小
 * 評等
 * 顯示資產階層<sup>*</sup>的資料夾路徑
-* 在品牌入口網站上發佈資產的日期
+* 在Brand Portal上發佈資產的日期
 
-路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以點選／按一下資源名稱，然後使用標題](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[階層連結，以向下導覽階層。
+路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以點選/按一下資源名稱，然後使用標題](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[階層連結來進行備份，以向下導覽階層。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在清單檢視中檢視設定
 
-清單檢視預設會將資產&#x200B;**[!UICONTROL Name]**&#x200B;顯示為第一欄。 還顯示了諸如資產&#x200B;**[!UICONTROL 標題]**、**[!UICONTROL 地區]**、**[!UICONTROL 類型]**、**[!UICONTROL 尺寸]**、**[!UICONTROL 大小]**、**[!UICONTROL 評分]**&#x200B;的其他資訊，發佈狀態。 不過，您可以使用&#x200B;**[!UICONTROL 檢視設定]**&#x200B;選取要顯示的欄。
+清單檢視預設會將資產&#x200B;**[!UICONTROL 名稱]**&#x200B;顯示為第一欄。 還顯示了其他資訊，如資產&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Locale]**、**[!UICONTROL Type]**、**[!UICONTROL Dimension]**、**[!UICONTROL Size]**、**[!UICONTROL Rating]**，發佈狀態。 但是，您可以使用&#x200B;**[!UICONTROL View Settings]**&#x200B;選擇要顯示的列。
 
 ![](assets/list-view-setting.png)
 
@@ -126,26 +125,26 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ![](assets/column-view.png)
 
-使用列視圖可以在一系列級聯列中導航內容樹。 此檢視可協助您視覺化並遍歷資產階層。
+使用列視圖可在一系列級聯列中導航內容樹。 此檢視可協助您視覺化及周遊資產階層。
 
-在第一列（最左側）中選擇資源時，右側第二列中的子資源會顯示。 在第二欄中選擇資源時，右側第三欄會顯示子資源，依此類推。
+在第一欄（最左邊）中選取資源時，右側第二欄會顯示子資源。 在第二欄中選取資源會在第三欄中的右側顯示子資源，以此類推。
 
-通過點選或按一下資源名稱或資源名稱右側的雪佛龍，可以在樹中上下導航。
+您可以點選或按一下資源名稱或資源名稱右側的>形，以在樹狀結構中上下導覽。
 
-* 點選或點選資源名稱和Chevron時會反白顯示。
+* 點選或按一下時，資源名稱和>形箭號會強調顯示。
 * 點選或按一下縮圖會選取資源。
-* 選中後，複選標籤會覆蓋在縮略圖上，並加亮資源名稱。
-* 選定資源的詳細資訊顯示在最終列中。
+* 選中後，複選標籤覆蓋在縮略圖上，並加亮資源名稱。
+* 所選資源的詳細資訊會顯示在最終欄中。
 
-在欄檢視中選取資產時，資產的視覺化表示會顯示在最終欄中，並包含下列詳細資訊：
+在欄檢視中選取資產時，資產的視覺表示會顯示在最終欄中，並有下列詳細資料：
 
 * 標題
 * 名稱
 * 尺寸
-* 資產從AEM發佈至品牌入口網站的日期和時間
+* 從AEM發佈資產至Brand Portal的日期和時間
 * 大小
 * 類型
-* 「更多詳細資訊」選項，以前往資產的詳細資訊頁面
+* 「更多詳情」選項，前往資產的詳細資訊頁面
 
 <!--
 Comment Type: draft
@@ -233,32 +232,32 @@ Comment Type: draft
 
 ## 內容樹 {#content-tree}
 
-除了這些檢視外，在您檢視並選取所需資產或檔案夾時，使用樹狀檢視來下鑽資產階層。
+除了這些檢視外，在您檢視並選取所需資產或資料夾時，使用樹狀檢視來下鑽資產階層。
 
-若要開啟樹狀檢視，請點選／按一下左上角的邊欄選擇器，然後從選單中選取「**[!UICONTROL 內容樹狀結構]**」。
+若要開啟樹狀檢視，請點選/按一下左上方的邊欄選取器，然後從功能表選取&#x200B;**[!UICONTROL 內容樹]**。
 
 ![](assets/contenttree.png)
 
-從內容階層導覽至所要的資產。
+從內容階層導覽至所需的資產。
 
 ![](assets/content-tree.png)
 
 ## 資產詳細內容 {#asset-details}
 
-資產詳細資料頁面可讓您檢視資產、下載、共用資產的連結、將資產移至系列或檢視其屬性頁面。 它還允許您連續瀏覽同一資料夾中其他資產的詳細資訊頁面。
+資產詳細資料頁面可讓您檢視資產、下載、共用資產的連結、將其移至集合，或檢視其屬性頁面。 它也可讓您連續導覽相同資料夾中其他資產的詳細資訊頁面。
 
 ![](assets/asset-detail.png)
 
-若要檢視資產的中繼資料或檢視其各種轉譯，請使用資產詳細資料頁面上的邊欄選擇器。
+若要檢視資產的中繼資料，或檢視其各種轉譯，請使用資產詳細資料頁面上的邊欄選取器。
 
 ![](assets/asset-overview.png)
 
-您可以在資產詳細資料頁面上檢視資產的所有可用轉譯，並選取要預覽的轉譯。
+您可以在資產詳細資訊頁面上檢視資產的所有可用轉譯，然後選取轉譯以預覽。
 
 ![](assets/renditions.png)
 
-若要開啟資產屬性頁面，請從頂端列使用&#x200B;**[!UICONTROL 屬性(p)]**&#x200B;選項。
+若要開啟資產屬性頁面，請使用頂端列的&#x200B;**[!UICONTROL 屬性(p)]**&#x200B;選項。
 
 ![](assets/asset-properties.png)
 
-您也可以在資產屬性頁面上檢視其所有相關資產（AEM上的來源或衍生資產）的清單，因為資產關係也會從AEM發佈至品牌入口網站。
+您也可以在資產屬性頁面上檢視其所有相關資產(AEM上的來源或衍生資產)的清單，因為資產關係也會從AEM發佈至Brand Portal。
