@@ -1,90 +1,89 @@
 ---
 title: 共用集合
 seo-title: 共用集合
-description: AEM Assets品牌入口網站管理員可以與授權使用者共用或取消共用系列或智慧型系列。 編輯人員只能檢視和共用由他們建立、與他們共用的系列，以及公開的系列。
-seo-description: AEM Assets品牌入口網站管理員可以與授權使用者共用或取消共用系列或智慧型系列。 編輯人員只能檢視和共用由他們建立、與他們共用的系列，以及公開的系列。
+description: AEM Assets Brand Portal管理員可與授權使用者共用或取消共用集合或智慧型集合。 編輯者只能檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
+seo-description: AEM Assets Brand Portal管理員可與授權使用者共用或取消共用集合或智慧型集合。 編輯者只能檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
-source-git-commit: a587061bc8afe250a88b4a02b42b6acd9ef6bbeb
+exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 1%
 
 ---
 
+# 共用集合{#share-collections}
 
-# 共用系列{#share-collections}
+集合代表儲存在Adobe Experience Manager Assets Brand Portal中的一組相關資產。 使用者可透過[套用omnisearch或facet搜尋來建立智慧型集合，以篩選掉相關資產](brand-portal-searching.md)並將它們儲存在一起，以方便存取，並進一步與其他Brand Portal使用者共用。
 
-系列代表一組儲存在Adobe Experience Manager Assets品牌入口網站中的相關資產。 使用者可透過[套用搜尋或Facet搜尋來建立智慧型系列，以篩選出相關資產](brand-portal-searching.md)並將它們儲存在一起，以方便存取並進一步與其他品牌入口網站使用者共用。
-
-管理員可以與授權品牌入口網站使用者共用及取消共用系列。 編輯人員和檢視者可檢視並共用由他們建立、與他們共用的系列，以及公開的系列。
+管理員可與獲授權的Brand Portal使用者共用及取消共用集合。 編輯者和檢視者可以檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
 
 >[!NOTE]
 >
->編輯者無法將公開系列變更為非公開的系列，因此&#x200B;**[!UICONTROL 系列設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公開系列]**&#x200B;核取方塊。
+>編輯器無法將公用集合變更為非公用集合，因此在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊可用。
 
 ## 共用集合 {#share-collection}
 
-以下是與授權品牌入口網站使用者共用系列的步驟：
+以下是與授權Brand Portal使用者共用集合的步驟：
 
-1. 登入您的品牌入口網站租用戶。 依預設，會開啟&#x200B;**[!UICONTROL 檔案]**&#x200B;檢視，其中包含所有已發佈的資產和資料夾。
+1. 登入您的Brand Portal租用戶。 依預設，會開啟&#x200B;**[!UICONTROL 檔案]**&#x200B;檢視，其中包含所有已發佈的資產和資料夾。
 
-1. 在頂端的快速導覽中，按一下「系列」****。
+1. 在頂端的快速導覽中，按一下&#x200B;**[!UICONTROL 集合]**。
 
-1. 從&#x200B;**[!UICONTROL Collections]**&#x200B;控制台，執行下列任一操作：
+1. 在&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中，執行下列任一操作：
 
-   * 將指標暫留在您要共用的系列上。 從系列的快速動作縮圖中，按一下「設定」**[!UICONTROL 圖示。]**
+   * 將指標暫留在您要共用的集合上。 在集合可用的快速操作縮圖中，按一下&#x200B;**[!UICONTROL Settings]**&#x200B;表徵圖。
 
       ![](assets/settings-icon.png)
 
-   * 選取您要共用的系列。 在頂部的工具欄上，按一下「**[!UICONTROL 設定]**」。
+   * 選取您要共用的集合。 從頂端的工具列按一下&#x200B;**[!UICONTROL 設定]**。
 
       ![](assets/collection-console.png)
 
-1. 在&#x200B;**[!UICONTROL 系列設定]**&#x200B;對話方塊中，選取您要與其共用系列的使用者，並選取使用者的角色，以符合其全域角色。 例如，將編輯器角色分配給全局編輯器，將查看器角色分配給全局查看器。
+1. 在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話框中，選擇要與其共用集合的用戶，並為用戶選擇角色以匹配其全局角色。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
 
-   或者，若要讓系列可供所有使用者使用，而不論其群組成員資格和角色為何，請選取「公用系列」核取方塊，將其公開。****
+   或者，若要讓集合可供所有使用者使用（無論其群組成員資格和角色為何），請選取&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊，將集合公開。
 
    >[!NOTE]
    >
-   >不過，非管理員使用者可能無法建立公用系列，以避免擁有大量公用系列，以節省系統空間。 組織可以停用「管理工具」面板中「允許從&#x200B;**[!UICONTROL 一般]**&#x200B;設定建立公用系列」。****
+   >不過，可限制非管理員使用者建立公用集合，以避免擁有大量公用集合，以便儲存系統空間。 組織可以從「管理工具」面板中可用的&#x200B;**[!UICONTROL 「一般」]**&#x200B;設定停用「允許建立公用集合」]**設定。**[!UICONTROL 
 
    ![](assets/collection_sharingadduser.png)
 
-   編輯者無法將公開系列變更為非公開的系列，因此在&#x200B;**[!UICONTROL 系列設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公開系列]**&#x200B;核取方塊。
+   編輯器無法將公用集合變更為非公用集合，因此在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊可用。
 
    ![](assets/collection-setting-editor.png)
 
-1. 按一下&#x200B;**[!UICONTROL 添加]**&#x200B;按鈕添加用戶，然後按一下&#x200B;**[!UICONTROL 保存]**。 系列會與使用者共用。
+1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;按鈕以添加用戶，然後按一下&#x200B;**[!UICONTROL Save]**。 集合會與使用者共用。
 
    >[!NOTE]
    >
-   >使用者的角色控制對系列內資產和資料夾的存取。 如果使用者沒有資產的存取權，則會與使用者共用空的系列。 此外，使用者的角色也會控制系列的可用動作。
+   >使用者的角色控制對集合內資產和資料夾的存取。 如果使用者沒有資產的存取權，則會與使用者共用空白集合。 此外，使用者的角色會控制集合可用的動作。
 
-## 取消共用系列{#unshare-a-collection}
+## 取消共用集合{#unshare-a-collection}
 
-若要取消共用先前共用的系列，請執行下列動作：
+若要取消共用先前共用的集合，請執行下列動作：
 
-1. 從&#x200B;**[!UICONTROL Collections]**&#x200B;主控台中，選取您要取消共用的系列。
+1. 在&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中，選擇要取消共用的集合。
 
-   在頂部的工具欄上，按一下「**[!UICONTROL 設定]**」。
+   從頂端的工具列按一下&#x200B;**[!UICONTROL 設定]**。
 
    ![](assets/collection_settings.png)
 
-1. 在&#x200B;**[!UICONTROL 系列設定]**&#x200B;對話方塊的&#x200B;**[!UICONTROL 成員]**&#x200B;區段下，按一下使用者旁的&#x200B;**[!UICONTROL x]**&#x200B;符號，將它們從可存取系列的使用者清單中移除。
+1. 在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話框的&#x200B;**[!UICONTROL 成員]**&#x200B;部分下，按一下用戶旁的&#x200B;**[!UICONTROL x]**&#x200B;符號，從有權訪問集合的用戶清單中刪除它們。
 
    ![](assets/unshare_collection.png)
 
-1. 出現警告訊息。 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;取消共用系列。
+1. 出現警告訊息。 按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;以取消共用集合。
 
-1. 按一下&#x200B;**[!UICONTROL 保存]**&#x200B;以應用更改。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以應用更改。
 
-   從共用清單移除使用者後，非共用的系列就會從使用者的&#x200B;**[!UICONTROL Collections]**&#x200B;主控台移除。
+   從共用清單中移除使用者後，非共用集合即會從使用者的&#x200B;**[!UICONTROL 集合]**&#x200B;主控台中移除。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
