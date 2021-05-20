@@ -6,9 +6,8 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
-feature: Brand Portal
+feature: 品牌入口網站
 role: Business Practitioner
-translation-type: tm+mt
 source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
 source-wordcount: '281'
@@ -17,7 +16,7 @@ ht-degree: 80%
 ---
 
 
-# Adobe Experience Manager資產品牌入口網站指南{#using}
+# Adobe Experience Manager Assets Brand Portal指南 {#using}
 
 + [Brand Portal 指南](using/home.md)
 + 簡介 {#introduction}
@@ -27,7 +26,7 @@ ht-degree: 80%
    + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [瞭解與AEM Assets的品牌入口網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
+   + [透過AEM Assets了解Brand Portal](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
 + 從 AEM Assets 發佈至 Brand Portal {#publish}
    + [使用 Brand Portal 設定 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
@@ -38,8 +37,8 @@ ht-degree: 80%
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-brand-portal}
-   + [資產來源補充概述](using/brand-portal-asset-sourcing.md)
-   + [在AEM Assets配置貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Asset Sourcing概觀](using/brand-portal-asset-sourcing.md)
+   + [在AEM Assets中設定貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
    + [共用集合](using/brand-portal-share-collection.md)
