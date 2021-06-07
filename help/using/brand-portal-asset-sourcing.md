@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
+source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 4%
+source-wordcount: '684'
+ht-degree: 5%
 
 ---
 
@@ -30,16 +30,24 @@ ht-degree: 4%
 
 此外，所有現有功能均維持不變。 Brand Portal使用者可以從貢獻資料夾以及其他允許的資料夾檢視、搜尋和下載資產。 管理員也可以進一步共用貢獻資料夾、修改屬性，以及新增資產至集合。
 
+![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## 必備條件 {#prerequisites}
 
 * AEM Assets作為Cloud Service例項，AEM Assets 6.5.2或更新版本。
 * 確認您的AEM Assets執行個體已使用Brand Portal進行設定。 請參閱[使用Brand Portal設定AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
-* 請確定您的Brand Portal租用戶已設定一個AEM Assets製作例項。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+<!--
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
-![Brand Portal Asset Sourcing](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>AEM Assets as aCloud ServiceAEM Assets 6.5.9及更新版本預設會啟用「資產來源補充」功能。
+>
+>現有設定在舊版中仍可繼續運作。
 
 >[!NOTE]
 >
@@ -49,44 +57,55 @@ ht-degree: 4%
 >
 >若要立即修正AEM 6.5.4，建議您[下載hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)並安裝在您的製作執行個體上。
 
-## 配置Asset Sourcing {#configure-asset-sourcing}
+<!--
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
-**Asset** Sourceing是從AEM Assets製作執行個體中設定。管理員可從&#x200B;**AEM Web Console設定**&#x200B;啟用資產來源補充功能標幟設定，並在&#x200B;**AEM Assets**&#x200B;中上傳作用中的Brand Portal使用者清單。
-
->[!NOTE]
->
->AEM Assets as a Asset Sourcing預設為啟用Cloud Service。 AEM管理員可直接上傳有效的Brand Portal使用者，以允許他們存取Asset Sourcing功能。
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
 >
->開始進行設定之前，請確定您的AEM Assets執行個體已使用Brand Portal進行設定。 請參閱[使用Brand Portal設定AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
-下列影片示範如何在AEM Assets製作執行個體上設定Asset Sourcing:
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
-### 啟用Asset Sourcing {#enable-asset-sourcing}
+<!--
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
-AEM管理員可以從AEM Web Console設定（亦即Configuration Manager）中啟用「資產來源補充」功能標幟。
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 >[!NOTE]
 >
->此步驟不適用於AEM Assets作為Cloud Service。
+>This step is not applicable for AEM Assets as a Cloud Service.
 
 
-**要啟用Asset Sourcing，請執行以下操作：**
-1. 登入您的AEM Assets製作執行個體並開啟Configuration Manager。
-預設URL:http://localhost:4502/system/console/configMgr。
-1. 使用關鍵字&#x200B;**Asset Sourcing**&#x200B;搜尋，以找出&#x200B;**[!UICONTROL Asset Sourcing功能標幟Config]**。
-1. 按一下「**[!UICONTROL 資產來源補充功能標幟設定]** 」以開啟設定視窗。
-1. 選取&#x200B;**[!UICONTROL feature.flag.active.status]**&#x200B;核取方塊。
-1. 按一下「**[!UICONTROL 儲存]**」。
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### 上傳Brand Portal使用者清單{#upload-bp-user-list}
 
-AEM管理員可上傳包含AEM Assets中作用中Brand Portal使用者清單的Brand Portal使用者設定(.csv)檔案。 貢獻資料夾只能與使用者清單中定義的作用中Brand Portal使用者共用。 管理員也可以在設定檔案中新增使用者，並上傳已修改的使用者清單。
+AEM管理員可上傳Brand Portal使用者設定(.csv)檔案，其中包含AEM Assets中作用中的Brand Portal使用者清單，以允許他們存取Asset Sourcing功能。
+
+貢獻資料夾只能與使用者清單中定義的作用中Brand Portal使用者共用。 管理員也可以在設定檔案中新增使用者，並上傳已修改的使用者清單。
+
+>[!NOTE]
+>
+>確認您的AEM Assets執行個體已使用Brand Portal進行設定。 請參閱[使用Brand Portal設定AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
 >[!NOTE]
 >
