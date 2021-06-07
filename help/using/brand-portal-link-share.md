@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1013'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,9 @@ Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用
 
    >[!NOTE]
    >
-   >如果選取要下載的資料夾、集合或超過20個資產，則會略過&#x200B;**[!UICONTROL Download]**&#x200B;對話方塊，而除動態轉譯外之使用者可存取的所有資產轉譯會下載至Zip資料夾。 系統會為zip資料夾內的每個資產建立個別的資料夾。
+   >從共用連結下載資產時，系統會為每個資產建立個別的資料夾。
+   >
+   >如果選取要下載的資料夾、集合或超過20個資產，則會略過&#x200B;**[!UICONTROL Download]**&#x200B;對話方塊，而使用者可存取的所有資產轉譯（不包括動態轉譯）會下載至包含每個資產個別資料夾的zip資料夾中。
 
    >[!NOTE]
    >
