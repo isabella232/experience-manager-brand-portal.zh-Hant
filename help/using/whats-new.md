@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新功能
 seo-title: AEM Assets Brand Portal 的新功能
-description: 查看2021.02.0的新功能和增強功能。
-seo-description: 查看2021.02.0的新功能和增強功能。
+description: 查看2021.06.0的新功能和增強功能。
+seo-description: 查看2021.06.0的新功能和增強功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
 workflow-type: tm+mt
-source-wordcount: '6138'
+source-wordcount: '6154'
 ht-degree: 3%
 
 ---
@@ -21,11 +21,51 @@ ht-degree: 3%
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Adobe正致力於改善整體Brand Portal體驗。 以下是新功能和增強功能的潛在概覽。
 
-## 2021.02.0中的變更{#what-changed-in-feb-2021}
+## 2021.06.0中的變化 {#what-changed-in-june-2021}
 
-Brand Portal 2021.02.0是增強功能版本，在AEM Assets as aCloud Service上導入Brand Portal啟動工作流程、促進AEM Assets as aCloud Service上的Asset Sourcing功能、改善資產下載體驗，並包含重要修正。 此外，管理員也能設定資料夾、集合和租用戶層級資產的預設下載行為。 Brand Portal **[!UICONTROL 使用狀況報表]**&#x200B;也已修改，以反映作用中的Brand Portal使用者。 請參閱最新的[Brand Portal發行說明](brand-portal-release-notes.md)。
+Brand Portal 2021.06.0是內部版本，包含重要問題的修正。 請參閱最新的[Brand Portal發行說明](brand-portal-release-notes.md)。
 
-### 在AEM Assets上以Cloud Service方式啟用Brand Portal {#bp-automation-on-cloud-service}
+<!--
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+   
+### Add new users to T2E organization   {#add-users-to-T2E-org}
+
+On adding a new user in Admin Console for a new or migrated T2E organization, the user will have to perform an additional step **Join Team** to get entitled to the T2E organization. 
+
+The user is entitled only if the user chooses to **Join Team**, otherwise the user won't get access to the selected T2E organization in Brand Portal. 
+
+>[!NOTE]
+>
+>The workflow is not applicable to the existing Brand Portal users.
+
+![join team](assets/join-team.png)
+
+### Additional screen while navigating to Admin Console   {#navigate-to-admin-console}
+
+The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console. The workflow applies on the new and migrated T2E organizations.   
+
+Selecting the T2E organization is a one-time activity and is not required everytime the administrator navigates from Brand Portal to Admin Console.
+
+1. Log in to a T2E organization in Brand Portal as administrator.
+1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Users]** > **[!UICONTROL Management]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+
+   Or, go to **[!UICONTROL Unified Shell]** > **[!UICONTROL Administration]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+1. Search the T2E organization to login to Admin Console.
+
+   ![org picker](assets/org-picker.png)
+
+-->
+
+<!--
+For a new or migrated T2E orgnization, the users will have an organization specific entitlement. A user can have multiple entitlements with the same email id for different T2E organizations. 
+-->
+
+## 2021.02.0中的變化 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0是增強功能版本，在AEM Assets as aCloud Service上導入Brand Portal啟動工作流程、促進AEM Assets as aCloud Service上的Asset Sourcing功能、改善資產下載體驗，並包含重要修正。 此外，管理員也能設定資料夾、集合和租用戶層級資產的預設下載行為。 Brand Portal **[!UICONTROL 使用狀況報表]**&#x200B;也已修改，以反映作用中的Brand Portal使用者。
+
+### 在AEM Assets上啟用Brand Portal作為Cloud Service {#bp-automation-on-cloud-service}
 
 AEM Assets as aCloud Service現在有權使用預先設定的Brand Portal執行個體。 Cloud Manager使用者可在AEM Assets上以Cloud Service例項的形式啟用Brand Portal。
 
@@ -77,7 +117,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
 -->
 
-### 使用狀況報表{#usage-report}
+### 使用狀況報表 {#usage-report}
 
 已修改Brand Portal **[!UICONTROL 使用狀況報表]**，僅反映作用中的品牌入口網站使用者。 未指派給Admin Console中任何產品設定檔的Brand Portal使用者會視為非作用中使用者，且不會反映在&#x200B;**[!UICONTROL 使用狀況報表]**&#x200B;中。
 
@@ -85,12 +125,12 @@ The default behavior of downloading the assets using share link is now independe
 
 ![](assets/usage-report.png)
 
-## 2020.10.0中的變更{#what-changed-in-oct-2020}
+## 2020.10.0中的變化 {#what-changed-in-oct-2020}
 
 Brand Portal 2020.10.0是增強功能版本，著重於簡化資產下載體驗，並包含重要修正。 增強功能包括資產下載的全新和改良的工作流程、排除轉譯的其他選項、從&#x200B;**[!UICONTROL 轉譯]**&#x200B;面板直接下載、為特定使用者群組允許存取和下載權限的設定，以及從所有Brand Portal頁面輕鬆導覽至檔案、集合和共用連結。 請參閱最新的[Brand Portal發行說明](brand-portal-release-notes.md)。
 
 
-### 簡化的下載體驗{#download-dialog}
+### 簡化的下載體驗 {#download-dialog}
 
 之前， **[!UICONTROL 下載]**&#x200B;對話方塊會出現多個選項，例如為每個資產、電子郵件資產、選取原始資產、自訂轉譯、動態轉譯、排除系統轉譯，以及啟用下載加速，這些選項在選取多個資產或資料夾時，對非技術或新使用者不明確，尤其是對要下載的多個資產或資料夾時。 此外，使用者無法看見所有資產轉譯或排除特定的自訂或動態轉譯。
 
@@ -117,7 +157,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 
 ![下載對話](assets/download-dialog-box.png)
 
-### 快速導航{#quick-navigation}
+### 快速導覽  {#quick-navigation}
 
 以前，查看&#x200B;**[!UICONTROL 檔案]**、**[!UICONTROL 集合]**&#x200B;和&#x200B;**[!UICONTROL 共用連結]**&#x200B;的選項被隱藏，並且每次用戶要切換到其他視圖時需要多次點擊。
 
@@ -125,7 +165,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 
 ![集合導覽](assets/collection-navigation.png)
 
-### 增強的轉譯面板{#rendition-panel}
+### 增強的轉譯面板 {#rendition-panel}
 
 過去，如果&#x200B;**[!UICONTROL Download]**&#x200B;配置中啟用了任何&#x200B;**[!UICONTROL Custom Rendition]**&#x200B;或&#x200B;**[!UICONTROL System Rendition]**，則用戶只能在&#x200B;**[!UICONTROL Renditions]**&#x200B;面板中查看原始資產及其格式副本。 此外，使用者必須下載所有資產轉譯，因為沒有篩選器可排除不需要的特定自訂或動態轉譯。
 
@@ -146,7 +186,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### 配置下載設定{#download-permissions}
+### 配置下載設定 {#download-permissions}
 
 除了現有的&#x200B;**[!UICONTROL 下載]**&#x200B;設定外，Brand Portal管理員也可以設定不同使用者群組的設定，以檢視和（或）從資產詳細資訊頁面下載原始資產及其轉譯。
 
@@ -179,7 +219,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
  >
 -->
 
-## 6.4.7 {#what-changed-in-647}中的變更
+## 6.4.7中的變更 {#what-changed-in-647}
 
 Brand Portal 6.4.7版導入了檔案檢視器，增強了下載資產的體驗，並包含重要修正。 請參閱最新的[Brand Portal發行說明](brand-portal-release-notes.md)。
 
@@ -187,7 +227,7 @@ Brand Portal 6.4.7版導入了檔案檢視器，增強了下載資產的體驗�
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
 -->
 
-### 文檔查看器{#doc-viewer}
+### 文檔查看器 {#doc-viewer}
 
 文檔查看器增強了PDF查看體驗。 在Brand Portal中檢視PDF檔案時，提供與Adobe Document Cloud類似的體驗。
 
@@ -202,7 +242,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ![](assets/doc-viewer.png)
 
-### 下載體驗{#download-configurations}
+### 下載體驗 {#download-configurations}
 
 改寫資產下載程式，從Brand Portal[下載資產時，提供簡化的使用者體驗。](brand-portal-download-assets.md)
 
@@ -224,7 +264,7 @@ Brand Portal管理員可啟用任何組合以設定資產下載。
 根據設定，獨立資產、多個資產、包含資產的資料夾、授權或未授權資產以及使用共用連結下載資產的下載工作流程將維持不變。
 
 
-## 6.4.6 {#what-changed-in-646}中的變更
+## 6.4.6中的變更 {#what-changed-in-646}
 
 在Brand Portal 6.4.6中，AEM Assets與Brand Portal之間的授權通道已變更。 AEM Assets as aCloud Service、AEM Assets 6.3及更新版本現已支援Brand Portal。 在AEM Assets 6.3及更新版本中，Brand Portal先前是透過舊版OAuth閘道在傳統UI中設定，該閘道會使用JWT權杖交換來取得IMS存取權杖以進行授權。 AEM Assets現在可透過「Adobe開發人員控制台」使用Brand Portal進行設定，這會擷取IMS代號，以便授權您的Brand Portal租用戶。
 
@@ -274,7 +314,7 @@ Brand Portal管理員可啟用任何組合以設定資產下載。
 
 請參閱[Brand Portal常見問題集](brand-portal-faqs.md)。
 
-## 6.4.5 {#what-changed-in-645}中的變更
+## 6.4.5中的變更 {#what-changed-in-645}
 
 
 Brand Portal 6.4.5 發佈了一項功能，此功能主要讓 Brand Portal 使用者 (外部代理商/團隊) 無需存取作者環境，就可將內容上傳至 Brand Portal 並發佈至 AEM Assets。這項功能稱為「Brand Portal中的&#x200B;**[Asset Sourcing」](brand-portal-asset-sourcing.md)**，為使用者提供雙向機制，以便貢獻資產並與分散於全球各地的其他Brand Portal使用者共用資產，進而改善客戶體驗。
@@ -296,7 +336,7 @@ Asset Sourcing可讓AEM使用者（管理員/非管理員使用者）使用額�
 >
 >舊版不支援AEM 6.3和AEM 6.4。
 
-### 上傳資產至貢獻資料夾{#upload-assets-in-bp}
+### 上傳資產至貢獻資料夾 {#upload-assets-in-bp}
 
 擁有適當權限的Brand Portal使用者可以下載資產需求，以了解貢獻的需求，並將包含多個資產的多個資產或資料夾上傳至貢獻資料夾。 不過，請注意，Brand Portal使用者只能將資產上傳至&#x200B;**NEW**&#x200B;子資料夾。 **SHARED**&#x200B;資料夾的用途是分配需求和基線資產。
 
@@ -312,7 +352,7 @@ Asset Sourcing可讓AEM使用者（管理員/非管理員使用者）使用額�
 
 ![](assets/upload-asset5.png)
 
-## 6.4.4 {#what-changed-in-644}中的變更
+## 6.4.4中的變更 {#what-changed-in-644}
 
 Brand Portal 6.4.4 版著重於文字搜尋和主要客戶請求的增強功能。請參閱最新的[Brand Portal發行說明](brand-portal-release-notes.md)。
 
@@ -322,7 +362,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性述詞的部分文字�
 
 請閱讀以深入了解部分文字搜尋和萬用字元搜尋。
 
-#### 部分片語搜索{#partial-phrase-search}
+#### 部分片語搜尋 {#partial-phrase-search}
 
 您現在可以在篩選窗格中，僅指定所搜尋片語的一個部分（即一兩個字），以搜尋資產。
 
@@ -333,7 +373,7 @@ Brand Portal 6.4.4以上版本支援篩選窗格中屬性述詞的部分文字�
 
 ![](assets/partialphrasesearch.png)
 
-#### 通配符搜索{#wildcard-search}
+#### 通配符搜索 {#wildcard-search}
 
 Brand Portal允許在搜尋查詢中使用星號(*)，以及搜尋片語中單字的一部分。
 
@@ -356,7 +396,7 @@ Brand Portal允許在搜尋查詢中使用星號(*)，以及搜尋片語中單�
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
-## 6.4.3 {#what-changed-in}中的變更
+## 6.4.3中的變更 {#what-changed-in}
 
 Brand Portal 6.4.3版著重於：在Brand Portal存取URL中，除了為組織提供租用戶ID外，還為組織提供替代別名、新的資料夾階層設定、視訊支援增強功能、從AEM製作例項到Brand Portal的排程發佈、作業增強功能，以及符合客戶要求。
 
@@ -457,7 +497,7 @@ Dynamic Media視訊編碼可從以下位置下載：
 * 選擇僅下載轉譯（而非原始資產）。
 * 限制存取原始轉譯時，請下載資產。
 
-## 6.4.6 {#what-changed-in-1}中的變更
+## 6.4.2中的變更 {#what-changed-in-1}
 
 Brand Portal 6.4.2版提供多種功能，可滿足組織的資產發佈需求，並協助透過訪客存取和加速下載的最佳體驗，觸及分散於全球各地的大量使用者。 Brand Portal也透過管理員的新設定、新新增的報表，為組織提供更優異的控制力，並能符合客戶要求。
 
@@ -552,7 +592,7 @@ Brand Portal 6.4.2以上版本使用Adobe.io [https://legacy-oauth.cloud.adobe.i
 管理員可以使用更新的屬性述詞來使屬性述詞不區分大小寫，該謂詞會檢查「忽略大小寫」。 此選項適用於屬性述詞和多值屬性述詞。\
 不過，不區分大小寫的搜尋會相對比屬性述詞的預設搜尋來得慢。 如果搜尋篩選器中有太多不區分大小寫的謂語，搜尋可能會變慢。 因此，建議審慎使用不區分大小寫的搜尋。
 
-## 6.4.1 {#what-changed-in-2}中的變更
+## 6.4.1中的變更 {#what-changed-in-2}
 
 Brand Portal 6.4.1為平台升級版本，提供多項新功能和重要增強功能，例如瀏覽、搜尋和效能增強功能，以提供符合客戶需求的體驗。
 
@@ -640,7 +680,7 @@ Brand Portal 6.4.1為平台升級版本，提供多項新功能和重要增強�
 
 * 若有人要求存取Brand Portal，除了Brand Portal通知區的通知外，系統會透過存取要求電子郵件通知管理員。
 
-## 6.3.2 {#what-changed-in-3}中的變更
+## 6.3.2中的變更 {#what-changed-in-3}
 
 Brand Portal 6.3.2包含針對熱門客戶要求的全新增強功能，以及一般效能增強功能。
 
@@ -654,7 +694,7 @@ Brand Portal 6.3.2包含針對熱門客戶要求的全新增強功能，以及�
 
 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#requestaccesstobrandportal)。
 
-### 增強下載的資產報表{#enhancement-in-the-assets-downloaded-report}
+### 增強下載的資產報表 {#enhancement-in-the-assets-downloaded-report}
 
 下載的資產報表現在包含指定日期和時間範圍內每位使用者的資產下載計數。 使用者可以下載.csv格式的報表，並編譯資料，例如授權資產的總下載計數。
 
@@ -662,7 +702,7 @@ Brand Portal 6.3.2包含針對熱門客戶要求的全新增強功能，以及�
 
 如需詳細資訊，請參閱[建立和管理其他報表](../using/brand-portal-reports.md#createandmanageadditionalreports)中的步驟3和6。
 
-### Brand Portal維護通知{#brand-portal-maintenance-notification}
+### Brand Portal維護通知 {#brand-portal-maintenance-notification}
 
 Brand Portal現在會在未來維護活動前幾天顯示通知橫幅。 範例通知：
 
@@ -670,7 +710,7 @@ Brand Portal現在會在未來維護活動前幾天顯示通知橫幅。 範例�
 
 如需詳細資訊，請參閱[Brand Portal維護通知](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)。
 
-### 增強使用連結共用功能{#enhancement-for-licensed-assets-shared-using-the-link-share-feature}共用的授權資產
+### 增強使用連結共用功能共用的授權資產 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 使用連結共用功能下載授權資產時，系統現在會提示您同意這些資產的授權合約。
 
@@ -678,25 +718,25 @@ Brand Portal現在會在未來維護活動前幾天顯示通知橫幅。 範例�
 
 如需詳細資訊，請參閱[以連結形式共用資產中的步驟12。](../using/brand-portal-link-share.md#shareassetsasalink)
 
-### 用戶選擇器增強功能{#user-picker-enhancement}
+### 使用者選擇器增強功能 {#user-picker-enhancement}
 
 現在已增強使用者選擇器效能，以符合擁有大量使用者的客戶需求。
 
-### Experience Cloud品牌變更{#experience-cloud-branding-changes}
+### Experience cloud品牌變更 {#experience-cloud-branding-changes}
 
 Brand Portal現已符合新的Adobe Experience Cloud品牌。
 
 ![](assets/bp_solution_switcher.png)
 
-## 6.3.1 {#what-changed-in-4}中的變更
+## 6.3.1中的變更 {#what-changed-in-4}
 
 Brand Portal 6.3.1包含新的增強功能，旨在讓Brand Portal與AEM一致。
 
-### 升級用戶介面{#upgraded-user-interface}
+### 升級的用戶介面 {#upgraded-user-interface}
 
 為了讓Brand Portal的使用者體驗與AEM一致，Adobe正在轉換至Coral 3使用者介面。 這項變更可增強整體可用性，包括導覽和外觀。
 
-#### 增強的導覽體驗{#enhanced-navigational-experience}
+#### 增強的導覽體驗 {#enhanced-navigational-experience}
 
 * 透過新的Adobe標誌快速存取管理工具：
 
@@ -714,7 +754,7 @@ Brand Portal 6.3.1包含新的增強功能，旨在讓Brand Portal與AEM一致�
 
 ![](assets/omnisearchicon.png)
 
-### 增強的瀏覽體驗{#enhanced-browsing-experience}
+### 增強的瀏覽體驗 {#enhanced-browsing-experience}
 
 * 新的列視圖以瀏覽嵌套的資料夾：
 
@@ -722,7 +762,7 @@ Brand Portal 6.3.1包含新的增強功能，旨在讓Brand Portal與AEM一致�
 
 * 在資料夾中的資產清單中，最新上傳的資產會顯示在頂端。
 
-### 增強的搜尋體驗{#enhanced-search-experience}
+### 增強的搜尋體驗 {#enhanced-search-experience}
 
 * 全新搜尋功能有助於在您輸入搜尋關鍵字時，透過自動建議快速存取相關內容、功能或標籤。 所有搜尋功能均提供全方位搜尋功能。
 
@@ -737,27 +777,27 @@ Brand Portal 6.3.1包含新的增強功能，旨在讓Brand Portal與AEM一致�
 * 新的搜尋提升功能可讓您改善搜尋關聯性，讓特定資產顯示在搜尋結果的頂端。
 * 新的路徑型搜尋功能可讓您提供巢狀資料夾的路徑，以便搜尋該資料夾中的資產。
 
-#### 新的智慧標籤型搜尋{#new-smart-tags-based-search}
+#### 新的智慧標籤型搜尋 {#new-smart-tags-based-search}
 
 如果具有智慧標籤的影像從AEM Assets發佈至Brand Portal，您可以使用智慧標籤名稱作為搜尋關鍵字，在Brand Portal中搜尋這些影像。 此功能僅適用於檔案。
 
-### 增強的下載體驗{#enhanced-downloading-experience}
+### 增強的下載體驗 {#enhanced-downloading-experience}
 
 下載巢狀資料夾後，您可以保留原始資料夾階層。 巢狀資料夾內的資產可從單一資料夾下載，而非透過個別資料夾。
 
-### 改善效能{#improved-performance}
+### 效能改善 {#improved-performance}
 
 瀏覽、搜尋和下載功能的增強功能可大幅改善Brand Portal效能。
 
-### 資產的新數位版權管理{#new-digital-rights-management-for-assets}
+### 資產的全新數位版權管理 {#new-digital-rights-management-for-assets}
 
 管理員可以先設定資產的到期日和時間，再共用資產。 資產過期後，檢視者和編輯都可看見資產，但無法下載。 資產過期時，管理員會收到通知。
 
-### 增強資產排序{#enhanced-asset-sorting}
+### 增強資產排序功能 {#enhanced-asset-sorting}
 
 清單檢視中，資料夾中的資產排序不再受限於第一頁上顯示的資產數量。 資料夾中的所有資產都會排序，而不論是否都列在第一頁。
 
-### 增強報告{#reporting-capabilities}
+### 增強的報告功能 {#reporting-capabilities}
 
 管理員可以建立和管理三種報表類型：下載、過期和發佈的資產。 也提供設定報表欄及將報表匯出為CSV格式的功能。
 
@@ -769,7 +809,7 @@ Brand Portal 6.3.1引進了其他中繼資料，其與AEM Assets 6.3相同。您
 
 ![](assets/additionsinmetadata.png)
 
-### 管理員的其他功能{#additional-capabilities-for-administrators}
+### 管理員的其他功能 {#additional-capabilities-for-administrators}
 
 * 在最終完成對登錄螢幕壁紙的自定義之前，管理員可以預覽更改。
 
@@ -777,7 +817,7 @@ Brand Portal 6.3.1引進了其他中繼資料，其與AEM Assets 6.3相同。您
 
 * 管理員新增使用者後，使用者不需要接受邀請即可新增至Brand Portal，就會自動新增。
 
-### AEM Assets 6.3 {#new-publishing-capabilities-in-aem-assets}中的新發佈功能
+### AEM Assets 6.3中的新發佈功能 {#new-publishing-capabilities-in-aem-assets}
 
 * AEM管理員可使用AEM 6.3 SP 1-CFP 1(6.3.1.1)，將中繼資料結構從AEM Assets發佈至Brand Portal（將於2017年第4季推出）。
 
