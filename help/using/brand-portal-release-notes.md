@@ -1,8 +1,8 @@
 ---
 title: 發行說明
 seo-title: 發行說明
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
-seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版中的增強功能、已修正的重大問題，以及已知問題。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
+seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的增強功能、已修正的重大問題，以及已知問題。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,40 +10,41 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 5%
+source-wordcount: '327'
+ht-degree: 8%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
+深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2021.02.0 |
-| 日期 | 2021年2月 |
+| 版本 | 2021.06.0 |
+| 日期 | 2021年6月 |
 
 ## 概覽 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式來瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2021.02.0的新增功能{#whats-new-in-2021.02.0}
+## 2021.06.0的新增功能{#whats-new-in-2021.06.0}
 
-### 新功能{#new-features}
+<!--
+### New Features {#new-features}
 
-此版本包含下列新功能：
+This release includes the following new features:
 
-* AEM Assets as aCloud Service現在有權使用預先設定的Brand Portal執行個體。 Cloud Manager使用者可在AEM Assets上以Cloud Service例項的形式啟用Brand Portal。
+* AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-* AEM Assets現在以Cloud Service形式提供「資產來源補充」功能。 它可讓Brand Portal使用者將資產上傳至允許的貢獻資料夾，並將貢獻資料夾從Brand Portal發佈至AEM Assets，作為Cloud Service例項。
+* Asset Sourcing feature is now available on AEM Assets as a Cloud Service. It allows the Brand Portal users to upload assets to the permitted contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. 
 
-* 已在&#x200B;**[!UICONTROL 下載設定]**&#x200B;下引入其他&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定。 它會在下載資料夾、集合或大量下載資產時，為每個資產建立個別的資料夾。
-
+* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+-->
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 -->
@@ -66,12 +67,25 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-### 增強功能 {#enhancements}
+<!--
+### Enhancements {#enhancements}
 
-此版本包含下列增強功能：
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
 
-* 若是資料夾下載，系統會使用共用連結為每個資產建立獨立的資料夾，而不考慮&#x200B;**[!UICONTROL 下載設定]**。
-* 已修改Brand Portal **[!UICONTROL 使用狀況報表]**，僅反映作用中的Brand Portal使用者。
+This release includes the following enhancements:
+
+* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+
+
+* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+
+* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
+-->
+
+<!-- 
+* For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
+* The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active Brand Portal users.
+-->
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -79,26 +93,41 @@ Brand Portal users can exclude specific renditions which are not required and di
 -->
 
 
-### 修正的嚴重問題{#critical-issues-fixed}
+### 已修正的重大問題 {#critical-issues-fixed}
 
-此發行包含下列重大問題的修正：
+Brand Portal 2021.06.0是內部版本，包含下列重大問題的修正：
 
-* 如果只下載原始資產，資產會反映其自己的擴充功能，而且在手動將擴充功能變更為zip之前不會開啟。
-* 按一下導覽箭頭時，集合資料夾的使用者介面沒有回應。
-* **** 即使資料夾為空， **** 列視圖中也會顯示Createbutton。
-* **[!UICONTROL 如果]** 在存取Brand Portal例項時略過Dispatcher,Omni searchfails會顯示414錯誤訊息(Request-URI Too Long)。
-* 如果資產的檔案名稱中包含逗號(`,`)，則會下載空白的zip資料夾。
-* 檢視器使用者可以取得選項，將使用者新增至其建立的集合。
-* 使用共用連結下載資產（縮圖或Web轉譯）時，會出現不一致的行為。
+* 有些組織不會傳送Asset Sourcing電子郵件通知。
 
-請參閱[Brand Portal 2021.02.0的新功能](whats-new.md)。
+* 副檔名為.mov的影片檔案未在Brand Portal上執行。
 
+* 在「智慧型集合」下拉式清單中，只會顯示10個儲存的集合。
 
-### 已知問題 {#known-issues}
+<!--
+* *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
+-->
 
-此版本包含下列已知問題：
+<!--
+In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
+* The user interface of the collection folder does not respond on clicking the navigation arrow. 
+* **[!UICONTROL Create]** button is visible in the **[!UICONTROL Column]** view even when the folders are empty.
+* **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
+* An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
+* The viewer users get the option to add users to the collection they have created. 
+* Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
-* 使用者沒有收到Asset Sourcing發佈工作流程的電子郵件通知。
+See [what's new in Brand Portal 2021.02.0](whats-new.md).
+-->
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+
+  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
+-->
 
 <!--
 ### Known Issues {#known-issues}
@@ -161,7 +190,7 @@ Brand Portal使用者介面提供下列語言版本：
 * 簡體中文
 * 韓文
 
-## 認證平台{#certified-platforms}
+## 認證平台 {#certified-platforms}
 
 若要確認哪些平台經認證可透過此版本的Brand Portal執行，請參閱[技術需求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**製作使用者介面支援瀏覽器**&#x200B;區段中表格的&#x200B;**觸控最佳化UI支援**&#x200B;欄。
 
@@ -170,7 +199,7 @@ Brand Portal使用者介面提供下列語言版本：
 * [Adobe Experience Manager Product Page on adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Assets Brand Portal檔案](https://helpx.adobe.com/tw/experience-manager/brand-portal/user-guide.html)
 
-## 產品存取與支援（限制網站）{#product-access-and-support-restricted-sites}
+## 產品存取與支援（受限網站） {#product-access-and-support-restricted-sites}
 
 這些網站僅供客戶使用。 如果您是Adobe，需要存取權，請聯絡您的客戶經理。
 
