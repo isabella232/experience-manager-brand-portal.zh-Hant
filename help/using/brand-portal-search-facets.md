@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
+role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: b4aa1bf08b8edc21d980d16d8a0068e453ae627d
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 8%
@@ -29,7 +29,7 @@ Brand Portal支援[多面搜尋](../using/brand-portal-searching.md#search-using
 >
 >AEM可讓組織[將自訂的搜尋表單從AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)發佈至Brand Portal，而非在Brand Portal上重新建立相同的表單。
 
-## 新增搜尋述詞{#add-a-search-predicate}
+## 新增搜尋述詞 {#add-a-search-predicate}
 
 要將搜索謂詞添加到&#x200B;**[!UICONTROL 篩選器]**&#x200B;面板：
 
@@ -85,7 +85,7 @@ Brand Portal支援[多面搜尋](../using/brand-portal-searching.md#search-using
 
 1. 在&#x200B;**[!UICONTROL Property]**&#x200B;文字方塊中輸入要搜尋的資產標題。 例如，「Adobe」。 執行搜尋時，標題符合「Adobe」的資產會顯示在搜尋結果中。
 
-## 搜索謂詞清單{#list-of-search-predicates}
+## 搜索謂詞清單 {#list-of-search-predicates}
 
 與新增&#x200B;**[!UICONTROL Property]**&#x200B;述詞的方式類似，您可以將下列述詞新增至&#x200B;**[!UICONTROL Filters]**&#x200B;面板：
 
@@ -113,7 +113,7 @@ Brand Portal支援[多面搜尋](../using/brand-portal-searching.md#search-using
 >
 >請勿使用&#x200B;**[!UICONTROL 選項述詞]**、**[!UICONTROL 發佈狀態述詞]**&#x200B;和&#x200B;**[!UICONTROL 評等述詞]**，因為這些述詞在Brand Portal中無法運作。
 
-## 刪除搜索謂詞{#delete-a-search-predicate}
+## 刪除搜索謂詞 {#delete-a-search-predicate}
 
 要刪除搜索謂詞，請執行以下步驟：
 
