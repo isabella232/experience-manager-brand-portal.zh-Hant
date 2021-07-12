@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
+role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Brand Portal管理員可以對顯示給使用者的介面進行有限的自訂。 您可以為Brand Portal登入頁面選擇特定的背景影像（壁紙）。 您也可以新增標題影像及自訂資產共用電子郵件，以符合客戶的品牌。
 
-## 自定義登錄螢幕牆紙{#customize-the-login-screen-wallpaper}
+## 自訂登入畫面壁紙 {#customize-the-login-screen-wallpaper}
 
 如果沒有自訂品牌壁紙影像，則預設壁紙會顯示在登入頁面上。
 
@@ -71,7 +71,7 @@ Brand Portal管理員可以對顯示給使用者的介面進行有限的自訂�
 
 
 
-## 自訂標題{#customize-the-header}
+## 自訂標題 {#customize-the-header}
 
 登入Brand Portal後，標題會顯示在各種Brand Portal頁面上。
 
@@ -123,7 +123,7 @@ Brand Portal管理員可以對顯示給使用者的介面進行有限的自訂�
 
 
 
-## 自訂電子郵件訊息{#customize-the-email-messaging}
+## 自訂電子郵件訊息 {#customize-the-email-messaging}
 
 當資產以連結形式共用時，使用者會收到包含連結的電子郵件。 管理員可以自訂這些電子郵件的傳訊內容，即標誌、說明和頁尾。
 
