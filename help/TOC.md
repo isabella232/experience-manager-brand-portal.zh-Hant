@@ -7,8 +7,8 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
 feature: 品牌入口網站
-role: Business Practitioner
-source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
+role: User
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 80%
