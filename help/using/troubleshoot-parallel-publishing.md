@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Brand Portal已透過AEM Assets設定，可從AEM Assets作者例項順暢地擷
 
 ![](assets/test-connection.png)
 
-## 疑難排解首次發佈的失敗問題：驗證發佈配置{#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 疑難排解首次發佈的失敗問題：驗證發佈配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 驗證發佈設定的方式：
 
@@ -61,11 +61,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### 清除現有的Brand Portal發佈設定{#clean-up-existing-config}
+### 清除現有的Brand Portal發佈設定 {#clean-up-existing-config}
 
 發佈時，大部分情況下可能是因為發佈的使用者(例如：`mac-<tenantid>-replication`沒有最新的私密金鑰，因此發佈失敗並出現「401 unauthorized」錯誤，且復寫代理記錄中未回報其他錯誤。 您可能不想進行疑難排解，而是建立新的設定。 若要讓新設定正常運作，請從AEM作者設定中清除下列項目：
 
-1. 前往`localhost:4502/crx/de/`(考慮您正在localhost:4502上執行Author例項：\
+1. 前往`localhost:4502/crx/de/`(考慮您正在localhost:4502:上執行製作例項\
    我。刪除`/etc/replication/agents.author/mp_replication`
 ii. 刪除 
 `/etc/cloudservices/mediaportal/<config_name>`
@@ -76,7 +76,7 @@ ii. 刪除此用戶
 
 現在系統都清理好了。 現在，您可以嘗試建立新的cloudservice配置，並仍然使用[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)中已存在的JWT應用程式。 不需要建立新應用程式，只需從新建立的雲端設定更新公開金鑰即可。
 
-## Developer connection JWT應用程式租戶可見性問題{#developer-connection-jwt-application-tenant-visibility-issue}
+## Developer connection JWT應用程式租用戶可見性問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
 如果位於[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)，則列出當前用戶持有系統管理員的所有組織（租戶）。 如果您在此處找不到組織名稱，或者您無法在此處為所需的租戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限來執行此操作。
 
@@ -84,7 +84,7 @@ ii. 刪除此用戶
 
 JWT應用程式可能未正確列出。 因此，建立JWT應用程式時，建議您記下URL/將其加入書籤。
 
-## 運行配置停止工作{#running-configuration-stops-working}
+## 運行配置停止工作 {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -118,7 +118,7 @@ permission
 建議您根據錯誤記錄支援票證，讓Brand Portal工程團隊可協助您解決問題。
 
 
-## 配置複製代理以避免連接超時錯誤{#connection-timeout}
+## 配置複製代理以避免連接超時錯誤 {#connection-timeout}
 
 如果復寫佇列中有多個待處理請求，發佈工作通常會因逾時錯誤而失敗。 若要解決此問題，請確定復寫代理已設定為避免逾時。
 
