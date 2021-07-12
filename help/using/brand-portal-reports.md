@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
+role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 報表管理介面直覺式，包含存取儲存報表的微調選項和控制項。 您可以從「資產報表」頁面檢視、下載或刪除報表，其中會列出所有先前產生的報表。
 
-## 查看報告{#view-reports}
+## 檢視報表 {#view-reports}
 
 若要檢視報表，請依照下列步驟操作：
 
@@ -82,7 +82,7 @@ ht-degree: 2%
    >
    >若要透過共用連結追蹤下載，您必須在&#x200B;**[!UICONTROL 建立報表]**&#x200B;頁面上選取&#x200B;**[!UICONTROL 僅連結共用下載]**&#x200B;選項後產生下載報表。 但在此情況下，使用者（下載者）是匿名的。
 
-## 生成報告{#generate-reports}
+## 產生報表 {#generate-reports}
 
 管理員可產生和管理下列標準報表，一旦產生，便會儲存為[accessed](../using/brand-portal-reports.md#main-pars-header)以後：
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 1. 點選/按一下&#x200B;**[!UICONTROL 建立]**。 訊息會通知報表產生已開始。
 
-## 下載報表{#download-reports}
+## 下載報表 {#download-reports}
 
 若要將報表儲存並下載為.csv檔案，請執行下列其中一項操作：
 
@@ -151,7 +151,7 @@ ht-degree: 2%
 
 ![](assets/download-report-fromwithin.png)
 
-## 刪除報告{#delete-reports}
+## 刪除報表 {#delete-reports}
 
 若要刪除現有報表，請從&#x200B;**[!UICONTROL 資產報表]**&#x200B;頁面選取報表，然後從頂端的工具列點選/按一下&#x200B;**[!UICONTROL 刪除]**。
 
