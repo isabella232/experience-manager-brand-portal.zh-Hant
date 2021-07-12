@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
+role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 每個資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面包含預設中繼資料屬性，視資產的MIME類型而定。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂中繼資料結構。 AEM Assets Brand Portal提供各種MIME類型資產的預設表單。 不過，您也可以為這類資產新增自訂表單。
 
-## 添加元資料架構表單{#add-a-metadata-schema-form}
+## 新增中繼資料結構表單 {#add-a-metadata-schema-form}
 
 要建立新的元資料結構表單，請執行以下操作：
 
@@ -43,7 +43,7 @@ ht-degree: 11%
 
    ![](assets/create-schema-form.png)
 
-## 編輯元資料架構表單{#edit-a-metadata-schema-form}
+## 編輯中繼資料結構表單 {#edit-a-metadata-schema-form}
 
 您可以編輯新增或現有的中繼資料結構表單。 中繼資料結構表單包含衍生自其上層的內容，包括索引標籤和索引標籤內的表單項目。 您可以將這些表單項目對應或設定至中繼資料節點內的欄位。
 
@@ -74,7 +74,7 @@ ht-degree: 11%
 
 1. 要配置元件，請選擇該元件並在&#x200B;**[!UICONTROL Settings]**&#x200B;頁簽中修改其屬性。
 
-### 「生成表單」頁簽{#components-in-the-build-form-tab}中的元件
+### 「生成表單」頁簽中的元件 {#components-in-the-build-form-tab}
 
 **[!UICONTROL 建置表單]**&#x200B;索引標籤會列出您可在架構表單中使用的項目。 **[!UICONTROL 設定]**&#x200B;標籤提供您在&#x200B;**[!UICONTROL 建置表單]**&#x200B;標籤中選擇的每個項的屬性。 下表列出&#x200B;**[!UICONTROL Build Form]**&#x200B;索引標籤中可用的表單項目：
 
@@ -98,7 +98,7 @@ ht-degree: 11%
 >
 >請勿使用&#x200B;**[!UICONTROL 產品參考]**，因為它無法運作。
 
-#### 編輯元資料元件{#edit-the-metadata-component}
+#### 編輯中繼資料元件 {#edit-the-metadata-component}
 
 要編輯表單上元資料元件的屬性，請按一下該元件並在&#x200B;**[!UICONTROL Settings]**&#x200B;頁簽中編輯其屬性。
 
@@ -125,7 +125,7 @@ ht-degree: 11%
 >
 >所有中繼資料欄位在資產的中繼資料編輯器表單中為唯讀。 由於資產的中繼資料必須在AEM Assets中編輯，才能將資產發佈至Brand Portal。
 
-#### 在架構表單{#add-or-delete-a-tab-in-the-schema-form}中添加或刪除頁簽
+#### 在架構表單中新增或刪除索引標籤 {#add-or-delete-a-tab-in-the-schema-form}
 
 預設架構表單包含&#x200B;**[!UICONTROL Basic]**&#x200B;和&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤。 架構編輯器可讓您新增或刪除標籤。
 
@@ -137,7 +137,7 @@ ht-degree: 11%
 
 * 若要刪除標籤，請按一下&#x200B;**[!UICONTROL x]**。 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存變更。
 
-## 將元資料架構應用於資料夾{#apply-a-metadata-schema-to-a-folder}
+## 將中繼資料結構套用至資料夾 {#apply-a-metadata-schema-to-a-folder}
 
 Brand Portal可讓您自訂和控制中繼資料結構，讓資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面只顯示您選擇顯示的特定資訊。 要控制&#x200B;**[!UICONTROL 屬性]**&#x200B;頁中顯示的元資料，請從元資料架構表單中刪除所需的元資料，並將其應用到特定資料夾。
 
@@ -169,7 +169,7 @@ Brand Portal可讓您自訂和控制中繼資料結構，讓資產的&#x200B;**[
 >
 >如果將包含巢狀結構的結構套用至包含視訊檔案的資料夾，視訊檔案的中繼資料屬性可能無法正確轉譯。 若要確保中繼資料屬性正確呈現，請移除巢狀結構，並僅將上層結構套用至資料夾。
 
-## 刪除元資料架構表單{#delete-a-metadata-schema-form}
+## 刪除中繼資料結構表單 {#delete-a-metadata-schema-form}
 
 Brand Portal可讓您僅刪除自訂結構描述表單。 它不會讓您刪除預設的結構描述表單/範本。 不過，您可以刪除這些表單中的任何自訂變更。
 
@@ -181,13 +181,13 @@ Brand Portal可讓您僅刪除自訂結構描述表單。 它不會讓您刪除�
 >
 >刪除對預設表單所做的自定義更改後，**[!UICONTROL Lock]**&#x200B;符號將重新出現在元資料架構介面上的表單名稱前面，以指示表單已恢復到其預設狀態。
 
-## MIME類型{#schema-forms-for-mime-types}的架構表單
+## MIME類型的架構表單 {#schema-forms-for-mime-types}
 
-### 為MIME類型{#adding-new-forms-for-mime-types}添加新表單
+### 添加MIME類型的新表單 {#adding-new-forms-for-mime-types}
 
 除了預設表單外，您還可以為各種MIME類型的資產新增自訂表單，或在適當的表單類型下建立新表單。 例如，若要新增影像/png子類型 **[!UICONTROL 的新範本]** ，請在「影像」表單下建立表單。方案表單的標題是子類型名稱。在本例中，標題為&quot;png&quot;.
 
-#### 對各種MIME類型{#using-an-existing-schema-template-for-various-mime-types}使用現有架構模板
+#### 對各種MIME類型使用現有架構模板 {#using-an-existing-schema-template-for-various-mime-types}
 
 您可以將現有範本用於不同的MIME類型。 例如，對於MIME類型&#x200B;**image/png**&#x200B;的資產，請使用&#x200B;**image/jpeg**&#x200B;表單。
 
