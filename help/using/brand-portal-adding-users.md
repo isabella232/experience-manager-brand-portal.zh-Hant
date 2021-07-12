@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-role: Administrator
+role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
 
 ---
 
-# 管理用戶、組和用戶角色{#manage-users-groups-and-user-roles}
+# 管理使用者、群組和使用者角色 {#manage-users-groups-and-user-roles}
 
 管理員可以使用Adobe Admin Console建立AEM Assets Brand Portal使用者和產品設定檔，並使用Brand Portal使用者介面管理其角色。 檢視器和編輯器無法使用此權限。
 
@@ -39,7 +39,7 @@ Comment Type: draft
 >
 >若要在Brand Portal中建立群組，請從Adobe[!UICONTROL Admin Console]使用&#x200B;**[!UICONTROL 產品>產品設定檔]**，而非&#x200B;**[!UICONTROL 使用者頁面>使用者群組]**。 Adobe[!UICONTROL Admin Console]中的產品設定檔可用來在Brand Portal中建立群組。
 
-## 添加用戶{#add-a-user}
+## 新增使用者 {#add-a-user}
 
 如果您是產品管理員，請使用Adobe[[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)來建立使用者，並將其指派給產品設定檔（*先前稱為產品設定檔*），這些設定檔在Brand Portal中顯示為群組。 您可以使用群組來執行大量作業，例如角色管理和資產共用。
 
@@ -86,7 +86,7 @@ Comment Type: draft
 
    有關授予用戶管理權限的資訊，請參閱[為用戶提供管理員權限](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)。
 
-## 新增產品設定檔{#add-a-product-profile}
+## 新增產品設定檔 {#add-a-product-profile}
 
 [!UICONTROL Admin Console]中的產品設定檔（舊稱為產品設定）可用來在Brand Portal中建立群組，以便您執行大量作業，例如在Brand Portal中執行角色管理和資產共用。 **Brand Portalis** 提供預設的產品設定檔；您可以建立更多產品設定檔，並將使用者新增至新的產品設定檔。
 
@@ -119,7 +119,7 @@ Comment Type: draft
 
    ![產品設定檔](assets/admin_console_productprofileadded.png)
 
-## 將使用者新增至產品設定檔{#add-users-to-a-product-profile}
+## 將使用者新增至產品設定檔 {#add-users-to-a-product-profile}
 
 若要將使用者新增至Brand Portal群組，請將使用者新增至[!UICONTROL Admin Console]中的對應產品設定檔（舊稱產品設定檔）。 您可以個別或大量新增使用者。
 
@@ -173,7 +173,7 @@ Comment Type: draft
 
    新增至自訂或新產品設定檔的使用者不會收到電子郵件通知。
 
-## 為用戶{#provide-administrator-privileges-to-users}提供管理員權限
+## 為用戶提供管理員權限 {#provide-administrator-privileges-to-users}
 
 您可以向Brand Portal使用者提供系統管理員或產品管理員權限。 請勿提供[!UICONTROL Admin Console]中可用的其他管理權限，如產品配置檔案管理員、用戶組管理員和支援管理員。 要了解有關這些角色的詳細資訊，請參閱[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
 
@@ -224,7 +224,7 @@ Comment Type: draft
    >要撤銷用戶的管理員權限，請在&#x200B;**[!UICONTROL 編輯管理員]**&#x200B;頁中進行適當的更改，然後按一下&#x200B;**[!UICONTROL 保存]**。
 
 
-## 管理用戶角色{#manage-user-roles}
+## 管理使用者角色 {#manage-user-roles}
 
 管理員可修改Brand Portal中使用者的角色。
 
@@ -263,7 +263,7 @@ Comment Type: draft
    >
    >只有在使用者重新登入Brand Portal後，使用者權限的變更才會反映在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中。
 
-## 管理組角色和權限{#manage-group-roles-and-privileges}
+## 管理組角色和權限 {#manage-group-roles-and-privileges}
 
 管理員可將特定權限與Brand Portal上的[group](../using/brand-portal-adding-users.md#main-pars-title-278567577)使用者建立關聯。 **[!UICONTROL 使用者角色]**&#x200B;頁面上的&#x200B;**[!UICONTROL 群組]**&#x200B;標籤可讓管理員：
 
