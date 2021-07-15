@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 785be735a11277ea16e269bfc00368ced88ed510
+source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Comment Type: draft
    ![新增使用者至Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. 將使用者指派至少一個產品設定檔（先前稱為產品設定檔），讓使用者可以存取Brand Portal。 從&#x200B;**[!UICONTROL 中選擇相應的產品配置檔案。請為此產品]**&#x200B;欄位選擇配置檔案。
-1. 按一下「**[!UICONTROL 儲存]**」。會傳送歡迎電子郵件給新新增的使用者。 受邀的使用者可以按一下歡迎電子郵件中的連結，以存取Brand Portal。 使用者可使用以Admin Console設定的電子郵件ID([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL 摘要ID])登入。 如需詳細資訊，請參閱[首次登入體驗](../using/brand-portal-onboarding.md)。
+1. 按一下「**[!UICONTROL 儲存]**」。會傳送歡迎電子郵件給新新增的使用者。 受邀的使用者可以按一下歡迎電子郵件中的連結，以存取Brand Portal。 使用者可以使用Admin Console中設定的電子郵件ID([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL 摘要ID])登入。 如需詳細資訊，請參閱[首次登入體驗](../using/brand-portal-onboarding.md)。
 
    >[!NOTE]
    >
