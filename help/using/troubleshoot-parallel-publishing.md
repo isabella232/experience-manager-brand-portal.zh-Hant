@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -74,11 +74,11 @@ ii. 刪除
    我。搜索用戶`mac-<tenantid>replication`
 ii. 刪除此用戶
 
-現在系統都清理好了。 現在，您可以嘗試建立新的cloudservice配置，並仍然使用[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)中已存在的JWT應用程式。 不需要建立新應用程式，只需從新建立的雲端設定更新公開金鑰即可。
+現在系統都清理好了。 現在，您可以嘗試建立新的cloudservice配置，並仍然使用`https://legacy-oauth.cloud.adobe.io/`中已存在的JWT應用程式。 不需要建立新應用程式，只需從新建立的雲端設定更新公開金鑰即可。
 
 ## Developer connection JWT應用程式租用戶可見性問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果位於[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)，則列出當前用戶持有系統管理員的所有組織（租戶）。 如果您在此處找不到組織名稱，或者您無法在此處為所需的租戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限來執行此操作。
+如果在`https://legacy-oauth.cloud.adobe.io/`上，則列出當前用戶持有系統管理員的所有組織（租戶）。 如果您在此處找不到組織名稱，或者您無法在此處為所需的租戶建立應用程式，請檢查您是否擁有足夠的（系統管理員）權限來執行此操作。
 
 此使用者介面有一個已知問題，即任何租用戶只能看到前10個應用程式。 建立應用程式時，請停留在該頁面並將URL加入書籤。 您不需要前往應用程式的清單頁面，並尋找您建立的應用程式。 您可以直接點擊此書籤化URL，並視需要更新/刪除應用程式。
 
