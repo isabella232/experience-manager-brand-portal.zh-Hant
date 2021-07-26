@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 2%
+source-wordcount: '1482'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版或更舊版本時，一般使用者可能會遇到的查詢和問題。
 
 
-## Brand Portal 6.4.6常見問題集{#faqs-bp646}
+## Brand Portal 6.4.6常見問題集  {#faqs-bp646}
 
 **是的。現有的舊版OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
@@ -40,7 +40,11 @@ Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版
 
 此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
-若要立即修正AEM 6.5.4，建議您[下載hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)並安裝在您的AEM製作執行個體上。
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
 **是的。我沒有看到從AEM Assets中的Brand Portal發佈的貢獻資料夾內容。 可能的原因是什麼？**
 
@@ -65,7 +69,7 @@ Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版
 1. 重新啟動伺服器並驗證連接。
 
 
-## Brand Portal 6.4.5常見問題集{#faqs-bp645}
+## Brand Portal 6.4.5常見問題集  {#faqs-bp645}
 
 **是的。Brand Portal 6.4.5版有何重大變更？**
 
@@ -194,7 +198,7 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 >發行時間表是暫時性的，可能會有所變更。 請連絡您的Adobe客戶經理或客戶支援，以取得更新的發行排程。
 
 
-## 產品存取與支援（限制網站）{#product-access-and-support-restricted-sites}
+## 產品存取與支援（受限網站） {#product-access-and-support-restricted-sites}
 
 這些網站僅供客戶使用。 如果您是Adobe，需要存取權，請聯絡您的客戶經理。
 
