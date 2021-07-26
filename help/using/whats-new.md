@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '6154'
+source-wordcount: '6148'
 ht-degree: 3%
 
 ---
@@ -138,7 +138,7 @@ Brand Portal 2020.10.0是增強功能版本，著重於簡化資產下載體驗�
 
 >[!NOTE]
 >
->所有使用者現在都會預設啟用&#x200B;**[!UICONTROL Fast Download]**，且在從Brand Portal下載資產之前，須先在其瀏覽器的擴充功能中安裝[IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。
+>所有使用者現在都會預設啟用&#x200B;**[!UICONTROL Fast Download]**，且在從Brand Portal下載資產之前，須先在其瀏覽器的擴充功能中安裝[IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9)。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -585,7 +585,7 @@ Brand Portal為非管理員使用者（編輯者、檢視者、訪客使用者�
 
 ### Adobe I/OUI以設定oAuth整合
 
-Brand Portal 6.4.2以上版本使用Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)介面來建立JWT應用程式，這可啟用設定oAuth整合以允許AEM Assets與Brand Portal整合。 之前，用於設定OAuth整合的UI托管於`https://marketing.adobe.com/developer/`。 若要深入了解如何整合AEM Assets與Brand Portal，以便將資產和集合發佈至Brand Portal，請參閱[設定AEM Assets與Brand Portal的整合](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+Brand Portal 6.4.2以上版本使用舊版OAuth(`https://legacy-oauth.cloud.adobe.io/`)介面來建立JWT應用程式，此應用程式可啟用設定oAuth整合，以允許AEM Assets與Brand Portal整合。 之前，用於設定OAuth整合的UI托管於`https://marketing.adobe.com/developer/`。 若要深入了解如何整合AEM Assets與Brand Portal，以便將資產和集合發佈至Brand Portal，請參閱[設定AEM Assets與Brand Portal的整合](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
 
 ## 搜尋增強功能
 
