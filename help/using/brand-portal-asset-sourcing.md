@@ -17,14 +17,14 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
+source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 資產來源補充概述{#overview-asset-sourcing-in-bp}
+# Asset Sourcing概觀 {#overview-asset-sourcing-in-bp}
 
 **AEM** 使用者（管理員/非管理員使用者）可透過額外的Asset Contribution屬性來建立新資料夾，確保所建立的新資 **** 料夾可供Brand Portal使用者開啟，方便資產提交。這會自動觸發在新建立的&#x200B;**Contribution**&#x200B;資料夾內建立另外兩個子資料夾（稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**）的工作流程。 然後，AEM管理員將應新增至貢獻資料夾的資產類型以及一組基準資產上傳至&#x200B;**SHARED**&#x200B;資料夾以確保BP使用者具備所需的參考資訊，借此定義需求。 然後，管理員可先將新建立的&#x200B;**Contribution**&#x200B;資料夾發佈至Brand Portal，將該貢獻資料夾的作用中Brand Portal使用者存取權授予。 使用者在&#x200B;**NEW**&#x200B;資料夾中新增內容後，就可以將貢獻資料夾發佈回AEM製作環境。 請注意，完成匯入並反映AEM Assets中新發佈的內容可能需要幾分鐘的時間。
 
@@ -54,8 +54,11 @@ ht-degree: 5%
 >AEM Assets 6.5.4有一個已知問題。升級至Adobe開發人員控制台時，Brand Portal使用者無法將貢獻資料夾的資產發佈至AEM Assets。
 >
 >此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
->
->若要立即修正AEM 6.5.4，建議您[下載hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)並安裝在您的製作執行個體上。
+
+<!--
+
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+-->
 
 <!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
@@ -97,7 +100,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 -->
 
 
-### 上傳Brand Portal使用者清單{#upload-bp-user-list}
+### 上傳Brand Portal使用者清單 {#upload-bp-user-list}
 
 AEM管理員可上傳Brand Portal使用者設定(.csv)檔案，其中包含AEM Assets中作用中的Brand Portal使用者清單，以允許他們存取Asset Sourcing功能。
 
