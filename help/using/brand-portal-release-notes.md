@@ -1,8 +1,8 @@
 ---
 title: 發行說明
-seo-title: 發行說明
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
-seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的增強功能、已修正的重大問題，以及已知問題。
+seo-title: Release Notes
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
+source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 8%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
+深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2021.06.0 |
-| 日期 | 2021年6月 |
+| 版本 | 2021.08.0 |
+| 日期 | 2021年8月 |
 
 ## 概覽 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式來瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2021.06.0的新增功能{#whats-new-in-2021.06.0}
+## 2021.08.0的新增功能{#whats-new-in-2021.08.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,20 +67,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
-### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+### 增強功能 {#enhancements}
 
-This release includes the following enhancements:
+Brand Portal 2021.08.0是內部版本，為企業和團隊客戶導入業務設定檔，讓組織能更妥善地控制其資產。
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+此版本包含下列增強功能：
 
+* 使用者現在擁有新組織和已移轉組織的特定權限。 如果使用者有權使用多個組織，則使用者必須在登入時選取組織。
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+* Admin Console中新增的新使用者必須&#x200B;**加入團隊**&#x200B;才能取得組織的權限。
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
--->
+>[!NOTE]
+>
+>業務設定檔目前適用於2021年8月16日之後建立的新組織。
+>
+>在移轉組織之前，您可以繼續使用Adobe ID、Enterprise ID或Federated ID類型來存取組織。
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -95,13 +97,13 @@ This release includes the following enhancements:
 
 ### 已修正的重大問題 {#critical-issues-fixed}
 
-Brand Portal 2021.06.0是內部版本，包含下列重大問題的修正：
+此發行包含下列重大問題的修正：
 
 * 有些組織不會傳送Asset Sourcing電子郵件通知。
 
-* 副檔名為.mov的影片檔案未在Brand Portal上執行。
+* 副檔名為`.mov`的視訊檔案未在Brand Portal上執行。
 
-* 在「智慧型集合」下拉式清單中，只會顯示10個儲存的集合。
+* 在&#x200B;**[!UICONTROL 智慧型集合]**&#x200B;下拉式清單中，只會顯示10個儲存的集合。
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -119,15 +121,19 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
-### Known Issues {#known-issues}
 
-This release includes the following known issue:
+### 已知問題 {#known-issues}
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+此版本包含下列已知問題：
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+* 使用者在移轉現有組織期間無法登入Brand Portal。
+
+   不過，登入Brand Portal的作用中使用者仍可繼續運作，直到目前的工作階段過期為止。
+
+* 從Brand Portal導覽至Admin Console時，管理員可能會看到額外的畫面來選取組織。
+
+* 使用者無法從資料夾中移除套用的中繼資料結構描述設定檔。
+
 
 <!--
 ### Known Issues {#known-issues}
@@ -192,12 +198,12 @@ Brand Portal使用者介面提供下列語言版本：
 
 ## 認證平台 {#certified-platforms}
 
-若要確認哪些平台經認證可透過此版本的Brand Portal執行，請參閱[技術需求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**製作使用者介面支援瀏覽器**&#x200B;區段中表格的&#x200B;**觸控最佳化UI支援**&#x200B;欄。
+若要確認哪些平台經認證可透過此版本的Brand Portal執行，請參閱[技術需求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的&#x200B;**製作使用者介面支援瀏覽器**&#x200B;區段中表格的&#x200B;**觸控最佳化UI支援**&#x200B;欄。
 
 ## 連結 {#links}
 
-* [Adobe Experience Manager Product Page on adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal檔案](https://helpx.adobe.com/tw/experience-manager/brand-portal/user-guide.html)
+* [Adobe Experience Manager Product Page on adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal檔案](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 產品存取與支援（受限網站） {#product-access-and-support-restricted-sites}
 
@@ -209,4 +215,4 @@ Brand Portal使用者介面提供下列語言版本：
 
 * [產品存取](https://login.marketing.adobe.com)
 
-* [Adobe客戶服務](https://helpx.adobe.com/contact.html)
+* [客戶支援](https://helpx.adobe.com/contact.html)
