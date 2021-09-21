@@ -1,8 +1,8 @@
 ---
 title: 加速Brand Portal下載
-seo-title: 加速Brand Portal下載
+seo-title: Speed up the Brand Portal downloads
 description: 提升從Brand Portal和共用連結的下載效能。
-seo-description: 提升從Brand Portal和共用連結的下載效能。
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1037'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,10 @@ Adobe Experience Manager Assets Brand Portal可與IBM Aspera Connect（隨需安
 * 確保在防火牆上開啟埠33001（TCP和UDP）。 有關先決條件的詳細資訊，請參閱[ IBM Aspera Connect Client文檔](https://downloads.asperasoft.com/en/documentation/8)。
 * **使用管理員權限(** )在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9`https://www.ibm.com/docs/en/aspera-connect/3.9.9`。
 * 有關Aspera傳輸客戶端的平台支援，請參閱[ IBM Aspera Connect平台支援矩陣](https://www.asperasoft.com/company/support/transfer-clients/)。
+
+>[!NOTE]
+>
+>IBM Aspera Connect存在已知問題。 快速下載無法與IBM Aspera Connect 3.10版及更高版本搭配使用。
 
 ## 下載網域 {#download-domains}
 
