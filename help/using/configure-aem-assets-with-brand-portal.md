@@ -1,8 +1,8 @@
 ---
 title: 使用 Brand Portal 設定 AEM Assets
-seo-title: 使用 Brand Portal 設定 AEM Assets
+seo-title: Configure AEM Assets with Brand Portal
 description: 深入了解如何使用Brand Portal設定AEM Assets。
-seo-description: 深入了解如何使用Brand Portal設定AEM Assets。
+seo-description: Get an insight into configuring AEM Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: ea3242459776037499b21b33ba40357afc8bf234
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 22%
+source-wordcount: '417'
+ht-degree: 21%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 22%
 使用Brand Portal設定Adobe Experience Manager資產，可為Brand Portal使用者啟用資產發佈、資產分發和資產貢獻功能。 它可讓AEM Assets使用者發佈資產，並與Brand Portal使用者分發資產。 Brand Portal使用者可以上傳新資產至資產貢獻資料夾，並將其發佈回AEM Assets，以存取共用資產和貢獻內容。
 
 支援使用Brand Portal設定AEM Assets:
+
 * AEM Assets as a Cloud Service 
 * AEM Assets（內部部署和托管服務）6.3和更新版本
 
