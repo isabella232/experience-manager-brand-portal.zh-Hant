@@ -1,8 +1,8 @@
 ---
 title: 疑難排解平行發佈至 Brand Portal 的問題
-seo-title: 疑難排解平行發佈至 Brand Portal 的問題
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: 疑難排解平行發佈。
-seo-description: 疑難排解平行發佈。
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 1%
 
 ---
 
@@ -123,6 +123,7 @@ permission
 如果復寫佇列中有多個待處理請求，發佈工作通常會因逾時錯誤而失敗。 若要解決此問題，請確定復寫代理已設定為避免逾時。
 
 執行下列步驟來配置復寫代理：
+
 1. 登入您的AEM Assets製作例項。
 1. 從&#x200B;**工具**&#x200B;面板，導覽至&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 復寫]**。
 1. 在「復寫」頁面中，按一下「作者上的代理」**[!UICONTROL 。]**&#x200B;您可以看到Brand Portal租用戶的四個復寫代理。
