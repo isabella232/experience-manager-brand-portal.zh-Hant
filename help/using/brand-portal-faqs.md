@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 1%
+source-wordcount: '1480'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版
 
 **安。** 是的，透過「Adobe開發人員控制台」，在AEM 6.5.4上將貢獻資料夾的資產發佈至AEM Assets時，有一個已知問題。
 
-此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 **安。** 如果復寫佇列中有多個待處理請求，發佈通常會因逾時錯誤而失敗。若要解決此問題，請確定復寫代理已設定為避免逾時。
 
 執行下列步驟來配置復寫代理：
+
 1. 登入您的AEM Assets製作例項。
 1. 從&#x200B;**工具**&#x200B;面板，導覽至&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 復寫]**。
 1. 在「復寫」頁面中，按一下「作者上的代理」**[!UICONTROL 。]**&#x200B;您可以看到Brand Portal租用戶的四個復寫代理。

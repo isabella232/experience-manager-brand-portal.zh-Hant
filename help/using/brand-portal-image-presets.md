@@ -1,8 +1,8 @@
 ---
 title: 套用影像預設集或動態轉譯
-seo-title: 套用影像預設集或動態轉譯
+seo-title: Apply image presets or dynamic renditions
 description: '像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓AEM Assets Brand Portal動態傳送不同大小、格式和屬性的影像。 '
-seo-description: '像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓AEM Assets Brand Portal動態傳送不同大小、格式和屬性的影像。 '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 >下載影像及其轉譯時，沒有選項可從現有的預設集中選擇。 您可以改為指定自訂影像預設集的屬性。 如需詳細資訊，請參閱下載影像時套用影像預設集](../using/brand-portal-image-presets.md#main-pars-text-1403412644) 。[
 
 
-有關建立影像預設集時所需參數的詳細資訊，請參閱[管理影像預設集](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
+有關建立影像預設集時所需參數的詳細資訊，請參閱[管理影像預設集](../using/brand-portal-image-presets.md)。
 
 ## 建立影像預設集 {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ AEM管理員可以建立影像預設集，這些預設集在資產詳細資料�
 
    ![](assets/image_preset_homepage.png)
 
-1. 在&#x200B;**[!UICONTROL 編輯影像預設集]**&#x200B;頁中，根據需要在&#x200B;**[!UICONTROL Basic]**&#x200B;和&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤中輸入值，包括名稱。 這些選項在[影像預設集選項](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)中概述。 預設集會出現在左窗格中，並可與其他資產一起即時使用。
+1. 在&#x200B;**[!UICONTROL 編輯影像預設集]**&#x200B;頁中，根據需要在&#x200B;**[!UICONTROL Basic]**&#x200B;和&#x200B;**[!UICONTROL Advanced]**&#x200B;標籤中輸入值，包括名稱。 預設集會出現在左窗格中，並可與其他資產一起即時使用。
 
    ![](assets/image_preset_create.png)
 

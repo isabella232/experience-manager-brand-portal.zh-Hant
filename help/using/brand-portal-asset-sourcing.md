@@ -1,15 +1,15 @@
 ---
 title: Brand Portal 中的 Asset Sourcing
-seo-title: Brand Portal 中的 Asset Sourcing
+seo-title: Asset Sourcing in Brand Portal
 description: 深入了解Adobe Experience Manager Assets Brand Portal中發行的資產來源補充功能。
-seo-description: 深入了解Adobe Experience Manager Assets Brand Portal中發行的資產來源補充功能。
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: 資產
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >AEM Assets 6.5.4有一個已知問題。升級至Adobe開發人員控制台時，Brand Portal使用者無法將貢獻資料夾的資產發佈至AEM Assets。
 >
->此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+>此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
 <!--
 
@@ -117,6 +117,7 @@ AEM管理員可上傳Brand Portal使用者設定(.csv)檔案，其中包含AEM A
 管理員可以在AEMAdmin Console中新增使用者，如需詳細資訊，請參閱[管理使用者](brand-portal-adding-users.md) 。 在Admin Console中新增使用者後，可將這些使用者新增至Brand Portal使用者設定檔案，然後指派存取貢獻資料夾的權限。
 
 **上傳Brand Portal使用者清單：**
+
 1. 登入您的AEM Assets執行個體。
 1. 從&#x200B;**工具**&#x200B;面板，導覽至&#x200B;**[!UICONTROL 資產]** > **[!UICONTROL Brand Portal使用者]**。
 
