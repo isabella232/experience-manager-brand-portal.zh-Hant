@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,10 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 允許的同時來賓會話 {#concurrent-guest-sessions-allowed}
 
 同時訪客會話的數量限制為每組織用戶配額總數的10%。 這表示，對於用戶配額為200的組織，最多可以同時工作20個來賓用戶。 第21個用戶被拒絕訪問，只有在20個活動來賓用戶的會話結束時，才能作為來賓訪問。
+
+>[!NOTE]
+>
+>如果授權使用者數量超過合約值（配額）,Brand Portal不會傳送通知。 此外，它不會限制授權使用者的任何活動。
 
 ## 與Brand Portal的訪客使用者互動 {#guest-user-interaction-with-brand-portal}
 
