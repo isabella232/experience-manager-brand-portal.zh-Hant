@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -203,6 +203,8 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 
 這些網站僅供客戶使用。 如果您是Adobe，需要存取權，請聯絡您的客戶經理。
 
-* [](https://daycare.day.com) [產品存取](https://login.marketing.adobe.com)
+<!--
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe客戶服務](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+-->
