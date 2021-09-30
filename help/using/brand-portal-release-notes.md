@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
+source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 6%
@@ -101,7 +101,7 @@ This release includes the following enhancements:
 此發行包含下列重大問題的修正：
 
 * 不會從Brand Portal將相同大小的貢獻資料夾資產發佈至Experience Manager資產。
-* 取消發佈貢獻資料夾時，資產貢獻資料夾的大小不會縮小。
+* 取消發佈資產貢獻資料夾時，貢獻資料夾的大小不會減小。
 * 使用者無法從資料夾中移除套用的中繼資料結構描述設定檔。
 * 使用者權限頁面上的群組計數不正確。
 * 瀏覽清單時，集合頁面所花費的時間過長。
