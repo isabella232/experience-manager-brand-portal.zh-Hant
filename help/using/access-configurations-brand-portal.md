@@ -1,8 +1,8 @@
 ---
 title: 在 Brand Portal 上管理使用者存取
-seo-title: 在 Brand Portal 上管理使用者存取
+seo-title: Administer user access on Brand Portal
 description: 在brand portal上設定訪客存取和新使用者存取。
-seo-description: 在brand portal上設定訪客存取和新使用者存取。
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 9%
 
 ---
 
 # 在 Brand Portal 上管理使用者存取 {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2以上版本可授權管理員設定訪客存取權，並讓使用者要求其組織之Brand Portal的存取權。 這些設定已作為「管理」面板上的&#x200B;**[!UICONTROL 存取設定]**&#x200B;設定提供。 預設會停用這兩項設定。
+Adobe Experience Manager Assets Brand Portal 6.4.2以上版本可授權管理員設定訪客存取權，並讓使用者要求其組織之Brand Portal的存取權。 這些設定已作為「管理」面板上的&#x200B;**[!UICONTROL 存取設定]**&#x200B;設定提供。 預設會停用這兩項設定。
 
 ![](assets/access-configs.png)
 

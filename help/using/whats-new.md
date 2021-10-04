@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 1%
 
 ---
 
-# AEM Assets Brand Portal 的新功能 {#what-s-new-in-aem-assets-brand-portal}
+# 新增功能Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可協助您跨裝置輕鬆取得、控制及安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Adobe正致力於改善整體Brand Portal體驗。 以下是新功能和增強功能的潛在概覽。
 
@@ -525,7 +525,7 @@ Dynamic Media視訊編碼可從以下位置下載：
 
 ### URL中可設定的租用戶別名
 
-組織可在URL中加上替代首碼，以取得自訂的入口網站URL。 若要在其現有入口URL中取得租用戶名稱的別名，組織必須聯絡Adobe支援。
+組織可在URL中加上替代首碼，以取得自訂的入口網站URL。 若要在其現有入口網站URL中取得租用戶名稱的別名，組織必須聯絡客戶支援。
 
 只能自訂Brand Portal URL的首碼，不能自訂整個URL。\
 例如，現有網域為&#x200B;**geometrix.brand-portal.adobe.com**&#x200B;的組織可取得依請求建立的&#x200B;**geomettrixinc.brand-portal.adobe.com**。
@@ -668,7 +668,7 @@ Brand Portal 6.4.1為平台升級版本，提供多項新功能和重要增強�
 
 * 在資產詳細資訊頁面預覽從AEM上傳之音訊檔案的新功能。
 * 資產屬性中提供的新相關資產功能。 與AEM上的其他來源/衍生資產相關且在Brand Portal上發佈的資產，其關係現在會在Brand Portal中保持不變，且連結至屬性頁面上的相關資產。
-* 已導入新設定，限制非管理員使用者建立公開集合。 組織可以與Adobe支援團隊合作，在特定帳戶上設定此功能。
+* 已導入新設定，限制非管理員使用者建立公開集合。 組織可以與客戶支援團隊合作，在特定帳戶上設定此功能。
 
 ### 搜尋增強功能
 

@@ -1,8 +1,8 @@
 ---
-title: 使用 Brand Portal 設定 AEM Assets
-seo-title: Configure AEM Assets with Brand Portal
-description: 深入了解如何使用Brand Portal設定AEM Assets。
-seo-description: Get an insight into configuring AEM Assets with Brand Portal.
+title: 透過 Brand Portal 設定 Experience Manager Assets
+seo-title: Configure Experience Manager Assets with Brand Portal
+description: 深入了解如何使用Brand Portal設定Experience Manager資產。
+seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,29 +11,29 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 10%
+source-wordcount: '419'
+ht-degree: 11%
 
 ---
 
-# 使用 Brand Portal 設定 AEM Assets {#configure-integration}
+# 透過 Brand Portal 設定 Experience Manager Assets {#configure-integration}
 
-使用Brand Portal設定Adobe Experience Manager資產，可為Brand Portal使用者啟用資產發佈、資產分發和資產貢獻功能。 它可讓AEM Assets使用者發佈資產，並與Brand Portal使用者分發資產。 Brand Portal使用者可以上傳新資產至資產貢獻資料夾，並將其發佈回AEM Assets，以存取共用資產和貢獻內容。
+使用Brand Portal設定Adobe Experience Manager資產，可為Brand Portal使用者啟用資產發佈、資產分發和資產貢獻功能。 它可讓Experience Manager資產使用者發佈資產，並與Brand Portal使用者分發資產。 Brand Portal使用者可以上傳新資產至資產貢獻資料夾，並發佈回Experience Manager資產，以存取共用資產和貢獻內容。
 
-支援使用Brand Portal設定AEM Assets:
+支援使用Brand Portal設定Experience Manager資產：
 
-* AEM Assets as a Cloud Service 
-* AEM Assets（內部部署和托管服務）6.3和更新版本
+* Experience Manager Assets as a Cloud Service
+* Experience Manager資產（內部部署和托管服務）6.3及更高版本
 
-AEM Assets as aCloud Service會透過從Cloud Manager啟動Brand Portal自動設定。 啟動工作流程會在後端建立必要的設定，並在與AEM Assets(作為Cloud Service例項)相同的IMS組織上啟動Brand Portal。
+Experience ManagerCloud Service作為的方式，是透過從Cloud Manager啟動Brand Portal，自動透過Brand Portal完成設定。 啟動工作流程會在後端建立必要的設定，並在與Experience Manager資產例項相同的IMS組織上啟用Brand Portal。
 
-然而，AEM Assets（內部部署和托管服務）是使用Brand Portal Developer Console手動設定，其會擷取AdobeIdentity Management服務(IMS)代號，以授權Brand Portal租用戶。
+然而，Experience Manager資產（內部部署和托管服務）是使用Adobe開發人員控制台以Brand Portal手動設定，這會擷取AdobeIdentity Management服務(IMS)代號，以授權Brand Portal租用戶。
 
 >[!NOTE]
 >
->***適用於AEM Assets 6.3及更新版本***
+>***針對Experience Manager資產6.3及更新版本***
 >
 >之前，Brand Portal是透過舊版OAuth閘道在傳統介面中設定，該閘道使用JSON網頁代號(JWT)交換來取得IMS代號以進行授權。
 >

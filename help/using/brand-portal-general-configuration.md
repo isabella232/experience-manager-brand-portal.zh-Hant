@@ -1,8 +1,8 @@
 ---
 title: 管理一般租用戶組態
-seo-title: 管理一般租用戶組態
+seo-title: Administer general tenant configurations
 description: 設定下載加速、公用智慧型集合建立、公用集合建立，以及讓管理員使用者刪除租戶上的資產。
-seo-description: 設定下載加速、公用智慧型集合建立、公用集合建立，以及讓管理員使用者刪除租戶上的資產。
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # 管理一般租用戶組態 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal可讓組織為特定租用戶設定下列功能：
+Experience ManagerAssets Brand Portal可讓組織為特定租戶設定下列功能：
 
 * 管理員刪除資產
 * 非管理員使用者建立公用集合
@@ -44,7 +44,7 @@ AEM Assets Brand Portal可讓組織為特定租用戶設定下列功能：
 要啟用/禁用以下每種配置：
 
 1. 以管理員權限登入。
-1. 從頂端的工具列選取AEM標誌以存取管理工具。
+1. 從頂端的工具列選取Experience Manager標誌以存取管理工具。
 1. 從管理工具面板中，選擇&#x200B;**[!UICONTROL 常規]**&#x200B;以開啟&#x200B;**[!UICONTROL 常規設定]**&#x200B;頁。
 1. 使用相應的切換開關來啟用/禁用任何常規配置。
 1. **[!UICONTROL 儲存變更。]**

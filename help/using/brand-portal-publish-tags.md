@@ -1,26 +1,26 @@
 ---
 title: 將標記發佈至 Brand Portal
-seo-title: 將標記發佈至 Brand Portal
-description: 了解如何將標籤從AEM Assets發佈至Brand Portal。
-seo-description: 了解如何將標籤從AEM Assets發佈至Brand Portal。
+seo-title: Publish tags to Brand Portal
+description: 了解如何將標籤從Experience Manager資產發佈至Brand Portal。
+seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '610'
 ht-degree: 4%
 
 ---
 
 # 將標記發佈至 Brand Portal {#publish-tags-to-brand-portal}
 
-了解如何將標籤從AEM Assets發佈至Brand Portal。
+了解如何將標籤從Experience Manager資產發佈至Brand Portal。
 
-標籤可用來組織資產，並增強與資產相關聯的資產的可搜尋性。 標籤可視為與資產附加的關鍵字或標籤（中繼資料），並可讓您在搜尋後快速找到資產。 若要了解如何將標籤指派給AEM Assets中的資產，請參閱[使用標籤來組織資產](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
+標籤可用來組織資產，並增強與資產相關聯的資產的可搜尋性。 標籤可視為與資產附加的關鍵字或標籤（中繼資料），並可讓您在搜尋後快速找到資產。 若要了解如何將標籤指派給Experience Manager資產中的資產，請參閱[使用標籤來組織資產](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
 
 標籤(與AEM中的資產和集合相關聯)會在與相關聯標籤關聯的資產（和集合）發佈至Brand Portal時自動發佈至Brand Portal。 已發佈的標籤有助於讓搜尋找到相關的資產。
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >不過，建議您先只發佈標籤至Brand Portal，再發佈與標籤相關聯的資產（和集合）。 這可確保更快將資產（和集合）發佈至Brand Portal。
 
-## 管理標籤{#manage-tags}
+## 管理標籤 {#manage-tags}
 
 您可以使用預先存在的標籤來附加至資產，或從AEM標籤控制台（**[!UICONTROL 工具）建立新標籤 |標籤 | AEM標籤]**)。 在這兩種情況下，您必須先將標籤發佈至Brand Portal，然後將標籤與適當的資產建立關聯。
 

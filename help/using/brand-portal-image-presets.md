@@ -1,8 +1,8 @@
 ---
 title: 套用影像預設集或動態轉譯
 seo-title: Apply image presets or dynamic renditions
-description: '像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓AEM Assets Brand Portal動態傳送不同大小、格式和屬性的影像。 '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: '像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓Experience ManagerAssets Brand Portal以動態方式傳送不同大小、格式和屬性的影像。 '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # 套用影像預設集或動態轉譯 {#apply-image-presets-or-dynamic-renditions}
 
-像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓AEM Assets Brand Portal動態傳送不同大小、格式和屬性的影像。
+像宏一樣，影像預設集是儲存在名稱下的大小調整和格式設定命令的預定義集合。 影像預設集可讓Experience ManagerAssets Brand Portal以動態方式傳送不同大小、格式和屬性的影像。
 
 影像預設集可用來產生可預覽及下載之影像的動態轉譯。 預覽影像及其轉譯時，您可以選擇預設集，將影像重新格式化為管理員設定的規格。
 
-(*如果AEM製作執行個體在&#x200B;**Dynamic Media混合模式***上執行)若要在Brand Portal中檢視資產的動態轉譯，請確定其Tiff金字塔轉譯存在於您發佈至Brand Portal的AEM製作執行個體。 當您發佈資產時，其PTIFF轉譯也會發佈至Brand Portal。
+(*如果「Experience Manager資產」製作例項在&#x200B;**Dynamic Media混合模式***上執行)若要在Brand Portal中檢視資產的動態轉譯，請確定其Tiff金字塔轉譯存在於您發佈至Brand Portal的「Experience Manager資產」製作例項中。 當您發佈資產時，其PTIFF轉譯也會發佈至Brand Portal。
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ ht-degree: 3%
 
 ## 建立影像預設集 {#create-an-image-preset}
 
-AEM管理員可以建立影像預設集，這些預設集在資產詳細資料頁面上顯示為動態轉譯。 您可以從草稿開始建立影像預設集，或以新名稱儲存現有的預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當傳送影像以供檢視時，其外觀根據所選命令而最佳化。
+Experience Manager資產管理員可以建立影像預設集，這些預設集在資產詳細資料頁面上顯示為動態轉譯。 您可以從草稿開始建立影像預設集，或以新名稱儲存現有的預設集。 建立影像預設集時，請選擇影像傳送的大小和格式命令。 當傳送影像以供檢視時，其外觀根據所選命令而最佳化。
 
 >[!NOTE]
 >
 >使用影像的金字塔TIFF建立影像的動態轉譯。 如果金字塔TIFF無法用於任何資產，則無法在Brand Portal中擷取該資產的動態轉譯。
 >
->如果AEM製作例項在&#x200B;**Dynamic Media混合模式**&#x200B;上執行，則會建立影像資產的金字塔TIFF轉譯並儲存在AEM存放庫中。
+>如果「Experience Manager資產」製作例項在&#x200B;**Dynamic Media混合模式**&#x200B;上執行，則會建立影像資產的金字塔TIFF轉譯並儲存在「Experience Manager資產」存放庫中。
 >
->然而，如果AEM作者例項在&#x200B;**Dynamic Media場景7模式**&#x200B;上執行，則場景7伺服器上存在影像資產的金字塔TIFF轉譯。
+>然而，如果「Experience Manager資產」製作例項在&#x200B;**Dynamic Media場景7模式**&#x200B;上執行，則「場景7」伺服器上存在影像資產的金字塔TIFF轉譯。
 >
 >將這些資產發佈至brand portal時，會套用影像預設集並顯示動態轉譯。
 
 
-1. 在頂端的AEM工具列中，按一下Adobe標誌以存取管理工具。
+1. 在頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
 1. 在管理工具面板中，按一下「影像預設集」]**。**[!UICONTROL 
 

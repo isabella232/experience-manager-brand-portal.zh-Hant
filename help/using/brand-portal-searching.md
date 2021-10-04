@@ -1,6 +1,6 @@
 ---
 title: 在 Brand Portal 上搜尋資產
-seo-title: Asset searching and saved search on AEM Brand Portal
+seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
 description: Brand Portal搜尋功能可讓您使用omnisearch快速搜尋相關資產，而搜尋篩選器可協助您進一步縮小搜尋範圍。 將搜尋儲存為智慧型集合，以供日後使用。
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 5%
@@ -96,7 +96,7 @@ Brand Portal搜尋功能可讓您使用omnisearch和facet搜尋來快速搜尋�
          * ***climb*** 會傳回標題片語中包含「climb」字元的所有資產。
 
 若要允許屬性述詞中不區分大小寫的搜尋，請啟用       **非區分大小寫文**
-字若要允許屬性述詞中非區分大小寫的搜尋，請啟用「搜 **[!UICONTROL 尋]** 表單」中的「忽略Casecheckbox」。依預設，屬性述詞的文字搜尋會區分大小寫。
+字若要允許屬性述詞中非區分大小寫的搜尋，請啟用「搜尋 **[!UICONTROL 表單]** 」中的「忽略Casecheckbox」。依預設，屬性述詞的文字搜尋會區分大小寫。
    >[!NOTE]
    >
    >選中&#x200B;**[!UICONTROL 部分搜索]**&#x200B;複選框時，預設選中&#x200B;**[!UICONTROL 忽略大小寫]**。

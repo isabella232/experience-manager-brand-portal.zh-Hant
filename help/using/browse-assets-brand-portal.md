@@ -1,26 +1,26 @@
 ---
 title: 在Brand Portal上瀏覽資產
-seo-title: 在Brand Portal上瀏覽資產
+seo-title: Browse assets on Brand Portal
 description: 在Brand Portal上使用不同的檢視選項和UI元素，瀏覽資產、周遊資產階層和搜尋資產。
-seo-description: 在Brand Portal上使用不同的檢視選項和UI元素，瀏覽資產、周遊資產階層和搜尋資產。
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
 
-# 瀏覽Brand Portal上的資產{#browsing-assets-on-brand-portal}
+# 在Brand Portal上瀏覽資產 {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal提供多種功能和使用者介面元素，可方便您瀏覽資源、遍歷資產階層，以及在使用不同檢視選項時搜尋資產。
+Experience ManagerAssets Brand Portal提供多種功能和使用者介面元素，可方便您瀏覽資源、遍歷資產階層，以及在使用不同檢視選項時搜尋資產。
 
-頂端的AEM工具列中的AEM標誌可方便管理員使用者存取管理工具面板。
+頂端工具列中的Experience Manager標誌可方便管理員使用者存取管理工具面板。
 
 ![](assets/aemlogo.png)
 
@@ -36,7 +36,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 
 ![](assets/viewselector.png)
 
-## 查看和選擇資源{#viewing-and-selecting-resources}
+## 檢視及選取資源 {#viewing-and-selecting-resources}
 
 檢視、導覽和選取每個檢視在概念上在所有檢視中都相同，但處理方式有小的變化，視您使用的檢視而定。
 

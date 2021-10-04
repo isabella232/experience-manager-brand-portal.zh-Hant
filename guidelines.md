@@ -1,8 +1,8 @@
 ---
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 # Adobe Experience Manager 說明文件協助撰寫指南
@@ -39,7 +39,7 @@ AEM 說明文件涵蓋標準使用案例。因此，一般不會記錄錯誤、�
 
 有關使用 AEM 或技術錯誤的任何問題，應透過 [Experience Cloud 企業支援入口網站](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)的正常支援流程回報，或在 [Experience Manager 社群](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)中討論。
 
-***協助撰寫的 AEM 說明文件不會取代 Adobe 客戶服務***，且這類協助撰寫的說明文件只要試圖解答支援相關問題，一律會遭到拒絕。
+***AEM說明檔案稿件不會取代Adobe客戶*** 支援，且這類稿件只要試圖解答支援相關問題，將會遭到拒絕。
 
 ### 協助撰寫內容必須清楚參考受影響的說明文件頁面。
 

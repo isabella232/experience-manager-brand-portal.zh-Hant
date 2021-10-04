@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -29,18 +29,18 @@ Brand Portal使用者可以：
 
 >[!NOTE]
 >
->若要處理影片並將影片發佈至Brand Portal，請確定您的AEM Author例項已設定在Dynamic Media混合模式或Dynamic Media **[!DNL Scene 7]**&#x200B;模式。
+>若要處理影片並將影片發佈至Brand Portal，請確定您的Experience Manager製作例項是在Dynamic Media混合模式或Dynamic Media **[!DNL Scene 7]**&#x200B;模式上設定。
 
 若要預覽、播放和下載影片，Brand Portal會向管理員公開下列兩項設定：
 
-* [Dynamic Media混](#configure-dm-hybrid-settings)
-合設定如果AEM Author例項在Dynamic Media混合模式上執行。
+* [Dynamic Media混合](#configure-dm-hybrid-settings)
+設定如果Experience Manager製作執行個體在Dynamic Media混合模式上執行。
 * [動態 [!DNL Scene 7] ](#configure-dm-scene7-settings)
-媒體設定如果AEM製作執行個體在動態媒體模式中**[!DNL Scene 7]** 執行。根據您在複製Brand Portal租用戶的AEM Author例項中設定的設定，設定其中一項設定。
+媒體設定如果Experience Manager製作例項在動態媒體模式中**[!DNL Scene 7]** 執行。根據您在複製Brand Portal租戶的「Experience Manager製作」例項中設定的設定，來設定其中一項設定。
 
 >[!NOTE]
 >
->設定在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;執行模式上執行之AEM Author的Brand Portal租戶不支援動態影片。
+>設定在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;執行模式上執行「Experience Manager作者」的Brand Portal租戶不支援動態影片。
 
 ## 如何播放動態影片？ {#how-are-dynamic-videos-played}
 

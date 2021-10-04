@@ -1,24 +1,24 @@
 ---
 title: 支援的檔案格式
-seo-title: 支援的檔案格式
-description: '每個AEM Assets Brand Portal都支援特定的檔案格式，如矩陣所示。 '
-seo-description: '每個AEM Assets Brand Portal都支援特定的檔案格式，如矩陣所示。 '
+seo-title: Supported file formats
+description: '每個Experience ManagerAssets Brand Portal都支援特定的檔案格式，如矩陣所示。 '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 46%
+source-wordcount: '315'
+ht-degree: 48%
 
 ---
 
 # 支援的檔案格式 {#supported-file-formats}
 
-每個AEM Assets Brand Portal都支援特定的檔案格式，如矩陣所示。
+每個Experience ManagerAssets Brand Portal都支援特定的檔案格式，如矩陣所示。
 
 | 檔案格式 | 發佈至Brand Portal的資產 | 轉譯已發佈至Brand Portal | 發佈至Brand Portal的中繼資料 | 已發佈到Brand Portal的縮圖 | 發佈至Brand Portal的資產詳細資料頁面 | 連結分享 | 連結共用縮圖 | 連結共用預覽 |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|

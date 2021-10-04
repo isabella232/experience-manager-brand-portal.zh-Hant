@@ -1,8 +1,8 @@
 ---
 title: 下載資產
-seo-title: 下載資產
+seo-title: Download assets
 description: 所有使用者都可同時下載可存取的多個資產和資料夾。 如此一來，經過核准的品牌資產就能安全地散布，供離線使用。
-seo-description: 所有使用者都可同時下載可存取的多個資產和資料夾。 如此一來，經過核准的品牌資產就能安全地散布，供離線使用。
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1924'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ Brand Portal管理員可為Brand Portal使用者設定資產下載和使用者�
 
    啟用下載資產的自訂和（或）動態轉譯。
 
-   原始資產以外的所有資產轉譯和系統產生的轉譯都稱為自訂轉譯。 其中包含資產可用的靜態及動態轉譯。 任何使用者都可以在AEM Assets中建立自訂靜態轉譯，但只有AEM管理員可以建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
+   原始資產以外的所有資產轉譯和系統產生的轉譯都稱為自訂轉譯。 其中包含資產可用的靜態及動態轉譯。 任何使用者都可以在Experience Manager資產中建立自訂靜態轉譯，但只有管理員可以建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系統轉譯]**
 
    啟用下載資產的系統產生轉譯。
 
-   這些是會根據「DAM更新資產」工作流程在AEM Assets中自動產生的縮圖。
+   這些是根據「DAM更新資產」工作流程自動在「Experience Manager資產」中產生的縮圖。
 
 * **[!UICONTROL 資產下載]**
 
@@ -208,9 +208,9 @@ Brand Portal使用者可從Brand Portal介面下載多個資產、包含資產�
 >
 >Brand Portal支援在混合模式和Scene 7模式中設定Dynamic Media。
 >
->(*如果AEM製作例項在&#x200B;**Dynamic Media混合模式***上執行)
+>(*如果「Experience Manager資產」製作例項執行在&#x200B;**Dynamic Media混合模式***上)
 >
->若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramid Tiff轉譯存在於資產發佈所在的AEM Assets製作例項中。 從AEM發佈至Brand Portal的資產時，也會發佈其金字塔Tiff轉譯。
+>若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramit Tiff轉譯存在於資產發佈所在的「Experience Manager資產」製作例項中。 將資產從「Experience Manager資產」發佈至Brand Portal時，也會發佈其金字塔轉譯。
 
 
 

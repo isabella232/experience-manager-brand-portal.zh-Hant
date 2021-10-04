@@ -1,8 +1,8 @@
 ---
 title: 共用集合
-seo-title: 共用集合
-description: AEM Assets Brand Portal管理員可與授權使用者共用或取消共用集合或智慧型集合。 編輯者只能檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
-seo-description: AEM Assets Brand Portal管理員可與授權使用者共用或取消共用集合或智慧型集合。 編輯者只能檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
+seo-title: Share a collection
+description: Experience ManagerAssets Brand Portal管理員可與授權使用者共用或取消共用集合或智慧型集合。 編輯者只能檢視和共用由他們建立、與他們共用的集合，以及公開的集合。
+seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
@@ -10,14 +10,14 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
 
-# 共用集合{#share-collections}
+# 共用集合 {#share-collections}
 
 集合代表儲存在Adobe Experience Manager Assets Brand Portal中的一組相關資產。 使用者可透過[套用omnisearch或facet搜尋來建立智慧型集合，以篩選掉相關資產](brand-portal-searching.md)並將它們儲存在一起，以方便存取，並進一步與其他Brand Portal使用者共用。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
    >
    >使用者的角色控制對集合內資產和資料夾的存取。 如果使用者沒有資產的存取權，則會與使用者共用空白集合。 此外，使用者的角色會控制集合可用的動作。
 
-## 取消共用集合{#unshare-a-collection}
+## 取消共用集合 {#unshare-a-collection}
 
 若要取消共用先前共用的集合，請執行下列動作：
 

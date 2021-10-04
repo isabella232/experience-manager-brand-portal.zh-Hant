@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal指南
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 75%
+source-wordcount: '348'
+ht-degree: 69%
 
 ---
 
@@ -41,8 +41,8 @@ Brand Portal 解決方案的工作流程如下圖所示。
 |--- |---|
 | [新功能](whats-new.md) | Brand Portal 和舊版的不同之處和最新產品。 |
 | [發行說明](brand-portal-release-notes.md) | 目前版本中的增強功能、已修正的嚴重問題，以及已知問題。 |
-| [使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用 AEM Assets 來複寫 Brand Portal 以發佈資產。 |
-| [疑難排解平行發佈的問題](troubleshoot-parallel-publishing.md) | 疑難排解 Brand Portal 和 AEM Assets 之間的複寫。 |
+| [透過 Brand Portal 設定 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用Experience Manager資產來復寫Brand Portal以發佈資產。 |
+| [疑難排解平行發佈的問題](troubleshoot-parallel-publishing.md) | 疑難排解Brand Portal和Experience Manager資產之間的復寫。 |
 | [支援的檔案格式](brand-portal-supported-formats.md) | Brand Portal 支援的檔案格式，可供預覽和下載。 |
 | [將資產發佈至 Brand Portal](brand-portal-sharing-folders.md) | 如何將資料夾、集合、連結、預設集、結構、Facet 和標記發佈至 Brand Portal。 |
 | [Brand Portal 中的 Asset Sourcing](brand-portal-asset-sourcing.md) | 如何在AEM Assets中設定Asset Sourcing、在Brand Portal中上傳資產，並將貢獻資料夾發佈回AEM Assets。 |

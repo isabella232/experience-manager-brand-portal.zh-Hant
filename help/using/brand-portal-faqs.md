@@ -10,23 +10,23 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
 # 常見問題 {#frequently-asked-questions}
 
-Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版或更舊版本時，一般使用者可能會遇到的查詢和問題。
+Brand Portal常見問題集著重於使用最新Experience ManagerAssets Brand Portal 6.4.6版本或舊版時，一般使用者可能會遇到的查詢和問題。
 
 
 ## Brand Portal 6.4.6常見問題集  {#faqs-bp646}
 
 **是的。現有的舊版OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
-**安。** 舊版OAuth設定已淘汰。您必須將AEM Assets製作執行個體升級至最新的Service Pack，並透過Adobe開發人員控制台進行設定。 如需詳細資訊，請參閱[使用Brand Portal設定AEM Assets](configure-aem-assets-with-brand-portal.md) 。 不過，若要讓舊版OAuth設定在升級前一直有效，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**安。** 舊版OAuth設定已淘汰。您必須將Experience Manager資產製作執行個體升級至最新的Service Pack，並透過Adobe開發人員控制台進行設定。 如需詳細資訊，請參閱[使用Brand Portal](configure-aem-assets-with-brand-portal.md)設定Experience Manager資產。 不過，若要讓舊版OAuth設定在升級前一直有效，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Brand Portal常見問題集著重於使用最新AEM Assets Brand Portal 6.4.6版
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**是的。升級至「Adobe開發人員控制台」後，我無法將貢獻資料夾的資產從Brand Portal發佈至AEM Assets。 我的作者例項位於AEM 6.5.4。可能的原因為何？**
+**是的。升級至「Adobe開發人員控制台」後，我無法將貢獻資料夾的資產從Brand Portal發佈至Experience Manager資產。 我的製作例項位於Experience Manager資產6.5.4。可能的原因為何？**
 
-**安。** 是的，透過「Adobe開發人員控制台」，在AEM 6.5.4上將貢獻資料夾的資產發佈至AEM Assets時，有一個已知問題。
+**安。** 是的，透過「Experience Manager開發人員控制台」將貢獻資料夾的資產發佈至Adobe資產6.5.4時，有一個已知問題。
 
-此問題已在AEM 6.5.5中修正。您可以將AEM Assets執行個體升級至最新的Service Pack AEM 6.5.5和[升級Adobe開發人員主控台上的設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+此問題已在Experience Manager資產6.5.5中修正。您可以將Experience Manager資產例項升級至最新的Service Pack，並在Adobe開發人員控制台上[升級設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,20 +46,20 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**是的。我沒有看到從AEM Assets中的Brand Portal發佈的貢獻資料夾內容。 可能的原因是什麼？**
+**是的。我在「Experience Manager資產」中看不到從Brand Portal發佈的貢獻資料夾內容。 可能的原因是什麼？**
 
-**安。** 請連絡您的AEM Assets管理員以驗證設定，並確認您的Brand Portal租用戶僅設定一個AEM Assets製作例項。
+**安。** 請連絡您的Experience Manager資產管理員以驗證設定，並確認您的Brand Portal租用戶僅設定一個Experience Manager資產製作例項。
 
-若您在多個Brand Portal製作執行個體上設定了AEM Assets租用戶，就可能會發生此問題。 例如，管理員會在測試和生產環境的AEM Assets製作例項上設定相同的Brand Portal租用戶。 在此情況下，Brand Portal會觸發資產發佈，但AEM Assets製作例項無法匯入資產coz，復寫代理程式不會收到要求的代號。
+當您在多個Brand Portal Assets製作執行個體上設定了Experience Manager租戶時，可能會發生此問題。 例如，管理員會在測試和生產環境的「Experience Manager資產」製作例項上設定相同的Brand Portal租用戶。 在此情況下，資產發佈會在Brand Portal中觸發，但Experience Manager資產製作例項無法匯入資產coz，復寫代理程式不會收到要求的Token。
 
 
-**是的。我無法將資產從AEM Assets發佈至Brand Portal。 復寫記錄會指出連線逾時。 有快速修復嗎？**
+**是的。我無法將資產從Experience Manager資產發佈至Brand Portal。 復寫記錄會指出連線逾時。 有快速修復嗎？**
 
 **安。** 如果復寫佇列中有多個待處理請求，發佈通常會因逾時錯誤而失敗。若要解決此問題，請確定復寫代理已設定為避免逾時。
 
 執行下列步驟來配置復寫代理：
 
-1. 登入您的AEM Assets製作例項。
+1. 登入您的Experience Manager資產製作例項。
 1. 從&#x200B;**工具**&#x200B;面板，導覽至&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 復寫]**。
 1. 在「復寫」頁面中，按一下「作者上的代理」**[!UICONTROL 。]**&#x200B;您可以看到Brand Portal租用戶的四個復寫代理。
 1. 按一下復寫代理URL以開啟代理詳細資訊。
@@ -74,7 +74,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **是的。Brand Portal 6.4.5版有何重大變更？**
 
-**安。** AEM Assets Brand Portal 6.4.5是功能版本，可讓Brand Portal使用者從Brand Portal執行個體內上傳內容，並將「貢獻」資料夾發佈回AEM Assets，而不需要管理員權限。如需詳細資訊，請參閱[Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md)。
+**安。** Experience ManagerAssets Brand Portal 6.4.5是功能版本，可讓Brand Portal使用者從Brand Portal執行個體內上傳內容，並將「貢獻」資料夾發佈回Experience Manager資產，而不需要管理員權限。如需詳細資訊，請參閱[Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md)。
 
 
 
@@ -99,13 +99,13 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **是的。身為Brand Portal使用者，我是否需要執行任何動作？**
 
-**安。** Brand Portal 6.4.5版隨附名為Asset Sourcing的新功能。AEM管理員必須在AEM Assets中設定Asset Sourcing功能，才能為Brand Portal使用者啟用此功能。 如需詳細資訊，請參閱[啟用資產來源補充](brand-portal-asset-sourcing.md)。
+**安。** Brand Portal 6.4.5版隨附名為Asset Sourcing的新功能。管理員必須在「Experience Manager資產」中設定「資產來源補充」功能，才能為Brand Portal使用者啟用此功能。 如需詳細資訊，請參閱[啟用資產來源補充](brand-portal-asset-sourcing.md)。
 
 
 
 **是的。誰可以建立貢獻資料夾？**
 
-**安。** 任何AEM使用者只要有權在AEM Assets中建立新資料夾，都可以建立「貢獻」 **** 資料夾。若要建立&#x200B;**貢獻**&#x200B;資料夾，請建立類型&#x200B;**資產貢獻**的新資料夾。
+**安。** 任何擁有在Experience Manager資產中建立新資料夾權限的Experience Manager資產使用者，都可以建立貢 **** 獻資料夾。若要建立&#x200B;**貢獻**&#x200B;資料夾，請建立類型&#x200B;**資產貢獻**的新資料夾。
 此資料夾會與作用中的Brand Portal使用者共用以供貢獻。
 
 
@@ -131,7 +131,7 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 
 **是的。我可以將資產上傳至任何允許的資料夾嗎？**
 
-**安。** 並非所有允許的資料夾。Brand Portal使用者只能將內容上傳至AEM或Brand Portal管理員共用的&#x200B;**貢獻**&#x200B;資料夾。
+**安。** 並非所有允許的資料夾。Brand Portal使用者只能將內容上傳至由Experience Manager資產或Brand Portal管理員共用的&#x200B;**貢獻**&#x200B;資料夾。
 
 
 
@@ -141,7 +141,7 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 
 >[!NOTE]
 >
->如果您不是現有的Brand Portal使用者，請要求AEM管理員在AEM Admin Console中建立您的使用者，並將您的設定檔新增至Brand Portal使用者清單中的使用者設定檔。
+>如果您不是現有的Brand Portal使用者，請要求Experience Manager資產管理員在Admin Console中建立您的使用者，並將您的設定檔新增至Brand Portal使用者清單中的使用者設定檔案。
 
 **是的。用戶導入的CSV檔案格式是什麼？**
 
@@ -151,25 +151,25 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 
 **是的。什麼會填入「資產貢獻者」使用者下拉式清單中的使用者清單(Brand Portal貢獻者)?**
 
-**安。** 下拉式清單中的使用者會從AEM中上傳的Brand Portal使用者設定(.csv)檔案填入。
+**安。** 下拉式清單中的使用者會從上傳至「Brand Portal資產」的Experience Manager使用者設定(.csv)檔案填入。
 
 
 
 **是的。在哪裡可以看到導入和發佈作業的狀態？**
 
-**安。** 在AEM中，您可以在非同步作業頁面中查看匯 **** 入的狀態。在Brand Portal中，您可以在&#x200B;**[!UICONTROL 工具>資產貢獻狀態]**&#x200B;中查看發佈工作的狀態。
+**安。** 在「Experience Manager資產」中，您可以在非同步工作頁面中查看匯 **** 入的狀態。在Brand Portal中，您可以在&#x200B;**[!UICONTROL 工具>資產貢獻狀態]**&#x200B;中查看發佈工作的狀態。
 
 
 
-**是的。在AEM中定期運行的導入作業的頻率是多少？**
+**是的。導入作業在Experience Manager中定期運行的頻率是多少？**
 
-**安。** 在AEM中，輪詢每5分鐘執行一次。
+**安。** 在Experience Manager資產中，輪詢每5分鐘執行一次。
 
 
 
-**是的。資料夾可從Brand Portal發佈到AEM Assets的次數是否有任何保留？**
+**是的。資料夾可從Brand Portal發佈至Experience Manager資產的次數是否有任何延遲？**
 
-**安。** 否，無論先前發佈的 **** 事實為何，NEW資料夾中的所有資產都會發佈至AEM Assets。每次從Brand Portal發佈&#x200B;**貢獻**&#x200B;資料夾至AEM Assets時，它都會覆寫&#x200B;**NEW**&#x200B;資料夾的內容。
+**安。** 否，NEW資料夾中的所有資 **** 產都會發佈至Experience Manager資產，無論其先前發佈的事實為何。每次從Brand Portal發佈&#x200B;**Contribution**&#x200B;資料夾至「Experience Manager資產」時，資料夾都會覆寫&#x200B;**NEW**&#x200B;資料夾的內容。
 
 
 
@@ -185,10 +185,10 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 
 
 
-**是的。如果從AEM Assets發佈資料夾至流量中的Brand Portal，會發生什麼事？**
+**是的。如果資料夾從Experience Manager資產發佈至流量不變的Brand Portal，會發生什麼事？**
 
-**安。** 在AEM中，每次將資料夾發佈至Brand Portal時，都會維護記錄。發佈時，所有未發佈至Brand Portal的資產都會放入復寫佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至Brand Portal。 當AEM使用者再次發佈資料夾時，只有先前未發佈的資產（存在於復寫佇列中）才會發佈至Brand Portal。
-從AEM Assets發佈至Brand Portal的任何資料夾，以及「貢獻」資料夾內的「共用」資料夾，都會符合此條件。
+**安。** 在「Experience Manager資產」中，每次將資料夾發佈至Brand Portal時，都會維護記錄。發佈時，所有未發佈至Brand Portal的資產都會放入復寫佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至Brand Portal。 當「Experience Manager資產」使用者再次發佈資料夾時，只有先前未發佈的資產（存在於復寫佇列中）才會發佈至Brand Portal。
+從「Experience Manager資產」發佈至Brand Portal的任何資料夾，以及「貢獻」資料夾內的「共用」資料夾，都適用此條件。
 
 **是的。我該聯繫誰以回答問題？**
 
@@ -206,5 +206,5 @@ Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x20
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
 -->

@@ -1,8 +1,8 @@
 ---
 title: 使用中繼資料結構表單
-seo-title: 使用中繼資料結構表單
+seo-title: Use the metadata schema form
 description: 中繼資料結構描述「屬性」頁面的版面配置，以及針對使用特定結構的資產所顯示的中繼資料屬性。 您套用至資產的結構會決定其「屬性」頁面上顯示的中繼資料欄位。
-seo-description: 中繼資料結構描述「屬性」頁面的版面配置，以及針對使用特定結構的資產所顯示的中繼資料屬性。 您套用至資產的結構會決定其「屬性」頁面上顯示的中繼資料欄位。
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 11%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 11%
 
 中繼資料結構描述「屬性」頁面的版面配置，以及針對使用特定結構的資產所顯示的中繼資料屬性。 您套用至資產的結構會決定其「屬性」頁面上顯示的中繼資料欄位。
 
-每個資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面包含預設中繼資料屬性，視資產的MIME類型而定。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂中繼資料結構。 AEM Assets Brand Portal提供各種MIME類型資產的預設表單。 不過，您也可以為這類資產新增自訂表單。
+每個資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面包含預設中繼資料屬性，視資產的MIME類型而定。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂中繼資料結構。 Experience ManagerAssets Brand Portal提供各種MIME類型資產的預設表單。 不過，您也可以為這類資產新增自訂表單。
 
 ## 新增中繼資料結構表單 {#add-a-metadata-schema-form}
 
 要建立新的元資料結構表單，請執行以下操作：
 
-1. 在頂端的AEM工具列中，按一下Adobe標誌以存取管理工具。
+1. 在頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
 要編輯元資料結構表單，請執行以下操作：
 
-1. 在頂端的AEM工具列中，按一下Adobe標誌以存取管理工具。
+1. 在頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ ht-degree: 11%
 | **[!UICONTROL 數量]** | 新增數字元件。 |
 | **[!UICONTROL 日期]** | 新增日期元件。 |
 | **[!UICONTROL 下拉式]** | 新增下拉式清單。 |
-| **[!UICONTROL 標準標記]** | 新增標記. **注意：** 如果管理員從AEM發佈中繼資料結構表單，而路徑不包含租用戶資訊(例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`)，則可能需要變更路徑值(例如 `/etc/tags/<custom_tag_namespace>`)。 |
-| **[!UICONTROL 智慧標記]** | 如果您已購買並設定AEM智慧標籤附加元件，則會自動偵測標籤。 |
+| **[!UICONTROL 標準標記]** | 新增標記. **注意：** 管理員如果從Experience Manager資產發佈中繼資料結構表單，其中路徑不包含租用戶資訊，則可能需要變更路徑值(例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`) `/etc/tags/<custom_tag_namespace>`。 |
+| **[!UICONTROL 智慧標記]** | 如果您已購買並設定Experience Manager資產智慧標籤附加元件，則會自動偵測標籤。 |
 | **[!UICONTROL 隱藏欄位]** | 新增隱藏欄位。 資產儲存時會以POST參數的形式傳送。 |
 | **[!UICONTROL 資產引用者]** | 新增此元件以檢視資產參考的資產清單。 |
 | **[!UICONTROL 資產引用]** | 新增以顯示參考資產的資產清單。 |
-| **[!UICONTROL 資產評等]** | 從AEM Assets新增至Brand Portal的資產在發佈前的平均評等。 |
+| **[!UICONTROL 資產評等]** | 從Experience Manager資產新增至Brand Portal之資產的平均評等。 |
 | **[!UICONTROL 關聯式中繼資料]** | 在資產的「屬性」頁面中，「新增」可控制其他中繼資料索引標籤的顯示。 |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->所有中繼資料欄位在資產的中繼資料編輯器表單中為唯讀。 由於資產的中繼資料必須在AEM Assets中編輯，才能將資產發佈至Brand Portal。
+>所有中繼資料欄位在資產的中繼資料編輯器表單中為唯讀。 由於資產的中繼資料必須先在「Experience Manager資產」中編輯，資產才會發佈至Brand Portal。
 
 #### 在架構表單中新增或刪除索引標籤 {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal可讓您自訂和控制中繼資料結構，讓資產的&#x200B;**[
 
 要將元資料結構表單應用到資料夾，請執行以下操作：
 
-1. 在頂端的AEM工具列中，按一下Adobe標誌以存取管理工具。
+1. 在頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 

@@ -3,15 +3,15 @@ cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
-user-guide-title: AEM Brand Portal
+user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal 指南
-user-guide-description: 使用 AEM Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
+user-guide-description: 借由安全方式向外部機構、合作夥伴、內部團隊和經銷商散布經過核准的品牌和產品資產以供下載，使用Experience ManagerAssets Brand Portal滿足行銷需求。
 feature: Brand Portal
 role: User
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 61%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 79%
 + [Brand Portal 指南](using/home.md)
 + 簡介 {#introduction}
    + [概覽](using/brand-portal.md)
-   + [AEM Assets Brand Portal 的新功能](using/whats-new.md)
+   + [新增功能Experience Manager Assets Brand Portal](using/whats-new.md)
    + [發行說明](using/brand-portal-release-notes.md)
    + [常見問題](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [透過AEM Assets了解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [透過Brand PortalExperience Manager資產了解Analytics](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
-+ 從 AEM Assets 發佈至 Brand Portal {#publish}
-   + [使用 Brand Portal 設定 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
++ 從Experience Manager資產發佈至Brand Portal {#publish}
+   + [透過 Brand Portal 設定 Experience Manager Assets](using/configure-aem-assets-with-brand-portal.md)
    + [將資產發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
@@ -38,8 +38,8 @@ ht-degree: 79%
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-brand-portal}
    + [Asset Sourcing概觀](using/brand-portal-asset-sourcing.md)
-   + [在AEM Assets中設定貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [將貢獻資料夾發佈至AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [在Experience Manager資產中設定貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [將貢獻資料夾發佈至Experience Manager資產](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
    + [共用集合](using/brand-portal-share-collection.md)
    + [共用資料夾](using/brand-portal-sharing-folders.md)

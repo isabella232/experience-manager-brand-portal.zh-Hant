@@ -1,42 +1,42 @@
 ---
 title: 共用資料夾
-seo-title: 共用資料夾
-description: Brand Portal不支援資產擷取，因此必須從預先設定的AEM Author例項將資產發佈至Brand Portal。 Brand Portal的非管理員使用者無法存取已發佈的資產，除非在使用AEM例項設定復寫時已設定，且必須與他們共用。
-seo-description: Brand Portal不支援資產擷取，因此必須從預先設定的AEM Author例項將資產發佈至Brand Portal。 Brand Portal的非管理員使用者無法存取已發佈的資產，除非在使用AEM例項設定復寫時已設定，且必須與他們共用。
+seo-title: Share folders
+description: Brand Portal不支援資產擷取，因此必須從預先設定的「Experience Manager資產製作」例項將資產發佈至Brand Portal。 Brand Portal的非管理員使用者無法存取已發佈的資產，除非在使用Experience Manager例項設定復寫時已設定，且必須與他們共用。
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
 
-# 在Brand Portal上共用資料夾{#share-folders}
+# 在Brand Portal上共用資料夾 {#share-folders}
 
-資產必須從預先設定的AEM Author例項發佈至Brand Portal，因為Brand Portal不支援資產擷取。
+資產必須從預先設定的「Experience Manager作者」例項發佈至Brand Portal，因為Brand Portal不支援資產擷取。
 
-## Brand Portal {#folder-sharing-workflow-in-brand-portal}中的資料夾共用工作流程
+## Brand Portal中的資料夾共用工作流程 {#folder-sharing-workflow-in-brand-portal}
 
 以下說明資料夾共用工作流程和使用者存取：
 
-* 依預設，從AEM Assets發佈至Brand Portal的所有資料夾都只會顯示給Brand Portal管理員，除非在設定復寫時標示為公用。
+* 依預設，從「Experience Manager資產」發佈至Brand Portal的所有資料夾都只會顯示給Brand Portal管理員，除非在設定復寫時標示為公用。
 * 管理員使用&#x200B;**[!UICONTROL 資料夾屬性]**&#x200B;控制台與選擇性用戶或組共用資料夾。 只有共用資料夾的使用者或群組在登入Brand Portal後，才能看到資料夾。 其他使用者看不到該資料夾。
 * 管理員還可以通過&#x200B;**[!UICONTROL 資料夾屬性]**&#x200B;控制台中的&#x200B;**[!UICONTROL 公用資料夾]**&#x200B;複選框，將資料夾設為公用。 所有使用者都可看到公用資料夾。
 
 * 無論使用者角色和權限為何，當使用者登入Brand Portal時，都會看到所有公用資料夾，以及直接與他們共用的資料夾，或與他們所屬的群組共用的資料夾。 私人資料夾或與其他使用者共用的資料夾不會顯示給所有使用者。
 
-### 在Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}上與使用者群組共用資料夾
+### 在Brand Portal上與使用者群組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
 
 資料夾資產的存取權限取決於其父資料夾的存取權限，而不考慮子資料夾的設定。 在AEM中，此行為受[ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)控制，因為子資料夾會從其父資料夾繼承ACL。 例如，如果資料夾A包含包含資料夾C的資料夾B，則對資料夾A具有訪問權限的用戶組（或用戶）對資料夾B和資料夾C也具有相同的訪問權限。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，會繼承其ACL。
 
 同樣地，具有僅訪問資料夾B權限的用戶組（或用戶）對資料夾C具有相同的訪問權限，但對資料夾A則不具有訪問權限。因此，建議組織排列其內容，以便將大多數公開的資產放在子資料夾中，並可以限制從子資料夾到根資料夾的訪問。
 
-### 公用資料夾發佈{#public-folder-publish}
+### 發佈公用資料夾 {#public-folder-publish}
 
 除非在設定Brand Portal復寫時選取&#x200B;**[!UICONTROL 公用資料夾發佈]**&#x200B;選項，否則非管理員使用者（例如編輯器和檢視器）無法存取從AEM Assets發佈至Brand Portal的資產。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 >
 >啟用&#x200B;**[!UICONTROL 公用資料夾發佈]**&#x200B;的選項可在AEM 6.3.2.1以後使用。
 
-## 訪問共用資料夾{#access-to-shared-folders}
+## 對共用資料夾的存取 {#access-to-shared-folders}
 
 下列矩陣會討論不同使用者角色共用/取消共用資產的存取權限和權限：
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 >
 >依預設，使用AEM作者設定Brand Portal復寫時，會停用&#x200B;**[!UICONTROL 公用資料夾發佈]**&#x200B;選項。 如果已啟用選項，則所有使用者（非管理員使用者）都可依預設存取發佈至Brand Portal的資料夾。
 
-### 非管理員用戶對共用資料夾的訪問{#non-admin-user-access-to-shared-folders}
+### 非管理員使用者存取共用資料夾 {#non-admin-user-access-to-shared-folders}
 
 非管理員使用者只能存取在Brand Portal上與他們共用的資料夾。 但是，這些資料夾在登入時在入口上的顯示方式取決於&#x200B;**[!UICONTROL 啟用資料夾階層]**&#x200B;組態的設定。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 1. 若要存取共用資料夾，請使用您共用資料夾之使用者的憑證登入Brand Portal。 在介面中檢閱共用資料夾。
 
-## 取消共用資料夾{#unshare-the-folders}
+## 取消共用資料夾 {#unshare-the-folders}
 
 若要取消共用先前共用的資料夾，請執行下列步驟：
 
