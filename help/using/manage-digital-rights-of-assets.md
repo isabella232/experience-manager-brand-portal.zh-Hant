@@ -1,8 +1,8 @@
 ---
 title: 管理資產的數位版權
-seo-title: 管理資產的數位版權
+seo-title: Manage digital rights of assets
 description: 為資產授權並為資產和共用連結設定到期日，可確保對這些資產的使用受到控制並予以保護。
-seo-description: 為資產授權並為資產和共用連結設定到期日，可確保對這些資產的使用受到控制並予以保護。
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 2%
+source-wordcount: '805'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 授權資產須先接受授權合約，再從Brand Portal下載。 授權資產的此合約會在您直接從Brand Portal或透過共用連結下載資產時提供。 無論過期與否，所有使用者都可檢視受授權保護的資產。 不過，過期授權資產的下載和使用有限。 若要根據使用者角色了解過期授權資產的行為以及允許的活動，請參閱過期資產的使用權限[。](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)
 
-受授權規範的資產會附加[授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，您可在AEM Assets中設定資產的[中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，完成此作業。
+受授權規範的資產會附加[授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，您可在AEM Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，完成此作業。
 
 如果您選擇下載受授權保護的資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。
 

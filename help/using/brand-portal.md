@@ -1,7 +1,7 @@
 ---
-title: Experience ManagerAssets Brand Portal概觀
+title: Experience Manager Assets Brand Portal概述
 seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience ManagerAssets Brand Portal可協助您輕鬆取得、控制並安全地跨裝置將經過核准的創意資產發佈給外部人士和內部業務使用者。
+description: Experience Manager Assets Brand Portal可協助您輕鬆取得、控制並安全地跨裝置將經過核准的創意資產發佈給外部人士和內部企業使用者。
 seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 6%
 
 ---
 
-# Experience ManagerAssets Brand Portal概觀 {#overview-of-aem-assets-brand-portal}
+# Experience Manager Assets Brand Portal概述 {#overview-of-aem-assets-brand-portal}
 
 身為行銷人員，您有時需要與通路合作夥伴和內部業務使用者共同合作，以快速建立、管理相關數位內容，並將其提供給客戶。 在整個客戶歷程中及時傳遞相關內容，對於推動更大的需求、轉換、參與和客戶忠誠度至關重要。
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 **Adobe Experience Manager(AEM)Assets品牌** 入口網站著重於行銷人員需要透過提供資產發佈和資產貢獻功能，與分散於全球各地的Brand Portal使用者有效協作。
 
-資產發佈可讓您輕鬆取得、控制並安全地跨裝置將經過核准的創意資產發佈給外部方和內部業務使用者。 然而，資產貢獻可讓Brand Portal使用者無須存取製作環境，即可將資產上傳至Brand Portal並發佈至Experience Manager資產。 貢獻功能稱為&#x200B;**Brand Portal中的Assets Sourcing**。 同時，它還能改進Brand Portal資產分銷的整體體驗，並改善Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未授權存取的風險。
+資產發佈可讓您輕鬆取得、控制並安全地跨裝置將經過核准的創意資產發佈給外部方和內部業務使用者。 但是，資產貢獻可讓Brand Portal使用者將資產上傳至Brand Portal並發佈至Experience Manager Assets，而不需存取製作環境。 貢獻功能稱為&#x200B;**Brand Portal中的Assets Sourcing**。 同時，它還能改進Brand Portal資產分銷的整體體驗，並改善Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未授權存取的風險。
 請參閱[Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md)。
 
 瀏覽器入口網站環境可讓您輕鬆上傳、瀏覽、搜尋、預覽和匯出已核准格式的資產。
@@ -35,13 +35,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Experience Manager資產為Cloud Service、Experience Manager資產6.3及更新版本，支援使用Brand Portal設定Experience Manager資產。
+>Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.3及更新版本均支援使用Brand Portal設定Experience Manager Assets。
 
-Experience ManagerCloud Service作為的方式，是透過從Cloud Manager啟動Brand Portal，自動透過Brand Portal完成設定。 啟動工作流程會在後端建立必要的設定，並在與Experience Manager資產例項相同的IMS組織上啟用Brand Portal。
+Experience Manager Assetsas a Cloud Service會透過從Cloud Manager啟動Brand Portal，自動透過Brand Portal進行設定。 啟動工作流程會在後端建立必要的設定，並在與Experience Manager Assetsas a Cloud Service例項相同的IMS組織上啟動Brand Portal。
 
-然而，Experience Manager資產（內部部署和托管服務）是使用Adobe開發人員控制台以Brand Portal手動設定，這會擷取AdobeIdentity Management服務(IMS)代號，以授權Brand Portal租用戶。
+然而，Experience Manager Assets（內部部署和托管服務）是使用Brand Portal Developer Console手動設定，其會擷取AdobeIdentity Management服務(IMS)代號，以授權Brand Portal租用戶。
 
-如需詳細資訊，請參閱使用Brand Portal](../using/configure-aem-assets-with-brand-portal.md)設定Experience Manager資產。[
+如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## Brand Portal中的使用者角色 {#Personas}
 
@@ -129,9 +129,9 @@ Brand Portal中的標準使用者通常是具有檢視器角色的使用者。 �
 
 [使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
-[將資料夾發佈至 Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[將集合發佈至 Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[將集合發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Brand Portal url的替代別名 {#tenant-alias-for-portal-url}
 
@@ -229,7 +229,7 @@ Brand Portal產品管理員會在其Brand Portal通知區域和透過收件匣�
 ## 相關資源 {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

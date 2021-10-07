@@ -1,18 +1,18 @@
 ---
 title: 將預設集、結構和 Facet 發佈至 Brand Portal
-seo-title: 將預設集、結構和 Facet 發佈至 Brand Portal
+seo-title: Publish presets, schema, and facets to Brand Portal
 description: 了解如何將預設集、結構和Facet發佈至Brand Portal。
-seo-description: 了解如何將預設集、結構和Facet發佈至Brand Portal。
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 3%
+source-wordcount: '1141'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果AEM製作執行個體未在&#x200B;**[!UICONTROL Dynamic Media模式]**&#x200B;中執行(客戶尚未購買Dynamic Media)，則上傳時不會建立資產的&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;轉譯。 影像預設集或動態轉譯適用於資產的&#x200B;**[!UICONTROL 金字塔TIFF]**，因此，如果&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;在AEM製作執行個體上不可用，則Brand Portal上也無法使用。 因此，資產詳細資料頁面和下載對話方塊的轉譯邊欄中不會顯示動態轉譯。
+>如果AEM Author例項未在&#x200B;**[!UICONTROL Dynamic Media模式]**&#x200B;中執行(客戶尚未購買Dynamic Media)，則上傳時不會建立資產的&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;轉譯。 影像預設集或動態轉譯適用於資產的&#x200B;**[!UICONTROL 金字塔TIFF]**，因此，如果&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;在AEM製作例項上不可用，則Brand Portal上也無法使用。 因此，資產詳細資料頁面和下載對話方塊的轉譯邊欄中不會顯示動態轉譯。
 
 若要將影像預設集發佈至Brand Portal:
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 1. 在「AEM製作」例項中，點選/按一下AEM標誌以存取全域導覽主控台，並點選/按一下「工具」**[!UICONTROL 「工具」]**&#x200B;圖示，並導覽至「**[!UICONTROL 資產>影像預設集」]**。
 1. 選取影像預設集，然後從上方可用的選項中選取「從Brand Portal移除」 **[!UICONTROL 。]**
 
-## 將中繼資料結構發佈至Brand Portal {#publish-metadata-schema-to-brand-portal}
+## 將中繼資料結構發佈至Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
 中繼資料結構說明顯示在資產/集合屬性頁面上的配置和屬性。
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 ## 將搜尋Facet發佈至Brand Portal {#publish-search-facets-to-brand-portal}
 
-搜尋表單為Brand Portal上的使用者提供[多面搜尋](../using/brand-portal-search-facets.md)的功能。 搜尋Facet可為Brand Portal上的搜尋賦予更精細的度。 搜尋表單中新增的所有[述詞](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)都可供使用者在搜尋篩選器中作為搜尋Facet。
+搜尋表單為Brand Portal上的使用者提供[多面搜尋](../using/brand-portal-search-facets.md)的功能。 搜尋Facet可為Brand Portal上的搜尋賦予更精細的度。 搜尋表單中新增的所有[述詞](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html)都可供使用者在搜尋篩選器中作為搜尋Facet。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

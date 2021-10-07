@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 3%
@@ -28,9 +28,9 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載多個可
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更新版本）中，預設會啟用&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，此設定會使用IBM Aspera Connect來加速資產下載。 在從Brand Portal下載資產之前，先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 如需詳細資訊，請參閱[指南以加速從Brand Portal](../using/accelerated-download.md)的下載。
+>在Brand Portal 2020.10.0（及更新版本）中，預設會啟用&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，此設定會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產之前，請先在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 如需詳細資訊，請參閱[指南以加速從Brand Portal](../using/accelerated-download.md)的下載。
 >
->如果您不想使用IBM Aspera Connect並繼續正常下載過程，請與Brand Portal管理員聯繫以關閉&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定。
+>如果您不想使用IBM Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定。
 
 ## 設定資產下載 {#configure-download}
 
@@ -53,19 +53,19 @@ Brand Portal管理員可為Brand Portal使用者設定資產下載和使用者�
 
 * **[!UICONTROL 快速下載]**
 
-   它提供使用IBM Aspera Connect的資產加速下載。 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
+   它提供使用IBM Aspera Connect的加速資產下載。 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 * **[!UICONTROL 自訂轉譯]**
 
    啟用下載資產的自訂和（或）動態轉譯。
 
-   原始資產以外的所有資產轉譯和系統產生的轉譯都稱為自訂轉譯。 其中包含資產可用的靜態及動態轉譯。 任何使用者都可以在Experience Manager資產中建立自訂靜態轉譯，但只有管理員可以建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
+   原始資產以外的所有資產轉譯和系統產生的轉譯都稱為自訂轉譯。 其中包含資產可用的靜態及動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員可以建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系統轉譯]**
 
    啟用下載資產的系統產生轉譯。
 
-   這些是根據「DAM更新資產」工作流程自動在「Experience Manager資產」中產生的縮圖。
+   這些是會根據「DAM更新資產」工作流程在Experience Manager Assets中自動產生的縮圖。
 
 * **[!UICONTROL 資產下載]**
 
@@ -163,7 +163,7 @@ Brand Portal使用者可從Brand Portal介面下載多個資產、包含資產�
       >
       >如果您下載的資產也包含授權資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。 在此頁面中，選取資產，按一下「**[!UICONTROL 同意]**」，然後按一下「**[!UICONTROL 下載]**」。 如果您選擇不同意，授權的資產將不會下載。
       > 
-      >受授權規範的資產會附加[授權合約](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，您可在Experience Manager資產中設定資產的[中繼資料屬性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，完成此作業。
+      >受授權規範的資產會附加[授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，您可在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，完成此作業。
 
 
       ![授權資產](assets/licensed-asset-new.png)
@@ -186,15 +186,15 @@ Brand Portal使用者可從Brand Portal介面下載多個資產、包含資產�
 
    ![下載對話](assets/download-dialog-box-new.png)
 
-1. 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用了&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認框似乎允許使用IBM Aspera Connect加速下載。
+1. 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用了&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊似乎允許使用IBM Aspera Connect加速下載。
 
-   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選定的轉譯都使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載至zip資料夾中。
 
    如果您不想使用IBM Aspera Connect，請按一下&#x200B;**[!UICONTROL Deny]**。 如果拒絕或失敗&#x200B;**[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下&#x200B;**[!UICONTROL 一般下載]**&#x200B;按鈕以繼續下載資產。
 
 >[!NOTE]
 >
->如果管理員關閉了&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，則選定的格式副本將直接下載到zip資料夾中，而不使用IBM Aspera Connect。
+>如果管理員關閉&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，則所選轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
 
 >[!NOTE]
 >
@@ -208,9 +208,9 @@ Brand Portal使用者可從Brand Portal介面下載多個資產、包含資產�
 >
 >Brand Portal支援在混合模式和Scene 7模式中設定Dynamic Media。
 >
->(*如果「Experience Manager資產」製作例項執行在&#x200B;**Dynamic Media混合模式***上)
+>(*如果Experience Manager Assets製作例項在&#x200B;**Dynamic Media混合模式***上執行)
 >
->若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramit Tiff轉譯存在於資產發佈所在的「Experience Manager資產」製作例項中。 將資產從「Experience Manager資產」發佈至Brand Portal時，也會發佈其金字塔轉譯。
+>若要預覽或下載資產的動態轉譯，請確定已啟用動態媒體，且資產的Pyramid Tiff轉譯存在於資產發佈所在的Experience Manager Assets製作例項中。 將資產從Experience Manager Assets發佈至Brand Portal時，也會發佈其金字塔轉譯。
 
 
 
@@ -244,15 +244,15 @@ Brand Portal使用者可從Brand Portal介面下載多個資產、包含資產�
 
    ![renditions-panel](assets/renditions-panel.png)
 
-1. 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用了&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認框似乎允許使用IBM Aspera Connect加速下載。
+1. 預設情況下，在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用了&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊似乎允許使用IBM Aspera Connect加速下載。
 
-   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選定的轉譯都使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載至zip資料夾中。
 
    如果您拒絕使用&#x200B;**[!UICONTROL Fast Download]**，系統會填入錯誤訊息。 按一下&#x200B;**[!UICONTROL 一般下載]**&#x200B;按鈕以繼續下載資產。
 
 >[!NOTE]
 >
->如果管理員關閉了&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，則選定的格式副本將直接下載到zip資料夾中，而不使用IBM Aspera Connect。
+>如果管理員關閉&#x200B;**[!UICONTROL Fast Download]**&#x200B;設定，則所選轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
 
 
 >[!NOTE]
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

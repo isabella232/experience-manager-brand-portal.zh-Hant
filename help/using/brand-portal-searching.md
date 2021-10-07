@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Brand Portal搜尋功能可讓您使用omnisearch和facet搜尋來快速搜尋�
 
    *使用Omnisearch搜尋資產*
 
-若要了解智慧標籤資產的搜尋行為，請參閱[了解搜尋結果和行為](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
+若要了解智慧標籤資產的搜尋行為，請參閱[了解搜尋結果和行為](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html)。
 
 ## 在「篩選器」面板中使用Facet進行搜尋 {#search-using-facets-in-filters-panel}
 
@@ -70,9 +70,9 @@ Brand Portal搜尋功能可讓您使用omnisearch和facet搜尋來快速搜尋�
    >對於非管理員用戶，[!UICONTROL Filter]面板中的[!UICONTROL 路徑瀏覽器]只顯示與其共用的資料夾（及其上階資料夾）的內容結構。\
    >若為管理員使用者，路徑瀏覽器可讓您導覽至Brand Portal中的任何資料夾。
 
-   * **[!UICONTROL 檔]** 案類型，指定您要尋找的資產檔案的類型（影像、檔案、多媒體、封存）。此外，您還可以縮小搜索範圍，例如，指定MIME類型（Tiff、點陣圖、GIMP影像）以用於影像或格式（PDF或MS Word）。
+   * **[!UICONTROL 檔]** 案類型，指定您要尋找的資產檔案的類型（影像、檔案、多媒體、封存）。此外，您還可以縮小搜索範圍，例如，指定MIME類型（Tiff、點陣圖、GIMP影像）以用於影像或格式(PDF或MS Word)。
    * **[!UICONTROL 檔]** 案大小：根據資產大小搜尋資產。您可以指定大小範圍的下限和上限以縮小搜尋範圍，並指定要搜尋的單位。
-   * **** 狀態：根據資產狀態來搜尋資產，例如核准（已核准、請求變更、已拒絕、待定）和到期。
+   * **** 狀態：根據資產狀態搜索資產，例如「批准」(Approved)、「請求更改」(Requested)、「拒絕」(Rejected)、「待定」(Pending)和「到期」(Expiration)。
    * **[!UICONTROL 平]** 均評分以根據資產評等來搜尋資產。
    * **** 方向：根據資產的方向（水準、垂直、平方）來搜尋資產。
    * **** 樣式：根據資產的樣式（彩色、單色）來搜尋資產。

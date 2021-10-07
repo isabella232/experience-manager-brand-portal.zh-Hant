@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -59,13 +59,13 @@ Brand Portal使用者可以：
 若要在Brand Portal上使用動態影片，請務必：
 
 * **在DM(Dynamic Media)模式上啟動AEM Author**
-在Dynamic Media Hybrid模式或動態媒體模式上啟動AEM Author例項(已設定 [Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) ) [ [!DNL Scene 7] (](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode))。
+在Dynamic Media Hybrid模式或動態媒體模式上啟動AEM Author例項(已設定 [Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) ) [ [!DNL Scene 7] (](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html))。
 * **在AEM上設定Dynamic Media雲**
-端服務根據Dynamic Media模式，AEM Author正在執行，請在「工具」的AEM  [Author上](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) 設定一個Dynamic Media雲端服務，或 [[!DNL Scene 7] 在](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) Author上設定 **雲端服務** |  **Cloud Services** |  **Dynamic Media**。
+端服務根據Dynamic Media模式，AEM Author正在執行，請在「工具」的AEM  [Author上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 設定一個Dynamic Media雲端服務，或 [[!DNL Scene 7] 在](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) Author上設定 **雲端服務** |  **Cloud Services** |  **Dynamic Media**。
 * **在Brand Portal上設**
 定Dynamic Media根據AEM作者上的Dynamic Media雲端設定，從 [Brand Portal管理工具](#configure-dm-hybrid-settings)  [[!DNL Scene 7] ](#configure-dm-scene7-settings)  設定Dynamic Media設定或設定。如果您使用Brand Portal Hybrid和Dynamic Media **[!UICONTROL S7]**&#x200B;的功能，請務必將[個別的Dynamic Media租戶](#separate-tenants)用於以Dynamic Media Hybrid和Dynamic Media **[!UICONTROL Scene7]**&#x200B;模式設定的AEM Author例項。
 * **使用視訊編碼發佈資料夾(套用至**
-Brand Portal)套 [用視](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 訊編碼，並將包含AEM製作例項多媒體資產的資料夾發佈至Brand Portal。
+Brand Portal)套 [用視](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 訊編碼，並將包含AEM製作例項多媒體資產的資料夾發佈至Brand Portal。
 * **允許清單在啟用安全預**
 覽的情況下在SPS中輸出IP如果使用Dynamic Media **[!DNL Scene 7]** -  [(為公司啟用安全](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 預覽)，建議公司管理員允許列 **[!DNL Scene 7]** 出使用SPS( [Scene 7 ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) Publishing System)快閃記憶體UI之個別地區的公開&#x200B;**** 輸出IP。輸出IP如下：
 
@@ -111,7 +111,7 @@ Brand Portal)套 [用視](https://helpx.adobe.com/experience-manager/6-5/assets/
 
 >[!NOTE]
 >
->[視訊編碼設定檔](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html)不會發佈至Brand Portal，而是從&#x200B;**[!UICONTROL Scene 7]**&#x200B;伺服器擷取。 因此，若要讓視訊編碼在Brand Portal中成功播放，請確定設定詳細資訊與AEM Author例項中的[[!UICONTROL Scene7雲端設定]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)相同。
+>[視訊編碼設定檔](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html)不會發佈至Brand Portal，而是從&#x200B;**[!UICONTROL Scene 7]**&#x200B;伺服器擷取。 因此，若要讓視訊編碼在Brand Portal中成功播放，請確定設定詳細資訊與AEM Author例項中的[Scene7雲端設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html)相同。
 
 若要在Brand Portal租戶上設定Dynamic Media設定：
 
