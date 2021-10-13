@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1528'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 6%
 >
 >Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.3及更新版本均支援使用Brand Portal設定Experience Manager Assets。
 
-Experience Manager Assetsas a Cloud Service會透過從Cloud Manager啟動Brand Portal，自動透過Brand Portal進行設定。 啟動工作流程會在後端建立必要的設定，並在與Experience Manager Assetsas a Cloud Service例項相同的IMS組織上啟動Brand Portal。
+Experience Manager Assetsas a Cloud Service會透過從Cloud Manager啟動Brand Portal自動透過Brand Portal進行設定。 啟動工作流程會在後端建立必要的設定，並在與Experience Manager Assetsas a Cloud Service例項相同的IMS組織上啟動Brand Portal。
 
 然而，Experience Manager Assets（內部部署和托管服務）是使用Brand Portal Developer Console手動設定，其會擷取AdobeIdentity Management服務(IMS)代號，以授權Brand Portal租用戶。
 
@@ -61,7 +61,9 @@ Brand Portal支援下列使用者角色：
 | **編輯者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理員** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-*訪客使用者只能瀏覽、存取和搜尋公用資料夾和集合中的資產。
+>[!NOTE]
+>
+>訪客使用者只能瀏覽、存取和搜尋公用資料夾和集合中的資產。
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,23 +79,23 @@ Brand Portal支援下列使用者角色：
 
 不過，來賓工作階段會限制您建立集合和已儲存的搜尋，並進一步共用。 來賓工作階段中的使用者無法存取資料夾和集合設定，且無法以連結形式共用資產。 以下是來賓用戶可執行的任務清單：
 
-[瀏覽及存取公共資產](browse-assets-brand-portal.md)
+* [瀏覽及存取公共資產](browse-assets-brand-portal.md)
 
-[搜尋公用資產](brand-portal-searching.md)
+* [搜尋公用資產](brand-portal-searching.md)
 
-[下載公開資產](brand-portal-download-assets.md)
+* [下載公開資產](brand-portal-download-assets.md)
 
-[將資產新增至[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [將資產新增至[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 檢視者 {#viewer}
 
 Brand Portal中的標準使用者通常是具有檢視器角色的使用者。 具有此角色的使用者可以存取允許的資料夾、集合和資產。 使用者也可以瀏覽、預覽、下載和匯出資產（原始或特定轉譯）、設定帳戶設定，以及搜尋資產。 以下是檢視器可執行的工作清單：
 
-[瀏覽資產](browse-assets-brand-portal.md)
+* [瀏覽資產](browse-assets-brand-portal.md)
 
-[搜尋資產](brand-portal-searching.md)
+* [搜尋資產](brand-portal-searching.md)
 
-[下載資產](brand-portal-download-assets.md)
+* [下載資產](brand-portal-download-assets.md)
 
 ### 編輯者 {#editor}
 
@@ -101,11 +103,11 @@ Brand Portal中的標準使用者通常是具有檢視器角色的使用者。 �
 
 除了檢視器可執行的工作之外，編輯器還可執行下列其他工作：
 
-[共用資料夾](brand-portal-sharing-folders.md)
+* [共用資料夾](brand-portal-sharing-folders.md)
 
-[共用集合](brand-portal-share-collection.md)
+* [共用集合](brand-portal-share-collection.md)
 
-[以連結方式共用資產](brand-portal-link-share.md)
+* [以連結方式共用資產](brand-portal-link-share.md)
 
 ### 管理員 {#administrator}
 
@@ -113,30 +115,30 @@ Brand Portal中的標準使用者通常是具有檢視器角色的使用者。 �
 
 管理員可以執行編輯器可以執行的所有任務：
 
-[管理使用者、群組和使用者角色](brand-portal-adding-users.md)
+* [管理使用者、群組和使用者角色](brand-portal-adding-users.md)
 
-[自訂壁紙、頁面標題和電子郵件](brand-portal-branding.md)
+* [自訂壁紙、頁面標題和電子郵件](brand-portal-branding.md)
 
-[使用自訂搜尋 Facet](brand-portal-search-facets.md)
+* [使用自訂搜尋 Facet](brand-portal-search-facets.md)
 
-[使用中繼資料結構表單](brand-portal-metadata-schemas.md)
+* [使用中繼資料結構表單](brand-portal-metadata-schemas.md)
 
-[套用影像預設集或動態轉譯](brand-portal-image-presets.md)
+* [套用影像預設集或動態轉譯](brand-portal-image-presets.md)
 
-[使用報表](brand-portal-reports.md)
+* [使用報表](brand-portal-reports.md)
 
 除了上述工作，AEM Assets中的作者還可執行下列工作：
 
-[使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
+* [使用 Brand Portal 設定 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
-[將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[將集合發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Brand Portal url的替代別名 {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3之後，組織可以有一個替代（別名）URL供其Brand Portal租用戶的現有URL使用。 別名URL可借由在URL中有替代首碼來建立。\
-請注意，只能自訂Brand Portal URL的首碼，不能自訂整個URL。 例如，現有網域為&#x200B;**[!UICONTROL geometrix.brand-portal.adobe.com]**&#x200B;的組織可取得依請求建立的&#x200B;**[!UICONTROL geomettrixinc.brand-portal.adobe.com]**。
+請注意，只能自訂Brand Portal URL的首碼，不能自訂整個URL。 例如，現有網域`geomettrix.brand-portal.adobe.com`的組織可依請求建立`geomettrixinc.brand-portal.adobe.com`。
 
 不過，AEM Author例項只能使用租用戶ID URL來設定[](../using/configure-aem-assets-with-brand-portal.md)，而不能使用租用戶別名（替代）URL。
 
@@ -160,30 +162,33 @@ Brand Portal 6.4.3之後，組織可以有一個替代（別名）URL供其Brand
 
 1. 若要要求存取組織的Brand Portal，您必須具備有效的[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]。
 
-   在[!UICONTROL 要求存取]頁面中，使用您的ID（案例1）登入或建立[!UICONTROL Adobe ID]（案例2）:<br />
+   在[!UICONTROL 要求存取]頁面中，使用您的ID（案例1）登入或建立[!UICONTROL Adobe ID]（案例2）:
+
    ![[!UICONTROL 要求存取]](assets/bplogin_request_access_2.png)
 
    **方案1**
+
    1. 如果您有[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]，請按一下&#x200B;**[!UICONTROL 登入]**。
 [!UICONTROL 登入]頁面隨即開啟。
-   1. 提供您的[!UICONTROL Adobe ID]憑證，然後按一下&#x200B;**[!UICONTROL 登入]**。<br />
 
-   ![Adobe登入](assets/bplogin_request_access_3.png)
+   1. 提供您的[!UICONTROL Adobe ID]憑證，然後按一下&#x200B;**[!UICONTROL 登入]**。
 
-   系統會將您重新導向至[!UICONTROL 請求存取]頁面。<br />
+      ![Adobe登入](assets/bplogin_request_access_3.png)
+   系統會將您重新導向至[!UICONTROL 要求存取]頁面。
+
    **方案2**
+
    1. 若您沒有[!UICONTROL Adobe ID]，若要建立此變數，請從[!UICONTROL 請求存取]頁面按一下&#x200B;**[!UICONTROL 取得Adobe ID]**。
 [!UICONTROL 登入]頁面隨即開啟。
    1. 按一下「**[!UICONTROL 取得Adobe ID]**」。
 將開啟[!UICONTROL 註冊]頁面。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
-   1. 選擇&#x200B;**[!UICONTROL 註冊]**。<br />
+   1. 選擇&#x200B;**[!UICONTROL 註冊]**。
 
-   ![](assets/bplogin_request_access_5.png)
-
+      ![](assets/bplogin_request_access_5.png)
    系統會將您重新導向至[!UICONTROL 要求存取]頁面。
 
-1. 下一頁會顯示您的名稱，以及用於要求存取權的電子郵件ID。 留下管理員的注釋，然後按一下&#x200B;**[!UICONTROL Submit]**。<br />
+1. 下一頁會顯示您的名稱，以及用於要求存取權的電子郵件ID。 留下管理員的注釋，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
    ![](assets/bplogin-request-access.png)
 
@@ -206,7 +211,7 @@ Brand Portal產品管理員會在其Brand Portal通知區域和透過收件匣�
 
 若要變更語言：
 
-1. 從頂部菜單中選擇[!UICONTROL 用戶] > [!UICONTROL 編輯配置檔案]。<br />
+1. 從頂部菜單中選擇「[!UICONTROL 用戶] > [!UICONTROL 編輯配置檔案]」。
 
    ![編輯設定檔](assets/EditBPProfile.png)
 
