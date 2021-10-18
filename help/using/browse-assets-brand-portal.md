@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Experience Manager Assets Brand Portal提供多種功能和使用者介面元素
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資產階層、簡化搜尋及顯示資源的選項。
 
@@ -106,7 +106,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 * Dimension
 * 大小
 * 評等
-* 顯示資產階層<sup>*</sup>的資料夾路徑
+* 顯示資產階層的資料夾路徑
 * 在Brand Portal上發佈資產的日期
 
 路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以點選/按一下資源名稱，然後使用標題](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[階層連結來進行備份，以向下導覽階層。

@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Experience Manager Assets管理員和非擁有建立新資料夾權限的使用�
 
 >[!NOTE]
 >
->您可以在資料夾內建立多個貢獻資料夾。
+>管理員可以在資料夾內建立多個資產貢獻資料夾。
 >
->資產貢獻資料夾包含用於資產散布和貢獻的NEW和SHARED資料夾。 請勿在資產貢獻資料夾內建立資產、資料夾或貢獻資料夾。
+>資產貢獻資料夾包含用於資產散布和貢獻的NEW和SHARED資料夾。 請勿在貢獻資料夾內建立資產、資料夾或貢獻資料夾。
 
 
 您可以在建立貢獻資料夾時個別設定貢獻資料夾屬性。 在此範例中，我們會個別設定屬性。
