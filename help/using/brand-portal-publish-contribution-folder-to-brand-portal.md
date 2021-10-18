@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Experience Manager Assets管理員在設定貢獻資料夾的屬性時，會執�
 
 >[!NOTE]
 >
->搜尋結果以Experience Manager Assets中設定的Brand Portal使用者清單為基礎。 請確定您有更新的Brand Portal使用者清單。
+>搜尋結果以Experience Manager Assets中設定的Brand Portal使用者清單為基礎。 確定您有更新的Brand Portal使用者清單。
+
+管理員可從[!DNL Admin Console]下載`user.csv`檔案，並將其作為新增Brand Portal使用者的基礎範本。 前往[!UICONTROL 使用者]，然後按一下[!UICONTROL 將使用者清單匯出至csv]選項以下載`users.csv`檔案。 下列範例使用者清單詳細說明新增使用者所需的屬性。 用戶條目的唯一強制屬性是`Email`，所有其他屬性均為可選。
+
+[取得檔案](assets/users.csv)
 
 ## 上傳資產至貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
 
