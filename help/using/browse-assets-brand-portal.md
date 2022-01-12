@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 3%
+source-wordcount: '1080'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 * 大小
 * 尺寸
 
-您可以點選/按一下資訊卡（注意以避免快速動作），或使用標題](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[階層連結，以向下導覽階層。
+您可以點選/按一下資訊卡（注意避免快速動作），向下導覽階層，或使用 [標題中的階層連結](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 * 在頂端的工具列中選取資產/資料夾。
 * 在下拉式清單中選取邊欄選取器。
 
-在選取資產/資料夾時選取&#x200B;**[!UICONTROL 概述]**&#x200B;選項時，使用者可以看到資產建立的標題、路徑和時間。 然而，在資產詳細資料頁面上選取「概述」選項，可讓使用者查看資產的中繼資料。
+選取 **[!UICONTROL 概述]** 選項，使用者可以查看資產建立的標題、路徑和時間。 然而，在資產詳細資料頁面上選取「概述」選項，可讓使用者查看資產的中繼資料。
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 
 #### 在卡片檢視中檢視設定
 
-**[!UICONTROL 從檢]** 視選取器選取檢視設定 **[!UICONTROL 時，]** 會開啟檢視設定對話方塊。它可讓您調整「卡片」檢視中的資產縮圖大小。 這樣，您就可以個人化您的檢視，並控制顯示的縮圖數目。
+**[!UICONTROL 檢視設定]** 對話框開啟，選擇 **[!UICONTROL 檢視設定]** 從檢視選取器。 它可讓您調整「卡片」檢視中的資產縮圖大小。 這樣，您就可以個人化您的檢視，並控制顯示的縮圖數目。
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +109,7 @@ Brand Portal左上角的邊欄選取器下拉式清單，顯示可導覽至資�
 * 顯示資產階層的資料夾路徑
 * 在Brand Portal上發佈資產的日期
 
-路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以點選/按一下資源名稱，然後使用標題](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[階層連結來進行備份，以向下導覽階層。
+路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以點選/按一下資源名稱，以向下導覽階層，並使用 [標題中的階層連結](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在清單檢視中檢視設定
 
-清單檢視預設會將資產&#x200B;**[!UICONTROL 名稱]**&#x200B;顯示為第一欄。 還顯示了其他資訊，如資產&#x200B;**[!UICONTROL Title]**、**[!UICONTROL Locale]**、**[!UICONTROL Type]**、**[!UICONTROL Dimension]**、**[!UICONTROL Size]**、**[!UICONTROL Rating]**，發佈狀態。 但是，您可以使用&#x200B;**[!UICONTROL View Settings]**&#x200B;選擇要顯示的列。
+清單檢視顯示資產 **[!UICONTROL 名稱]** 預設為第一欄。 其他資訊，例如資產 **[!UICONTROL 標題]**, **[!UICONTROL 地區]**, **[!UICONTROL 類型]**, **[!UICONTROL Dimension]**, **[!UICONTROL 大小]**, **[!UICONTROL 評等]**，也會顯示發佈狀態。 不過，您可以選取要顯示的欄，使用 **[!UICONTROL 檢視設定]**.
 
 ![](assets/list-view-setting.png)
 
@@ -234,7 +234,7 @@ Comment Type: draft
 
 除了這些檢視外，在您檢視並選取所需資產或資料夾時，使用樹狀檢視來下鑽資產階層。
 
-若要開啟樹狀檢視，請點選/按一下左上方的邊欄選取器，然後從功能表選取&#x200B;**[!UICONTROL 內容樹]**。
+若要開啟樹狀檢視，請點選/按一下左上方的邊欄選取器，然後選取 **[!UICONTROL 內容樹]** 的上界。
 
 ![](assets/contenttree.png)
 
@@ -252,11 +252,19 @@ Comment Type: draft
 
 ![](assets/asset-overview.png)
 
-您可以在資產詳細資訊頁面上檢視資產的所有可用轉譯，然後選取轉譯以預覽。
+您可以在資產詳細資訊頁面上檢視資產的所有可用轉譯，並從 **[!UICONTROL 轉譯]** 面板來預覽。
 
 ![](assets/renditions.png)
 
-若要開啟資產屬性頁面，請使用頂端列的&#x200B;**[!UICONTROL 屬性(p)]**&#x200B;選項。
+>[!CAUTION]
+>
+>(**Experience Manager Assetsas a Cloud Service** 僅限)下列已知問題將在即將發行的版本中修正：
+>
+>此 **[!UICONTROL 轉譯]** 面板不會列出2021年12月16日後發佈至Brand Portal之資產的所有靜態轉譯。
+>
+>此 **[!UICONTROL 轉譯]** 面板會列出資產的智慧型裁切轉譯，但使用者無法預覽或下載智慧型裁切轉譯。
+
+若要開啟資產屬性頁面，請使用 **[!UICONTROL 屬性(p)]** 的上界。
 
 ![](assets/asset-properties.png)
 
