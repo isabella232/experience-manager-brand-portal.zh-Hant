@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 6%
@@ -83,7 +83,7 @@ Brand Portal支援以下用戶角色：
 
 * [搜索公共資產](brand-portal-searching.md)
 
-* [下載公共資產](download-assets.md)
+* [下載公共資產](brand-portal-download-assets.md)
 
 * [將資產添加到 [!UICONTROL 燈箱]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Brand Portal的標準用戶通常是具有Viewer角色的用戶。 具有此角�
 
 * [搜索資產](brand-portal-searching.md)
 
-* [下載資產](download-assets.md)
+* [下載資產](brand-portal-download-assets.md)
 
 ### 編輯者 {#editor}
 
