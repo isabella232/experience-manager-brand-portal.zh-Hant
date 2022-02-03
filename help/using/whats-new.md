@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e460f4713886f084c87418cf23d1fa468a734f49
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '6316'
 ht-degree: 1%
@@ -184,14 +184,14 @@ Brand Portal2020.10.0是一個增強版，它側重於簡化資產下載體驗�
 
 之前， **[!UICONTROL 下載]** 對話框顯示了多個選項，如為每個資產建立單獨的資料夾、電子郵件資產、選擇原始資產、自定義格式副本、動態格式副本、排除系統格式副本以及啟用下載加速，這些選項在選擇要下載的多個資產或資料夾時對非技術用戶或新用戶不明確。 此外，用戶無法查看所有資產格式副本或排除特定的自定義格式副本或動態格式副本。
 
-新 **[!UICONTROL 下載]** 對話框概括了資產選擇和篩選過程，使Brand Portal用戶在下載資產格式副本時更容易作出有效決策。 它根據 [**[!UICONTROL 下載]**](brand-portal-download-assets.md) 配置和 **[!UICONTROL 下載]** 的子菜單。
+新 **[!UICONTROL 下載]** 對話框概括了資產選擇和篩選過程，使Brand Portal用戶在下載資產格式副本時更容易作出有效決策。 它根據 [**[!UICONTROL 下載]**](download-assets.md) 配置和 **[!UICONTROL 下載]** 的子菜單。
 
 >[!NOTE]
 >
 >現在所有用戶都 **[!UICONTROL 快速下載]** 預設啟用，需要IBMAspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)，然後從Brand Portal下載資產。
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 從 **[!UICONTROL 下載]** 對話框，用戶可以：
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal2020.10.0中，用戶可以排除特定格式副本並直接 [從「格式副本」面板下載選定格式副本](brand-portal-download-assets.md#download-assets-from-asset-details-page) 在資產詳細資訊頁面中，無需開啟 **[!UICONTROL 下載]** 對話框。
+在Brand Portal2020.10.0中，用戶可以排除特定格式副本並直接 [從「格式副本」面板下載選定格式副本](download-assets.md#download-assets-from-asset-details-page) 在資產詳細資訊頁面中，無需開啟 **[!UICONTROL 下載]** 對話框。
 
 
 <!-- 
@@ -294,7 +294,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### 下載體驗 {#download-configurations}
 
-資產下載流程得到改進，在 [從Brand Portal下載資產](brand-portal-download-assets.md)。
+資產下載流程得到改進，在 [從Brand Portal下載資產](download-assets.md)。
 
 從Brand Portal下載資產的現有工作流，不可避免地會出現  **[!UICONTROL 下載]** 對話框，其中包含多個下載選項可供選擇。
 
