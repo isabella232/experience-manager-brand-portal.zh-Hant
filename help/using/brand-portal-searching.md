@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 5%
+source-wordcount: '1225'
+ht-degree: 4%
 
 ---
 
 # 在 Brand Portal 上搜尋資產 {#search-assets-on-brand-portal}
 
-Brand Portal搜索功能允許您使用nisearch快速搜索相關資產，而facet搜索則使用篩選器幫助您進一步縮小搜索範圍。 您可以在檔案或資料夾級別搜索資產，並將搜索結果另存為智慧集合。 但是，不能使用nisearch或facet搜索搜索集合的資產。
+Brand Portal搜索功能允許您使用nisearch快速搜索相關資產，而facet搜索則使用篩選器幫助您進一步縮小搜索範圍。 您可以在檔案或資料夾級別搜索資產，並將搜索結果另存為智慧集合。
+
+>[!NOTE]
+>
+>Brand Portal不支援使用omnisearch進行集合搜索。
+>
+>但是，您可以 [搜索篩選器以獲取相關集合的清單](#search-collection)。
 
 ## 使用Omnisearch搜索資產 {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Brand Portal搜索功能允許您使用nisearch快速搜索相關資產，而fac
 1. 在 **[!UICONTROL 編輯智慧集合]** 對話框，選擇 **[!UICONTROL 另存為]** 並輸入智慧集合的名稱。 按一下「**[!UICONTROL 儲存]**」。
 
    ![](assets/saveas_smartsearch.png)
+
+
+## 搜索集合 {#search-collection}
+
+集合不支援Omnisearch。 但是，您可以應用搜索篩選器來從 [!UICONTROL 集合] 。
+
+從 [!UICONTROL 集合] 介面，按一下覆蓋表徵圖以開啟左滑軌中的濾鏡面板。 從可用篩選器中應用單個或多個搜索篩選器(`modified date`。 `access type`, `tags`)。 它根據應用的篩選器列出最相關的集合集。
+
+![](assets/collection-search.png)
