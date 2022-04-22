@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1558'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 Experience Manager Assetsas a Cloud Service通過從雲管理器激活Brand Portal自動配置為Brand Portal。 激活工作流在後端建立所需的配置，並在與Experience Manager Assetsas a Cloud Service實例相同的IMS組織上激活Brand Portal。
 
-然而，Experience Manager Assets（在本地和受管服務）使用Adobe開發者控制台手動配置給Brand Portal，該控制台採購AdobeIdentity Management服務(IMS)令牌以授權Brand Portal租戶。
+然而，Experience Manager Assets（內部和托管服務）使用Adobe Developer控制台手動配置為Brand Portal，該控制台為Brand Portal租戶授權採購AdobeIdentity Management服務(IMS)令牌。
 
 有關詳細資訊，請參見 [配置Experience Manager Assets和Brand Portal](../using/configure-aem-assets-with-brand-portal.md)。
 
@@ -113,7 +113,11 @@ Brand Portal的標準用戶通常是具有Viewer角色的用戶。 具有此角�
 
 管理員包括在中標籤為系統管理員或Brand Portal產品管理員的用戶 [!UICONTROL Admin Console]。 管理員可以添加和刪除系統管理員和用戶、定義預設、向用戶發送電子郵件以及查看門戶使用情況和儲存報告。
 
-管理員可以執行編輯器可以執行的所有任務：
+>[!NOTE]
+>
+>在Brand Portal，在 [!UICONTROL Admin Console] 具有與系統管理員相同的權限。
+
+管理員可以執行編輯器可以執行的所有任務。 以下是管理員可以執行的其他任務：
 
 * [管理使用者、群組和使用者角色](brand-portal-adding-users.md)
 
