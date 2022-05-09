@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets·Brand Portal有什麼新聞嗎
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 有哪些新功能和2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: 有哪些新功能和2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
+source-wordcount: '6482'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 1%
 # Experience Manager Assets·Brand Portal有什麼新聞嗎 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal幫助您輕鬆獲得、控制和安全地將經批准的創意資產分散到外部各方和跨設備的內部業務用戶。 它有助於提高資產共用的效率，加快資產的上市時間，並降低不遵守法規和未經授權的訪問的風險。 Adobe正在努力改善Brand Portal的整體經驗。 以下是新功能和增強功能的潛在概覽。
+
+## 2022.05.0中的更改 {#what-changed-in-May-2022}
+
+Brand Portal現在每12小時執行一次自動作業，以刪除發佈到的所有Brand Portal資AEM產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，以使資料夾大小低於閾值限制。 您還可以使用 **[!UICONTROL 工具]** > **[!UICONTROL 資產貢獻狀態]** > **[!UICONTROL 刪除報告]** 頁籤。 作業的報表提供以下詳細資訊：
+
+* 作業開始時間
+* 作業結束時間
+* 作業狀態
+* 作業中包括的總資產
+* 已成功刪除作業中的總資產。
+
+![刪除報告](assets/deletion-reports.png)
+
+您還可以進一步追溯以查看刪除作業中包括的每個資產的詳細資訊。 報表中包括資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊。
+
+![刪除報告詳細資訊](assets/deletion-reports-detailed.png)
+
+此外，Brand Portal2022.05.0還包括對關鍵問題的修復。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md)。
+
 
 ## 2022.02.0中的更改 {#what-changed-in-Feb-2022}
 
