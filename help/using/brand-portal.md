@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 6%
 
 ---
@@ -73,7 +73,7 @@ Brand Portal支援以下用戶角色：
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 來賓用戶（輕型用戶） {#guest-user}
+### 來賓用戶 {#guest-user}
 
 Experience Manager AssetsBrand Portal [來賓訪問](#request-access-to-brand-portal) Brand Portal。 來賓用戶不需要憑據即可進入門戶，並且可以訪問公共資料夾和集合。 作為來賓用戶，您可以瀏覽資產詳細資訊並查看公用資料夾和集合成員的完整資產視圖。 您可以搜索、下載和添加公共資產到 [!UICONTROL 燈箱] 的下界。
 
@@ -89,9 +89,9 @@ Experience Manager AssetsBrand Portal [來賓訪問](#request-access-to-brand-po
 
 有關詳細資訊，請參見 [來賓可訪問Brand Portal](../using/guest-access.md)。
 
-### 查看器（標準用戶） {#viewer}
+### 檢視者 {#viewer}
 
-標準用戶是在中定義的Brand Portal用戶 [!DNL Admin Console] 可以以查看者的身份訪問Brand Portal。 具有此角色的用戶可以登錄Brand Portal並訪問允許的資料夾、集合和資產。 用戶還可以瀏覽、預覽、下載和導出資產（原始或特定格式副本）、配置帳戶設定以及搜索資產。 以下是查看器可執行的任務清單：
+Brand Portal用戶定義 [!DNL Admin Console] 可以以查看者的身份訪問Brand Portal。 具有此角色的用戶可以登錄Brand Portal並訪問允許的資料夾、集合和資產。 用戶還可以瀏覽、預覽、下載和導出資產（原始或特定格式副本）、配置帳戶設定以及搜索資產。 以下是查看器可執行的任務清單：
 
 * [瀏覽資產](browse-assets-brand-portal.md)
 
@@ -160,7 +160,7 @@ Brand Portal6.4.3以後，組織可以有一個備用（別名）URL，用於其
 
 要請求訪問，請執行以下操作：
 
-1. 在Brand Portal登錄頁中，選擇 **[!UICONTROL 按一下這裡]** 對應 **[!UICONTROL 需要訪問？]**. 但是，要輸入來賓會話，請選擇 **[!UICONTROL 按一下這裡]** 對應 **[!UICONTROL 來賓訪問？]**。
+1. 在Brand Portal登錄頁中，選擇 **[!UICONTROL 按一下這裡]** 對應 **[!UICONTROL 需要訪問？]**。 但是，要輸入來賓會話，請選擇 **[!UICONTROL 按一下這裡]** 對應 **[!UICONTROL 來賓訪問？]**。
 
    ![Brand Portal登錄螢幕](assets/bp-login-requestaccess.png)
 
