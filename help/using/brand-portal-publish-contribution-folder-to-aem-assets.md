@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Brand Portal儀表板反映允許Brand Portal用戶使用的所有現有資料�
 瀏覽簡介（資產需求文檔）並參考基準資產以瞭解資產需求。 現在，您可以建立新資產供稿，並將其上載到稿件資料夾。
 
 
-## 將資產上載到貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
+## 將資產上載到貢獻資料夾 {#upload-new-assets-to-contribution-folder}
 
 通過資產要求後，Brand Portal用戶可以建立新資產供捐贈，並將其上載到捐贈資料夾中的NEW資料夾。 用戶可以將多個資產上載到資產貢獻資料夾。 但是，一次只能建立一個資料夾。
 
@@ -138,7 +138,7 @@ Brand Portal用戶可以將貢獻資料夾發佈到Experience Manager Assets，�
 
 * 在Brand Portal，導航到 **[!UICONTROL 工具]** > **[!UICONTROL 資產貢獻狀態]**。 此報表反映發佈工作流不同階段的所有發佈作業的狀態。
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * 在Experience Manager Assets（內部或托管服務），導航至 **[!UICONTROL 資產]** > **[!UICONTROL 作業]**。 此報表反映所有發佈作業的最終狀態（成功或錯誤）。
 
@@ -157,3 +157,58 @@ Brand Portal用戶可以將貢獻資料夾發佈到Experience Manager Assets，�
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## 自動從Contribution資料夾刪除發佈到Experience Manager Assets的資產 {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal現在每十二小時執行一次自動作業，以掃描所有Contribution資料夾並刪除發佈到的所有AEM資產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，以將資料夾大小保持在 [閾值限制](#upload-new-assets-to-contribution-folder)。 您還可以監視在過去七天內自動執行的刪除作業的狀態。 作業的報表提供以下詳細資訊：
+
+* 作業開始時間
+* 作業結束時間
+* 作業狀態
+* 作業中包括的總資產
+* 作業中已成功刪除的資產總數
+* 作業運行後可用的總儲存
+
+   ![刪除報告](assets/deletion-reports.png)
+
+您還可以進一步追溯以查看刪除作業中包括的每個資產的詳細資訊。 報表中包括資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊。
+
+![刪除報告詳細資訊](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * 客戶可以請求Adobe客戶支援禁用並重新啟用自動刪除作業功能或更改其執行頻率。
+> * 此功能可隨6.5.13.0和更高版本一起使用。
+
+
+### 查看和下載刪除報告 {#view-delete-jobs}
+
+要查看和下載刪除作業的報告，請執行以下操作：
+
+1. 在Brand Portal，導航到 **[!UICONTROL 工具]**>**[!UICONTROL 資產貢獻狀態]**>**[!UICONTROL 刪除報告]** 的雙曲餘切值。
+
+1. 選擇作業並按一下 **[!UICONTROL 視圖]** 按鈕
+
+   查看刪除作業中包含的每個資產的詳細資訊。 報表中包括資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊。 按一下 **[!UICONTROL 下載]** 以CSV格式下載作業的報告。
+
+   報表中資產的刪除狀態可以具有以下可能值：
+
+   * **已刪除**  — 資產已成功從「貢獻」資料夾中刪除。
+
+   * **未找到** -Brand Portal在「貢獻」資料夾中找不到資產。 資產已手動從資料夾中刪除。
+
+   * **已跳過** -Brand Portal跳過了資產刪除，因為「貢獻」資料夾中有可用於資產的新版本，但尚未發佈到Experience Manager。
+
+   * **失敗** -Brand Portal未能刪除資產。 有三次重試嘗試刪除具有 `Failed` 刪除狀態。 如果資產第三次重試刪除嘗試失敗，則需要手動刪除資產。
+
+### 刪除報表
+
+Brand Portal還允許您選擇一個或多個報告並手動刪除它們。
+
+要刪除報表：
+
+1. 導航到 **[!UICONTROL 工具]**>**[!UICONTROL 資產貢獻狀態]**>**[!UICONTROL 刪除報告]** 的雙曲餘切值。
+
+1. 選擇一個或多個報告，然後按一下 **[!UICONTROL 刪除]**。
+
+

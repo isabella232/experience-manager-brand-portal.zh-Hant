@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
+source-wordcount: '6493'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,8 @@ Brand Portal現在每12小時執行一次自動作業，以刪除發佈到的所
 * 作業結束時間
 * 作業狀態
 * 作業中包括的總資產
-* 已成功刪除作業中的總資產。
+* 作業中已成功刪除的資產總數
+* 作業運行後可用的總儲存
 
 ![刪除報告](assets/deletion-reports.png)
 
@@ -336,7 +337,7 @@ Brand Portal管理員可以啟用任何組合來配置資產下載。
 
 ## 6.4.6中的更改 {#what-changed-in-646}
 
-在Brand Portal6.4.6,AEM Assets和Brand Portal之間的授權渠道發生了改變。 Brand Portal現在在AEM Assetsas a Cloud Service、AEM Assets6.3及以上版本上受支援。 在AEM Assets6.3及更高版本中，Brand Portal通過舊式OAuth網關在經典UI中進行配置，該網關使用JWT令牌交換來獲取IMS訪問令牌以進行授權。 AEM Assets現在通過Adobe開發者控制台配置Brand Portal，後者為您的Brand Portal租戶提供IMS令牌授權。
+在Brand Portal6.4.6,AEM Assets和Brand Portal之間的授權渠道發生了改變。 Brand Portal現在在AEM Assetsas a Cloud Service、AEM Assets6.3及以上版本上受支援。 在AEM Assets6.3及更高版本中，Brand Portal通過舊式OAuth網關在經典UI中進行配置，該網關使用JWT令牌交換來獲取IMS訪問令牌以進行授權。 AEM Assets現在通過Adobe Developer控制台配置Brand Portal，該控制台為您的Brand Portal租戶提供IMS令牌授權。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -609,7 +610,7 @@ Brand Portal用戶可以應用基於IBMAspera Connect的快速下載，使速度
 * 管理員需要取消選擇相應的複選框以防止一組用戶訪問原始格式副本。
 * 如果用戶是多個組的成員，但其中只有一個組具有限制，則限制將適用於該用戶。
 * 這些限制不適用於管理員，即使它們是受限組的成員。
-* 將用戶共用資產作為連結的權限應用於使用共用連結下載資產的用戶。
+* 用戶共用資產作為連結的權限應用於使用共用連結下載資產的用戶。
 
 ### 「卡」和「清單」視圖上的資料夾層次結構路徑
 
