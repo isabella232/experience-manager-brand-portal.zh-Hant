@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hant
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.zh-Hant
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
@@ -25,4 +25,4 @@ metadata.md 檔案包含存放庫層級中繼資料，這些中繼資料會傳�
 | getting-started-url | Helpx 快速入門頁面連結 |
 | tutorials-url | 教學課程影片 (Helpx 或 KT 教學課程其中之一) 的連結 |
 | mini-toc-levels | 決定顯示在右側欄中的標題層數量。預設值為 2 |
-| git-repo | 指定主要存放庫的位置，以供內部使用 |
+| git-repo | 指定用於內部使用的主回購庫的位置 |
