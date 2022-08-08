@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 7%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal版中的新功能、增強功能、已修復的關鍵問題和已知2022.05.0題。
+深入瞭解Adobe Experience Manager Assets Brand Portal版中的新功能、增強功能、已修復的關鍵問題和已知2022.08.0題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.05.0 |
-| 日期 | 2022年5月 |
+| 版本 | 2022.08.0 |
+| 日期 | 2022年8月 |
 
-## 概覽 {#overview}
+## 概觀 {#overview}
 
-Adobe Experience Manager(AEM)Assets Brand Portal幫助您輕鬆獲得、控制和安全地將經批准的創意資產分散給外部各方和跨設備的內部業務用戶。 它有助於提高資產共用的效率，加快資產的上市時間，並降低不遵守法規和未經授權的訪問的風險。 Brand Portal允許用戶隨時隨地以公司批准的格式瀏覽、搜索、預覽、下載和導出資產。
+Adobe Experience Manager(AEM)Assets Brand Portal幫助您輕鬆獲得、控制和安全地將經批准的創意資產分散給外部各方和跨設備的內部業務用戶。 它有助於提高資產共用的效率，加快資產上市的時間，並降低不遵守法規和未經授權的訪問的風險。 Brand Portal允許用戶隨時隨地以公司批准的格式瀏覽、搜索、預覽、下載和導出資產。
 
-## 2022.05.0中的新增功能 {#whats-new-in-2022.05.0}
+## 2022.08.0中的新增功能 {#whats-new-in-2022.08.0}
+
+### 關鍵問題已修復 {#critical-issues-fixed}
+
+此版本包括對以下關鍵問題的修復：
+* 當NUI無法處理Experience Manager中的資產時，Brand Portal顯示不準確的資產導入狀態。
+* 當預覽操作失敗時，沒有通知來通知失敗。
+* 租戶上載配額屬性正在為租戶錯誤設定。
+* 按一下 **下載所有項目** 而且有大量格式副本可用於某項資產，Brand Portal會下載一個無效的.ZIP檔案。
+* 某些字串的翻譯在Brand Portal用戶介面上被截斷。
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### 新功能 {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal現在每12小時執行一次自動作業，以刪除發佈到的所有Brand Portal資AEM產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，以使資料夾大小低於閾值限制。 請參閱 [Experience Manager Assets·Brand Portal有什麼新聞嗎](whats-new.md)。
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### 關鍵問題已修復 {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-此版本包括對以下關鍵問題的修復：
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* 下載包含帶有顏色標籤的資產的資料夾或集合時，也會下載XML檔案。
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* 下載包含格式副本的視頻時，Brand Portal會建立一個無效的.ZIP檔案。
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* 當您在作者上建立預設和資AEM產並將其發佈到Brand Portal，然後在下載資產時選擇動態格式副本時，您無法提取下載的內容。 ZIP檔案。
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* 從Brand Portal上可用的某些資料夾下載視頻資產時出現問題。
-
-* 使用電子郵件共用「貢獻」資料夾的URL時，查看器和編輯器角色在使用breadcrumb訪問其父資料夾時遇到問題。
-
-* 來源補充發佈報告顯示的作業開始時間不正確。
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 此版本包括以下已知問題：
 
-* 資產來源補充報表內容中的部分本地化。
+* 資產來源補充報表內容中的部分本地化
 
 
 <!--

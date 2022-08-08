@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
+source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
 workflow-type: tm+mt
-source-wordcount: '6493'
+source-wordcount: '6498'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
 # Experience Manager Assets·Brand Portal有什麼新聞嗎 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal幫助您輕鬆獲得、控制和安全地將經批准的創意資產分散到外部各方和跨設備的內部業務用戶。 它有助於提高資產共用的效率，加快資產的上市時間，並降低不遵守法規和未經授權的訪問的風險。 Adobe正在努力改善Brand Portal的整體經驗。 以下是新功能和增強功能的潛在概覽。
+
+## 2022.08.0中的更改 {#what-changed-in-August-2022}
+
+Brand Portal2022.08.0包括對關鍵問題的修復。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md)。
 
 ## 2022.05.0中的更改 {#what-changed-in-May-2022}
 
@@ -540,7 +544,7 @@ Dynamic Media視頻編碼可從以下網址下載：
 
 ### 計畫發佈到Brand Portal
 
-資產（和資料夾）發佈工作流 [AEM(6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=zh-Hant) 可以安排到Brand Portal的作者實例的日期、時間。
+資產（和資料夾）發佈工作流 [AEM(6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 可以安排到Brand Portal的作者實例的日期、時間。
 
 同樣，可以稍後通過安排「從Brand Portal取消發佈」工作流從門戶中刪除已發佈的資產。
 
@@ -610,7 +614,7 @@ Brand Portal用戶可以應用基於IBMAspera Connect的快速下載，使速度
 * 管理員需要取消選擇相應的複選框以防止一組用戶訪問原始格式副本。
 * 如果用戶是多個組的成員，但其中只有一個組具有限制，則限制將適用於該用戶。
 * 這些限制不適用於管理員，即使它們是受限組的成員。
-* 用戶共用資產作為連結的權限應用於使用共用連結下載資產的用戶。
+* 將用戶共用資產作為連結的權限應用於使用共用連結下載資產的用戶。
 
 ### 「卡」和「清單」視圖上的資料夾層次結構路徑
 
