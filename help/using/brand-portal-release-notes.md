@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 8%
 
 ---
@@ -37,7 +37,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal幫助您輕鬆獲得、控制�
 ### 關鍵問題已修復 {#critical-issues-fixed}
 
 此版本包括對以下關鍵問題的修復：
-* 當NUI無法處理Experience Manager中的資產時，Brand Portal顯示不準確的資產導入狀態。
+
+* 當Asset compute無法處理Experience Manager中的資產時，Brand Portal顯示不準確的資產導入狀態。
 * 當預覽操作失敗時，沒有通知來通知失敗。
 * 租戶上載配額屬性正在為租戶錯誤設定。
 * 按一下 **下載所有項目** 而且有大量格式副本可用於某項資產，Brand Portal會下載一個無效的.ZIP檔案。
