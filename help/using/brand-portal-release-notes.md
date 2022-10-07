@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 8%
+source-wordcount: '382'
+ht-degree: 7%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取�
 ### 已修正的重大問題 {#critical-issues-fixed}
 
 此發行包含下列重大問題的修正：
-* 將大型檔案從Brand Portal複製到協力廠商工具時，回應速度緩慢。
+
+* 將大型檔案從Brand Portal複製到協力廠商工具時，回應時間變慢。
 * 當您選取轉譯計數核取方塊時，會停用選取個別轉譯的核取方塊。
 * 搜尋的回應時間緩慢。
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal的脈搏通知將於2022年12月1日起終止。 您將繼續收到下列事件的電子郵件通知，而非Pulse通知：
->* 透過連結共用資產
->* 請求存取工作流程
->* 共用貢獻資料夾
->* 起始匯出至AEM
->* 已完成匯出至AEM
+>AEM Assets Brand Portal的脈搏通知將於2022年12月1日起終止。 您會繼續收到下列事件的電子郵件通知：
+>* Brand Portal資產透過共用連結與您共用時
+>* 管理員核准您的Brand Portal存取請求時。 當您要求Brand Portal存取權時，管理員也會收到通知。
+>* 貢獻資料夾與您共用時
+>* 當您開始將資產從Brand Portal發佈至AEM
+>* 成功從Brand Portal發佈資產至AEM時
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
