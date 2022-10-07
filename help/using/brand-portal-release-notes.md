@@ -1,7 +1,7 @@
 ---
 title: 發行說明
 seo-title: Release Notes
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal版中的功能、增強功能、已修復的關鍵問題和已知2022.05.0題。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2022.05.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '343'
 ht-degree: 8%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal版中的新功能、增強功能、已修復的關鍵問題和已知2022.08.0題。
+深入了解Adobe Experience Manager Assets Brand Portal 2022.10.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.08.0 |
-| 日期 | 2022年8月 |
+| 版本 | 2022.10.0 |
+| 日期 | 2022年10月 |
 
-## 概觀 {#overview}
+## 總覽 {#overview}
 
-Adobe Experience Manager(AEM)Assets Brand Portal幫助您輕鬆獲得、控制和安全地將經批准的創意資產分散給外部各方和跨設備的內部業務用戶。 它有助於提高資產共用的效率，加快資產上市的時間，並降低不遵守法規和未經授權的訪問的風險。 Brand Portal允許用戶隨時隨地以公司批准的格式瀏覽、搜索、預覽、下載和導出資產。
+Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市的時間，並降低不合規和未授權訪問的風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式來瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2022.08.0中的新增功能 {#whats-new-in-2022.08.0}
+## 新增功能2022.10.0 {#whats-new-in-2022.10.0}
 
-### 關鍵問題已修復 {#critical-issues-fixed}
+### 已修正的重大問題 {#critical-issues-fixed}
 
-此版本包括對以下關鍵問題的修復：
+此發行包含下列重大問題的修正：
+* 將大型檔案從Brand Portal複製到協力廠商工具時，回應速度緩慢。
+* 當您選取轉譯計數核取方塊時，會停用選取個別轉譯的核取方塊。
+* 搜尋的回應時間緩慢。
 
-* 當Asset compute無法處理Experience Manager中的資產時，Brand Portal顯示不準確的資產導入狀態。
-* 當預覽操作失敗時，沒有通知來通知失敗。
-* 租戶上載配額屬性正在為租戶錯誤設定。
-* 按一下 **下載所有項目** 而且有大量格式副本可用於某項資產，Brand Portal會下載一個無效的.ZIP檔案。
-* 某些字串的翻譯在Brand Portal用戶介面上被截斷。
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal的脈搏通知將於2022年12月1日起終止。 您將繼續收到下列事件的電子郵件通知，而非Pulse通知：
+>* 透過連結共用資產
+>* 請求存取工作流程
+>* 共用貢獻資料夾
+>* 起始匯出至AEM
+>* 已完成匯出至AEM
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### 已知問題 {#known-issues}
+This release includes the following known issue:
 
-此版本包括以下已知問題：
-
-* 資產來源補充報表內容中的部分本地化
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}
@@ -217,30 +237,30 @@ This release includes the following known issues:
 
 ## 語言 {#languages}
 
-Brand Portal用戶介面以下列語言提供：
+Brand Portal使用者介面提供下列語言版本：
 
 * 英文
 * 德文
 * 法文
 * 西班牙文
 * 義大利文
-* 巴西葡萄牙語
+* 巴西葡萄牙文
 * 日文
 * 簡體中文
 * 韓文
 
 ## 認證平台 {#certified-platforms}
 
-要確定哪些平台經認證可隨本版Brand Portal一起運行，請參閱 **支援觸控優化的UI** 列 **創作用戶介面支援的瀏覽器** 部分 [技術要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)。
+若要確定哪些平台經認證可隨此版本的Brand Portal一起執行，請參閱 **支援觸控最佳化UI** 欄(位於 **製作使用者介面支援的瀏覽器** 區段 [技術需求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## 連結 {#links}
 
-* [Adobe Experience ManagerAdobe.com上的產品頁](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal文檔](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Adobe Experience Manager Product Page on adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal檔案](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
-## 產品訪問和支援（受限站點） {#product-access-and-support-restricted-sites}
+## 產品存取與支援（受限網站） {#product-access-and-support-restricted-sites}
 
-這些站點僅可供客戶使用。 如果您是客戶並需要訪問，請與Adobe客戶經理聯繫。
+這些網站僅供客戶使用。 如果您是Adobe，需要存取權，請聯絡您的客戶經理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
