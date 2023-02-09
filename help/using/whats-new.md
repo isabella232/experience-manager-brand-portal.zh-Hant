@@ -1,18 +1,18 @@
 ---
 title: Experience Manager Assets Brand Portal的新增功能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2022.10.0的新功能和增強功能有哪些
-seo-description: What are the new features and enhancements for 2022.10.0
+description: 2032.02.0的新功能和增強功能有哪些
+seo-description: What are the new features and enhancements for 2023.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
+source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
 workflow-type: tm+mt
-source-wordcount: '6515'
+source-wordcount: '6547'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 1%
 
 Adobe Experience Manager Assets Brand Portal可協助您跨裝置輕鬆取得、控制及安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Adobe正致力於改善整體Brand Portal體驗。 以下是新功能和增強功能的潛在概覽。
 
+## 2023.02.0中的變化 {#what-changed-in-February-2023}
+
+Brand Portal 2023.02.0是內部版本，包含重要問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
+
 ## 2022.10.0中的變化 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0包含重大問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
+Brand Portal 2022.10.0是內部版本，包含重要問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
 
 ## 2022.08.0中的變化 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0包含重大問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
+Brand Portal 2022.08.0是內部版本，包含重要問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
 
 ## 2022.05.0中的變化 {#what-changed-in-May-2022}
 

@@ -1,67 +1,71 @@
 ---
 title: 發行說明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2022.05.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2023.02.0版中的功能、增強功能、已修正的重大問題，以及已知問題。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Anuj Kapoor
+contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
+source-git-commit: 666db34a01bd9bb0d6d4967524121cdeb776394d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '441'
 ht-degree: 7%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2022.10.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
+深入了解Adobe Experience Manager Assets Brand Portal 2023.02.0版中的新功能、增強功能、已修正的重大問題，以及已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.10.0 |
-| 日期 | 2022年10月 |
+| 版本 | 2023.02.0 |
+| 日期 | 2023年2月 |
 
-## 總覽 {#overview}
+## 概觀 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取得、控制並安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市的時間，並降低不合規和未授權訪問的風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式來瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 新增功能2022.10.0 {#whats-new-in-2022.10.0}
+## 新增功能2023.02.0 {#whats-new-in-2023.02.0}
 
 ### 已修正的重大問題 {#critical-issues-fixed}
 
+#### 錯誤修正 {#bug-fixes}
+
 此發行包含下列重大問題的修正：
+* 無法在Brand Portal上更新個人資料圖片。
+* 內容樹窗格不可調整大小。 如果檔案名稱長於內容樹的預設寬度，則不能水準和垂直拖動內容樹。 因此，無法讀取較長的檔案名稱。
+* 搜尋表單中使用兩次的相同屬性述詞的搜尋結果不一致。
+* 中繼登入頁面上的文字並非所有語言都本地化。
 
-* 將大型檔案從Brand Portal複製到協力廠商工具時，回應時間變慢。
-* 當您選取轉譯計數核取方塊時，會停用選取個別轉譯的核取方塊。
-* 搜尋的回應時間緩慢。
+### 增強功能 {#enhancements}
 
->[!IMPORTANT]
->
->AEM Assets Brand Portal的脈搏通知將於2022年12月1日起終止。 您會繼續收到下列事件的電子郵件通知：
->* Brand Portal資產透過共用連結與您共用時
->* 管理員核准您的Brand Portal存取請求時。 當您要求Brand Portal存取權時，管理員也會收到通知。
->* 貢獻資料夾與您共用時
->* 當您開始將資產從Brand Portal發佈至AEM
->* 成功從Brand Portal發佈資產至AEM時
+此版本包含下列增強功能：
+* 現在提供新的現代PDF檢視器，以改善PDF資產的預覽。
+* 您現在可以選擇為管理員啟用或停用資產來源補充通知。 導覽至 [!UICONTROL 一般設定] 然後啟用或禁用 [!UICONTROL `Notify Administrator of asset contribution`].
 
+   ![通知管理員資產貢獻](assets/notify-admin.png)
+
+* 如果請求存取權遭到停用，未經授權的使用者就無法請求存取Brand Portal。
+* 僅針對Brand Portal布建的組織會顯示在設定檔選取器清單中。
+
+### 已知問題 {#known-issues}
+
+此版本包含下列已知問題：
+
+* 資產來源補充報表內容中的部分本地化
 
 <!--
-## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
-
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issues:
-
-* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+This release include fixes to the following critical issues:
+* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
 * When the preview action fails, there is no notification to communicate the failure.
-* Tenant Upload Quota property is getting inaccurately set for tenants.
+* Inaccurate value for the totalUploadedSize property for each asset is fixed.
 * When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
 * The translation of some strings gets truncated on the Brand Portal user interface.
 -->
@@ -153,7 +157,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
@@ -179,14 +183,6 @@ In case only the original assets are downloaded, the asset reflects its own exte
 * Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
--->
-
-<!--
-### Known Issues {#known-issues}
-
-This release includes the following known issue:
-
-* Partial localization in Asset sourcing report content
 -->
 
 <!--
