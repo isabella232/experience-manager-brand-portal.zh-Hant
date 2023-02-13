@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 666db34a01bd9bb0d6d4967524121cdeb776394d
+source-git-commit: b4efe1d2d5a2e6cf6163f6af9e6d862afbfbb129
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '432'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取�
 #### 錯誤修正 {#bug-fixes}
 
 此發行包含下列重大問題的修正：
-* 無法在Brand Portal上更新個人資料圖片。
 * 內容樹窗格不可調整大小。 如果檔案名稱長於內容樹的預設寬度，則不能水準和垂直拖動內容樹。 因此，無法讀取較長的檔案名稱。
 * 搜尋表單中使用兩次的相同屬性述詞的搜尋結果不一致。
 * 中繼登入頁面上的文字並非所有語言都本地化。
