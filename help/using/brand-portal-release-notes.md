@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -43,7 +43,6 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取�
 * 內容樹窗格不可調整大小。 如果檔案名稱長於內容樹的預設寬度，則不能水準和垂直拖動內容樹。 因此，無法讀取較長的檔案名稱。
 * 搜尋表單中使用兩次的相同屬性述詞的搜尋結果不一致。
 * 中繼登入頁面上的文字並非所有語言都本地化。
-* 使用者設定檔的少數欄位在上無法編輯 `Edit` 設定檔頁面。
 
 ### 增強功能 {#enhancements}
 
@@ -60,7 +59,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取�
 
 此版本包含下列已知問題：
 
-* 資產來源補充報表內容中的部分本地化
+* 資產來源補充報表內容中的部分本地化。
+* 使用者設定檔中的少數欄位無法在使用者設定檔上編輯。
 
 <!--
 This release include fixes to the following critical issues:
