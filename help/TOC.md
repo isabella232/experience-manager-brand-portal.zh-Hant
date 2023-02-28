@@ -20,15 +20,15 @@ ht-degree: 75%
 
 + [Brand Portal 指南](using/home.md)
 + 簡介 {#introduction}
-   + [概覽](using/brand-portal.md)
-   + [Experience Manager Assets·Brand Portal有什麼新聞嗎](using/whats-new.md)
+   + [概觀](using/brand-portal.md)
+   + [Experience Manager Assets Brand Portal的新增功能](using/whats-new.md)
    + [發行說明](using/brand-portal-release-notes.md)
-   + [常見問題](using/brand-portal-faqs.md)
+   + [常見問答](using/brand-portal-faqs.md)
    + [支援的檔案格式](using/brand-portal-supported-formats.md)
    + [Brand Portal 的訪客存取](using/guest-access.md)
-   + [理解Brand Portal與Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [透過Experience Manager Assets了解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上瀏覽資產](using/browse-assets-brand-portal.md)
-+ 從Experience Manager Assets出版到Brand Portal {#publish}
++ 從Experience Manager Assets發佈至Brand Portal {#publish}
    + [透過 Brand Portal 設定 Experience Manager Assets](using/configure-aem-assets-with-brand-portal.md)
    + [將資產發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
@@ -37,9 +37,9 @@ ht-degree: 75%
    + [將標記發佈至 Brand Portal](using/brand-portal-publish-tags.md)
    + [將預設集、結構和 Facet 發佈至 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的 Asset Sourcing {#asset-sourcing-in-brand-portal}
-   + [資產來源補充概覽](using/brand-portal-asset-sourcing.md)
-   + [在Experience Manager Assets配置稿件夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [將稿資料夾發佈到Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Asset Sourcing概觀](using/brand-portal-asset-sourcing.md)
+   + [在Experience Manager Assets中設定貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [將貢獻資料夾發佈至Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 與使用者共用資產 {#share}
    + [共用集合](using/brand-portal-share-collection.md)
    + [共用資料夾](using/brand-portal-sharing-folders.md)
