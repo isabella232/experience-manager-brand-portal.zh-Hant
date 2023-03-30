@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 7%
+source-wordcount: '1047'
+ht-degree: 3%
 
 ---
 
@@ -62,14 +62,72 @@ Adobe Experience Manager(AEM)Assets Brand Portal可協助您跨裝置輕鬆取�
 * 資產來源補充報表內容中的部分本地化。
 * 使用者設定檔中的少數欄位無法在使用者設定檔上編輯。
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## 舊版
+
+### 2022年10月發行 {#oct-2022}
+
+**已修正的重大問題**
+
+此版本包含下列重大問題的修正：
+* 將大型檔案從Brand Portal複製到協力廠商工具時，回應速度緩慢。
+* 當您選取轉譯計數核取方塊時，會停用選取個別轉譯的核取方塊。
+* 搜尋的回應時間緩慢。
+
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal的脈搏通知將於2022年12月1日起終止。 您將繼續收到下列事件的電子郵件通知，而非Pulse通知：
+>* 透過連結共用資產
+>* 請求存取工作流程
+>* 共用貢獻資料夾
+>* 起始匯出至AEM
+>* 已完成匯出至AEM
+>
+
+
+### 2022年8月發行 {#aug-2022}
+
+**已修正的重大問題**
+
+此版本包含下列重大問題的修正：
+* 當NUI無法處理Experience Manager中的資產時，Brand Portal會顯示不正確的資產匯入狀態。
+* 預覽動作失敗時，沒有通知可傳達失敗。
+* 每個資產的totalUploadedSize屬性值不正確已修正。
+* 當您按一下 **下載所有項目** 而且有大量轉譯項目可供資產使用，則Brand Portal會下載無效的.ZIP檔案。
+* 某些字串的轉譯在Brand Portal使用者介面上會遭到截斷。
+
+### 2022年5月發行 {#may-2022}
+
+**新功能**
+
+Brand Portal現在會每十二小時執行自動作業，刪除發佈至AEM的所有Brand Portal資產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，即可將資料夾大小維持在臨界值限制以下。
+
+**已修正的重大問題**
+
+此發行包含下列重大問題的修正：
+
+* 下載包含有顏色標籤資產的資料夾或集合時，也會下載XML檔案。
+* 下載包含轉譯的視訊時，Brand Portal會建立無效的.ZIP檔案。
+* 當您在AEM作者上建立預設集和資產，並將其發佈至Brand Portal，然後在下載資產時選取動態轉譯時，無法解壓縮下載的.ZIP檔案。
+* 從Brand Portal上可用的特定資料夾下載視訊資產時發生問題。
+* 使用電子郵件共用貢獻資料夾的URL時，檢視器和編輯器角色在使用階層連結存取其父資料夾時會遇到問題。
+* 來源補充發佈報告顯示的任務開始時間不正確。
+
+### 2022年2月發行 {#feb-2022}
+
+**新功能**
+
+* 來賓使用者的工作階段逾時臨界值已從2小時縮短為15分鐘。
+* 其他 **[!UICONTROL 檢視頁面]** 多頁PDF的選項已移除，因為使用者現在可以從Adobe Document Cloud檢視器檢視PDF頁面。
+* 使用者無法搜尋、導覽或開啟資料夾。 使用者介面會顯示錯誤訊息： `Failed to load data`.
+* 此 **[!UICONTROL 轉譯]** 面板不會列出發佈至Brand Portal之資產的所有靜態轉譯。
+* 此 **[!UICONTROL 轉譯]** 面板會列出資產的智慧型裁切轉譯，但使用者無法預覽或下載智慧型裁切轉譯。
+* 下載對話方塊會列出所選資產的智慧型裁切轉譯，但使用者無法下載智慧型裁切轉譯。
+* 非管理員使用者在下載資產時只會取得原始資產轉譯。 系統和自訂轉譯不會下載。
+* 套用搜尋篩選器以下載資產時， `Download` 「下載」對話方塊中的「 」按鈕會停用，且不允許使用者下載資產。
+* 若 `Smart Tags` 和（或） `Color Tags` ，則下載對話方塊會列出 `json` 檔案作為格式副本並下載 `json` 檔案。
+* 匿名使用者無法使用共用連結下載資產，因為連結會重新導向至Brand Portal登入頁面。
+* 系統未反映活躍同時使用者人數的正確值。
+
 <!--
 ### New Features {#new-features}
 
