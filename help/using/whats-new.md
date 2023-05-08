@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal的新增功能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.02.0的新功能和增強功能有哪些
-seo-description: What are the new features and enhancements for 2023.02.0
+description: 2032.05.0的新功能和增強功能有哪些
+seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6514'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
 # Experience Manager Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可協助您跨裝置輕鬆取得、控制及安全地將經過核准的創意資產發佈給外部人士和內部業務使用者。 它有助於提高資產共用的效率，加快資產上市時間，並降低不合規和未經授權的訪問風險。 Adobe正致力於改善整體Brand Portal體驗。 以下是新功能和增強功能的潛在概覽。
+
+## 2023.05.0中的變化 {#what-changed-in-May-2023}
+
+Brand Portal 2023.05.0是內部版本，包含重要問題的修正。 查看最新 [Brand Portal發行說明](brand-portal-release-notes.md).
 
 ## 2023.02.0中的變化 {#what-changed-in-February-2023}
 
@@ -385,9 +389,6 @@ Brand Portal管理員可啟用任何組合以設定資產下載。
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [建立設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0和更新版本）** | [建立設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0和更新版本）** | [建立設定](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級配置](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8和更新版本）** | [建立設定](https://helpx.adobe.com/tw/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升級配置](https://helpx.adobe.com/tw/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | 聯絡客戶支援 | 聯絡客戶支援 |
 
 >[!NOTE]
 >
@@ -552,7 +553,7 @@ Dynamic Media視訊編碼可從以下位置下載：
 
 ### 排程發佈至Brand Portal
 
-資產（和資料夾）發佈工作流程來源 [AEM(6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 可以排程日後的日期、時間來製作Brand Portal的例項。
+可從AEM 6.4.2.0製作例項將資產（和資料夾）發佈至Brand Portal的工作流程，可以排程在稍後的日期和時間執行。
 
 同樣地，稍後可排程「從Brand Portal取消發佈」工作流程，從入口網站移除已發佈的資產。
 
@@ -670,7 +671,7 @@ Brand Portal為非管理員使用者（編輯者、檢視者、訪客使用者�
 
 ### Adobe I/OUI以設定oAuth整合
 
-Brand Portal 6.4.2以上版本使用舊版OAuth(`https://legacy-oauth.cloud.adobe.io/`)介面以建立JWT應用程式，啟用設定oAuth整合以允許AEM Assets與Brand Portal整合。 之前，設定OAuth整合的UI托管於 `https://marketing.adobe.com/developer/`. 若要進一步了解如何整合AEM Assets與Brand Portal，以便將資產和集合發佈至Brand Portal，請參閱 [設定AEM Assets與Brand Portal的整合](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2以上版本使用舊版OAuth(`https://legacy-oauth.cloud.adobe.io/`)介面以建立JWT應用程式，啟用設定oAuth整合以允許AEM Assets與Brand Portal整合。 之前，設定OAuth整合的UI托管於 `https://marketing.adobe.com/developer/`. 若要進一步了解如何整合AEM Assets與Brand Portal，以便將資產和集合發佈至Brand Portal，請參閱 [設定AEM Assets與Brand Portal的整合](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## 搜尋增強功能
 
