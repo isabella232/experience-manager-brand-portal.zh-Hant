@@ -1,7 +1,7 @@
 ---
 title: 使用報表
 seo-title: Work with reports
-description: Experience ManagerAssets Brand Portal管理員可檢視Brand Portal使用情況的報表，以及建立、管理及檢視透過Brand Portal共用之已下載、過期、已發佈及連結資產的相關報表。
+description: Experience Manager AssetsBrand Portal管理員可以查看有關Brand Portal使用情況的報告，並建立、管理和查看有關通過Brand Portal共用的已下載、過期、已發佈和連結的資產的報告。
 seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
@@ -19,72 +19,72 @@ ht-degree: 2%
 
 # 使用報表 {#work-with-reports}
 
-報告功能有助於評估Brand Portal的使用情形，並了解內部和外部使用者如何與核准的資產互動。 管理員可以檢視Brand Portal使用量報表，該報表一律可在資產報表頁面上使用。 不過，使用者登入和下載、過期、發佈及透過連結共用的資產報表，可從「資產報表」頁面產生及檢視。 這些報表有助於分析資產部署，可讓您衍生關鍵成功量度，以評估組織內外核准資產的採用情形。
+報告功能有助於評估Brand Portal的使用情況，並瞭解內部和外部用戶如何與批准的資產進行交互。 管理員可以查看「資產報告」頁上始終可用的「Brand Portal使用情況」報告。 但是，可以從「資產報告」頁生成和查看用戶登錄和資產下載、過期、發佈和通過連結共用的資產的報告。 這些報告有助於分析資產部署，使您能夠得出關鍵的成功度量，以衡量組織內外批准資產的採用情況。
 
-報表管理介面直覺式，包含存取儲存報表的微調選項和控制項。 您可以從「資產報表」頁面檢視、下載或刪除報表，其中會列出所有先前產生的報表。
+報表管理介面是直觀的，包括訪問已保存報表的細粒度選項和控制項。 您可以從「資產報告」頁查看、下載或刪除報告，其中列出了以前生成的所有報告。
 
-## 檢視報表 {#view-reports}
+## 查看報告 {#view-reports}
 
-若要檢視報表，請依照下列步驟操作：
+要查看報告，請執行以下步驟：
 
-1. 從頂端的工具列，點選/按一下Experience Manager標誌以存取管理工具。
+1. 在頂部的工具欄上，點擊/按一下Experience Manager徽標以訪問管理工具。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，按一下&#x200B;**[!UICONTROL 建立/管理報表]**&#x200B;以開啟&#x200B;**[!UICONTROL 資產報表]**&#x200B;頁面。
+1. 在管理工具面板中，按一下 **[!UICONTROL 建立/管理報告]** 開啟 **[!UICONTROL 資產報表]** 的子菜單。
 
    ![](assets/access-asset-reports.png)
 
-1. 從「資產報表」頁面存取&#x200B;**[!UICONTROL 使用狀況]**&#x200B;報表和其他產生的報表。
+1. 訪問 **[!UICONTROL 用法]** 「資產報表」頁中的報表和其他生成的報表。
 
    >[!NOTE]
    >
-   >使用狀況報表是Brand Portal中產生的預設報表。 無法建立或刪除。 不過，您可以建立、下載及刪除「下載」、「過期」、「發佈」、「連結共用」及「使用者登入」報表。
+   >使用情況報告是在Brand Portal生成的預設報告。 無法建立或刪除。 但是，您可以建立、下載和刪除「下載」、「過期」、「發佈」、「連結共用」和「用戶登錄」報告。
 
-   若要檢視報表，請按一下報表連結。 或者，選取報表，然後點選/按一下工具列中的「檢視」圖示。
+   要查看報告，請按一下報告連結。 或者，選擇報告，然後從工具欄中點擊/按一下「查看」表徵圖。
 
-   **[!UICONTROL 使]** 用狀況報表會顯示Brand Portal使用者人數、所有資產佔用的儲存空間，以及Brand Portal中的資產總數的相關資訊。未指派給Admin Console中任何產品設定檔的Brand Portal使用者會視為非作用中使用者，且不會反映在&#x200B;**[!UICONTROL 使用狀況報表]**中。
-報表也會顯示這些資訊量度的允許容量。
+   **[!UICONTROL 使用情況報告]** 顯示有關Brand Portal活動用戶數、所有資產佔用的儲存空間以及Brand Portal總資產計數的資訊。 未分配給Admin Console中任何產品配置檔案的品牌門戶用戶被視為非活動用戶，不會反映在 **[!UICONTROL 使用情況報告]**。
+此報表還顯示這些資訊度量中每個指標的允許能力。
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL 「使]** 用者登入」報表提供登入Brand Portal的使用者的相關資訊。報表會顯示在產生報表之前，每個使用者的顯示名稱、電子郵件ID、角色（管理員、檢視者、編輯者、訪客）、群組、上次登入、活動狀態，以及Brand Portal 6.4.2部署中的登入計數。
+   **[!UICONTROL 用戶登錄]** 報告提供了有關登錄到Brand Portal的用戶的資訊。 該報告顯示從Brand Portal6.4.2部署到生成報告之前的每個用戶的顯示名稱、電子郵件ID、personas(admin、viewer、editor、guest)、組、上次登錄、活動狀態和登錄計數。
 
    ![](assets/user-logins.png)
 
-   **** 下載報表會列出特定日期和時間範圍內下載的所有資產的詳細資訊。
+   **[!UICONTROL 下載]** 報告清單和特定日期和時間範圍內下載的所有資產的詳細資訊。
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >資產&#x200B;**[!UICONTROL 下載]**&#x200B;報表只會顯示個別選取並從Brand Portal下載的資產。 如果使用者下載了包含資產的資料夾，報表就不會顯示資料夾或資料夾內的資產。
+   >資產 **[!UICONTROL 下載]** 報告僅顯示從Brand Portal單獨選擇和下載的資產。 如果用戶已下載包含資產的資料夾，則報表不顯示資料夾或資料夾內的資產。
 
-   **** 到期報告會列出並詳細說明特定時間範圍內到期的所有資產。
+   **[!UICONTROL 到期]** 報告列出並詳細列出在特定時間範圍內到期的所有資產。
 
    ![](assets/expiration-report.png)
 
-   **** 發佈報表會列出並提供在指定時間範圍內從Experience Manager資產發佈至Brand Portal的所有資產的相關資訊。
+   **[!UICONTROL 發佈]** 報告列出並提供有關在指定時間範圍內從Experience Manager Assets發佈到Brand Portal的所有資產的資訊。
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >「發佈報表」不會顯示內容片段的相關資訊，因為內容片段無法發佈至Brand Portal。
+   >「發佈報告」不顯示有關內容片段的資訊，因為內容片段無法發佈到Brand Portal。
 
-   **[!UICONTROL 「連結共]** 用」報表會列出特定時間範圍內，透過Brand Portal介面的連結共用的所有資產。報表也會通知透過連結共用資產的時間、連結的到期時間，以及租用戶（以及共用資產連結的使用者）的共用連結數。 無法自訂「連結共用報表」的欄。
+   **[!UICONTROL 連結共用報告]** 列出特定時間範圍內通過Brand Portal介面連結共用的所有資產。 該報告還通知通過連結共用資產的時間、用戶、連結到期的時間、租戶（以及與資產連結共用的用戶）的共用連結數。 連結共用報表的列不可自定義。
 
    ![](assets/link-share-report.png)
 
    >[!NOTE]
    >
-   >「連結共用報表」不會顯示可存取透過連結共用之資產，或已透過連結下載資產的使用者。
+   >連結共用報表不顯示有權訪問通過連結共用的資產或已通過連結下載資產的用戶。
    >
-   >若要透過共用連結追蹤下載，您必須在&#x200B;**[!UICONTROL 建立報表]**&#x200B;頁面上選取&#x200B;**[!UICONTROL 僅連結共用下載]**&#x200B;選項後產生下載報表。 但在此情況下，使用者（下載者）是匿名的。
+   >要通過共用連結跟蹤下載，您需要在選擇 **[!UICONTROL 僅連結共用下載]** 選項 **[!UICONTROL 建立報告]** 的子菜單。 但是，在本例中，用戶（下載者）是匿名的。
 
-## 產生報表 {#generate-reports}
+## 生成報告 {#generate-reports}
 
-管理員可產生和管理下列標準報表，一旦產生，便會儲存為[accessed](../using/brand-portal-reports.md#main-pars-header)以後：
+管理員可以生成和管理以下標準報告，一旦生成，這些報告將保存為 [訪問](../using/brand-portal-reports.md#main-pars-header) 稍後：
 
 * 使用者登入
 * 下載
@@ -92,69 +92,69 @@ ht-degree: 2%
 * 發佈
 * 連結共用
 
-「下載」、「過期」和「發佈」報表中的欄可自訂以供檢視。 若要產生報表，請依照下列步驟操作：
+可以自定義「下載」、「到期」和「發佈」報告中的列以供查看。 要生成報告，請執行以下步驟：
 
-1. 從頂端的工具列，點選/按一下Experience Manager標誌以存取管理工具。
+1. 在頂部的工具欄上，點擊/按一下Experience Manager徽標以訪問管理工具。
 
-1. 從管理工具面板，點選/按一下「建立/管理報表」]**以開啟「資產報表」****頁面。**[!UICONTROL 
+1. 在管理工具面板中，點擊/按一下 **[!UICONTROL 建立/管理報告]** 開啟 **[!UICONTROL 資產報表]** 的子菜單。
 
    ![](assets/asset-reports.png)
 
 1. 在「資產 報表」頁面 ，點選/按一下「 **[!UICONTROL 建立」]**。
-1. 從&#x200B;**[!UICONTROL 建立報表]**&#x200B;頁面中，選取要建立的報表，然後點選/按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 從 **[!UICONTROL 建立報告]** 頁，選擇要建立的報告，然後點擊/按一下 **[!UICONTROL 下一個]**。
 
    ![](assets/crete-report.png)
 
-1. 設定報表詳細資訊。 指定標題、說明、資料夾結構（其中報表需要執行並產生統計資料），以及&#x200B;**[!UICONTROL Download]**、**[!UICONTROL Expiration]**&#x200B;和&#x200B;**[!UICONTROL Publish]**&#x200B;報表的日期範圍。
+1. 配置報告詳細資訊。 指定標題、說明、資料夾結構（其中需要運行和生成統計資訊的報告）和日期範圍 **[!UICONTROL 下載]**。 **[!UICONTROL 到期]**, **[!UICONTROL 發佈]** 報告。
 
    ![](assets/create-report-page.png)
 
-   但是，**[!UICONTROL 連結共用報表]**&#x200B;只需要標題、說明和日期範圍參數。
+   然而， **[!UICONTROL 連結共用報告]** 只需要標題、說明和日期範圍參數。
 
    ![](assets/create-link-share-report.png)
 
    >[!NOTE]
    >
-   >報表標題中的特殊字元#和%會在報表產生時以連字型大小(-)取代。
+   >報告標題中的特殊字元#和%在生成報告時被連字元(-)替換。
 
-1. 點選/按一下&#x200B;**[!UICONTROL Next]**，以設定「下載」、「過期」和「發佈」報表的欄。
-1. 根據需要選擇或取消選擇相應的複選框。 例如，若要在&#x200B;**[!UICONTROL Download]**&#x200B;報表中檢視使用者（已下載資產）的名稱，請選取&#x200B;**[!UICONTROL Downloaded By]**。 下圖說明如何在「下載」報表中選取預設欄。
+1. 點擊/按一下 **[!UICONTROL 下一個]**，以配置「下載」、「到期」和「發佈」報告的列。
+1. 根據需要選擇或取消選擇相應的複選框。 例如，要在中查看用戶（下載了資產）的名稱 **[!UICONTROL 下載]** 報告，選擇 **[!UICONTROL 下載者]**。 下圖說明了在「下載」報告中選擇預設列。
 
    ![](assets/createdownloadreport.png)
 
-   您也可以將自訂欄新增至這些報表，以根據您的自訂需求顯示更多資料。
+   您還可以向這些報告添加自定義列，以根據自定義要求顯示更多資料。
 
-   若要新增自訂欄至「下載」、「發佈」或「到期」報表，請遵循下列步驟：
+   要將自定義列添加到「下載」、「發佈」或「過期」報告，請執行以下步驟：
 
-   1. 若要顯示自訂欄，請點選/按一下[!UICONTROL 自訂欄]內的「新增&#x200B;]**」。**[!UICONTROL 
-   1. 在&#x200B;**[!UICONTROL 欄名稱]**&#x200B;欄位中指定欄的名稱。
-   1. 使用屬性選擇器，選擇列需要映射到的屬性。
+   1. 要顯示自定義列，請點擊/按一下 **[!UICONTROL 添加]** 內 [!UICONTROL 自定義列]。
+   1. 指定中列的名稱 **[!UICONTROL 列名]** 的子菜單。
+   1. 使用屬性選取器選擇列需要映射到的屬性。
 
       ![](assets/property-picker.png)
-或者，在屬性路徑欄位中輸入路徑。
+或者，在屬性路徑欄位中鍵入路徑。
 
       ![](assets/property-path.png)
 
-      若要新增更多自訂欄，請點選/按一下「**新增**」，並重複步驟2和3。
+      要添加更多自定義列，請點擊/按一下 **添加** 重複步驟2和3。
 
-1. 點選/按一下&#x200B;**[!UICONTROL 建立]**。 訊息會通知報表產生已開始。
+1. 點擊/按一下 **[!UICONTROL 建立]**。 消息通知已啟動報告生成。
 
-## 下載報表 {#download-reports}
+## 下載報告 {#download-reports}
 
-若要將報表儲存並下載為.csv檔案，請執行下列其中一項操作：
+要將報告另存為.csv檔案並下載，請執行以下操作之一：
 
-* 在「資產報表」頁面上選取報表，然後從頂端的工具列點選/按一下「下載&#x200B;****」。
+* 在「資產報告」頁面上選擇報告，然後點擊/按一下 **[!UICONTROL 下載]** 的上界。
 
 ![](assets/download-asset-report.png)
 
-* 從「資產報表」頁面，開啟報表。 從報表頁面頂端選取&#x200B;**[!UICONTROL 下載]**&#x200B;選項。
+* 在「資產報表」頁中，開啟報表。 選擇 **[!UICONTROL 下載]** 的子菜單。
 
 ![](assets/download-report-fromwithin.png)
 
-## 刪除報表 {#delete-reports}
+## 刪除報告 {#delete-reports}
 
-若要刪除現有報表，請從&#x200B;**[!UICONTROL 資產報表]**&#x200B;頁面選取報表，然後從頂端的工具列點選/按一下&#x200B;**[!UICONTROL 刪除]**。
+要刪除現有報表，請從中選擇報表 **[!UICONTROL 資產報表]** 點擊/按一下 **[!UICONTROL 刪除]** 的上界。
 
 >[!NOTE]
 >
->**** 無法刪除使用報告。
+>**[!UICONTROL 用法]** 無法刪除報告。

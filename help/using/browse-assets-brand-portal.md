@@ -36,7 +36,7 @@ Brand Portal左上角的鐵路選擇器向下下拉，以顯示導航到資產�
 
 ![](assets/viewselector.png)
 
-## 查看和選擇資源 {#viewing-and-selecting-resources}
+## 檢視和選擇資源 {#viewing-and-selecting-resources}
 
 查看、導航和選擇每個視圖在概念上在所有視圖上都相同，但在處理方面有小的變化，具體取決於您使用的視圖。
 

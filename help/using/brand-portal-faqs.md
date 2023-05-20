@@ -1,7 +1,7 @@
 ---
-title: 常見問題
+title: 常見問答
 seo-title: null
-description: 深入了解Adobe Experience Manager Assets Brand Portal中的常見問題。
+description: 在 Adobe Experience Manager Assets 品牌入口網站中分析常見問題。
 seo-description: null
 uuid: null
 content-type: reference
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 ---
 
-# 常見問題 {#frequently-asked-questions}
+# 常見問答 {#frequently-asked-questions}
 
-Brand Portal常見問題集著重於使用最新Experience Manager Assets Brand Portal 6.4.6版或更舊版本時，一般使用者可能會遇到的查詢和問題。
+品牌入口網站常見問題著重于使用最新 Experience Manager Assets 品牌入口網站6.4.6 發行版本或較早版本時可能遇到的終端使用者查詢和問題。
 
 
-## Brand Portal 6.4.6常見問題集  {#faqs-bp646}
+## Brand Portal6.4.6常見問題  {#faqs-bp646}
 
-**是的。現有的舊版OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
+**克斯。 現有舊OAuth終結點(`https://legacy-oauth.cloud.adobe.io/login`)不工作。 可能的原因是什麼？**
 
-**安。** 舊版OAuth設定已淘汰。您必須將Experience Manager Assets製作執行個體升級至最新的Service Pack，並透過Adobe開發人員控制台進行設定。 如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](configure-aem-assets-with-brand-portal.md) 。 不過，若要讓舊版OAuth設定在升級前一直有效，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**安。** 不建議使用舊式OAuth配置。 您必須將Experience Manager Assets作者實例升級到最新的Service Pack，並通過Adobe Developer控制台進行配置。 請參閱 [將Experience Manager Assets配置為Brand Portal](configure-aem-assets-with-brand-portal.md) 的雙曲餘切值。 不過，若要讓舊版 OAuth 設定在升級之前運作，請將舊版 OAuth 端點更新為 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/` 。
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Brand Portal常見問題集著重於使用最新Experience Manager Assets Brand 
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**是的。升級至「Adobe開發人員控制台」後，我無法將貢獻資料夾的資產從Brand Portal發佈至Experience Manager Assets。 我的作者例項位於Experience Manager Assets 6.5.4。可能的原因為何？**
+**Ques. 升級至 Assets 開發人員主控台後，我無法發佈「貢獻」資料夾的資產從品牌入口網站至 Experience Manager Adobe Systems。 我的作者執行個體位於 Experience Manager Assets 6.5.4 上。可能有什麼原因？**
 
-**安。** 是的，透過「Adobe開發人員控制台」將貢獻資料夾的資產發佈至Experience Manager Assets 6.5.4時，有一個已知問題。
+**自動化.** 是的，發佈貢獻資料夾的資產時，若要透過 Adobe Systems 開發者控制台 Experience Manager Assets 6.5.4，就有一個已知問題。
 
-此問題已在Experience Manager Assets 6.5.5中修正。您可以將Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe開發人員控制台上[升級設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+Experience Manager Assets 6.5.5 已修正此問題。您可以將 Experience Manager Assets 執行個體升級至最新的 service pack，並 [ 在 Adobe Systems 開發人員控制台上升級您 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 的設定。
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,162 +46,160 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**是的。我沒有看到從Experience Manager Assets中的Brand Portal發佈的貢獻資料夾內容。 可能的原因是什麼？**
+**Ques. 在 Experience Manager Assets 中看不到「貢獻」資料夾的品牌入口網站內容。 可能有什麼原因？**
 
-**安。** 請連絡您的Experience Manager Assets管理員以驗證設定，並確認您的Brand Portal租用戶僅設定一個Experience Manager Assets製作例項。
+**自動化.** 請聯絡您的 Experience Manager Assets 管理員驗證設定，並確保您的品牌入口網站租戶僅使用一個 Experience Manager Assets author 執行個體。
 
-若您在多個Brand Portal製作執行個體上設定了Experience Manager Assets租用戶，就可能會發生此問題。 例如，管理員會在測試和生產環境的Experience Manager Assets製作例項上設定相同的Brand Portal租用戶。 在此情況下，Brand Portal會觸發資產發佈，但Experience Manager Assets製作例項無法匯入資產coz，復寫代理程式不會收到要求的代號。
+當您在多個 Experience Manager Assets 作者例上設定品牌入口網站租戶時，可能會發生此問題。 例如，管理員在測試和生產環境的 Experience Manager Assets 作者執行個體上設定相同的品牌入口網站。 在這種情況下，資產發佈品牌入口網站中的觸發器，但 Experience Manager Assets 作者執行個體無法匯入資產 coz。
 
 
-**是的。我無法將資產從Experience Manager Assets發佈至Brand Portal。 復寫記錄會指出連線逾時。 有快速修復嗎？**
+**Ques. 我無法發佈從 Experience Manager Assets 到品牌入口網站的資產。 複製記錄檔指出連線超時。 是否有快速修正？**
 
-**安。** 如果復寫佇列中有多個待處理請求，發佈通常會因逾時錯誤而失敗。若要解決此問題，請確定復寫代理已設定為避免逾時。
+**自動化.** 如果在複製佇列中有多個掛起的請求，發佈通常會失敗並出現逾時錯誤。 若要解決此問題，請確保將複製代理程式設定為避免超時。
 
-執行下列步驟來配置復寫代理：
+執行下列步驟以設定「複製代理」：
 
-1. 登入您的Experience Manager Assets製作例項。
-1. 從&#x200B;**工具**&#x200B;面板，導覽至&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 復寫]**。
-1. 在「復寫」頁面中，按一下「作者上的代理」**[!UICONTROL 。]**&#x200B;您可以看到Brand Portal租用戶的四個復寫代理。
-1. 按一下復寫代理URL以開啟代理詳細資訊。
-1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以修改複製代理設定。
-1. 在「代理設定」中，按一下&#x200B;**[!UICONTROL Extended]**&#x200B;頁簽。
-1. 選中&#x200B;**[!UICONTROL 關閉連接]**&#x200B;複選框。
-1. 重複步驟4到7以配置所有四個複製代理。
+1. 登入您的 Experience Manager Assets 作者執行個體。
+1. **在工具** 面板中，導覽至 **[!UICONTROL 「部署]** > **[!UICONTROL 」複製]** 。
+1. 在「複製頁面中，按一下 **[!UICONTROL 作者]** 的代理。 您可以查看品牌入口網站租戶的四個複製代理程式。
+1. 按一下「複製代理」 URL 以開啟代理詳細資料。
+1. 按一下 **[!UICONTROL 編輯]** 以修改複製代理程式設定。
+1. 在代理設定中，按一下 **[!UICONTROL 擴展]** 頁籤。
+1. 選擇 **[!UICONTROL 關閉連接]** 的子菜單。
+1. 重複步驟4至7以配置所有四個複製代理。
 1. 重新啟動伺服器並驗證連接。
 
 
-## Brand Portal 6.4.5常見問題集  {#faqs-bp645}
+## Brand Portal6.4.5常見問題  {#faqs-bp645}
 
-**是的。Brand Portal 6.4.5版有何重大變更？**
+**克斯。 品牌入口網站6.4.5 發行的主要變更是什麼？**
 
-**安。** Experience Manager Assets Brand Portal 6.4.5是功能版本，可讓Brand Portal使用者從Brand Portal執行個體內上傳內容，並將「貢獻」資料夾發佈回Experience Manager Assets，而不需要管理員權限。如需詳細資訊，請參閱[Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md)。
-
-
-
-**是的。我是否會失去已建立之任何現有資產、功能或設定的存取權？**
-
-**安。** 您現有的所有功能和設定都保持不變。您的使用者不受影響，您的內容會保持不變。
+**自動化.** Experience Manager AssetsBrand Portal6.4.5是一個功能發佈版，它允許Brand Portal用戶從Brand Portal實例內上傳內容，並將貢獻資料夾發佈回Experience Manager Assets，而無需管理員權限。
+有關詳細資訊，請參見 [Brand Portal資產來源補充](brand-portal-asset-sourcing.md)。
 
 
 
-**是的。何時要改用新版Brand Portal?**
+**克斯。 我是否會失去對我建立的任何現有資產、功能或配置的訪問權限？**
 
-**安。** Brand Portal 6.4.5已於2019年10月正式發行。下一個Brand Portal版本預計於2020年第3季度發行。
-若為更新和版本變更，建議您追蹤[發行說明](brand-portal-release-notes.md)和[Brand Portal的新增功能](whats-new.md)。
-
-
-
-**是的。我的使用者是否會受到影響？**
-
-**安。** Brand Portal 6.4.5版僅限Brand Portal內部使用，因此對您的使用者沒有影響。
+**安。** 所有現有功能和配置都保持不變。 您的終端使用者不受影響，您的內容保持不變。
 
 
 
-**是的。身為Brand Portal使用者，我是否需要執行任何動作？**
+**Ques. 何時移至新版本的品牌入口網站？**
 
-**安。** Brand Portal 6.4.5版隨附名為Asset Sourcing的新功能。管理員必須在Experience Manager Assets中設定Asset Sourcing功能，才能為Brand Portal使用者啟用此功能。 如需詳細資訊，請參閱[啟用資產來源補充](brand-portal-asset-sourcing.md)。
-
-
-
-**是的。誰可以建立貢獻資料夾？**
-
-**安。** 任何擁有在Experience Manager Assets中建立新資料夾權限的Experience Manager Assets使用者，都可以建立「貢 **** 獻」資料夾。若要建立&#x200B;**貢獻**&#x200B;資料夾，請建立類型&#x200B;**資產貢獻**的新資料夾。
-此資料夾會與作用中的Brand Portal使用者共用以供貢獻。
+**自動化.** 2019年10月發行品牌入口網站6.4.5。 而下一品牌入口網站版本預期會在第 3 2020 季度發行。對於更新和版本變更，建議在品牌入口網站中追蹤 [ 版本資訊 ](brand-portal-release-notes.md) 和 [ 新。 ](whats-new.md)
 
 
 
-**是的。貢獻資料夾包含什麼？**
+**Ques. 我的用戶會受到影響嗎？**
 
-**安。** **** 貢獻資料夾包含兩個子資料 **** 夾NEW **和SHARED**。NEW資料夾一開始為空白，而SHARED資料夾包含Brand Portal使用者的參考內容（可重複使用的資產）。
-Brand Portal使用者會存取**Contribution**&#x200B;資料夾，並上傳&#x200B;**NEW**&#x200B;資料夾中的內容。
-
-
-
-**是的。我可以修改現有「貢獻」資料夾的名稱嗎？**
-
-**安。** **否**，您無法修改現有Contribution資料夾的 **** 名稱。
+**安。** Brand Portal6.4.5版僅在Brand Portal內，因此對您的最終用戶沒有影響。
 
 
 
-**是的。w.r.t貢獻的資產需求為何？**
+**克斯。 作為Brand Portal用戶，我是否需要執行任何操作？**
 
-**安。** 附加 **** 至貢獻資料夾的簡 **** 要檔案以及上傳至SHARED資料夾的參考內容(可重複使用的資 **** 產)，可協助Brand Portal使用者了解貢獻與期望作為貢獻者的需求，並統稱為資產需求。
-
-
-
-**是的。我可以將資產上傳至任何允許的資料夾嗎？**
-
-**安。** 並非所有允許的資料夾。Brand Portal使用者只能將內容上傳至由Experience Manager Assets或Brand Portal管理員共用的&#x200B;**貢獻**&#x200B;資料夾。
+**安。** Brand Portal6.4.5版附帶了一個名為「資產來源補充」的新功能。 管理員必須配置Experience Manager Assets的資產採購功能，以便為Brand Portal用戶啟用該功能。 如需詳細資訊，請參閱 [ 啟用資產來源 ](brand-portal-asset-sourcing.md) 。
 
 
 
-**是的。如何存取貢獻資料夾？**
+**Ques. 誰可以建立貢獻資料夾？**
 
-**安。** 只有在已與 **** 您共用貢獻資料夾時，才可以存取該資料夾。每當貢獻資料夾與您共用時，您會收到電子郵件/脈衝通知。 您可以透過電子郵件中共用的連結存取「貢獻」資料夾，或登入您的Brand Portal例項，並導覽至鈴聲圖示，以取得存取「貢獻」資料夾的通知。
+**安。** 任何具有在Experience Manager Assets建立新資料夾權限的Experience Manager Assets用戶都可以 **貢獻** 的子菜單。 建立 **貢獻** 資料夾，建立新類型的資料夾 **資產貢獻**。
+此資料夾與活動的Brand Portal用戶共用，以便進行貢獻。
+
+
+
+**克斯。 貢獻資料夾包含什麼？**
+
+**自動化.****貢獻** 資料夾包含兩個子資料夾 **新增** 和 **共用** 。最初，新資料夾為空白，共用資料夾包含品牌入口網站使用者的參考內容（可重複使用的資產）。品牌入口網站使用者存取 **貢獻** 資料夾，並在新 **資料夾中** 上傳內容。
+
+
+
+**Ques.  我可以修改現有貢獻資料夾的名稱嗎？**
+
+**自動化.** **否**，不能修改現有名稱 **貢獻** 的子菜單。
+
+
+
+**克斯。 資產需求與RT的貢獻是什麼？**
+
+**安。** 的 **簡介** 附加到的文檔 **貢獻** 資料夾和上載到 **共用** folder可幫助Brand Portal用戶瞭解作為貢獻者的貢獻和期望的需要，並統稱為資產要求。
+
+
+
+**克斯。 我可以上傳資產至任何允許的資料夾嗎？**
+
+**自動化.** 並非所有允許的資料夾。 品牌入口網站用戶僅 **能上傳內容的「貢獻** 」資料夾中，Experience Manager Assets 或品牌入口網站管理員共用。
+
+
+
+**Ques. 如何存取貢獻資料夾？**
+
+**自動化.**&#x200B;只有在已與您共用貢獻 **資料夾時，您才能存取** 它。只要共用貢獻資料夾，您就會收到電子郵件/脈衝通知。 您可以透過電子郵件中連結的「共用」來存取「貢獻」資料夾，或登入至您的品牌入口網站執行個體並導覽至 notfication 的鈴聲圖示，以存取貢獻資料夾。
 
 >[!NOTE]
 >
->如果您不是現有的Brand Portal使用者，請要求Experience Manager Assets管理員在admin console中建立您的使用者，並將您的設定檔新增至Brand Portal使用者清單中的使用者設定檔案。
+>如果您不是現有的品牌入口網站用戶，請請求 Experience Manager Assets 管理員在「管理控制台」中建立您的用戶，並將您的設定檔新增到用戶使用者品牌入口網站中的清單設定檔中。
 
-**是的。用戶導入的CSV檔案格式是什麼？**
+**Ques. 用戶匯入的 CSV 檔案格式如何？**
 
-**安。** 格式與大量使用者匯入Admin Console支援的格式相同。電子郵件、名字和姓氏是必填欄位。
-
-
-
-**是的。什麼會填入「資產貢獻者」使用者下拉式清單中的使用者清單(Brand Portal貢獻者)?**
-
-**安。** 下拉式清單中的使用者會從上傳至Experience Manager Assets的Brand Portal使用者設定(.csv)檔案中填入。
+**自動化.** 格式與大量用戶匯入的 Admin Console 支援相同。 必須填寫電子郵件、姓氏和姓氏。
 
 
 
-**是的。在哪裡可以看到導入和發佈作業的狀態？**
+**Ques. 什麼是在「資產貢獻用戶」下拉式清單中填入使用者（品牌入口網站貢獻者）的清單？**
 
-**安。** 在Experience Manager Assets中，您可以在非同步工作頁面中查看匯 **** 入的狀態。在Brand Portal中，您可以在&#x200B;**[!UICONTROL 工具>資產貢獻狀態]**&#x200B;中查看發佈工作的狀態。
-
-
-
-**是的。導入作業在Experience Manager中定期運行的頻率是多少？**
-
-**安。** 在Experience Manager Assets，投票每5分鐘執行一次。
+**自動化.** 下拉式清單中的使用者會從 Experience Manager Assets 中上載的品牌入口網站用戶設定（.csv）檔案中填入。
 
 
 
-**是的。資料夾可從Brand Portal發佈到Experience Manager Assets的次數是否有任何保留？**
+**Ques. 我可以在何處看到匯入和發佈工作的狀態？**
 
-**安。** 否，無論先前發佈的 **** 事實為何，NEW資料夾中的所有資產都會發佈至Experience Manager Assets。每次從Brand Portal發佈&#x200B;**貢獻**&#x200B;資料夾至Experience Manager Assets時，它都會覆寫&#x200B;**NEW**&#x200B;資料夾的內容。
-
-
-
-**是的。如何上傳「貢獻」資料夾中的新資產？**
-
-**安。** 請參閱上傳資產至貢獻 [資料夾的詳細檔案](brand-portal-publish-contribution-folder-to-brand-portal.md)。
+**自動化.**&#x200B;在 Experience Manager Assets 中，您可以在非同步 **工作頁面中查看匯入** 的狀態。在品牌入口網站中，您可以在工具 > 資產貢獻狀態 ]**中**[!UICONTROL  查看發佈工作的狀態。
 
 
 
-**是的。我在Brand Portal使用者上傳至NEW資料夾的資產上沒有看到縮圖/預覽？**
+**Ques. 在 Experience Manager 中週期性執行的匯入工作頻率是什麼？**
 
-**安。** 如此一來，Brand Portal端就不會執行任何工作流程。
+**自動化.** 在 Experience Manager Assets 中，輪詢的每5分鐘執行一次。
 
 
 
-**是的。如果從Experience Manager Assets發佈資料夾至流量中的Brand Portal，會發生什麼事？**
+**Ques. 資料夾可從品牌入口網站發佈到 Experience Manager Assets 的次數是否有 threashold？**
 
-**安。** 在Experience Manager Assets中，每次將資料夾發佈至Brand Portal時，都會維護記錄。發佈時，所有未發佈至Brand Portal的資產都會放入復寫佇列。 觸發發佈工作後新增至資料夾的任何資產都不會發佈至Brand Portal。 當Experience Manager Assets使用者再次發佈資料夾時，只有先前未發佈的資產（存在於復寫佇列中）才會發佈至Brand Portal。
-從Experience Manager Assets發佈至Brand Portal的任何資料夾，以及「貢獻」資料夾內的「共用」資料夾，都會符合此條件。
+**自動化.** 不，所有資產 **新建** 資料夾將發佈到Experience Manager Assets，而不管其早先發佈。 每次a **貢獻** 資料夾從Brand Portal發佈到Experience Manager Assets，它會覆蓋 **新建** 的子菜單。
 
-**是的。我該聯繫誰以回答問題？**
 
-**安。** 請連絡您的Adobe客戶經理或客戶支援。
+
+**克斯。 如何在「貢獻」資料夾中上載新資產？**
+
+**安。** 請參閱詳細文檔，瞭解 [正在將資產上載到貢獻資料夾](brand-portal-publish-contribution-folder-to-brand-portal.md)。
+
+
+
+**克斯。 我看不到由Brand Portal用戶上載到NEW資料夾的資產的縮略圖/預覽？**
+
+**自動化.** 其設計方式如下： coz 不會在品牌入口網站結尾執行工作流程。
+
+
+
+**Ques. 如果資料夾從 Experience Manager Assets 發佈至 flux 中的品牌入口網站會發生什麼事？**
+
+**自動化.** 在 Experience Manager Assets 中，每次發佈資料夾至品牌入口網站時，都會維護記錄。 發佈時，所有未發佈到品牌入口網站的資產都放在一個複製佇列中。 觸發發佈工作後新增至資料夾的任何資產都不會發佈到品牌入口網站。 當 Experience Manager Assets 用戶再次發佈檔案夾時，只會發佈先前未發佈的資產（現有的複製佇列）。這適用于從 Experience Manager Assets 到品牌入口網站，以及在貢獻資料夾中共用資料夾的任何檔案夾。
+
+**Ques. 我該如何聯絡問題？**
+
+**自動化.** 請聯絡您的 Adobe Systems 帳戶管理員或客戶支援。
 
 >[!NOTE]
 >
->發行時間表是暫時性的，可能會有所變更。 請連絡您的Adobe客戶經理或客戶支援，以取得更新的發行排程。
+>發行計畫為暫定，可能會變更。 請聯絡您的 Adobe Systems 客戶經理或客戶支援以取得更新的發行排程。
 
 
-## 產品存取與支援（受限網站） {#product-access-and-support-restricted-sites}
+## 產品訪問和支援（受限站點） {#product-access-and-support-restricted-sites}
 
-這些網站僅供客戶使用。 如果您是Adobe，需要存取權，請聯絡您的客戶經理。
+這些站點僅可供客戶使用。 如果您是客戶並需要訪問，請與Adobe客戶經理聯繫。
 
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
