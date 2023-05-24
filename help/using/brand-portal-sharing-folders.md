@@ -1,7 +1,7 @@
 ---
 title: 共用資料夾
 seo-title: Share folders
-description: Brand Portal不支援資產攝取，因此資產必須從預先配置的Experience Manager Assets作者實例發佈給Brand Portal。 非Brand Portal管理員用戶無法訪問已發佈的資產，除非在使用Experience Manager實例配置複製時進行了配置，並且需要與這些資產共用。
+description: Brand Portal不支援資產擷取，因此資產必須從預先設定的Experience Manager Assets Author例項發佈至Brand Portal。 Brand Portal的非管理員使用者無法存取已發佈的資產，除非在使用Experience Manager執行個體設定復寫時進行設定，否則需要與他們共用。
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -18,128 +18,128 @@ ht-degree: 2%
 
 # 在Brand Portal上共用資料夾 {#share-folders}
 
-資產需要從預先配置的「Experience Manager作者」實例發佈到Brand Portal，因為Brand Portal不支援資產接收。
+資產需要從預先設定的Experience Manager製作例項發佈到Brand Portal，因為Brand Portal不支援資產擷取。
 
-## Brand Portal的資料夾共用工作流 {#folder-sharing-workflow-in-brand-portal}
+## Brand Portal中的資料夾共用工作流程 {#folder-sharing-workflow-in-brand-portal}
 
-下面介紹了資料夾共用工作流和用戶訪問：
+以下說明資料夾共用工作流程和使用者存取權：
 
-* 預設情況下，從Experience Manager Assets發佈到Brand Portal的所有資料夾只對Brand Portal管理員可見，除非在配置複製時標籤為公共。
-* 管理員使用 **[!UICONTROL 資料夾屬性]** 控制台與選擇性用戶或組共用資料夾。 只有與資料夾共用的用戶或組才能在登錄到Brand Portal後查看該資料夾。 其他用戶看不到該資料夾。
-* 管理員還可以選擇通過 **[!UICONTROL 公用資料夾]** 的子菜單。 **[!UICONTROL 資料夾屬性]** 控制台。 公共資料夾對所有用戶可見。
+* 根據預設，從Experience Manager Assets發佈至Brand Portal的所有資料夾僅對Brand Portal管理員可見，除非在設定復寫時標籤為公開。
+* 管理員使用 **[!UICONTROL 資料夾屬性]** 主控台，與選擇性使用者或群組共用資料夾。 只有共用資料夾的使用者或群組，才能在登入Brand Portal後檢視資料夾。 其他使用者看不到該資料夾。
+* 管理員也可以選擇透過 **[!UICONTROL 公用資料夾]** 核取方塊 **[!UICONTROL 資料夾屬性]** 主控台。 所有使用者皆可看到公用資料夾。
 
-* 無論用戶角色和權限如何，當用戶登錄Brand Portal時，他們都會看到所有公共資料夾，以及直接與他們或他們所屬的組共用的資料夾。 專用資料夾或與其他用戶共用的資料夾對所有用戶都不可見。
+* 無論使用者角色和許可權為何，當使用者登入Brand Portal時，他們會看到所有公用資料夾，以及直接與他們共用或與其所屬群組共用的資料夾。 所有使用者都無法看見私人資料夾或與其他使用者共用的資料夾。
 
-### 與Brand Portal上的用戶組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
+### 在Brand Portal上與使用者群組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
 
-對資料夾資產的訪問權限取決於其父資料夾的訪問權限，而不考慮子資料夾的設定。 此行為受 [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) 中，AEM子資料夾從其父資料夾繼承ACL。 例如，如果資料夾A包含包含資料夾C的資料夾B，則對資料夾A具有訪問權限的用戶組（或用戶）對資料夾B和資料夾C也具有相同的訪問權限。資料夾B是A的子資料夾繼承其ACL，而資料夾C是B的子資料夾繼承其ACL。
+檔案夾資產的存取權取決於其父檔案夾的存取權，無論子檔案夾的設定為何。 此行為受下列專案管理： [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) 在AEM中，子資料夾繼承父資料夾的ACL。 例如，如果資料夾A包含包含資料夾C的資料夾B，則對資料夾A具有存取許可權的使用者群組（或使用者）也對資料夾B和資料夾C具有相同的存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，會繼承其ACL。
 
-同樣，具有僅訪問資料夾B權限的用戶組（或用戶）對資料夾C具有相同的訪問權限，但對資料夾A沒有相同的訪問權限。因此，建議組織安排其內容，以便將大多數暴露的資產放置在子資料夾中，並限制從子資料夾到根資料夾的訪問。
+同樣地，僅擁有資料夾B存取許可權的使用者群組（或使用者）對資料夾C但不對資料夾A擁有相同的存取許可權。因此，建議組織安排其內容，以便將大多數公開的資產放在子資料夾中，並可限制從子資料夾到根資料夾的存取。
 
 ### 公用資料夾發佈 {#public-folder-publish}
 
-除非 **[!UICONTROL 公用資料夾發佈]** 選項在配置Brand Portal複製時選中，非管理員用戶（如編輯和查看者）無權訪問從AEM Assets發佈到Brand Portal的資產。
+除非 **[!UICONTROL 公用資料夾發佈]** 在設定Brand Portal復寫時會選取此選項，但非管理員使用者（例如編輯者和檢視者）無法存取從AEM Assets發佈至Brand Portal的資產。
 
 ![](assets/assetbpreplication.png)
 
-如果 **[!UICONTROL 公用資料夾發佈]** 選項被禁用，管理員需要使用共用權能與非管理員用戶專門共用這些資產。
+如果 **[!UICONTROL 公用資料夾發佈]** 選項已停用，管理員需要使用共用功能明確與非管理員使用者共用這些資產。
 
 >[!NOTE]
 >
->啟用的選項 **[!UICONTROL 公用資料夾發佈]** 6.3.2.1版。
+>要啟用的選項 **[!UICONTROL 公用資料夾發佈]** 可自AEM 6.3.2.1使用。
 
-## 訪問共用資料夾 {#access-to-shared-folders}
+## 共用資料夾的存取權 {#access-to-shared-folders}
 
-下表討論了對不同用戶角色共用/取消共用資產的訪問權限和權限：
+下列矩陣討論各種使用者角色的存取許可權以及共用/取消共用資產的許可權：
 
-|  | 訪問從AEM Assets到Brand Portal發佈的所有資料夾 | 訪問共用資料夾 | 共用/取消共用資料夾權限 |
+|  | 存取從AEM Assets發佈至Brand Portal的所有資料夾 | 共用資料夾的存取權 | 共用/取消共用資料夾許可權 |
 |---------------|-----------|-----------|------------|
 | 管理員 | 是 | 是 | 是 |
-| 編輯者 | 否* | 是，僅當與他們或他們所屬的組共用時 | 是，僅用於與他們共用的資料夾或與他們所屬的組共用的資料夾 |
-| 檢視者 | 否* | 是，僅當與他們或他們所屬的組共用時 | 否 |
-| 訪客使用者 | 否* | 是，僅當與他們或他們所屬的組共用時 | 否 |
+| 編輯者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 是，僅適用於與其共用或與所屬群組共用的資料夾 |
+| 檢視者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 否 |
+| 訪客使用者 | 否* | 是，僅當與他們共用或與他們所屬的群組共用時 | 否 |
 
 >[!NOTE]
 >
->預設情況下， **[!UICONTROL 公用資料夾發佈]** 選項在配置使用AEM作者複製Brand Portal時禁用。 如果啟用該選項，則所有用戶（非管理員用戶也可訪問）預設情況下將可訪問發佈到Brand Portal的資料夾。
+>根據預設， **[!UICONTROL 公用資料夾發佈]** 使用AEM Author設定Brand Portal復寫時停用選項。 如果已啟用此選項，則所有使用者（非管理員使用者）預設都能存取發佈至Brand Portal的資料夾。
 
-### 非管理員用戶對共用資料夾的訪問 {#non-admin-user-access-to-shared-folders}
+### 非管理員使用者對共用資料夾的存取權 {#non-admin-user-access-to-shared-folders}
 
-非管理員用戶只能訪問與他們在Brand Portal上共用的資料夾。 但是，這些資料夾登錄時在門戶上的顯示方式取決於 **[!UICONTROL 啟用資料夾層次結構]** 配置。
+非管理員使用者只能存取他們在Brand Portal上共用的資料夾。 不過，這些資料夾在登入時如何顯示在入口網站上，取決於 **[!UICONTROL 啟用資料夾階層]** 設定。
 
-**如果禁用了配置**
+**如果已停用設定**
 
-非管理員用戶在登錄Brand Portal時會在登錄頁上看到與他們共用的所有資料夾。
+非管理員使用者在登入Brand Portal時，會在登陸頁面上看見與其共用的所有資料夾。
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
-**如果啟用了配置**
+**如果已啟用設定**
 
-非管理員用戶在登錄Brand Portal時會看到資料夾樹（從根資料夾開始）和在其各自父資料夾內排列的共用資料夾。
+非管理員使用者在登入Brand Portal時，可看見資料夾樹狀結構（從根資料夾開始）和在各自父資料夾中排列的共用資料夾。
 
-這些父資料夾是虛擬資料夾，不能對它們執行任何操作。 您可以使用鎖定表徵圖識別這些虛擬資料夾。
+這些父資料夾是虛擬資料夾，無法對它們執行任何動作。 您可以使用鎖定圖示來識別這些虛擬資料夾。
 
-懸停或在中選擇操作任務時不可見 **[!UICONTROL 卡視圖]**，與共用資料夾不同。 **[!UICONTROL 概述]** 中選擇虛擬資料夾時顯示 **[!UICONTROL 列視圖]** 和 **[!UICONTROL 清單視圖]**。
+暫留或選取動作任務時未顯示任何動作任務 **[!UICONTROL 卡片檢視]**，不同於共用資料夾。 **[!UICONTROL 概觀]** 選擇中的虛擬資料夾時顯示按鈕 **[!UICONTROL 欄檢視]** 和 **[!UICONTROL 清單檢視]**.
 
 >[!NOTE]
 >
->請注意，虛擬資料夾的預設縮略圖是第一個共用資料夾的縮略圖。
+>請注意，虛擬資料夾的預設縮圖為第一個共用資料夾的縮圖影像。
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
 ## 共用資料夾 {#how-to-share-folders}
 
-要與Brand Portal上的用戶共用資料夾，請執行以下步驟：
+若要在Brand Portal上和使用者共用資料夾，請執行下列步驟：
 
-1. 按一下左側的覆蓋表徵圖，然後選擇 **[!UICONTROL 導航]**。
+1. 按一下左側的覆蓋圖示，然後選擇 **[!UICONTROL 導覽]**.
 
    ![](assets/selectorrail.png)
 
-1. 從左側的脫軌處，選擇 **[!UICONTROL 檔案]**。
+1. 從左側的側邊欄中選取 **[!UICONTROL 檔案]**.
 
    ![](assets/access_files.png)
 
-1. 從Brand Portal介面中，選擇要共用的資料夾。
+1. 在Brand Portal介面中，選取您要共用的資料夾。
 
    ![](assets/share-folders.png)
 
-1. 從頂部的工具欄中，選擇 **[!UICONTROL 共用]**。
+1. 從頂端的工具列中，選取 **[!UICONTROL 共用]**.
 
    ![](assets/share_icon.png)
 
-   的 [!UICONTROL 資料夾屬性] 控制台。
+   此 [!UICONTROL 資料夾屬性] 主控台隨即顯示。
 
    ![](assets/folder_properties.png)
 
-1. 在 **[!UICONTROL 資料夾屬性]** 控制台，在 **[!UICONTROL 資料夾標題]** 的子菜單。
-1. 從 **[!UICONTROL 添加用戶]** 清單，選擇要與其共用資料夾的用戶或組，然後按一下 **[!UICONTROL 添加]**。
-要僅與來賓用戶共用資料夾，而不與其他用戶共用，請選擇 **[!UICONTROL 匿名用戶]** 從 **[!UICONTROL 成員]** 下拉清單。
+1. 在 **[!UICONTROL 資料夾屬性]** 控制檯中，指定資料夾標題 **[!UICONTROL 資料夾標題]** 欄位。
+1. 從 **[!UICONTROL 新增使用者]** 清單，選取您要共用資料夾的使用者或群組，然後按一下 **[!UICONTROL 新增]**.
+若要僅與訪客使用者共用資料夾，而不與其他使用者共用，請選取 **[!UICONTROL 匿名使用者]** 從 **[!UICONTROL 成員]** 下拉式清單。
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >要使資料夾對所有用戶都可用，而不管其組成員和角色如何，請通過選擇 **[!UICONTROL 公用資料夾]** 的子菜單。
+   >若要讓所有使用者都可以使用資料夾，而不論其群組成員資格和角色為何，請選取 **[!UICONTROL 公用資料夾]** 核取方塊。
 
-1. 如有必要，按一下 **[!UICONTROL 更改縮略圖]** 修改資料夾的縮略圖。
+1. 如有必要，請按一下 **[!UICONTROL 變更縮圖]** 修改資料夾的縮圖影像。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-1. 要訪問共用資料夾，請使用與共用資料夾的用戶的憑據登錄到Brand Portal。 查看介面中的共用資料夾。
+1. 若要存取共用資料夾，請使用共用該資料夾的使用者憑證登入Brand Portal。 在介面中檢閱共用資料夾。
 
 ## 取消共用資料夾 {#unshare-the-folders}
 
-要取消共用以前的共用資料夾，請執行以下步驟：
+若要取消共用先前共用的資料夾，請遵循下列步驟：
 
-1. 從Brand Portal介面中，選擇要取消共用的資料夾。
+1. 在Brand Portal介面中，選取您要取消共用的資料夾。
 
    ![](assets/share-folders-1.png)
 
-1. 在頂部的工具欄中，按一下 **[!UICONTROL 共用]**。
-1. 在 **[!UICONTROL 資料夾屬性]** 控制台，在 **[!UICONTROL 成員]**，按一下 **[!UICONTROL x]** 符號，用於從與共用資料夾的用戶清單中刪除這些符號。
+1. 在頂端的工具列中，按一下 **[!UICONTROL 共用]**.
+1. 在 **[!UICONTROL 資料夾屬性]** 主控台，在 **[!UICONTROL 成員]**，按一下 **[!UICONTROL x]** 符號來將資料夾從共用資料夾的使用者清單中移除。
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告消息框中，按一下 **[!UICONTROL 確認]** 確認取消共用。
+1. 在警告訊息方塊中，按一下 **[!UICONTROL 確認]** 以確認取消共用。
 按一下「**[!UICONTROL 儲存]**」。
 
-1. 使用從共用清單中刪除的用戶的憑據登錄到Brand Portal。 該資料夾在Brand Portal介面中不再可用於用戶。
+1. 使用您從共用清單中移除之使用者的憑證登入Brand Portal。 使用者的Brand Portal介面中不再提供資料夾。

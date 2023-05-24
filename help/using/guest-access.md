@@ -1,7 +1,7 @@
 ---
 title: Brand Portal 的訪客存取
 seo-title: Guest Access to Brand Portal
-description: 允許來賓訪問，並將工作量保存到無身份驗證的機載眾多用戶。
+description: 允許訪客存取，並省下在未驗證的情況下載入許多使用者的工作。
 seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Brand Portal 的訪客存取 {#guest-access-to-brand-portal}
 
-Experience Manager Assets·Brand Portal允許客人訪問門戶。 來賓用戶不需要憑據即可進入門戶，並且可以訪問門戶的公共資產（和集合）。 來賓會話中的用戶可以將資產添加到燈箱（私有集合）並下載該資產，直到其會話持續為止，除非來賓用戶選擇 [[!UICONTROL 結束會話]](#exit-guest-session)。
+Experience Manager Assets Brand Portal可讓訪客存取入口網站。 訪客使用者不需要認證即可進入入口網站，且可以存取入口網站的公開資產（和集合）。 來賓工作階段中的使用者可以將資產新增至Lightbox （私人集合）並下載相同的資產，直到其工作階段持續為止，也就是從工作階段開始算起2小時，除非來賓使用者選擇這樣做 [[!UICONTROL 結束工作階段]](#exit-guest-session).
 
-來賓訪問功能使組織能夠 [快速共用批准的資產](../using/brand-portal-sharing-folders.md#how-to-share-folders) 讓目標受眾在不必載他們的情況下實現。 Brand Portal6.4.2以後已裝備為多個併發來賓用戶服務，佔每個組織用戶配額總數的10%。 允許客戶訪問可節省時間，以管理和在Brand Portal的功能有限的用戶數量。\
-組織可以使用組織的Brand Portal帳戶啟用（或禁用）來賓訪問 **[!UICONTROL 允許來賓訪問]** 選項 **[!UICONTROL 訪問]** 的子菜單。
+訪客存取功能可讓組織執行下列動作 [快速共用核准的資產](../using/brand-portal-sharing-folders.md#how-to-share-folders) 可大規模提供目標對象，而不需將其加入。 Brand Portal 6.4.2之後已可同時為多位訪客使用者提供服務，佔每個組織使用者配額總數的10%。 允許訪客存取，可節省在Brand Portal上管理功能有限的使用者並上線分數的時間。\
+組織可以使用對組織的Brand Portal帳戶啟用（或停用）訪客存取 **[!UICONTROL 允許訪客存取]** 選項來源 **[!UICONTROL 存取]** 「管理工具」面板中的設定。
 
 <!--
 Comment Type: annotation
@@ -33,108 +33,108 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enable-guest-access.png)
 
-## 開始來賓會話 {#begin-guest-session}
+## 開始來賓工作階段 {#begin-guest-session}
 
-要匿名輸入Brand Portal，請選擇 **[!UICONTROL 按一下這裡]** 對應 **[!UICONTROL 來賓訪問？]** 在Brand Portal的歡迎螢幕上。 輸入驗證碼安全檢查以授予使用Brand Portal的權限。
+若要以匿名方式進入Brand Portal，請選取 **[!UICONTROL 按一下這裡]** 對應至 **[!UICONTROL 訪客存取？]** 在Brand Portal歡迎畫面上。 輸入驗證碼安全性檢查以授予使用Brand Portal的存取權。
 
 ![](assets/bp-login-screen.png)
 
-## 來賓會話持續時間 {#guest-session-duration}
+## 來賓工作階段持續時間 {#guest-session-duration}
 
 
-來賓用戶會話保持活動狀態15分鐘。
-這意味著 **[!UICONTROL 燈箱]** 會話開始時間後保留15分鐘，此後當前來賓會話將重新啟動，因此Lightbox狀態將丟失。
+訪客使用者工作階段會維持15分鐘的有效狀態。
+這表示 **[!UICONTROL Lightbox]** 會從工作階段開始時間保留15分鐘，之後目前的來賓工作階段會重新啟動，因此Lightbox狀態會遺失。
 
-例如，來賓用戶在15時登錄到Brand Portal，並將資產添加到 **[!UICONTROL 燈箱]** 供15時05分下載。 如果用戶未下載 **[!UICONTROL 燈箱]** 在15:15小時（登錄後15分鐘內）之前收集（或其資產），用戶必須重新啟動會話。 的 **[!UICONTROL 燈箱]** 為空，這意味著如果會話丟失，上載的資產將不再可用。
+例如，某個訪客使用者在1500小時登入Brand Portal，並將資產新增至 **[!UICONTROL Lightbox]** 於15:05下載。 如果使用者不下載 **[!UICONTROL Lightbox]** 集合（或其資產）在15:15小時（登入後15分鐘內）之前，使用者必須重新啟動工作階段。 此 **[!UICONTROL Lightbox]** 空白，這表示如果工作階段遺失，上傳的資產就不再可用。
 
-## 允許併發來賓會話 {#concurrent-guest-sessions-allowed}
+## 允許並行來賓工作階段 {#concurrent-guest-sessions-allowed}
 
-併發來賓會話的數量限制為每個組織用戶配額總數的10%。 這意味著，對於用戶配額為200的組織，最多可以同時使用20個來賓用戶。 第21個用戶被拒絕訪問，並且僅當20個活動來賓用戶中任何一個的會話結束時，才能作為來賓訪問。
+每個組織的同時來賓工作階段數限製為使用者配額總數的10%。 這表示對於使用者配額為200個的組織來說，最多可同時工作20個訪客使用者。 第21位使用者被拒絕存取，而且只有在20位使用中來賓使用者的工作階段結束時，才能以來賓身分存取。
 
 >[!NOTE]
 >
->如果許可用戶數超過合同值（配額）,Brand Portal不發送通知。 此外，它不限制許可用戶的任何活動。
+>如果授權使用者人數超過合約值（配額），Brand Portal不會傳送通知。 此外，它不會限制授權使用者的任何活動。
 
-## 來賓用戶與Brand Portal的交互 {#guest-user-interaction-with-brand-portal}
+## 訪客使用者與Brand Portal的互動 {#guest-user-interaction-with-brand-portal}
 
-### 來賓UI導航
+### 來賓UI導覽
 
-當以訪客身份進入Brand Portal時，用戶可以看到 [資產和資料夾共用](../using/brand-portal-sharing-folders.md#sharefolders) 公開或只與來賓用戶共用。 此視圖是僅內容視圖，它在卡、清單或列佈局中顯示資產。
+以訪客身分進入Brand Portal時，使用者可看到 [資產和資料夾已共用](../using/brand-portal-sharing-folders.md#sharefolders) 公開或只與訪客使用者合作。 此檢視是僅內容檢視，以卡片、清單或欄配置顯示資產。
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-但是，如果管理員已啟用，來賓用戶將在登錄到Brand Portal時看到資料夾樹（從根資料夾開始）和在各自父資料夾中排列的共用資料夾 [啟用資料夾層次結構](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) 配置。
+但如果管理員已啟用，訪客使用者在登入Brand Portal時，將會看到資料夾樹狀結構（從根資料夾開始）和共用資料夾在各自的父資料夾中排列 [啟用資料夾階層](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) 設定。
 
-這些父資料夾是虛擬資料夾，不能對它們執行任何操作。 您可以使用鎖定表徵圖識別這些虛擬資料夾。
+這些父資料夾是虛擬資料夾，無法對它們執行任何動作。 您可以使用鎖定圖示來識別這些虛擬資料夾。
 
-懸停或在中選擇操作任務時不可見 **[!UICONTROL 卡視圖]**，與共用資料夾不同。 **[!UICONTROL 概述]** 中選擇虛擬資料夾時顯示 **[!UICONTROL 列視圖]** 和 **[!UICONTROL 清單視圖]**。
+暫留或選取動作任務時未顯示任何動作任務 **[!UICONTROL 卡片檢視]**，不同於共用資料夾。 **[!UICONTROL 概觀]** 選擇中的虛擬資料夾時顯示按鈕 **[!UICONTROL 欄檢視]** 和 **[!UICONTROL 清單檢視]**.
 
 >[!NOTE]
 >
->虛擬資料夾的預設縮略圖是第一個共用資料夾的縮略圖。
+>虛擬資料夾的預設縮圖為第一個共用資料夾的縮圖影像。
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL 查看設定]** 選項允許來賓用戶在 **[!UICONTROL 卡視圖]** 或列顯示在 **[!UICONTROL 清單視圖]**。
+**[!UICONTROL 檢視設定]** 選項可讓訪客使用者調整卡片大小 **[!UICONTROL 卡片檢視]** 或欄顯示 **[!UICONTROL 清單檢視]**.
 
 ![](assets/nav-guest-user.png)
 
-的 **[!UICONTROL 內容樹]** 允許您在資產層次結構中移動。
+此 **[!UICONTROL 內容樹狀結構]** 可讓您移動資產階層。
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal **[!UICONTROL 概述]** 選項，供來賓用戶查看 **[!UICONTROL 資產屬性]** 資料夾。 的 **[!UICONTROL 概述]** 選項可見：
+Brand Portal提供 **[!UICONTROL 概觀]** 訪客使用者可檢視的選項 **[!UICONTROL 資產屬性]** 個資產/資料夾的位置。 此 **[!UICONTROL 概觀]** 選項可見：
 
-* 在頂部的工具欄中，選擇資產/資料夾。
-* 在下拉清單中，選擇「Rail Selector（滑軌選擇器）」。
+* 在頂端的工具列中選取資產/資料夾。
+* 在下拉式清單中選取「邊欄選取器」。
 
-選擇 **[!UICONTROL 概述]** 選項，則用戶可以查看資產建立的標題、路徑和時間。 而在資產詳細資訊頁面上選擇 **[!UICONTROL 概述]** 選項，用戶可查看資產的元資料。
+選取 **[!UICONTROL 概觀]** 選項選取資產/資料夾時，使用者可檢視資產建立的標題、路徑和時間。 而在資產詳細資訊頁面上選取 **[!UICONTROL 概觀]** 選項可讓使用者檢視資產的中繼資料。
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)
 
-**[!UICONTROL 導航]** 選項允許在來賓會話中從檔案導航到集合，然後返回，以便用戶可以瀏覽檔案或集合中的資產。
+**[!UICONTROL 導覽]** 左側邊欄中的選項可讓您從檔案導覽至收藏集，然後返回guest工作階段，以便使用者可以瀏覽檔案或收藏集中的資產。
 
-**[!UICONTROL 篩選]** 選項允許來賓用戶使用管理員設定的搜索謂詞篩選資產檔案和資料夾。
+**[!UICONTROL 篩選]** 選項可讓訪客使用者使用管理員設定的搜尋述詞來篩選資產檔案和資料夾。
 
-### 來賓用戶權能
+### 訪客使用者功能
 
-來賓用戶可以訪問Brand Portal的公共資產，也很少有進一步討論的限制。
+訪客使用者可以存取Brand Portal上的公開資產，且幾乎沒有限制，詳細內容將詳加討論。
 
-**來賓用戶可以**:
+**訪客使用者可以**：
 
-* 訪問所有針對所有Brand Portal用戶的公用資料夾和集合。
-* 瀏覽成員、詳細資訊頁面，並擁有所有公共資料夾和集合成員的完整資產視圖。
-* 跨公共資料夾和集合搜索資產。
-* 將資產添加到Lightbox集合。 對集合的這些更改在會話期間持續。
-* 直接或通過Lightbox集合下載資產。
+* 存取適用於所有Brand Portal使用者的所有公用資料夾和集合。
+* 瀏覽成員、詳細資訊頁面，並擁有所有公用資料夾和集合成員的完整資產檢視。
+* 在公用資料夾和集合中搜尋資產。
+* 將資產新增至Lightbox集合。 這些對集合的變更會在工作階段期間持續存在。
+* 直接或透過Lightbox集合下載資產。
 
-**來賓用戶不能**:
+**訪客使用者無法**：
 
-* 建立收藏和保存的搜索，或進一步共用它們。
-* 訪問資料夾和集合設定。
-* 將資產作為連結共用。
+* 建立收藏集和已儲存的搜尋，或進一步共用它們。
+* 存取資料夾和集合設定。
+* 以連結形式共用資產。
 
-### 在來賓會話中下載資產
+### 下載來賓工作階段中的資產
 
-來賓用戶可以直接下載與來賓用戶在Brand Portal共用或專用共用的資產。 來賓用戶還可以將資產添加到 **[!UICONTROL 燈箱]** （公共集合），並下載 **[!UICONTROL 燈箱]** 在其會話過期之前收集。
+訪客使用者可以直接下載在Brand Portal上公開或專門與訪客使用者共用的資產。 訪客使用者也可以將資產新增至 **[!UICONTROL Lightbox]** （公開收集），並下載 **[!UICONTROL Lightbox]** 在工作階段過期之前的集合。
 
-要下載資產和收藏，請使用下載表徵圖：
+若要下載資產和收藏集，請使用下列位置的下載圖示：
 
-* 快速操作縮略圖，顯示在資產或集合上方
-* 頂部的工具欄，在選擇資產或收集時顯示
+* 快速動作縮圖，當游標停留在資產或集合上時便會顯示
+* 頂端的工具列，會在選取資產或集合時顯示
 
 ![](assets/download-on-guest.png)
 
-選擇 **[!UICONTROL 啟用下載加速]** 上 [!UICONTROL 下載] 對話框 [提高下載效能](../using/accelerated-download.md)。
+選取 **[!UICONTROL 啟用加速下載]** 於 [!UICONTROL 下載] 對話方塊可讓您 [提升下載效能](../using/accelerated-download.md).
 
-## 退出來賓會話 {#exit-guest-session}
+## 退出來賓工作階段 {#exit-guest-session}
 
-要退出來賓會話，請使用 **[!UICONTROL 結束會話]** 的子菜單。 但是，如果用於來賓會話的瀏覽器頁籤處於非活動狀態，則會話在處於非活動狀態兩小時後自動過期。
+若要結束來賓工作階段，請使用 **[!UICONTROL 結束工作階段]** 從標題中可用的選項中選取。 不過，如果用於來賓工作階段的瀏覽器索引標籤非使用中，則工作階段會在兩小時非使用後自動過期。
 
 ![](assets/end-guest-session.png)
 
-## 監視來賓用戶活動 {#monitoring-guest-user-activities}
+## 監視來賓使用者活動 {#monitoring-guest-user-activities}
 
-管理員可以監視來賓用戶與Brand Portal的交互。 在Brand Portal生成的報告可提供客戶用戶活動的關鍵洞見。 比如說， **[!UICONTROL 下載]** 報告可用於跟蹤來賓用戶下載的資產計數。 **[!UICONTROL 用戶登錄]** 報告可以通知來賓用戶上次登錄門戶的時間以及指定持續時間內的登錄頻率。
+管理員可以透過Brand Portal監控訪客使用者互動。 在Brand Portal中產生的報表可提供訪客使用者活動的關鍵深入分析。 例如， **[!UICONTROL 下載]** 報表可用來追蹤訪客使用者下載的資產計數。 **[!UICONTROL 使用者登入]** 報告可告知訪客使用者上次登入入口網站的時間，以及指定期間內的登入頻率。

@@ -1,7 +1,7 @@
 ---
 title: 共用集合
 seo-title: Share a collection
-description: Experience Manager AssetsBrand Portal管理員可以與授權用戶共用和取消共用集合或智慧集合。 編輯者只可以視圖並共用由他們建立的集合、與他們共用和公開集合。
+description: Experience Manager Assets Brand Portal管理員可與授權使用者共用和取消共用集合或智慧型集合。 編輯人員只能檢視和共用他們建立、與他們共用以及公開集合的集合。
 seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
@@ -19,71 +19,71 @@ ht-degree: 1%
 
 # 共用集合 {#share-collections}
 
-集合代表一組儲存在Adobe Experience Manager Assets Brand Portal的相關資產。 用戶可通過 [應用nisearch或facet搜索篩選相關資產](brand-portal-searching.md) 並將它們儲存在一起，以便於訪問，並進一步與其他Brand Portal用戶共用。
+集合代表儲存在Adobe Experience Manager Assets Brand Portal中一組相關資產。 使用者可透過以下方式建立智慧型集合 [套用omnisearch或facet搜尋以篩選掉相關資產](brand-portal-searching.md) 並將其儲存在一起，以便輕鬆存取並進一步與其他Brand Portal使用者共用。
 
-管理員可以與授權的品牌入口網站使用者共用和取消共用集合。 編輯器和檢視器可以視圖和共用由他們建立的集合、與他們共用和公開集合。
+管理員可與授權的Brand Portal使用者共用和取消共用集合。 編輯者和檢視者可以檢視和共用他們建立、與他們共用以及公開集合的集合。
 
 >[!NOTE]
 >
->編輯器無法將公用集合變更為非公共集合，因此 **[!UICONTROL 在「集合設定]** 對話方塊中 **[!UICONTROL 沒有「公開搜集]** 」核取方塊。
+>編輯人員無法將公用集合變更為非公用集合，因此沒有 **[!UICONTROL 公開集合]** 中可用的核取方塊 **[!UICONTROL 集合設定]** 對話方塊。
 
 ## 共用集合 {#share-collection}
 
-以下是與授權的品牌入口網站使用者共用集合的步驟：
+以下是和授權的Brand Portal使用者共用集合的步驟：
 
-1. 登入您的品牌入口網站出租。 依預設，會開啟檔案 ]**視圖，**[!UICONTROL  其中包含所有發佈的資產和資料夾。
+1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視會開啟，其中包含所有已發佈的資產和資料夾。
 
-1. 從頂部的快速導航中，按一下 **[!UICONTROL 「集合]** 」。
+1. 在頂端的快速導覽中，按一下 **[!UICONTROL 集合]**.
 
-1. 從 **[!UICONTROL 集合]** console，執行下列操作之一：
+1. 從 **[!UICONTROL 集合]** 主控台，執行下列任一項作業：
 
-   * 將指針懸停在要共用的集合上。 在可用於集合的快速操作縮略圖中，按一下 **[!UICONTROL 設定]** 表徵圖
+   * 將指標暫留在您要共用的集合上。 在集合可用的快速動作縮圖中，按一下 **[!UICONTROL 設定]** 圖示。
 
       ![](assets/settings-icon.png)
 
-   * 選擇要共用的集合。 在頂部的工具欄中，按一下 **[!UICONTROL 設定]**。
+   * 選取您要共用的集合。 在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
 
       ![](assets/collection-console.png)
 
-1. **[!UICONTROL 在「集合設定]** 」對話方塊中，選取您要與其共用集合的使用者，然後選取用戶的角色以符合其全域角色。例如，將編輯器角色指派給全域編輯者，檢視器角色至全域檢視者。
+1. 在 **[!UICONTROL 集合設定]** 對話方塊中，選取您要與其共用集合的使用者，並選取使用者的角色，以與其全域角色相符。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
 
-   或者，若要讓所有使用者都能使用集合而不管其群組成員資格和角色，請選取 **[!UICONTROL 「公開集合]** 」核取方塊以加以公開。
+   或者，若要讓系列可供所有使用者使用（無論其群組成員資格和角色為何），請選取 **[!UICONTROL 公開集合]** 核取方塊。
 
    >[!NOTE]
    >
-   >不過，非管理員使用者可以受到限制，無法建立公共集合，以避免擁有大量公用集合，以便儲存系統空間。 組織可以從 **[!UICONTROL 「管理工具」面板中的「一般]** 設定」停 **[!UICONTROL 用「允許公用集合建立]** 」配置。
+   >但是，非管理員使用者可以限制建立公開集合，以避免擁有許多公開集合，從而可以節省系統空間。 組織可以停用 **[!UICONTROL 允許建立公開集合]** 設定來源 **[!UICONTROL 一般]** 「管理工具」面板中可用的設定。
 
    ![](assets/collection_sharingadduser.png)
 
-   編輯器無法將公用集合變更為非公共集合，因此 **[!UICONTROL ，「集合設定]** 對話方塊中 **[!UICONTROL 不可用「公開搜集]** 」核取方塊。
+   編輯人員無法將公用集合變更為非公用集合，因此沒有 **[!UICONTROL 公開集合]** 中可用的核取方塊 **[!UICONTROL 集合設定]** 對話方塊。
 
    ![](assets/collection-setting-editor.png)
 
-1. **[!UICONTROL 按一下「增加]** 按鈕以新增用戶，然後按一下 **[!UICONTROL 儲存]** 。集合共用給使用者。
+1. 按一下 **[!UICONTROL 新增]** 按鈕以新增使用者，然後按一下 **[!UICONTROL 儲存]**. 集合會與使用者共用。
 
    >[!NOTE]
    >
-   >用戶的角色管轄集合內的資產和資料夾存取權。 如果用戶沒有訪問資產的權限，則與用戶共用空集合。 此外，用戶的角色會控制可供收集的動作。
+   >使用者的角色可控制對集合內資產和資料夾的存取權。 如果使用者無權存取資產，則會與使用者共用空白集合。 此外，使用者的角色會控制可用於集合的動作。
 
 ## 取消共用集合 {#unshare-a-collection}
 
-要取消共用以前共用的集合，請執行以下操作：
+若要取消共用先前共用的集合，請執行下列動作：
 
-1. **[!UICONTROL 從「集合]** 」主控台中，選擇您要取消共用的集合。
+1. 從 **[!UICONTROL 集合]** 控制檯中，選取您要取消共用的集合。
 
-   在頂部的工具列中，按一下 **[!UICONTROL 設定]** 。
+   在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
 
    ![](assets/collection_settings.png)
 
-1. **[!UICONTROL 在「集合設定]** 」對話方塊的「成員 ]**」區域下**[!UICONTROL  ，按一下使用者旁邊的 **[!UICONTROL x]** 符號，將其從可存取集合的使用者清單中移除。
+1. 在 **[!UICONTROL 集合設定]** 對話方塊，在 **[!UICONTROL 成員]** 區段，按一下 **[!UICONTROL x]** 使用者旁邊的符號，用於從擁有集合存取許可權的使用者清單中移除這些使用者。
 
    ![](assets/unshare_collection.png)
 
-1. 顯示警告訊息。 按一下 **[!UICONTROL 確認]** 以取消共用集合。
+1. 出現警告訊息。 按一下 **[!UICONTROL 確認]** 以取消共用集合。
 
 1. 按一下 **[!UICONTROL 儲存]** 以套用變更。
 
-   從共用清單中移除用戶後，將從用戶的 **[!UICONTROL 集合]** 主控台中移除非共用集合。
+   從共用清單中移除使用者後，非共用集合就會從使用者的 **[!UICONTROL 集合]** 主控台。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

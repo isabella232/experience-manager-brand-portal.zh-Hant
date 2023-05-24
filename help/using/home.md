@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Adobe Experience Manager Assets Brand Portal 指南 {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** 幫助組織滿足其營銷需求，方法是將經批准的品牌和產品資產安全地分發給外部機構、合作夥伴、內部團隊和轉銷商以供下載。
+**Adobe Experience Manager Assets Brand Portal** 藉由安全方式向外部代理商、合作夥伴、內部團隊和經銷商散佈經過核准的品牌和產品資產以供下載，協助組織滿足其行銷需求。
 
 缺少安全的資產共用解決方案可能會導致：
 
@@ -41,13 +41,13 @@ Brand Portal 解決方案的工作流程如下圖所示。
 |--- |---|
 | [新功能](whats-new.md) | Brand Portal 和舊版的不同之處和最新產品。 |
 | [發行說明](brand-portal-release-notes.md) | 目前版本中的增強功能、已修正的嚴重問題，以及已知問題。 |
-| [透過 Brand Portal 設定 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何將Brand Portal與Experience Manager Assets複製，以發佈資產。 |
-| [疑難排解平行發佈的問題](troubleshoot-parallel-publishing.md) | 排除Brand Portal和Experience Manager Assets之間的複製故障。 |
+| [透過 Brand Portal 設定 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用Experience Manager Assets復寫Brand Portal以發佈資產。 |
+| [疑難排解平行發佈的問題](troubleshoot-parallel-publishing.md) | 疑難排解Brand Portal和Experience Manager Assets之間的復寫。 |
 | [支援的檔案格式](brand-portal-supported-formats.md) | Brand Portal 支援的檔案格式，可供預覽和下載。 |
 | [將資產發佈至 Brand Portal](brand-portal-sharing-folders.md) | 如何將資料夾、集合、連結、預設集、結構、Facet 和標記發佈至 Brand Portal。 |
-| [Brand Portal 中的 Asset Sourcing](brand-portal-asset-sourcing.md) | 如何在AEM Assets配置資產來源補充、在Brand Portal上載資產並將貢獻資料夾發佈回AEM Assets。 |
-| [Brand Portal特色視頻](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 通過視頻教程瞭解如何使用Experience Manager Assets·Brand Portal。 |
+| [Brand Portal 中的 Asset Sourcing](brand-portal-asset-sourcing.md) | 如何在AEM Assets中設定Asset Sourcing，在Brand Portal中上傳資產，並將貢獻資料夾發佈回AEM Assets。 |
+| [Brand Portal功能影片](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 透過影片教學課程，瞭解如何使用Experience Manager Assets Brand Portal。 |
 
 ### 實用資源
 
-* [理解Brand Portal與AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [透過AEM Assets瞭解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
