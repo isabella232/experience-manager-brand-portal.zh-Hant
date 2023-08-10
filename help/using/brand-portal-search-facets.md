@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Brand Portal支援 [多面向搜尋](../using/brand-portal-searching.md#search-u
    >
    >選取時 **[!UICONTROL 部分搜尋]** 核取方塊， **[!UICONTROL 忽略大小寫]** 預設為選取。
 
-1. 在 **[!UICONTROL 屬性名稱]** 欄位，開啟屬性選擇器，並選取根據其執行搜尋的屬性。 或者，輸入屬性的名稱。 例如，輸入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+1. 在 **[!UICONTROL 屬性名稱]** 欄位，開啟屬性選擇器，並選取根據其執行搜尋的屬性。 或者，輸入屬性的名稱。 例如，輸入 `jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Brand Portal支援 [多面向搜尋](../using/brand-portal-searching.md#search-u
 
 >[!NOTE]
 >
->不要使用 **[!UICONTROL 選項述詞]**， **[!UICONTROL 發佈狀態述詞]**、和 **[!UICONTROL 評等述詞]** 因為這些述詞在Brand Portal中無法運作。
+>* 不要使用 **[!UICONTROL 選項述詞]**， **[!UICONTROL 發佈狀態述詞]**、和 **[!UICONTROL 評等述詞]** 因為這些述詞在Brand Portal中無法運作。
+>* 資料夾型別述詞 `(nt:folder type)` Brand Portal不支援，且可能會導致效能問題。 如果它存在於已發佈的自訂搜尋表單中，則可透過編輯搜尋表單將其刪除。
 
 ## 刪除搜尋述詞 {#delete-a-search-predicate}
 
