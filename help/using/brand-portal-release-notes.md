@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1210'
 ht-degree: 3%
 
 ---
@@ -38,12 +38,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 #### 錯誤修正和增強功能 {#bug-fixes-enhancements}
 
-此版本包含下列增強功能的修正：
+此版本包含下列增強功能：
 
 * 改善在上載入資產時的效能 [!UICONTROL 下載] 快顯視窗。
 * 當您下載資產或資產的轉譯時，現在會以其原始檔案型別格式（而非zip檔案）下載。
 
-此版本包含下列錯誤修正的修正：
+此版本包含下列錯誤修正：
 
 * 長標籤或標籤無法適當地顯示在搜尋篩選器中。
 * 無法在下載對話方塊中顯示長轉譯名稱。
