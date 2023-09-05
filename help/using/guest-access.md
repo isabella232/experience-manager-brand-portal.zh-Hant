@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
+source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # Brand Portal 的訪客存取 {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal允許訪客存取入口網站。 訪客使用者不需要認證即可進入入口網站，且可以存取入口網站的公開資產（和集合）。 來賓工作階段中的使用者可以將資產新增至Lightbox （私人集合）並下載相同的資產，直到其工作階段持續為止，也就是從工作階段開始算起2小時，除非來賓使用者選擇這樣做 [[!UICONTROL 結束工作階段]](#exit-guest-session).
+Experience Manager Assets Brand Portal允許訪客存取入口網站。 訪客使用者不需要認證即可進入入口網站，且可以存取入口網站的公開資產（和集合）。 訪客工作階段中的使用者可以將資產新增至Lightbox （私人集合）並下載相同的資產，直到其工作階段持續存在，或訪客使用者未選擇這麼做 [[!UICONTROL 結束工作階段]](#exit-guest-session). 訪客使用者工作階段會維持15分鐘的作用中，而實際的訪客使用者逾時為2小時。
 
 訪客存取功能可讓組織執行以下作業： [快速共用核准的資產](../using/brand-portal-sharing-folders.md#how-to-share-folders) 可大規模提供目標對象，而無須將其加入。 Brand Portal 6.4.2之後已可同時為多位訪客使用者提供服務，佔每個組織使用者配額總數的10%。 允許訪客存取可節省時間，以管理在Brand Portal上具有有限功能的使用者並瞭解其上線分數。\
 組織可以使用來啟用（或停用）組織Brand Portal帳戶的訪客存取 **[!UICONTROL 允許訪客存取]** 選項來源 **[!UICONTROL 存取]** 「管理工具」面板中的設定。
