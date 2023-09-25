@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Brand Portal支援 [多面向搜尋](../using/brand-portal-searching.md#search-u
 
 >[!NOTE]
 >
->Experience Manager Assets可讓組織 [從AEM作者發佈自訂搜尋表單](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 改用Brand Portal，而不要在Brand Portal上重新建立相同的表單。
+>Experience Manager Assets可讓組織 [從AEM Author發佈自訂搜尋表單](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 改用Brand Portal，而不要在Brand Portal上重新建立相同的表單。
 
 ## 新增搜尋述詞 {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Brand Portal支援 [多面向搜尋](../using/brand-portal-searching.md#search-u
 
    >[!NOTE]
    >
-   >在Brand Portal中，所有字串屬性（開頭為的除外） `xmp`)，在 `jcrcontent/metadata` 之 `dam:asset` 預設會編制索引。
+   >在Brand Portal中，所有字串屬性（開頭為的除外） `xmp`)，在 `jcrcontent/metadata` 之 `dam:asset` 預設會編制索引。 依預設，其他所有型別的自訂屬性都不會編制索引。
    >
    >建立屬性述詞時，可以使用任何已編制索引的屬性。 如果設定了任何非索引屬性，則未索引屬性上的搜尋查詢可能不會提供任何搜尋結果。
 
