@@ -1,7 +1,7 @@
 ---
 title: 共用集合
 seo-title: Share a collection
-description: Experience Manager Assets Brand Portal管理員可與授權使用者共用和取消共用集合或智慧型集合。 編輯人員只能檢視和共用他們建立、與他們共用以及公開集合的集合。
+description: Experience Manager Assets Brand Portal管理員可與授權使用者共用和取消共用集合或智慧型集合。 編輯者只能檢視和共用他們建立、與他們共用的收藏集和公開收藏集。
 seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
@@ -10,18 +10,26 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
 # 共用集合 {#share-collections}
 
-集合代表儲存在Adobe Experience Manager Assets Brand Portal中一組相關資產。 使用者可透過以下方式建立智慧型集合 [套用omnisearch或facet搜尋以篩選掉相關資產](brand-portal-searching.md) 並將其儲存在一起，以便輕鬆存取並進一步與其他Brand Portal使用者共用。
+集合代表儲存在Adobe Experience Manager Assets Brand Portal中一組相關資產。 使用者可透過以下方式建立智慧型集合 [套用omnisearch或facet搜尋以篩選掉相關資產](brand-portal-searching.md) 並將它們儲存在一起，以便輕鬆存取並進一步與其他Brand Portal使用者共用。
 
-管理員可與授權的Brand Portal使用者共用和取消共用集合。 編輯者和檢視者可以檢視和共用他們建立、與他們共用以及公開集合的集合。
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+收藏集會透過電子郵件以連結形式分享。 有權存取共用連結的每個人都可以開啟集合，而共用的電子郵件可以轉寄給任何人。 此外， [共用連結](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) 是暫時性的，並且僅在有限的時間內可供存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
+
+* **管理員** 可以與授權的Brand Portal使用者共用或取消共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，管理員可以建立公開集合。
+
+* **編輯** 允許建立和共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，如果他們受邀以編輯者或擁有者的身分加入集合，則他們也可以共用集合。
+
+* **檢視者** 只能建立私人集合。 即使他們受邀成為擁有者，仍不可共用集合。
 
 >[!NOTE]
 >
@@ -31,27 +39,27 @@ ht-degree: 1%
 
 以下是和授權的Brand Portal使用者共用集合的步驟：
 
-1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視會開啟，其中包含所有已發佈的資產和資料夾。
+1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視開啟，其中包含所有已發佈的資產和資料夾。
 
-1. 在頂端的快速導覽中，按一下 **[!UICONTROL 集合]**.
+1. 從上方的快速導覽列中，按一下 **[!UICONTROL 集合]**.
 
 1. 從 **[!UICONTROL 集合]** 主控台，執行下列任一項作業：
 
    * 將指標暫留在您要共用的集合上。 在集合可用的快速動作縮圖中，按一下 **[!UICONTROL 設定]** 圖示。
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
-   * 選取您要共用的集合。 在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
+   * 選取您要共用的集合。 從頂部的工具列中，按一下 **[!UICONTROL 設定]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
-1. 在 **[!UICONTROL 集合設定]** 對話方塊中，選取您要與其共用集合的使用者，並選取使用者的角色，以與其全域角色相符。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
+1. 在 **[!UICONTROL 集合設定]** 對話方塊中，選取您要共用集合的使用者，並選取符合其全域角色的使用者角色。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
 
-   或者，若要讓系列可供所有使用者使用（無論其群組成員資格和角色為何），請選取 **[!UICONTROL 公開集合]** 核取方塊。
+   或者，若要讓所有使用者都能使用該系列，無論其群組成員資格和角色為何，請選取 **[!UICONTROL 公開集合]** 核取方塊。
 
    >[!NOTE]
    >
-   >但是，非管理員使用者可以限制建立公開集合，以避免擁有許多公開集合，從而可以節省系統空間。 組織可以停用 **[!UICONTROL 允許建立公開集合]** 設定來源 **[!UICONTROL 一般]** 「管理工具」面板中可用的設定。
+   >但是，非管理員使用者可以限制建立公開收藏集，以避免具有大量公開收藏集，從而可以節省系統空間。 組織可以停用 **[!UICONTROL 允許建立公開集合]** 設定來源 **[!UICONTROL 一般]** 「管理工具」面板中的可用設定。
 
    ![](assets/collection_sharingadduser.png)
 
@@ -59,7 +67,7 @@ ht-degree: 1%
 
    ![](assets/collection-setting-editor.png)
 
-1. 按一下 **[!UICONTROL 新增]** 按鈕以新增使用者，然後按一下 **[!UICONTROL 儲存]**. 集合會與使用者共用。
+1. 按一下 **[!UICONTROL 新增]** 按鈕以新增使用者，然後按一下 **[!UICONTROL 儲存]**. 系列會與使用者共用。
 
    >[!NOTE]
    >
@@ -71,7 +79,7 @@ ht-degree: 1%
 
 1. 從 **[!UICONTROL 集合]** 控制檯中，選取您要取消共用的集合。
 
-   在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
+   從頂部的工具列中，按一下 **[!UICONTROL 設定]**.
 
    ![](assets/collection_settings.png)
 
@@ -79,11 +87,11 @@ ht-degree: 1%
 
    ![](assets/unshare_collection.png)
 
-1. 出現警告訊息。 按一下 **[!UICONTROL 確認]** 以取消共用集合。
+1. 警告訊息隨即出現。 按一下 **[!UICONTROL 確認]** 以取消共用集合。
 
 1. 按一下 **[!UICONTROL 儲存]** 以套用變更。
 
-   從共用清單中移除使用者後，非共用集合就會從使用者的 **[!UICONTROL 集合]** 主控台。
+   從共用清單移除使用者後，非共用集合就會從使用者的 **[!UICONTROL 集合]** 主控台。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
