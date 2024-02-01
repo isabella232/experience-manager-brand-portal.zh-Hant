@@ -5,10 +5,11 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
 index: y
-source-git-commit: 3cecf26345fee25c60b5e4bf7063a30da28de2a6
+recommendations: noDisplay
+source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 87%
+source-wordcount: '109'
+ht-degree: 89%
 
 ---
 
@@ -25,4 +26,4 @@ metadata.md 檔案包含存放庫層級中繼資料，這些中繼資料會傳�
 | getting-started-url | Helpx 快速入門頁面連結 |
 | tutorials-url | 教學課程影片 (Helpx 或 KT 教學課程其中之一) 的連結 |
 | mini-toc-levels | 決定顯示在右側欄中的標題層數量。預設值為 2 |
-| git-repo | 指定用於內部使用的主回購庫的位置 |
+| git-repo | 指定內部使用的主要存放庫位置 |
