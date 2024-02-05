@@ -1,8 +1,8 @@
 ---
 title: 發行說明
 seo-title: Release Notes
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2023.10.0版本的功能、增強功能、已修正的嚴重問題和已知問題。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2024.02.0版本的功能、增強功能、已修正的嚴重問題和已知問題。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入瞭解Adobe Experience Manager Assets Brand Portal 2023.10.0版中的新功能、增強功能、已修正的嚴重問題和已知問題。
+深入瞭解Adobe Experience Manager Assets Brand Portal 2024.02.0版本的新功能、增強功能、已修正的嚴重問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2023.10.0 |
-| 日期 | 2023年10 |
+| 版本 | 2024.02.0 |
+| 日期 | 2024年2月 |
 
 ## 概觀 {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控制核准的創意資產，並安全分發給跨裝置的外部團體和內部業務使用者。 它有助於提高資產共用效率、加快資產上市時間，並降低不合規和未經授權存取的風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2023.10.0版新增功能 {#whats-new-in-2023.10.0}
+## 2024.02.0版新增功能 {#whats-new-in-2024.02.0}
 
 ### 已修正的重大問題 {#critical-issues-fixed}
 
 #### 錯誤修正 {#bug-fixes}
+
+此版本包含下列錯誤修正：
+
+* 無法在土耳其語言環境中下載受DRM保護的數位資產。
+
+* 無法開啟和下載包含具有多行標題之資產的現有報表。
+
+* 當您使用下載資產時 [!UICONTROL 下載] 按鈕時，最多可下載1000個資產。
+
+* 在內容樹狀結構中檢視時，PSD型別資產的名稱不正確。
+
+* [!UICONTROL 刪除轉譯] 資產詳細資料頁面上的選項無法運作。
+
+* 下載快顯視窗中的資產標題和大小未對齊。
+
+* 如果您從樹狀檢視切換，則無法在卡片檢視中載入資料夾。
+
+* 即使 [!UICONTROL 快速下載] 在中啟用 [!UICONTROL 下載設定] 對於編輯者和管理員，特定租使用者無法下載過期的資產。
+
+* 未選取所有核取方塊時，建立報告時使用者介面錯誤未本地化。
+
+* 建立報表時，標籤未當地語系化。
+
+* 在Brand Portal中，支援管理員稱為管理員。
+
+## 舊版本
+
+### 2023 年 10 月版 {#oct-2023}
+
+**錯誤修正和增強功能**
+此版本包含下列增強功能：
+
+* 瀏覽時的效能改善 [!UICONTROL 集合].
+
+* 改善使用OmniSearch欄位執行部分搜尋時的搜尋結果。
 
 此版本包含下列錯誤修正：
 
@@ -50,17 +85,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 * 檢視PDF型別的檔案時，標籤和工具提示未當地語系化。
 
-#### 增強功能 {#enhancements}
-
-此版本包含下列增強功能：
-
-* 瀏覽時的效能改善 [!UICONTROL 集合].
-
-* 改善使用OmniSearch欄位執行部分搜尋時的搜尋結果。
-
-## 舊版
-
-### 2023年8月發行版本 {#aug-2023}
+### 2023 月 8 月版 {#aug-2023}
 
 **錯誤修正和增強功能**
 此版本包含下列增強功能：
@@ -74,7 +99,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 * 無法在下載對話方塊中顯示長轉譯名稱。
 * 無法在卡片檢視中預覽視訊資產。
 
-### 2023年5月發行版本 {#may-2023}
+### 2023 年 5 月版 {#may-2023}
 
 **錯誤修正**
 此版本包含下列嚴重問題的修正：
@@ -118,7 +143,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 * 資產來源報表內容中的部分本地化。
 * 使用者設定檔的少數欄位無法在使用者設定檔上編輯。
 
-### 2022年10月發行版本 {#oct-2022}
+### 2022 年 10 月版 {#oct-2022}
 
 **已修正的重大問題**
 
@@ -138,11 +163,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 >* 已完成匯出至AEM
 >
 
-### 2022年8月發行版本 {#aug-2022}
+### 2022 年 8 月版 {#aug-2022}
 
 **已修正的重大問題**
 
-此版本包含下列重大問題的修正：
+此版本包含下列嚴重問題的修正：
 
 * 當NUI無法在Experience Manager中處理資產時，Brand Portal會顯示不準確的資產匯入狀態。
 * 預覽動作失敗時，沒有通知可傳達失敗。
@@ -150,7 +175,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 * 當您按一下 **下載所有專案** 而且資產有大量的轉譯可供使用，Brand Portal會下載無效的.ZIP檔案。
 * Brand Portal使用者介面上某些字串的轉譯會遭到截斷。
 
-### 2022年5月發行版本 {#may-2022}
+### 2022 年 5 月版 {#may-2022}
 
 **新功能**
 
